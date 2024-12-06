@@ -1,12 +1,12 @@
 <template>
-  <div class="mb-4">
+  <div>
     <div class="relative">
       <input
         :type="type"
         v-model="localValue"
         :placeholder="placeholder"
         :class="[
-          'block w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2',
+          'block w-full py-4 px-6 border rounded-lg focus:outline-none focus:ring-2 text-minlg bg-white',
         ]"
       />
     </div>
@@ -15,8 +15,8 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  modelValue: string;
-  type: "text" | "tel";
+  modelValue: any;
+  type?: "text" | "tel";
   placeholder: string;
 }>();
 

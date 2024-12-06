@@ -1,18 +1,14 @@
 <template>
   <section class="models">
     <div class="container">
-      <!-- Заголовок и кнопки навигации -->
       <div class="flex items-center gap-10 mb-10">
-        <h3 class="text-4xl font-semibold">Популярные модели</h3>
+        <h3 class="text-4xl font-semibold">{{ title }}</h3>
         <div class="nav flex items-center gap-5">
-          <!-- Кнопка "Назад" -->
           <div
             class="flex items-center justify-center rounded-full prev w-10 h-10 cursor-pointer bg-primary text-white hover:bg-primary-dark transition-all"
           >
             <Icon name="f:left" />
           </div>
-
-          <!-- Кнопка "Вперед" -->
           <div
             class="flex items-center justify-center rounded-full next w-10 h-10 cursor-pointer bg-primary text-white hover:bg-primary-dark transition-all"
           >
@@ -60,6 +56,10 @@ import AutoCard from "../card/AutoCard.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+
+defineProps<{
+  title: string;
+}>();
 </script>
 
 <style scoped>

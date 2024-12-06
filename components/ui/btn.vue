@@ -4,6 +4,7 @@
       'flex items-center justify-center gap-3 font-medium rounded-lg transition-all ',
       sizeClass,
       themeClass,
+      customClass,
       { 'opacity-50 cursor-not-allowed': loading },
     ]"
     :disabled="loading"
@@ -21,6 +22,7 @@ const props = defineProps<{
   loading?: boolean;
   size: "small" | "normal" | "large";
   theme: "primary" | "gradient" | "default" | "secondary";
+  customClass?: string;
 }>();
 
 // Маппинг размеров кнопки

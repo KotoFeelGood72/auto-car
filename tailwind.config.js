@@ -30,6 +30,7 @@ export default {
         lg: "1.25rem", // 20px
         xl: "1.5rem", // 24px
         xxl: "1.875rem", // 30px
+        xxxl: "2rem", // 30px
         "2xl": "2.25rem", // 36px
         "3xl": "2.5rem", // 36px
         "4xl": "2.625rem", // 42px

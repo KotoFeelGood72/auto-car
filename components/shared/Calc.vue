@@ -6,9 +6,7 @@
       <div class="bg-gray-100 text-gray-900 rounded-lg p-6 flex-1">
         <h2 class="text-lg font-medium mb-4">Выберите автомобиль</h2>
         <div class="mb-4">
-          <label for="brand" class="block text-sm font-medium mb-2"
-            >Выберите марку</label
-          >
+          <label for="brand" class="block text-sm font-medium mb-2">Марка</label>
           <select
             id="brand"
             class="w-full border border-gray-300 rounded-lg p-2 focus:ring focus:ring-blue-500"
@@ -21,9 +19,7 @@
           </select>
         </div>
         <div class="mb-6">
-          <label for="model" class="block text-sm font-medium mb-2"
-            >Выберите модель</label
-          >
+          <label for="model" class="block text-sm font-medium mb-2">Модель</label>
           <select
             id="model"
             class="w-full border border-gray-300 rounded-lg p-2 focus:ring focus:ring-blue-500"
@@ -40,11 +36,9 @@
           </select>
         </div>
 
-        <h2 class="text-lg font-medium mb-4">Выберите условия автокредита</h2>
+        <h2 class="text-lg font-medium mb-4">Условия автокредита</h2>
         <div class="mb-6">
-          <label class="block text-sm font-medium mb-2"
-            >Первоначальный взнос</label
-          >
+          <label class="block text-sm font-medium mb-2">Первоначальный взнос</label>
           <input
             type="range"
             class="w-full"
@@ -57,14 +51,10 @@
             <span>10%</span>
             <span>90%</span>
           </div>
-          <p class="text-blue-500 font-semibold mt-2 text-right">
-            {{ downPayment }}%
-          </p>
+          <p class="text-blue-500 font-semibold mt-2 text-right">{{ downPayment }}%</p>
         </div>
         <div class="mb-6">
-          <label class="block text-sm font-medium mb-2"
-            >Срок кредитования</label
-          >
+          <label class="block text-sm font-medium mb-2">Срок кредитования</label>
           <input
             type="range"
             class="w-full"
@@ -77,24 +67,26 @@
             <span>6 мес</span>
             <span>96 мес</span>
           </div>
-          <p class="text-blue-500 font-semibold mt-2 text-right">
-            {{ loanTerm }} мес
-          </p>
+          <p class="text-blue-500 font-semibold mt-2 text-right">{{ loanTerm }} мес</p>
         </div>
 
-        <h2 class="text-lg font-medium mb-4">Укажите контактные данные</h2>
-        <Inputs placeholder="Ваше имя" v-model="" />
-        <Inputs placeholder="+7 (___) ___-__-__" v-model="" />
-        <btn name="Отправить заявку" theme="primary" size="large" />
+        <h2 class="text-lg font-medium mb-4">Контактные данные</h2>
+        <Inputs placeholder="Ваше имя" v-model="contactName" />
+        <Inputs placeholder="+7 (___) ___-__-__" v-model="contactPhone" />
+        <btn
+          name="Отправить заявку"
+          theme="primary"
+          size="large"
+          @click="submitApplication"
+        />
         <p class="text-xs text-gray-500 mt-3">
-          Нажимая на кнопку «Отправить», я даю согласие на обработку
-          персональных данных.
+          Нажимая на кнопку «Отправить», я даю согласие на обработку персональных данных.
         </p>
       </div>
 
       <!-- Правая колонка: Результат -->
       <div class="bg-gray-100 text-gray-900 rounded-lg p-6 w-full md:w-1/3">
-        <h2 class="text-lg font-medium mb-4">Выберите автомобиль</h2>
+        <h2 class="text-lg font-medium mb-4">Результат</h2>
         <div class="mb-4">
           <img
             v-if="selectedModel"
@@ -107,8 +99,7 @@
           От {{ selectedModel?.price || "0" }} руб.
         </p>
         <p class="text-sm text-gray-600 mb-4">
-          Для расчета условий по автокредиту выберите интересующий вас
-          автомобиль.
+          Для расчета условий по автокредиту выберите интересующий вас автомобиль.
         </p>
         <div class="bg-blue-100 rounded-lg p-4 mb-4">
           <p>
@@ -125,8 +116,8 @@
           </p>
         </div>
         <p class="text-xs text-gray-500">
-          К сожалению, банк не кредитует данные регионы: Магаданская область,
-          Республика Дагестан, Республика Ингушетия...
+          К сожалению, банк не кредитует данные регионы: Магаданская область, Республика
+          Дагестан, Республика Ингушетия...
         </p>
       </div>
     </div>
@@ -138,29 +129,31 @@ import { ref, computed, watch } from "vue";
 import Inputs from "../ui/Inputs.vue";
 import btn from "../ui/btn.vue";
 
-// Принимаем данные через пропсы
+// Пропсы
 const props = defineProps<{
   brands: string[];
   models: Record<string, { name: string; price: number; image?: string }[]>;
-  initialBrand: string;
-  initialModel: string;
+  initialBrand?: string;
+  initialModel?: string;
 }>();
 
-// Состояние
+// Состояния
 const selectedBrand = ref(props.initialBrand || "");
 const selectedModel = ref(
-  props.models[props.initialBrand]?.find(
+  props.models[props.initialBrand || ""]?.find(
     (model) => model.name === props.initialModel
   ) || null
 );
 const downPayment = ref(30); // Первоначальный взнос (%)
 const loanTerm = ref(36); // Срок кредитования (месяцы)
+const contactName = ref(""); // Имя клиента
+const contactPhone = ref(""); // Телефон клиента
 
-// Следим за изменением марки
+// Следим за маркой
 watch(selectedBrand, (newBrand) => {
   if (!newBrand) {
     selectedModel.value = null;
-  } else if (!props.models[newBrand].includes(selectedModel.value)) {
+  } else if (!props.models[newBrand]?.includes(selectedModel.value)) {
     selectedModel.value = props.models[newBrand]?.[0] || null;
   }
 });
@@ -178,6 +171,14 @@ const monthlyPayment = computed(() => {
     (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numPayments))
   );
 });
+
+// Отправка данных
+const submitApplication = () => {
+  console.log("Имя:", contactName.value);
+  console.log("Телефон:", contactPhone.value);
+  console.log("Автомобиль:", selectedModel.value?.name || "Не выбран");
+  console.log("Ежемесячный платеж:", monthlyPayment.value);
+};
 </script>
 
 <style scoped></style>

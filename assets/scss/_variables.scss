@@ -1,0 +1,40 @@
+$point_1: 1200px;
+$point_2: 1024px;
+$point_3: 1023px;
+$point_4: 768px;
+$point_5: 640px;
+$point_6: 480px;
+$point_7: 375px;
+$point_8: 320px;
+
+$page_width: 164rem;
+
+$white: #fff;
+$black: #000;
+$color_text_base: $black;
+$body_bg: $white;
+
+$light-blue: #58a8f8;
+$blue: #0a66c2;
+$light: #a2d0ff;
+$gray: #757575;
+$gray-light: #f5f5f5;
+$dark: #222222;
+
+$header: 11.4rem;
+$footer: 11.3rem;
+
+$font_path: "~/assets/fonts/";
+
+$font_1: "HelveticaNeueCyr-Light";
+$font_2: "HelveticaNeueCyr-Roman";
+$font_3: "HelveticaNeueCyr-Medium";
+$font_4: "HelveticaNeueCyr-Bold";
+$font_5: "HelveticaNeueCyr-Black";
+$font_6: "HelveticaNeueCyr-Heavy";
+
+$font_size_base: 1.8rem;
+
+.blue {
+  background-color: $blue;
+}

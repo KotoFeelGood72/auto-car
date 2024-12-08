@@ -14,27 +14,77 @@ $black: #000;
 $color_text_base: $black;
 $body_bg: $white;
 
-$light-blue: #58a8f8;
-$blue: #0a66c2;
-$light: #a2d0ff;
-$gray: #757575;
-$gray-light: #f5f5f5;
-$dark: #222222;
+$primary: #0B4DC2;
+$darkPrimary: #002668;
+$secondary: #FFF9DF;
+$txt: #0E0E13;
+$txtGray: #303035;
+$black: #202020;
+$border: #C8C8C9;
+$light: #B4B4B4;
+$red: #F24942;
 
 $header: 11.4rem;
 $footer: 11.3rem;
 
-$font_path: "~/assets/fonts/";
-
-$font_1: "HelveticaNeueCyr-Light";
-$font_2: "HelveticaNeueCyr-Roman";
-$font_3: "HelveticaNeueCyr-Medium";
-$font_4: "HelveticaNeueCyr-Bold";
-$font_5: "HelveticaNeueCyr-Black";
-$font_6: "HelveticaNeueCyr-Heavy";
-
-$font_size_base: 1.8rem;
-
-.blue {
-  background-color: $blue;
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-UltraLight.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-Light.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-Semibold.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("@/assets/fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("@/assets/fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+$font_1: "Gilroy";
+
+
+$font_size_base: 1.6rem;
+
+
+// Custom class
+
+.mb-8 {
+  margin-bottom: 8rem;
+}
+
+

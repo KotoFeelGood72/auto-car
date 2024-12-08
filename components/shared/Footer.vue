@@ -1,66 +1,50 @@
 <template>
-  <footer
-    class="footer bg-[#03183D] text-white py-12 rounded-tr-xl rounded-tl-xl overflow-hidden"
-  >
-    <div class="container">
-      <div class="footer_main pb-8">
-        <h6 class="text-4xl">Контакты</h6>
-        <div class="flex items-center justify-between">
-          <ul class="flex items-end justify-between gap-12">
-            <li class="flex items-center gap-4">
-              <div
-                class="ic pulse animate-pulse w-2 h-2 bg-white rounded-full"
-              ></div>
-              <p>Ежедневно с 8:00 до 21:00</p>
-            </li>
-            <li class="flex items-center gap-4">
-              <div class="ic flex items-center justify-center text-white">
-                <Icon name="f:map" :size="25" />
-              </div>
-              <p>Краснобогатырская улица, 2с22, Москва, 107564</p>
-            </li>
-            <li class="flex items-center gap-4">
-              <div class="ic flex items-center justify-center text-white">
-                <Icon name="f:tel" :size="20" />
-              </div>
-              <a href="tel:+74950213119">+7 (495) 021 31 19</a>
+  <footer class="footer">
+    <div class="section_in">
+      <div class="row">
+        <heading title="Контакты" :level="2" :size="42" class="title" />
+        <div class="row-head">
+          <ul class="info-list">
+            <li
+              class="list-item"
+              v-for="(item, i) in info"
+              :key="'info-item-' + i"
+            >
+              <div class="item-icon"><Icon :name="item.icon" :size="20" /></div>
+              <p class="item-txt" v-if="item.txt">{{ item.txt }}</p>
+              <a class="item-link" :href="'tel:' + item.link">{{
+                item.link
+              }}</a>
             </li>
           </ul>
           <Btn
             name="Заказать звонок"
-            theme="secondary"
-            size="normal"
-            custom-class="!px-14"
+            styles="primary"
+            color="white"
+            size="large"
+            :weight="true"
           />
         </div>
       </div>
-      <div class="border-t border-light pt-7">
-        <div class="flex items-center gap-14 flex-grow">
-          <div class="flex items-center justify-center">
+      <div class="footer-bottom">
+        <div class="footer-bottom__left">
+          <div class="img">
             <img src="~/assets/img/logo-footer.svg" alt="АВТОКАР" />
           </div>
-          <p class="text-xs max-w-[531px]">
+          <p class="footer-info">
             ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТК ПРЕМИУМ ИНВЕСТ" ИНН
             9725142062, ОГРН 1237700847504, ОКПО 64851333, КПП 772501001 от 04
             декабря 2023 г. Юридический адрес: город Москва, Дербеневская наб,
             д. 7 стр. 2, помещ. 22/1/3
           </p>
         </div>
-        <nav class="flex gap-5 pt-6">
+        <nav class="nav-col">
           <NuxtLink
-            class="text-xs text-slate-200 underline-offset-4 underline hover:no-underline"
+            class=""
             to="/"
-            >Политика конфиденциальности</NuxtLink
-          >
-          <NuxtLink
-            class="text-xs text-slate-200 underline-offset-4 underline hover:no-underline"
-            to="/"
-            >Условия кредитования</NuxtLink
-          >
-          <NuxtLink
-            class="text-xs text-slate-200 underline-offset-4 underline hover:no-underline"
-            to="/"
-            >Пользовательское соглашение</NuxtLink
+            v-for="(item, i) in footerLinks"
+            :key="'footer-link-' + i"
+            >{{ item.name }}</NuxtLink
           >
         </nav>
       </div>
@@ -70,6 +54,83 @@
 
 <script setup lang="ts">
 import Btn from "../ui/btn.vue";
+import heading from "../ui/heading.vue";
+
+const footerLinks = [
+  { name: "Политика конфиденциальности", link: "/" },
+  { name: "Условия кредитования", link: "/" },
+  { name: "Пользовательское соглашение", link: "/" },
+];
+
+const info = [
+  { txt: "Ежедневно с 8:00 до 21:00", icon: "svg-spinners:pulse-3" },
+  { txt: "г. Москва, 33км МКАД, 6с6", icon: "et:map-pin" },
+  { link: "+7 (495) 021 31 19", icon: "prime:phone" },
+];
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.footer {
+  background-color: #03183d;
+  padding: 5rem 0;
+  color: $white;
+  a {
+    color: inherit;
+  }
+}
+
+.row-head {
+  @include flex-space;
+  margin-bottom: 4rem;
+}
+
+.info-list {
+  @include flex-start;
+  gap: 3rem;
+  font-size: 2rem;
+  li {
+    @include flex-start;
+    gap: 1.5rem;
+  }
+  .item-icon {
+    @include flex-center;
+  }
+}
+
+.footer-bottom {
+  @include flex-space;
+  align-items: flex-start;
+  border-top: 0.1rem solid #ffffff21;
+  padding-top: 4rem;
+}
+
+.footer-bottom__left {
+  @include flex-start;
+  gap: 6rem;
+  font-size: 1.2rem;
+  color: #ffffff95;
+  max-width: 82rem;
+}
+
+.nav-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.2rem;
+  gap: 0.5rem;
+  a {
+    color: #ffffff95;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.img {
+  min-width: 24rem;
+  @include flex-center;
+  img {
+    width: 100%;
+  }
+}
+</style>

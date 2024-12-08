@@ -1,21 +1,37 @@
 <template>
-  <div
-    class="card border border-border rounded-[10px] px-10 py-6 w-full flex items-center justify-between"
-  >
-    <div>
-      <h3 class="text-xxxl font-medium mb-3">{{ card.title }}</h3>
-      <p class="text-txtGray">{{ card.txt }}</p>
+  <div class="card">
+    <div class="col">
+      <heading :title="card.title" :level="2" :size="32" class="title" />
+      <p class="text">{{ card.txt }}</p>
     </div>
-    <btn size="normal" theme="primary" name="Подробнее" />
+    <btn size="normal" styles="primary" color="blue" name="Подробнее" />
   </div>
 </template>
 
 <script setup lang="ts">
 import btn from "../ui/btn.vue";
+import heading from "../ui/heading.vue";
 
 defineProps<{
   card: any;
 }>();
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.card {
+  @include flex-space;
+  border: 0.1rem solid $border;
+  padding: 3.1rem 4rem;
+  border-radius: 1rem;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+</style>

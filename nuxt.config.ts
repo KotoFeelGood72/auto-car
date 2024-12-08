@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "nuxt-swiper"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "nuxt-swiper", '@pinia/nuxt',],
   vite: {
     css: {
       preprocessorOptions: {
@@ -15,12 +14,6 @@ export default defineNuxtConfig({
           api: "modern",
         },
       },
-    },
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
     },
   },
   icon: {

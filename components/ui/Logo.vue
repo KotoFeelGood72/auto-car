@@ -1,15 +1,30 @@
 <template>
-  <div class="logo flex items-center gap-5">
-    <div class="border-r border-border pr-5 max-w-64">
-      <img src="~/assets/img/logo.svg" alt="Автокар" />
+  <NuxtLink to="/">
+    <div class="logo">
+      <div class="logo-img">
+        <img src="~/assets/img/logo.svg" alt="Автокар" />
+      </div>
+      <div class="logo-txt">
+        <span>Автосалон</span>
+        <heading title="Москва" :level="2" :size="36" />
+      </div>
     </div>
-    <div>
-      <span>Автосалон</span>
-      <p class="text-xxl leading-8 uppercase font-semibold">Москва</p>
-    </div>
-  </div>
+  </NuxtLink>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import heading from "./heading.vue";
+</script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.logo {
+  @include flex-start;
+  gap: 4.1rem;
+}
+
+.logo-img {
+  max-width: 26.6rem;
+  border-right: 0.1rem solid $border;
+  padding-right: 3rem;
+}
+</style>

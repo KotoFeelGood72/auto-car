@@ -1,11 +1,9 @@
 <template>
-  <div
-    class="models w-24 h-24 border border-border rounded-[10px] flex items-center justify-beetwen flex-col gap-1 cursor-pointer py-4 transition-all hover:bg-slate-50 hover:border-light"
-  >
-    <div class="h-10 items-center flex justify-center flex-grow">
-      <img :src="`/models/${card.img}.png`" />
+  <div class="card">
+    <div class="img">
+      <img :src="`/models/${card.img}.png`" class="" />
     </div>
-    <p class="text-sm">{{ card.name }}</p>
+    <p class="title">{{ card.name }}</p>
   </div>
 </template>
 
@@ -15,4 +13,15 @@ const props = defineProps<{
 }>();
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.card {
+  width: 9.7rem;
+  height: 8.7rem;
+  border: 0.1rem solid #c8c8c9;
+  @include flex-center;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+}
+</style>

@@ -1,15 +1,9 @@
 <template>
   <button
-    :class="[
-      'flex items-center justify-center gap-3 font-medium rounded-lg transition-all ',
-      sizeClass,
-      themeClass,
-      customClass,
-      { 'opacity-50 cursor-not-allowed': loading },
-    ]"
+    :class="['btn', size, styles, color, { weight: weight }]"
     :disabled="loading"
   >
-    <div v-if="loading" class="flex items-center justify-center">
+    <div v-if="loading" class="loading">
       <Icon name="svg-spinners:ring-resize" :size="20" />
     </div>
     <span v-if="!loading">{{ name }}</span>
@@ -20,37 +14,82 @@
 const props = defineProps<{
   name?: string;
   loading?: boolean;
-  size: "small" | "normal" | "large";
-  theme: "primary" | "gradient" | "default" | "secondary";
-  customClass?: string;
+  size?: "small" | "normal" | "medium" | "large";
+  color?: "white" | "dark" | "gradient" | "blue";
+  styles?: "secondary" | "primary";
+  weight?: boolean;
 }>();
-
-// Маппинг размеров кнопки
-const sizeClass = computed(() => {
-  switch (props.size) {
-    case "small":
-      return "py-3 px-6 text-sm";
-    case "large":
-      return "py-5 px-8 text-lg";
-    default:
-      return "py-3 px-6 text-base";
-  }
-});
-
-// Маппинг тем кнопки
-const themeClass = computed(() => {
-  switch (props.theme) {
-    case "primary":
-      return "bg-primary text-white hover:bg-primary hover:opacity-90";
-    case "gradient":
-      return "bg-gradient-to-r from-blue-500 to-blue-700 text-white hover:opacity-90";
-    case "secondary":
-      return "border bg-white text-primary border-primary  hover:bg-primary hover:text-white";
-    case "default":
-    default:
-      return "border border-gray-300 text-gray-700 hover:bg-gray-100";
-  }
-});
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.btn {
+  @include app;
+  border-radius: 1rem;
+
+  &.small {
+  }
+  &.normal {
+    height: 4.5rem;
+    padding: 1.3rem 2rem;
+    span {
+      font-size: 1.4rem;
+      font-family: $font_1;
+      font-weight: 400;
+      display: flex;
+      line-height: 100%;
+    }
+  }
+  &.medium {
+  }
+  &.large {
+    height: 6rem;
+    padding: 2rem;
+    span {
+      font-size: 2rem;
+      font-family: $font_1;
+      font-weight: 400;
+      display: block;
+      line-height: 100%;
+    }
+  }
+
+  &.secondary {
+    border: 0.1rem solid;
+    &.blue {
+      border-color: $primary;
+    }
+    &.dark {
+      border-color: $black;
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+    &.blue {
+      border-color: $primary;
+    }
+  }
+  &.primary {
+    color: $white;
+    &.gradient {
+      background: linear-gradient(to right, $primary, #63c7dd);
+    }
+    &.white {
+      background-color: $white;
+      color: $primary;
+    }
+    &.blue {
+      background-color: $primary;
+      &:hover {
+        background-color: $darkPrimary;
+      }
+    }
+  }
+}
+
+.weight {
+  span {
+    font-weight: 600 !important;
+  }
+}
+</style>

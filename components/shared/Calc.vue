@@ -1,76 +1,74 @@
 <template>
-  <section>
+  <section class="max-h-[95dvh] overflow-y-auto">
     <div class="container">
-      <div class="p-6">
-        <h1 class="text-4xl font-semibold mb-6">Калькулятор</h1>
-        <div class="flex flex-col md:flex-row gap-6">
-          <div
-            class="bg-gray-100 text-gray-900 rounded-lg p-6 flex-1 max-w-[605px]"
-          >
-            <h2 class="text-lg font-medium mb-4">Выберите автомобиль</h2>
-            <Select
-              :options="options"
-              placeholder="Выберите марку"
-              class="mb-4"
-            />
-            <Select
-              :options="options"
-              placeholder="Выберите модель"
-              class="mb-4"
-            />
+      <div class="flex flex-col md:flex-row gap-6">
+        <div
+          class="bg-gray-100 text-gray-900 rounded-lg p-6 flex-1 max-w-[605px]"
+        >
+          <h2 class="text-lg font-medium mb-3">Выберите автомобиль</h2>
+          <Select
+            :options="options"
+            placeholder="Выберите марку"
+            class="mb-3"
+          />
+          <Select
+            :options="options"
+            placeholder="Выберите модель"
+            class="mb-3"
+          />
 
-            <h2 class="text-lg font-medium mb-1">
-              Выберите условия автокредита
-            </h2>
-            <!-- Слайдеры -->
-            <RangeSlider
-              label="Первоначальный взнос"
-              :value="downPayment"
-              :min="10"
-              :max="90"
-              :step="10"
-              :marks="[10, 30, 60, 90]"
-              unit="%"
-              @update:value="(val) => (downPayment = val)"
+          <h2 class="text-lg font-medium mb-1">Выберите условия автокредита</h2>
+          <!-- Слайдеры -->
+          <RangeSlider
+            label="Первоначальный взнос"
+            :value="downPayment"
+            :min="10"
+            :max="90"
+            :step="10"
+            :marks="[10, 30, 60, 90]"
+            unit="%"
+            @update:value="(val) => (downPayment = val)"
+            class="mb-3"
+          />
+          <RangeSlider
+            label="Срок кредитования"
+            :value="loanTerm"
+            :min="6"
+            :max="96"
+            :step="6"
+            :marks="['6 мес', '36 мес', '66 мес', '96 мес']"
+            unit="мес"
+            @update:value="(val) => (loanTerm = val)"
+            class="mb-3"
+          />
+          <h2 class="text-lg font-medium mb-3">Контактные данные</h2>
+          <div class="flex items-center justify-start gap-2 mb-2 w-full">
+            <Inputs
+              placeholder="Ваше имя"
+              v-model="contactName"
+              class="flex-1"
             />
-            <RangeSlider
-              label="Срок кредитования"
-              :value="loanTerm"
-              :min="6"
-              :max="96"
-              :step="6"
-              :marks="['6 мес', '36 мес', '66 мес', '96 мес']"
-              unit="мес"
-              @update:value="(val) => (loanTerm = val)"
+            <Inputs
+              placeholder="+7 (___) ___-__-__"
+              v-model="contactPhone"
+              class="flex-1"
             />
-            <h2 class="text-lg font-medium mb-4">Контактные данные</h2>
-            <div class="flex items-center justify-start gap-3 mb-3 w-full">
-              <Inputs
-                placeholder="Ваше имя"
-                v-model="contactName"
-                class="flex-1"
-              />
-              <Inputs
-                placeholder="+7 (___) ___-__-__"
-                v-model="contactPhone"
-                class="flex-1"
-              />
-            </div>
-            <btn
-              name="Отправить заявку"
-              theme="primary"
-              size="normal"
-              custom-class="!px-8 !py-4 w-full"
-              @click="submitApplication"
-            />
-            <p class="text-xs text-txtGray max-w-80 text-center mx-auto mt-3">
-              Нажимая на кнопку «Отправить», я даю согласие на обработку
-              персональных данных.
-            </p>
           </div>
+          <btn
+            name="Отправить заявку"
+            theme="primary"
+            size="normal"
+            custom-class="!px-8 !py-4 w-full"
+            @click="submitApplication"
+          />
+          <p class="text-xs text-txtGray max-w-80 text-center mx-auto mt-2">
+            Нажимая на кнопку «Отправить», я даю согласие на обработку
+            персональных данных.
+          </p>
+        </div>
 
-          <!-- Правая колонка: Результат -->
-          <div class="bg-gray-100 text-gray-900 rounded-lg p-6 w-full md:w-1/3">
+        <!-- Правая колонка: Результат -->
+        <!-- <div class="bg-gray-100 text-gray-900 rounded-lg p-6 w-full md:w-1/3">
             <h2 class="text-lg font-medium mb-4">Результат</h2>
             <div class="mb-4">
               <img
@@ -105,8 +103,7 @@
               К сожалению, банк не кредитует данные регионы: Магаданская
               область, Республика Дагестан, Республика Ингушетия...
             </p>
-          </div>
-        </div>
+          </div> -->
       </div>
     </div>
   </section>

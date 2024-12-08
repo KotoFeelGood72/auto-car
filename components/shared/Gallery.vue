@@ -42,7 +42,7 @@
         class="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
       />
       <div
-        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white text-lg font-semibold"
+        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 text-white text-lg font-semibold xl:text-minlg"
       >
         Открыть галерею
       </div>

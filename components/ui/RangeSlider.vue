@@ -1,27 +1,16 @@
 <template>
   <div class="slider-container">
-    <label class="slider-label">{{ label }}</label>
+    <label class="font-light text-sm mb-2 block">{{ label }}</label>
     <div class="slider-wrapper">
       <!-- Шкала -->
       <div class="slider-track">
         <div
           class="slider-fill"
           :style="{
-            width: `calc(${((localValue - min) / (max - min)) * 100}% - 5px)`,
+            width: `calc(${((localValue - min) / (max - min)) * 100}% )`,
           }"
         ></div>
       </div>
-
-      <!-- Сам input -->
-      <input
-        type="range"
-        class="slider-input"
-        :min="min"
-        :max="max"
-        :step="step"
-        v-model="localValue"
-        @input="emitInput"
-      />
 
       <!-- Кружок -->
       <div
@@ -29,6 +18,8 @@
         :style="{
           left: `calc(${((localValue - min) / (max - min)) * 100}% )`,
         }"
+        @mousedown="startDrag"
+        @touchstart="startDrag"
       ></div>
 
       <!-- Текущее значение -->
@@ -44,15 +35,8 @@
 
     <!-- Деления -->
     <div class="slider-marks">
-      <span
-        v-for="mark in marks"
-        :key="mark"
-        class="slider-mark"
-        :style="{
-          left: `calc(${((parseFloat(mark) - min) / (max - min)) * 100}% )`,
-        }"
-      >
-        {{ mark }}
+      <span v-for="mark in marks" :key="mark" class="slider-mark">
+        {{ mark }}{{ unit === "%" ? " %" : "" }}
       </span>
     </div>
   </div>
@@ -67,7 +51,7 @@ const props = defineProps<{
   min: number;
   max: number;
   step: number;
-  marks: (string | number)[]; // Деления на шкале
+  marks: any[]; // Деления на шкале
   unit?: string; // Единица измерения
 }>();
 
@@ -84,22 +68,58 @@ watch(
 );
 
 // Обновление значения
-const emitInput = () => {
+const updateValue = (value: number) => {
+  if (value < props.min) value = props.min;
+  if (value > props.max) value = props.max;
+
+  localValue.value = value;
   emits("update:value", localValue.value);
+};
+
+// Эмуляция перетаскивания
+const startDrag = (event: MouseEvent | TouchEvent) => {
+  const sliderWrapper = (event.target as HTMLElement).closest(
+    ".slider-wrapper"
+  ) as HTMLElement;
+  const rect = sliderWrapper.getBoundingClientRect();
+
+  const moveHandler = (e: MouseEvent | TouchEvent) => {
+    const clientX = "touches" in e ? e.touches[0].clientX : e.clientX;
+    const percentage = Math.min(
+      Math.max((clientX - rect.left) / rect.width, 0),
+      1
+    );
+    const newValue = props.min + percentage * (props.max - props.min);
+
+    updateValue(Math.round(newValue / props.step) * props.step);
+  };
+
+  const stopHandler = () => {
+    window.removeEventListener("mousemove", moveHandler);
+    window.removeEventListener("mouseup", stopHandler);
+    window.removeEventListener("touchmove", moveHandler);
+    window.removeEventListener("touchend", stopHandler);
+  };
+
+  window.addEventListener("mousemove", moveHandler);
+  window.addEventListener("mouseup", stopHandler);
+  window.addEventListener("touchmove", moveHandler);
+  window.addEventListener("touchend", stopHandler);
 };
 </script>
 
 <style scoped>
 .slider-container {
-  margin-bottom: 40px;
+  position: relative;
+  user-select: none;
 }
 
-.slider-label {
+/* .slider-label {
   display: block;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 5px;
-}
+} */
 
 .slider-wrapper {
   position: relative;
@@ -116,21 +136,13 @@ const emitInput = () => {
   background-color: #d1d5db; /* Серый цвет */
   border-radius: 2px;
   transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .slider-fill {
   height: 3px;
   background-color: #2563eb; /* Синий цвет */
   border-radius: 2px;
-}
-
-.slider-input {
-  position: absolute;
-  width: 100%;
-  height: 24px;
-  opacity: 0;
-  cursor: pointer;
-  z-index: 2;
 }
 
 .slider-thumb {
@@ -144,6 +156,13 @@ const emitInput = () => {
   border-radius: 50%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  cursor: grab;
+}
+
+.slider-thumb:active,
+.slider-thumb:focus {
+  box-shadow: 0 0 0 5px rgba(37, 100, 235, 0.329); /* Синяя более заметная тень */
+  cursor: grabbing;
 }
 
 .slider-value {
@@ -158,20 +177,16 @@ const emitInput = () => {
 
 .slider-marks {
   position: relative;
-  margin-top: -6px;
   width: 100%;
   font-size: 14px;
-  color: #6b7280; /* Тёмно-серый */
+  color: #6b7280;
   display: flex;
-  left: 50%;
-  transform: translateX(-50%);
   justify-content: space-between;
-  max-width: calc(100% - 40px);
 }
 
 .slider-mark {
-  position: absolute;
-  transform: translateX(-50%);
   white-space: nowrap;
+  display: block;
+  text-align: center;
 }
 </style>

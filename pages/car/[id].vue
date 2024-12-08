@@ -1,69 +1,63 @@
 <template>
   <div class="idpage">
-    <section class="single py-10">
-      <div class="container">
-        <div>
-          <h1 class="text-4xl font-semibold mb-4">Jetta VS7</h1>
-        </div>
-        <div class="grid grid-cols-2 gap-10 mb-20">
-          <div>
-            <UiGalleryCar class="sticky top-10 left-0" />
+    <section class="single">
+      <div class="section_in">
+        <heading title="Jetta VS7" :level="2" :size="42" class="title" />
+        <div class="row-top">
+          <div class="gallery-column">
+            <GalleryCar />
           </div>
-          <div>
-            <div class="flex-1 bg-primary text-white rounded-xl p-6 mb-5">
-              <div class="flex items-start mb-10">
-                <div class="flex flex-1 flex-col gap-2">
-                  <div class="flex-grow mb-3">
-                    <p class="text-lg font-semibold leading-6 mb-2">
-                      Старая цена:
-                    </p>
-                    <span class="block line-through">1 140 000 ₽</span>
-                  </div>
-                  <div>
-                    <p class="text-lg font-semibold leading-6">Цена:</p>
-                    <span class="text-xxl font-medium">354 400 ₽</span>
-                  </div>
+          <div class="content-column">
+            <div class="card">
+              <div class="card-row">
+                <div class="prices">
+                  <ul>
+                    <li>
+                      <p>Старая цена:</p>
+                      <span>1 920 000 ₽</span>
+                    </li>
+                    <li>
+                      <p>Цена:</p>
+                      <span>1 152 000 ₽</span>
+                    </li>
+                  </ul>
                 </div>
-                <div class="flex-1">
-                  <div class="mb-5">
-                    <p class="text-lg font-semibold leading-6 mb-2">
-                      Ежемесячный платеж:
-                    </p>
-                    <span>от 2 690 ₽/мес.</span>
-                  </div>
-                  <div>
-                    <p class="text-lg font-semibold leading-6 mb-2">
-                      Особенности:
-                    </p>
-                    <span
-                      >Двигатель 1.6 л., Комплектация Comfort'24, Цвет Белый
-                      «Ледниковый» (221)</span
-                    >
-                  </div>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <p>Ежемесячный платеж:</p>
+                      <span>от 8 744 ₽/мес.</span>
+                    </li>
+                    <li>
+                      <p>Особенности:</p>
+                      <span
+                        >Двигатель 1.5 л., Комплектация Action MT, Цвет
+                        Искрящийся белый</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-buttons">
+                  <btn
+                    size="normal"
+                    styles="primary"
+                    color="white"
+                    name="Заявка на TRADE-IN"
+                  />
+                  <btn
+                    size="normal"
+                    styles="secondary"
+                    color="white"
+                    name="Специальное предложение"
+                  />
+                  <btn
+                    size="normal"
+                    styles="primary"
+                    color="white"
+                    name="Рассчитать автокредит от 1%"
+                  />
                 </div>
               </div>
-              <div class="flex items-center gap-3 mb-4">
-                <btn
-                  name="Заявка на Trade-in"
-                  theme="secondary"
-                  size="normal"
-                  class="flex-1"
-                  custom-class="!px-4 !py-4"
-                />
-                <btn
-                  name="Специальное предложение"
-                  theme="secondary"
-                  size="normal"
-                  class="flex-1"
-                  custom-class="!px-4 !py-4"
-                />
-              </div>
-              <btn
-                name="Рассчитать автокредит от 1%"
-                theme="secondary"
-                size="normal"
-                custom-class="w-full !px-4 !py-4"
-              />
             </div>
             <div class="mb-10">
               <h3 class="text-lg font-medium mb-4">Модификации</h3>
@@ -83,8 +77,8 @@
             </div>
           </div>
         </div>
-        <div class="mb-20">
-          <h3 class="text-xxxl font-semibold mb-6">Галерея</h3>
+        <div class="xl:mb-20 lg:mb-10">
+          <h3 class="xl:text-xxxl font-semibold mb-6 lg:text-xxl">Галерея</h3>
           <Gallery
             :images="[
               { url: '/assets/img/cars/black.png', alt: 'Вид спереди' },
@@ -100,8 +94,8 @@
           />
         </div>
         <Programs />
-        <Slider class="mb-20" title="Акционные предложения" />
-        <Credit class="mb-20" />
+        <Slider title="Акционные предложения" />
+        <!-- <Credit /> -->
       </div>
     </section>
   </div>
@@ -112,8 +106,10 @@ import btn from "~/components/ui/btn.vue";
 import RadioCard from "~/components/card/RadioCard.vue";
 import CardComplect from "~/components/card/CardComplect.vue";
 import Gallery from "~/components/shared/Gallery.vue";
+import GalleryCar from "~/components/ui/GalleryCar.vue";
 import Credit from "~/components/shared/Credit.vue";
 import Programs from "~/components/shared/Programs.vue";
+import heading from "~/components/ui/heading.vue";
 
 const selectedCard = ref("");
 const selectedComplect = ref("");

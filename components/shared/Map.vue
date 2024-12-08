@@ -1,5 +1,5 @@
 <template>
-  <div id="map" class="map h-[34rem]"></div>
+  <div id="map" class="map"></div>
 </template>
 
 <script setup lang="ts">
@@ -36,8 +36,6 @@ onMounted(() => {
             <img src="/assets/img/logo.svg"/>
           </div>
           <div>
-          <h3 style="text-align: center; font-family: 'Gilroy'">Автосалон</h3>
-          <h3 style="text-align: center; font-size: 12px; text-transform: uppercase; font-family: 'Gilroy'">Москва</h3>
           </div>
           </div>`,
           balloonContentBody: `
@@ -51,8 +49,8 @@ onMounted(() => {
         },
         {
           iconLayout: "default#image",
-          iconImageHref: "/assets/img/map.gif",
-          iconImageSize: [40, 40],
+          iconImageHref: "/assets/img/marker.svg",
+          iconImageSize: [60, 60],
           iconImageOffset: [-20, -20],
         }
       );
@@ -67,3 +65,10 @@ onMounted(() => {
   document.head.appendChild(yandexMapScript);
 });
 </script>
+
+<style lang="scss" scoped>
+.map {
+  height: 34rem;
+  width: 100%;
+}
+</style>

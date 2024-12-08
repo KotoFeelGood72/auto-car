@@ -1,27 +1,17 @@
 <template>
-  <div class="flex flex-col items-start text-center pb-28">
-    <p class="text-lg text-white mb-4">До конца акции осталось:</p>
-    <div class="flex gap-4">
-      <div
-        v-for="(value, label) in time"
-        :key="label"
-        class="flex flex-col items-center"
-      >
-        <div
-          class="flex items-center text-[51px] rounded-[7px] overflow-hidden"
-        >
+  <div class="timers">
+    <p class="title">До конца акции осталось:</p>
+    <div class="timer-row">
+      <div v-for="(value, label) in time" :key="label" class="">
+        <div class="timer-digit">
           <div
             v-for="(digit, i) in formatDigits(value)"
             :key="digit + label + i"
-            :class="[
-              'flex items-center justify-center w-[61px] h-16 text-white font-bold text-[36px]',
-              i === 0 ? 'bg-white/30' : 'bg-white/60',
-            ]"
           >
-            <span class="z-10">{{ digit }}</span>
+            <span>{{ digit }}</span>
           </div>
         </div>
-        <p class="text-lg text-white mt-3">{{ label }}</p>
+        <p class="">{{ label }}</p>
       </div>
     </div>
   </div>
@@ -30,7 +20,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from "vue";
 
-// Таймстамп окончания акции
 const endDate = ref<number | null>(null);
 const interval = ref<number | null>(null);
 const now = ref<number>(Date.now());
@@ -56,12 +45,10 @@ const time = computed(() => {
   };
 });
 
-// Форматирование числа в массив отдельных цифр
 const formatDigits = (value: number) => {
   return value < 10 ? ["0", value.toString()] : value.toString().split("");
 };
 
-// Инициализация таймера
 onMounted(() => {
   const savedEndDate = JSON.parse(localStorage.getItem("timerEnd") || "null");
 
@@ -89,4 +76,42 @@ onUnmounted(() => {
 });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.timer-row {
+  @include flex-start;
+  gap: 2rem;
+
+  p {
+    @include flex-center;
+    font-size: 2rem;
+  }
+}
+
+.timer-digit {
+  @include flex-start;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.27) 50%,
+    #ffffff80 50%
+  );
+  width: 11rem;
+  height: 6.8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+
+  div {
+    flex-grow: 1;
+    @include flex-center;
+    line-height: 4rem;
+  }
+  span {
+    font-size: 5rem;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2.8rem;
+}
+</style>

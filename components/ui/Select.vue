@@ -4,14 +4,13 @@
       <button
         @click="toggleDropdown"
         type="button"
-        class="w-full flex justify-between items-center px-4 py-2 text-sm border border-gray-300 rounded-lg shadow-sm bg-white hover:bg-gray-50 focus:outline-none focus:ring focus:ring-blue-500"
+        class="w-full flex justify-between items-center px-4 py-3 border border-light rounded-lg shadow-sm bg-white hover:bg-gray-50 focus:outline-none focus:ring focus:primary"
       >
         <span>{{ selectedLabel || placeholder }}</span>
         <Icon name="bi:chevron-down" :class="{ 'rotate-180': isOpen }" />
       </button>
     </div>
 
-    <!-- Выпадающее меню -->
     <div
       v-if="isOpen"
       :class="[
@@ -23,13 +22,13 @@
         marginBottom: dropdownPosition === 'bottom-full' ? '8px' : '0',
       }"
     >
-      <ul class="py-1 text-sm text-gray-700">
+      <ul class="text-txtGray">
         <li
           v-for="option in options"
           :key="option.value"
           @click="selectOption(option)"
           :class="{
-            'bg-blue-500 text-white': selectedValue === option.value,
+            'bg-primary text-white': selectedValue === option.value,
             'hover:bg-gray-100 cursor-pointer': selectedValue !== option.value,
           }"
           class="px-4 py-2"

@@ -18,10 +18,14 @@
         class="relative cursor-pointer border peer-checked:border-primary p-5 rounded-lg gap-5"
       >
         <div class="flex flex-col gap-2">
-          <p class="text-lg font-semibold leading-4 text-primary">
+          <p
+            class="xl:text-lg font-semibold leading-4 text-primary lg:text-base"
+          >
             {{ data.title }}
           </p>
-          <p class="text-xl font-medium">от {{ data.price }} ₽</p>
+          <p class="xl:text-xl font-medium lg:text-minlg">
+            от {{ data.price }} ₽
+          </p>
           <p class="text-sm text-txtGray">
             от {{ data.monthlyPrice }} ₽ / мес.
           </p>
@@ -30,7 +34,7 @@
           <li
             v-for="(feature, index) in data.features"
             :key="index"
-            class="flex items-center text-sm text-txtGray"
+            class="flex items-center xl:text-sm text-txtGray lg:text-xs"
           >
             <span class="w-2 h-2 min-w-2 bg-gray-400 rounded-full mr-2"></span>
             {{ feature }}

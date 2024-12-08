@@ -1,17 +1,13 @@
 <template>
-  <section class="models">
-    <div class="container">
-      <div class="flex items-center gap-10 mb-10">
-        <h3 class="text-4xl font-semibold">{{ title }}</h3>
-        <div class="nav flex items-center gap-5">
-          <div
-            class="flex items-center justify-center rounded-full prev w-10 h-10 cursor-pointer bg-primary text-white hover:bg-primary-dark transition-all"
-          >
+  <section class="cars mb-8">
+    <div class="section_in">
+      <div class="head">
+        <heading :title="title" :size="40" class="title" />
+        <div class="nav">
+          <div class="prev">
             <Icon name="f:left" />
           </div>
-          <div
-            class="flex items-center justify-center rounded-full next w-10 h-10 cursor-pointer bg-primary text-white hover:bg-primary-dark transition-all"
-          >
+          <div class="next">
             <Icon name="f:right" />
           </div>
         </div>
@@ -19,7 +15,6 @@
 
       <div>
         <Swiper
-          class="!py-10 !my-[-2.5rem]"
           :modules="[Navigation, Pagination]"
           :slides-per-view="4"
           :space-between="20"
@@ -33,10 +28,14 @@
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 1.5,
+              slidesPerView: 2.5,
               spaceBetween: 20,
             },
             1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1200: {
               slidesPerView: 4,
               spaceBetween: 20,
             },
@@ -55,6 +54,7 @@
 import AutoCard from "../card/AutoCard.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Pagination } from "swiper/modules";
+import heading from "../ui/heading.vue";
 import "swiper/swiper-bundle.css";
 
 defineProps<{
@@ -62,7 +62,26 @@ defineProps<{
 }>();
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.head {
+  @include flex-start;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.nav {
+  @include flex-start;
+  gap: 2rem;
+  div {
+    width: 4rem;
+    height: 4rem;
+    background-color: $primary;
+    @include flex-center;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+}
+
 /* Стили для кнопок */
 .prev,
 .next {
@@ -75,9 +94,8 @@ defineProps<{
   background-color: #0741a7;
 }
 
-/* Отключенные кнопки */
 .swiper-button-disabled {
-  background-color: #b4b4b4;
-  cursor: not-allowed;
+  background-color: #b4b4b4 !important;
+  cursor: not-allowed !important;
 }
 </style>

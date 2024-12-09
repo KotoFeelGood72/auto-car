@@ -1,6 +1,6 @@
 <template>
   <button
-    :class="['btn', size, styles, color, { weight: weight }]"
+    :class="['btn', size, styles, color, { weight: weight }, { full: full }]"
     :disabled="loading"
   >
     <div v-if="loading" class="loading">
@@ -18,6 +18,7 @@ const props = defineProps<{
   color?: "white" | "dark" | "gradient" | "blue";
   styles?: "secondary" | "primary";
   weight?: boolean;
+  full?: boolean;
 }>();
 </script>
 
@@ -91,5 +92,9 @@ const props = defineProps<{
   span {
     font-weight: 600 !important;
   }
+}
+
+.full {
+  width: 100%;
 }
 </style>

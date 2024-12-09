@@ -1,23 +1,15 @@
 <template>
-  <div>
-    <!-- Изображение автомобиля -->
-    <div
-      class="bg-slate-100 rounded-[10px] overflow-hidden p-5 max-h-[25rem] flex items-center justify-center mb-6"
-    >
-      <img
-        :src="selectedImage"
-        alt="Автомобиль"
-        class="w-full h-auto rounded-lg"
-      />
+  <div class="cars">
+    <div class="img">
+      <img :src="selectedImage" alt="Автомобиль" />
     </div>
-    <div class="color-picker">
-      <p class="text-txtGray text-lg mb-5">Цвет: {{ selectedColor }}</p>
-      <div class="flex items-center gap-4 mt-2">
+    <div class="color-picker__w">
+      <p class="label">Цвет: {{ selectedColor }}</p>
+      <div class="color-picker">
         <div
           v-for="color in colors"
           :key="color.name"
           :style="{ backgroundColor: color.hex }"
-          class="w-8 h-8 rounded-full border cursor-pointer"
           :class="{ 'border-black': selectedColor === color.name }"
           @click="selectColor(color.name, color.image)"
           title="Нажмите, чтобы выбрать цвет"
@@ -46,3 +38,37 @@ const selectColor = (colorName: string, image: string) => {
   selectedImage.value = image;
 };
 </script>
+
+<style lang="scss" scoped>
+.img {
+  @include flex-center;
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.cars {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: sticky;
+}
+
+.color-picker__w {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+}
+.color-picker {
+  @include flex-start;
+  gap: 1rem;
+  div {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: 0.1rem solid $border;
+    cursor: pointer;
+  }
+}
+</style>

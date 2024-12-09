@@ -1,148 +1,91 @@
 <template>
-  <section class="max-h-[95dvh] overflow-y-auto">
-    <div class="container">
-      <div class="flex flex-col md:flex-row gap-6">
-        <div
-          class="bg-gray-100 text-gray-900 rounded-lg p-6 flex-1 max-w-[605px]"
-        >
-          <h2 class="text-lg font-medium mb-3">Выберите автомобиль</h2>
-          <Select
-            :options="options"
-            placeholder="Выберите марку"
-            class="mb-3"
-          />
-          <Select
-            :options="options"
-            placeholder="Выберите модель"
-            class="mb-3"
-          />
+  <div class="calc">
+    <div class="left-side">
+      <heading title="Выберите автомобиль" :level="2" :size="24" />
+      <Select :options="options" placeholder="Выберите марку" />
+      <Select :options="options" placeholder="Выберите модель" />
 
-          <h2 class="text-lg font-medium mb-1">Выберите условия автокредита</h2>
-          <!-- Слайдеры -->
-          <RangeSlider
-            label="Первоначальный взнос"
-            :value="downPayment"
-            :min="10"
-            :max="90"
-            :step="10"
-            :marks="[10, 30, 60, 90]"
-            unit="%"
-            @update:value="(val) => (downPayment = val)"
-            class="mb-3"
-          />
-          <RangeSlider
-            label="Срок кредитования"
-            :value="loanTerm"
-            :min="6"
-            :max="96"
-            :step="6"
-            :marks="['6 мес', '36 мес', '66 мес', '96 мес']"
-            unit="мес"
-            @update:value="(val) => (loanTerm = val)"
-            class="mb-3"
-          />
-          <h2 class="text-lg font-medium mb-3">Контактные данные</h2>
-          <div class="flex items-center justify-start gap-2 mb-2 w-full">
-            <Inputs
-              placeholder="Ваше имя"
-              v-model="contactName"
-              class="flex-1"
-            />
-            <Inputs
-              placeholder="+7 (___) ___-__-__"
-              v-model="contactPhone"
-              class="flex-1"
-            />
-          </div>
-          <btn
-            name="Отправить заявку"
-            theme="primary"
-            size="normal"
-            custom-class="!px-8 !py-4 w-full"
-            @click="submitApplication"
-          />
-          <p class="text-xs text-txtGray max-w-80 text-center mx-auto mt-2">
-            Нажимая на кнопку «Отправить», я даю согласие на обработку
-            персональных данных.
-          </p>
-        </div>
+      <heading title="Выберите условия автокредита" :level="2" :size="24" />
+      <range
+        :start="0"
+        :min="0"
+        :max="90"
+        :step="1"
+        :values="[0, 23, 45, 68, 90]"
+        :connect="true"
+        :show-values="true"
+        @update="updateDownPayment"
+      />
 
-        <!-- Правая колонка: Результат -->
-        <!-- <div class="bg-gray-100 text-gray-900 rounded-lg p-6 w-full md:w-1/3">
-            <h2 class="text-lg font-medium mb-4">Результат</h2>
-            <div class="mb-4">
-              <img
-                v-if="selectedModel"
-                :src="selectedModel.image || '/images/car-placeholder.png'"
-                alt="Выбранный автомобиль"
-                class="w-full rounded-lg"
-              />
-            </div>
-            <p class="text-blue-500 font-semibold text-lg mb-4">
-              От {{ selectedModel?.price || "0" }} руб.
-            </p>
-            <p class="text-sm text-gray-600 mb-4">
-              Для расчета условий по автокредиту выберите интересующий вас
-              автомобиль.
-            </p>
-            <div class="bg-blue-100 rounded-lg p-4 mb-4">
-              <p>
-                Первоначальный взнос:
-                <span class="font-semibold">{{ downPayment }}%</span>
-              </p>
-              <p>
-                Срок кредитования:
-                <span class="font-semibold">{{ loanTerm }} мес</span>
-              </p>
-              <p>
-                Ежемесячный платеж:
-                <span class="font-semibold">{{ monthlyPayment }} руб./мес</span>
-              </p>
-            </div>
-            <p class="text-xs text-gray-500">
-              К сожалению, банк не кредитует данные регионы: Магаданская
-              область, Республика Дагестан, Республика Ингушетия...
-            </p>
-          </div> -->
-      </div>
+      <heading title="Контактные данные" :level="2" :size="24" />
+      <range
+        :start="6"
+        :min="6"
+        :max="96"
+        :step="6"
+        :values="[6, 24, 36, 48, 60, 72, 84, 96]"
+        :connect="true"
+        :show-values="true"
+        @update="updateLoanTerm"
+        unit=""
+      />
+      <Form :row="true" />
     </div>
-  </section>
+    <div class="right-side">
+      <CarDetails
+        :car="selectedCar"
+        :downPayment="downPayment"
+        :loanTerm="loanTerm"
+      />
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from "vue";
-import Inputs from "../ui/Inputs.vue";
-import btn from "../ui/btn.vue";
+import { ref } from "vue";
 import Select from "../ui/Select.vue";
-import RangeSlider from "../ui/RangeSlider.vue";
+import range from "../ui/range.vue";
+import Form from "./Form.vue";
+import heading from "../ui/heading.vue";
+import CarDetails from "./CarDetails.vue";
 
 const options = [
-  { value: "option1", label: "Вариант 1" },
-  { value: "option2", label: "Вариант 2" },
-  { value: "option3", label: "Вариант 3" },
+  { value: "lada", label: "LADA" },
+  { value: "kia", label: "KIA" },
+  { value: "toyota", label: "Toyota" },
 ];
+
+const selectedCar = ref({
+  brand: "LADA",
+  model: "Granta",
+  price: 354400,
+  image: "https://via.placeholder.com/300x200?text=LADA+Granta",
+});
 
 const downPayment = ref(30); // Первоначальный взнос (%)
 const loanTerm = ref(36); // Срок кредитования (месяцы)
-const contactName = ref(""); // Имя клиента
-const contactPhone = ref(""); // Телефон клиента
 
-const monthlyPayment = computed(() => {
-  const price = 1000000; // Примерная цена
-  const initialPayment = (price * downPayment.value) / 100;
-  const loanAmount = price - initialPayment;
-  const interestRate = 0.07; // 7% годовых
-  const monthlyRate = interestRate / 12;
-  const numPayments = loanTerm.value;
-  return Math.round(
-    (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numPayments))
-  );
-});
+const updateDownPayment = (value: number) => {
+  downPayment.value = value;
+};
 
-const submitApplication = () => {
-  console.log("Имя:", contactName.value);
-  console.log("Телефон:", contactPhone.value);
-  console.log("Первоначальный взнос:", downPayment.value);
-  console.log("Срок кредитования:", loanTerm.value);
+const updateLoanTerm = (value: number) => {
+  loanTerm.value = value;
 };
 </script>
+
+<style lang="scss" scoped>
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 65rem;
+  background-color: #f7f7f7;
+  padding: 4rem;
+  border-radius: 2rem;
+}
+
+.calc {
+  @include flex-start;
+}
+</style>

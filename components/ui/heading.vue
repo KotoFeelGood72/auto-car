@@ -7,7 +7,7 @@
 <script setup lang="ts">
 const props = withDefaults(
   defineProps<{
-    title?: string;
+    title?: string | number;
     level?: number;
     size?: number;
     color?: "dark" | "white" | "gradient" | "blue";
@@ -49,6 +49,12 @@ const isColor = computed(() => {
 }
 .heading-36 {
   font-size: 3.6rem;
+  line-height: 100%;
+  font-family: $font_1;
+  font-weight: 600;
+}
+.heading-16 {
+  font-size: 1.6rem;
   line-height: 100%;
   font-family: $font_1;
   font-weight: 600;

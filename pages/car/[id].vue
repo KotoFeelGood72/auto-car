@@ -3,7 +3,7 @@
     <section class="single">
       <div class="section_in">
         <heading title="Jetta VS7" :level="2" :size="42" class="title" />
-        <div class="row-top">
+        <div class="row-top mb-8">
           <div class="gallery-column">
             <GalleryCar />
           </div>
@@ -39,37 +39,51 @@
                 </div>
                 <div class="card-buttons">
                   <btn
-                    size="normal"
+                    size="large"
                     styles="primary"
                     color="white"
+                    :weight="true"
                     name="Заявка на TRADE-IN"
                   />
                   <btn
-                    size="normal"
+                    size="large"
                     styles="secondary"
                     color="white"
+                    :weight="true"
                     name="Специальное предложение"
                   />
                   <btn
-                    size="normal"
+                    size="large"
                     styles="primary"
                     color="white"
+                    :weight="true"
                     name="Рассчитать автокредит от 1%"
+                    :full="true"
                   />
                 </div>
               </div>
             </div>
-            <div class="mb-10">
-              <h3 class="text-lg font-medium mb-4">Модификации</h3>
-              <ul class="flex items-center flex-wrap gap-5">
+            <div class="mode">
+              <heading
+                title="Модификации"
+                :level="4"
+                :size="24"
+                class="subtitle"
+              />
+              <ul class="grid-list">
                 <li v-for="card in cards" :key="card.id">
                   <RadioCard :card="card" v-model="selectedCard" />
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 class="text-lg font-medium mb-4">Комплектация</h3>
-              <ul class="grid grid-cols-2 gap-3">
+            <div class="complects">
+              <heading
+                title="Комплектация"
+                :level="4"
+                :size="24"
+                class="subtitle"
+              />
+              <ul class="grid-list">
                 <li v-for="card in complect" :key="card.id">
                   <CardComplect :data="card" v-model="selectedComplect" />
                 </li>
@@ -77,8 +91,8 @@
             </div>
           </div>
         </div>
-        <div class="xl:mb-20 lg:mb-10">
-          <h3 class="xl:text-xxxl font-semibold mb-6 lg:text-xxl">Галерея</h3>
+        <div class="gallery_single">
+          <heading title="Галерея" :level="2" :size="42" class="subtitle" />
           <Gallery
             :images="[
               { url: '/assets/img/cars/black.png', alt: 'Вид спереди' },
@@ -95,7 +109,7 @@
         </div>
         <Programs />
         <Slider title="Акционные предложения" />
-        <!-- <Credit /> -->
+        <Calc :credits="credits" />
       </div>
     </section>
   </div>
@@ -110,9 +124,14 @@ import GalleryCar from "~/components/ui/GalleryCar.vue";
 import Credit from "~/components/shared/Credit.vue";
 import Programs from "~/components/shared/Programs.vue";
 import heading from "~/components/ui/heading.vue";
+import Calc from "~/components/shared/Calc.vue";
 
-const selectedCard = ref("");
-const selectedComplect = ref("");
+const credits = [
+  { title: "от 1%", txt: "Ставка по <br/>кредиту" },
+  { title: "1 час", txt: "Рассмотрение <br/>заявки" },
+  { title: "90%", txt: "Одобрение <br/>по кредиту" },
+];
+
 const cards = [
   {
     id: "1",
@@ -162,4 +181,133 @@ const complect = [
     ],
   },
 ];
+const selectedCard = ref(cards[0]);
+const selectedComplect = ref(complect[0].id);
 </script>
+
+<style lang="scss" scoped>
+.single {
+  padding: 5rem 0 0 0;
+  background-color: $white;
+}
+
+.gallery_single {
+  :deep(h2) {
+    margin-bottom: 4rem;
+  }
+}
+.row-top {
+  @include flex-start;
+  align-items: flex-start;
+  gap: 5rem;
+  padding-top: 3rem;
+}
+
+.card {
+  background-color: $primary;
+  padding: 4rem;
+  border-radius: 1rem;
+  color: $white;
+  max-width: 65rem;
+  margin-bottom: 3rem;
+}
+
+.card-row {
+  @include flex-start;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.prices,
+.info {
+  max-width: 45%;
+  flex-grow: 1;
+}
+
+.prices {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  span {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+  li {
+    &:first-child {
+      span {
+        font-size: 1.6rem;
+        text-decoration: line-through;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.info {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  span {
+    font-size: 1.6rem;
+  }
+}
+
+.card-buttons {
+  @include flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  :deep(.btn) {
+    flex-grow: 1;
+  }
+}
+
+.grid-list {
+  @include flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.mode {
+  &:deep(h4) {
+    margin-bottom: 2rem;
+  }
+}
+.complects {
+  &:deep(h4) {
+    margin-bottom: 2rem;
+  }
+
+  .grid-list {
+    li {
+      flex-grow: 1;
+    }
+  }
+}
+
+.content-column {
+  max-width: 65rem;
+}
+
+.gallery-column {
+  position: sticky;
+  top: 3rem;
+  left: 0;
+}
+</style>

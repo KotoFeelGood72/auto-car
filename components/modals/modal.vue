@@ -13,11 +13,12 @@ import ModalSale from "./ModalSale.vue";
 import ModalCredit from "./ModalCredit.vue";
 import ModalHappy from "./ModalHappy.vue";
 import ModalTradein from "./ModalTradein.vue";
+import ClassicModal from "./ClassicModal.vue";
 
 const { modals } = useModalStoreRefs();
 type ModalKey = keyof typeof modals.value;
 
-const ModalUp = ref<any>(["sale"]);
+const ModalUp = ref<any>(["sale", "call", "trade", "happy"]);
 
 const activeModalName = computed(() => {
   for (const name in modals.value) {
@@ -40,6 +41,8 @@ const activeModalComponent = computed(() => {
           return ModalHappy;
         case "credit":
           return ModalCredit;
+        case "call":
+          return ClassicModal;
         default:
           return null;
       }

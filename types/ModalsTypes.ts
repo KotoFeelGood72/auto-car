@@ -3,4 +3,5 @@ export interface Modals {
   trade: boolean
   happy: boolean
   credit: boolean
+  call: boolean
 }

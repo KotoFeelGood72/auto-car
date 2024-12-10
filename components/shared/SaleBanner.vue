@@ -26,6 +26,7 @@ const { openModal } = useModalStore();
   background-size: cover;
   padding: 2.5rem 0;
   color: $white;
+  cursor: pointer;
 
   .title {
     font-size: 3rem;

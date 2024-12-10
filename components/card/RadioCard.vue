@@ -10,7 +10,7 @@
     <label :for="card.id">
       <div class="card">
         <div class="icon">
-          <Icon name="ep:check" :size="22" />
+          <Icon name="ep:check" :size="16" />
         </div>
         <heading :title="card.title" :level="5" :size="24" />
         <heading :title="'от ' + card.price + ' ₽'" :level="4" :size="20" />
@@ -73,10 +73,10 @@ const selectedValue = computed({
 
 .icon {
   position: absolute;
-  top: 2rem;
-  left: 1rem;
-  width: 4rem;
-  height: 4rem;
+  top: 1.5rem;
+  left: 2rem;
+  width: 3rem;
+  height: 3rem;
   @include flex-center;
   border-radius: 100%;
   border: 0.1rem solid $primary;

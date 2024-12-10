@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="layout" :class="[{ 'id-page': isIdRoutePage }]">
     <SaleBanner />
     <SharedHeader />
     <slot />
@@ -11,11 +11,7 @@
     </transition>
     <modal />
     <transition name="fade-bg">
-      <div
-        class="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-[100]"
-        v-if="isModalActive"
-        @click="closeAllModals"
-      ></div>
+      <div class="bg" v-if="isModalActive" @click="closeAllModals"></div>
     </transition>
   </div>
 </template>
@@ -72,6 +68,8 @@ watch(isModalActive, (newValue) => {
     document.body.classList.remove("is_fixed");
   }
 });
+
+const isIdRoutePage = computed(() => route.name === "car-id");
 </script>
 
 <style scoped lang="scss">
@@ -92,5 +90,20 @@ watch(isModalActive, (newValue) => {
 
 .layout {
   background-color: #f2f2f2;
+
+  &.id-page {
+    background-color: $white;
+  }
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $txtGray;
+  opacity: 0.7;
+  z-index: 99;
 }
 </style>

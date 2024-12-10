@@ -9,6 +9,7 @@ export const useModalStore = defineStore("modal", {
       trade: false,
       happy: false,
       credit: false,
+      call: false,
     },
     modalData: "",
   }),

@@ -6,7 +6,7 @@
     <div v-if="loading" class="loading">
       <Icon name="svg-spinners:ring-resize" :size="20" />
     </div>
-    <span v-if="!loading">{{ name }}</span>
+    <span>{{ name }}</span>
   </button>
 </template>
 
@@ -26,6 +26,8 @@ const props = defineProps<{
 .btn {
   @include app;
   border-radius: 1rem;
+  @include flex-center;
+  gap: 2rem;
 
   &.small {
   }
@@ -96,5 +98,9 @@ const props = defineProps<{
 
 .full {
   width: 100%;
+}
+
+.loading {
+  @include flex-center;
 }
 </style>

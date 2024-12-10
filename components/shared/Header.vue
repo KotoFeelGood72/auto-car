@@ -23,6 +23,7 @@
             size="large"
             styles="secondary"
             color="dark"
+            @click="openModal('call')"
           />
           <div class="burger">
             <Icon name="iconamoon:menu-burger-horizontal-light" :size="40" />
@@ -63,6 +64,9 @@
 import btn from "../ui/btn.vue";
 import Logo from "../ui/Logo.vue";
 import heading from "../ui/heading.vue";
+import { useModalStore } from "~/stores/useModalStore";
+
+const { openModal } = useModalStore();
 
 const nav = [
   { name: "Авто в наличии", link: "/" },

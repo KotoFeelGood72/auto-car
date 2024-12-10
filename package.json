@@ -16,6 +16,7 @@
     "@pinia/nuxt": "^0.9.0",
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
+    "imask": "^7.6.1",
     "nouislider": "^15.8.1",
     "nuxt": "^3.14.1592",
     "nuxt-swiper": "^2.0.0",
@@ -24,8 +25,7 @@
     "swiper": "^11.1.15",
     "vue": "latest",
     "vue-router": "latest",
-    "vue-slider-component": "^3.2.24",
-    "vue3-slider": "^1.10.1"
+    "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",

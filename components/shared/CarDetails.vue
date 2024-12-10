@@ -1,93 +1,126 @@
 <template>
   <div class="car-details">
     <img :src="car.image" :alt="`Фото ${car.model}`" class="car-image" />
-    <div class="car-price">от {{ car.price.toLocaleString() }} ₽</div>
-    <button class="btn">Первоначальный взнос</button>
-    <ul class="car-info">
-      <li>Марка: {{ car.brand }}</li>
-      <li>Модель: {{ car.model }}</li>
-      {{
-        loanTerm
-      }}
-      {{
-        downPayment
-      }}
-      <li>Ежемесячный платёж: {{ monthlyPayment }} ₽/мес</li>
-    </ul>
+    <heading
+      :title="'от ' + car.price.toLocaleString() + ' ₽'"
+      :level="2"
+      :size="32"
+      color="blue"
+    />
+    <div class="info">
+      <div>
+        <p>Первоначальный взнос</p>
+        <span>{{ downPayment }} % </span>
+      </div>
+      <div>
+        <p>Срок кредитования</p>
+        <span>{{ formatLoanTerm(loanTerm) }}</span>
+      </div>
+      <div>
+        <p>Ежемесячный платёж</p>
+        <span>{{ formatCurrency(monthlyPayment) }}/мес.</span>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps } from "vue";
+import heading from "../ui/heading.vue";
 
-const props = defineProps({
-  car: {
-    type: Object as () => {
-      brand: string;
-      model: string;
-      price: number;
-      image: string;
-    },
-    required: true,
-  },
-  downPayment: { type: Number, default: 30 }, // Первоначальный взнос (%)
-  loanTerm: { type: Number, default: 36 }, // Срок кредитования (в месяцах)
-});
+const props = defineProps<{
+  car: any;
+  downPayment: any;
+  loanTerm: any;
+}>();
 
 const monthlyPayment = computed(() => {
   const initialPayment = (props.car.price * props.downPayment) / 100;
   const loanAmount = props.car.price - initialPayment;
-  const interestRate = 0.07; // 7% годовых
+  const interestRate = 0.07;
   const monthlyRate = interestRate / 12;
   const numPayments = props.loanTerm;
   return Math.round(
     (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numPayments))
   );
 });
+
+const formatCurrency = (value: number): string => {
+  return value.toLocaleString("ru-RU", { style: "currency", currency: "RUB" });
+};
+
+const getYearEnding = (years: number): string => {
+  const lastDigit = years % 10;
+  const lastTwoDigits = years % 100;
+
+  if (lastTwoDigits >= 11 && lastTwoDigits <= 19) {
+    return "лет";
+  }
+
+  if (lastDigit === 1) {
+    return "год";
+  }
+
+  if (lastDigit >= 2 && lastDigit <= 4) {
+    return "года";
+  }
+
+  return "лет";
+};
+
+const formatLoanTerm = (months: number): string => {
+  if (months < 12) {
+    return `${months} мес.`;
+  }
+  const years = Math.floor(months / 12);
+  const remainingMonths = months % 12;
+  const yearEnding = getYearEnding(years);
+
+  return remainingMonths > 0
+    ? `${years} ${yearEnding} ${remainingMonths} мес.`
+    : `${years} ${yearEnding}`;
+};
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .car-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  background: #fff;
+  background-color: #f7f7f7;
+  padding: 4rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.car-image {
+  background-color: #e4e4e4;
+  border-radius: 1rem;
+  overflow: hidden;
+  @include flex-center;
+  height: 32.5rem;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 3rem;
+}
+.info {
+  background: radial-gradient(
+    105.52% 108.84% at 37.86% 30.64%,
+    rgb(0, 57, 166) 0%,
+    rgb(84, 120, 188) 100%
+  );
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0 0 0;
 
-.car-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 1rem;
-}
-
-.car-price {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #0b4dc2;
-}
-
-.car-info {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.btn {
-  background-color: #0b4dc2;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background-color: #063b96;
+  & > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    font-size: 2rem;
+    font-weight: 500;
+    span {
+      font-size: 2.4rem;
+      font-weight: 600;
+    }
+  }
 }
 </style>

@@ -182,13 +182,12 @@ const complect = [
   },
 ];
 const selectedCard = ref(cards[0]);
-const selectedComplect = ref(complect[0].id);
+const selectedComplect = ref(complect[0]?.id);
 </script>
 
 <style lang="scss" scoped>
 .single {
   padding: 5rem 0 0 0;
-  background-color: $white;
 }
 
 .gallery_single {

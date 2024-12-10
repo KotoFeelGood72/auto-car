@@ -1,8 +1,5 @@
 <template>
-  <div
-    @click="closeAllModals"
-    class="flex items-center justify-center absolute top-5 right-5 w-7 h-7 hover:text-rose-500 transition-colors cursor-pointer"
-  >
+  <div @click="closeAllModals" class="close">
     <Icon name="material-symbols-light:close" :size="28" />
   </div>
 </template>
@@ -13,4 +10,17 @@ import { useModalStore } from "~/stores/useModalStore";
 const { closeAllModals } = useModalStore();
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.close {
+  @include flex-center;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  &:hover {
+    color: rgb(231, 36, 36);
+  }
+}
+</style>

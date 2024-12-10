@@ -30,8 +30,8 @@ const slider = ref<any>(null);
 onMounted(() => {
   if (slider.value) {
     // Создаем объект range с явными min и max
-    const range = props.values.reduce((acc, value, index) => {
-      const percentage = (index / (props.values.length - 1)) * 100;
+    const range: any = props.values.reduce((acc: any, value, index) => {
+      const percentage: any = (index / (props.values.length - 1)) * 100;
       acc[percentage] = value;
       return acc;
     }, {});
@@ -45,19 +45,19 @@ onMounted(() => {
       connect: props.connect,
       range: range, // Используем кастомный range
       snap: true, // Привязка к значениям
-      pips: {
+      pips: <any>{
         mode: "values",
         values: props.values, // Значения для отображения
         density: 4,
         format: {
-          to: (value) => `${value}`,
-          from: (value) => parseFloat(value),
+          to: (value: any) => `${value} ${props.unit}`,
+          from: (value: any) => parseFloat(value),
         },
       },
     });
 
     // Обновление при перемещении ползунка
-    slider.value.noUiSlider?.on("update", (value) => {
+    slider.value.noUiSlider?.on("update", (value: any) => {
       emits("update", parseFloat(value));
     });
   }

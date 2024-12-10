@@ -20,7 +20,7 @@
           :weight="true"
           styles="primary"
           color="white"
-          @click="openModal('credit')"
+          @click="openModal('call')"
         />
       </div>
     </div>

@@ -37,7 +37,7 @@
               <span class="">{{ item.txt }}</span>
             </div>
           </div>
-          <Form :row="true" />
+          <Form :row="true" :deal-type="85" />
         </div>
         <div class="img">
           <img src="~/assets/img/tradein.jpg" alt="Трейд ин" />

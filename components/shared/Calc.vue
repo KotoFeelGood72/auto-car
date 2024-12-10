@@ -1,11 +1,11 @@
 <template>
-  <div class="calc">
+  <div class="calc mb-8">
     <div class="left-side">
-      <heading title="Выберите автомобиль" :level="2" :size="24" />
-      <Select :options="options" placeholder="Выберите марку" />
-      <Select :options="options" placeholder="Выберите модель" />
+      <heading title="Выберите автомобиль" :level="2" :size="32" />
+      <!-- <Select :options="options" placeholder="Выберите марку" />
+      <Select :options="options" placeholder="Выберите модель" /> -->
 
-      <heading title="Выберите условия автокредита" :level="2" :size="24" />
+      <heading title="Первоначальный взнос" :level="2" :size="16" />
       <range
         :start="0"
         :min="0"
@@ -15,9 +15,10 @@
         :connect="true"
         :show-values="true"
         @update="updateDownPayment"
+        unit="%"
       />
 
-      <heading title="Контактные данные" :level="2" :size="24" />
+      <heading title="Срок кредитования" :level="2" :size="16" />
       <range
         :start="6"
         :min="6"
@@ -29,7 +30,8 @@
         @update="updateLoanTerm"
         unit=""
       />
-      <Form :row="true" />
+      <heading title="Укажите контактные данные" :level="2" :size="32" />
+      <Form :row="true" :deal-type="80" />
     </div>
     <div class="right-side">
       <CarDetails
@@ -59,11 +61,11 @@ const selectedCar = ref({
   brand: "LADA",
   model: "Granta",
   price: 354400,
-  image: "https://via.placeholder.com/300x200?text=LADA+Granta",
+  image: "/assets/img/cars/black.png",
 });
 
-const downPayment = ref(30); // Первоначальный взнос (%)
-const loanTerm = ref(36); // Срок кредитования (месяцы)
+const downPayment = ref(30);
+const loanTerm = ref(36);
 
 const updateDownPayment = (value: number) => {
   downPayment.value = value;
@@ -84,8 +86,13 @@ const updateLoanTerm = (value: number) => {
   padding: 4rem;
   border-radius: 2rem;
 }
+.right-side {
+  flex-grow: 1;
+}
 
 .calc {
   @include flex-start;
+  align-items: flex-start;
+  gap: 4rem;
 }
 </style>

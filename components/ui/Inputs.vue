@@ -1,19 +1,19 @@
 <template>
-  <div :class="['input__w', theme]">
-    <div class="row">
-      <input
-        :type="type"
-        :placeholder="placeholder"
-        v-model="localValue"
-        :class="{ error: error }"
-      />
-    </div>
+  <div class="input-wrapper">
+    <input
+      ref="input"
+      :type="type"
+      :placeholder="placeholder"
+      v-model="localValue"
+      :class="{ error: error }"
+      @input="applyMask"
+    />
     <span v-if="error" class="input-message">{{ message }}</span>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps, defineEmits, watch } from "vue";
+import { ref, computed, defineProps, defineEmits } from "vue";
 
 const props = withDefaults(
   defineProps<{
@@ -21,16 +21,16 @@ const props = withDefaults(
     placeholder?: string;
     message?: string;
     error?: boolean;
-    modelValue: any;
-    theme?: "default" | "transparent";
+    modelValue: string;
+    phone?: boolean;
   }>(),
   {
     type: "text",
-    placeholder: "placeholder",
+    placeholder: "Введите номер телефона",
     message: "",
     error: false,
     modelValue: "",
-    theme: "default",
+    phone: false,
   }
 );
 
@@ -40,6 +40,39 @@ const localValue = computed({
   get: () => props.modelValue,
   set: (newValue) => emit("update:modelValue", newValue),
 });
+
+const applyMask = (event: Event) => {
+  if (!props.phone) return;
+
+  const inputElement = event.target as HTMLInputElement;
+  let value = inputElement.value.replace(/\D/g, ""); // Удаляем все нецифровые символы
+
+  // Автозамена "8" на "+7" в начале строки
+  if (value.startsWith("8")) {
+    value = "7" + value.slice(1);
+  }
+
+  // Форматируем в формате +7 (XXX) XXX-XX-XX
+  let formattedValue = "+7";
+  if (value.length > 1) {
+    formattedValue += " (" + value.slice(1, 4);
+  }
+  if (value.length >= 5) {
+    formattedValue += ") " + value.slice(4, 7);
+  }
+  if (value.length >= 8) {
+    formattedValue += "-" + value.slice(7, 9);
+  }
+  if (value.length >= 10) {
+    formattedValue += "-" + value.slice(9, 11);
+  }
+
+  // Ограничение длины
+  formattedValue = formattedValue.slice(0, 18);
+
+  // Обновляем значение в localValue
+  localValue.value = formattedValue;
+};
 </script>
 
 <style scoped lang="scss">
@@ -60,7 +93,6 @@ const localValue = computed({
   }
 }
 input {
-  @include app;
   border: 0.1rem solid $border;
   font-size: 1.6rem;
   color: $black;

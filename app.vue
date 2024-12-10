@@ -81,5 +81,15 @@ a {
 .section_in {
   max-width: 142rem;
   margin: 0 auto;
+  @include bp($point_2) {
+    padding: 0 1.5rem;
+  }
+}
+
+.mb-8 {
+  margin-bottom: 8rem;
+  @include bp($point_2) {
+    margin-bottom: 6rem;
+  }
 }
 </style>

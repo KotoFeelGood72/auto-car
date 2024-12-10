@@ -30,7 +30,7 @@
 <script setup lang="ts">
 import btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
-import { useModalStore } from "#build/imports";
+import { useModalStore } from "~/stores/useModalStore";
 
 const { openModal } = useModalStore();
 
@@ -50,8 +50,17 @@ defineProps<{
   color: $white;
   padding: 3.1rem 4rem;
 
+  @include bp($point_2) {
+    padding: 4.5rem 2rem;
+    background-position: center left;
+  }
+
   :deep(.btn) {
     padding: 1.5rem 8.4rem;
+    @include bp($point_2) {
+      padding: 1.5rem 4.4rem;
+      width: 100%;
+    }
   }
 }
 
@@ -63,13 +72,25 @@ defineProps<{
   @include flex-start;
   gap: 4rem;
   margin-bottom: 4.5rem;
+  @include bp($point_2) {
+    gap: 3rem;
+    margin: 5rem 0;
+    // flex-direction: column;
+    align-items: flex-start;
+  }
   li {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     min-width: 14.4rem;
+    @include bp($point_2) {
+      min-width: auto;
+    }
     div {
       font-size: 2rem;
+      @include bp($point_2) {
+        font-size: 1.6rem;
+      }
     }
   }
 }

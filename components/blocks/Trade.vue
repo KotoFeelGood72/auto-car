@@ -22,9 +22,7 @@
             <div
               class="grid-item"
               v-for="(item, i) in topservices"
-              :key="'service-grid-item-'"
-              +
-              i
+              :key="'service-grid-item-' + i"
             >
               <heading
                 :title="item.title"
@@ -81,6 +79,11 @@ defineProps<{
   align-items: flex-start;
   gap: 4.3rem;
   margin-bottom: 4.1rem;
+
+  @include bp($point_2) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 .col-left {
@@ -88,6 +91,10 @@ defineProps<{
   border-radius: 1rem;
   padding: 4rem;
   max-width: 63.5rem;
+  @include bp($point_2) {
+    padding: 3rem 2rem;
+    order: 1;
+  }
 }
 
 .col-top-left {
@@ -95,6 +102,9 @@ defineProps<{
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 2.5rem;
+  @include bp($point_2) {
+    gap: 0.5rem;
+  }
   p {
     font-size: 2rem;
   }
@@ -107,6 +117,12 @@ defineProps<{
   div {
     position: relative;
     text-align: center;
+
+    h2 {
+      @include bp($point_2) {
+        font-size: 1.4rem;
+      }
+    }
     &:not(:last-child) {
       padding-right: 2rem;
       &:before {
@@ -126,6 +142,9 @@ defineProps<{
   @include flex-center;
   border-radius: 1rem;
   overflow: hidden;
+  @include bp($point_2) {
+    order: 0;
+  }
   img {
     width: 100%;
     height: 100%;
@@ -135,6 +154,10 @@ defineProps<{
 
 .row-services {
   @include flex-space;
+  @include bp($point_2) {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
   li {
     @include flex-start;
     gap: 2.5rem;

@@ -1,0 +1,299 @@
+{
+  "title": "KIA Cerato в Москвае",
+  "brand": "KIA",
+  "model": "Cerato",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/zMln79uXNsKfkIHuY6sVDGRvKgmPAGX4nM3wdDMd.png",
+  "slug": "/api/cars/kia/cerato-/cerato.json",
+  "priceOld": "2 159 900",
+  "priceNew": "989 900",
+  "monthlyPayment": "7 514",
+  "features": [
+    "Передние и задние брызговики",
+    "Зеркала заднего вида окрашенные в цвет кузова",
+    "Светодиодные дневные ходовые огни (LED DRL)",
+    "Бортовой компьютер",
+    "Задние сиденья со спинками, складывающимися в соотношении 60/40",
+    "Полноразмерное запасное колесо",
+    "Система экстренной связи ЭРА-ГЛОНАСС",
+    "Система контроля давления в шинах",
+    "Интегрированная система активного управления (VSM)",
+    "Система помощи при старте в горку (HAC)",
+    "Система помощи при экстренном торможении (BAS)",
+    "Антиблокировочная система тормозов (ABS)",
+    "Передние и задние дисковые тормоза",
+    "Напоминание о пассажирах на заднем ряду (ROA)",
+    "Ключ с дистанционным управлением центральным замком",
+    "Иммобилайзер",
+    "Регулировка рулевой колонки по высоте и по вылету",
+    "Передние и задние стеклоподъёмники с электроприводом",
+    "Водительское сиденье с регулировкой по высоте",
+    "Bluetooth для подключения мобильного телефона",
+    "Мультифункциональное рулевое колесо",
+    "Мультимедийная система 8\" с поддержкой Apple Carplay / Android Auto",
+    "Камера заднего вида",
+    "Зеркала заднего вида с электроприводом и подогревом",
+    "Подогрев передних сидений",
+    "Подогрев форсунок стеклоомывателя",
+    "Стальные диски 15\" с шинами 195/65 R15",
+    "Фронтальные подушки безопасности",
+    "Кондиционер",
+    "Передние и задние брызговики",
+    "Зеркала заднего вида окрашенные в цвет кузова",
+    "Светодиодные дневные ходовые огни (LED DRL)",
+    "Бортовой компьютер",
+    "Задние сиденья со спинками, складывающимися в соотношении 60/40",
+    "Полноразмерное запасное колесо",
+    "Система экстренной связи ЭРА-ГЛОНАСС",
+    "Система контроля давления в шинах",
+    "Интегрированная система активного управления (VSM)",
+    "Система помощи при старте в горку (HAC)",
+    "Система помощи при экстренном торможении (BAS)",
+    "Антиблокировочная система тормозов (ABS)",
+    "Передние и задние дисковые тормоза",
+    "Напоминание о пассажирах на заднем ряду (ROA)",
+    "Ключ с дистанционным управлением центральным замком",
+    "Иммобилайзер",
+    "Регулировка рулевой колонки по высоте и по вылету",
+    "Передние и задние стеклоподъёмники с электроприводом",
+    "Водительское сиденье с регулировкой по высоте",
+    "Bluetooth для подключения мобильного телефона",
+    "Мультифункциональное рулевое колесо",
+    "Мультимедийная система 8\" с поддержкой Apple Carplay / Android Auto",
+    "Камера заднего вида",
+    "Зеркала заднего вида с электроприводом и подогревом",
+    "Подогрев передних сидений",
+    "Подогрев форсунок стеклоомывателя",
+    "Стальные диски 15\" с шинами 195/65 R15",
+    "Фронтальные подушки безопасности",
+    "Кондиционер",
+    "Подогрев рулевого колеса",
+    "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей",
+    "Боковые подушки и шторки безопасности",
+    "Передние и задние брызговики",
+    "Зеркала заднего вида окрашенные в цвет кузова",
+    "Светодиодные дневные ходовые огни (LED DRL)",
+    "Бортовой компьютер",
+    "Задние сиденья со спинками, складывающимися в соотношении 60/40",
+    "Полноразмерное запасное колесо",
+    "Система экстренной связи ЭРА-ГЛОНАСС",
+    "Система контроля давления в шинах",
+    "Интегрированная система активного управления (VSM)",
+    "Система помощи при старте в горку (HAC)",
+    "Система помощи при экстренном торможении (BAS)",
+    "Антиблокировочная система тормозов (ABS)",
+    "Передние и задние дисковые тормоза",
+    "Напоминание о пассажирах на заднем ряду (ROA)",
+    "Ключ с дистанционным управлением центральным замком",
+    "Иммобилайзер",
+    "Регулировка рулевой колонки по высоте и по вылету",
+    "Передние и задние стеклоподъёмники с электроприводом",
+    "Водительское сиденье с регулировкой по высоте",
+    "Bluetooth для подключения мобильного телефона",
+    "Мультифункциональное рулевое колесо",
+    "Мультимедийная система 8\" с поддержкой Apple Carplay / Android Auto",
+    "Камера заднего вида",
+    "Зеркала заднего вида с электроприводом и подогревом",
+    "Подогрев передних сидений",
+    "Подогрев форсунок стеклоомывателя",
+    "Фронтальные подушки безопасности",
+    "Подогрев рулевого колеса",
+    "Рулевое колесо и ручка селектора трансмиссии с отделкой кожей",
+    "Боковые подушки и шторки безопасности",
+    "Дополнительный электрический отопитель салона",
+    "Стальные диски 16\", с полноразмерными декоративными колпаками и шинами 205 / 55 R16",
+    "Светодиодные противотуманные фары",
+    "Раздельный климат-контроль",
+    "Круиз-контроль с ограничителем скорости",
+    "Датчик света",
+    "Приборная панель Supervision c монохромным дисплеем TFT 3.5''",
+    "Задние датчики парковки"
+  ],
+  "colors": [
+    {
+      "name": "White",
+      "image": "/api/cars/kia/cerato/colors/white.jpg",
+      "style": "background: #e5e4e6"
+    },
+    {
+      "name": "Steel Gray",
+      "image": "/api/cars/kia/cerato/colors/steel-gray.jpg",
+      "style": "background: #738091"
+    },
+    {
+      "name": "Runway Red",
+      "image": "/api/cars/kia/cerato/colors/runway-red.jpg",
+      "style": "background: #b12424"
+    },
+    {
+      "name": "Platinum Graphite",
+      "image": "/api/cars/kia/cerato/colors/platinum-graphite.jpg",
+      "style": "background: #4e5056"
+    },
+    {
+      "name": "Aurora Black Pearl",
+      "image": "/api/cars/kia/cerato/colors/aurora-black-pearl.jpg",
+      "style": "background: #262829"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л. 6МКПП (128 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "989900",
+      "priceOld": "2159900",
+      "monthlyPayment": "7514"
+    },
+    {
+      "modification": "1.6 л. 6АКПП (128 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "1029900",
+      "priceOld": "2199900",
+      "monthlyPayment": "7817"
+    },
+    {
+      "modification": "2.0 л. 6АКПП (150 л.с) FWD",
+      "engineDisplacement": "2",
+      "price": "1144900",
+      "priceOld": "2314900",
+      "monthlyPayment": "8690"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/kia/cerato/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Cerato в Краснодаре - фото №27"
+    }
+  ]
+}

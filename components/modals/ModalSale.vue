@@ -33,16 +33,25 @@ const list = [
 
 <style scoped lang="scss">
 .sale {
+  max-width: 142rem;
   background-image: url("~/assets/img/sale.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 90vw;
-  @include flex-start;
+  @include flex-space;
   gap: 4rem;
   border-radius: 1rem;
   overflow: hidden;
   padding: 4rem;
+  @include bp($point_2) {
+    padding: 6rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    flex-direction: column;
+    max-height: 90dvh;
+    overflow-y: auto;
+  }
 }
 
 .col-action {
@@ -56,19 +65,29 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  @include bp($point_2) {
+    gap: 0.5rem;
+  }
   li {
     @include flex-start;
     gap: 1rem;
     font-size: 2rem;
     font-weight: 500;
+    @include bp($point_2) {
+      font-size: 1.6rem;
+    }
     :deep(span) {
       font-size: 2rem;
       color: $primary;
+      @include bp($point_2) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
 
 .list-icon {
   color: $primary;
+  @include flex-center;
 }
 </style>

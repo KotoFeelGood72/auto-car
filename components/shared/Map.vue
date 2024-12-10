@@ -4,7 +4,9 @@
 
 <script setup lang="ts">
 import { onMounted } from "vue";
+import { useModalStore } from "../../stores/useModalStore";
 
+const {} = useModalStore();
 declare global {
   interface Window {
     ymaps: any;

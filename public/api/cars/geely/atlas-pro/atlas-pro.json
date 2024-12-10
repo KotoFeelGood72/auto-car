@@ -1,0 +1,396 @@
+{
+  "title": "Geely Atlas Pro в Москвае",
+  "brand": "Geely",
+  "model": "Atlas Pro",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/CCnrJs5q1qtXFROtKFNHsOaA45DOfDJPsygpt1bF.png",
+  "slug": "/api/cars/geely/atlas-pro-/atlas-pro.json",
+  "priceOld": "2 836 990",
+  "priceNew": "1 090 000",
+  "monthlyPayment": "8 273",
+  "features": [
+    "Датчик света",
+    "Функция дистанционной разблокировки двери багажника кнопкой на ключе",
+    "Кнопка запуска двигателя",
+    "Система мониторинга температуры и давления в шинах (TPMS)",
+    "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте (AutoHold)",
+    "Круиз-контроль с ограничителем скорости",
+    "Камера заднего вида",
+    "Задние датчики парковки (4)",
+    "Электрическая розетка 12В в передней части центральной консоли",
+    "Разъемы USB (2 спереди, 2 сзади)",
+    "Функция дублирования экрана смартфона на экране мультимедиa через USB",
+    "Аудиосистема c 6 динамиками",
+    "Мультимедийная система с сенсорным экраном диагональю 12,3\" с Bluetooth, 6 динамиками",
+    "Цифровая приборная панель с диагональю 7\"",
+    "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+    "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+    "Регулировка передних ремней безопасности по высоте",
+    "Спинки сидений второго ряда с возможностью регулировки угла наклона и складывания в соотношении 60:40",
+    "Регулировка подголовников передних сидений в 2 направлениях",
+    "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+    "Сиденье водителя с механической регулировкой в 6 направлениях",
+    "Обогрев рулевого колеса",
+    "Подогрев передних и задних сидений",
+    "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+    "Система контроля качества воздуха (AQS) с фильтром стандарта CN95",
+    "Двухзонный климат-контроль",
+    "Регулировка руля по высоте и по вылету",
+    "Электроусилитель рулевого управления (EPS)",
+    "3 режима движения (Eco, Comfort, Sport)",
+    "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+    "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+    "Система информирования об усталости водителя",
+    "Противоугонная сигнализация, иммобилайзер",
+    "Фронтальные и боковые подушки безопасности водителя и переднего пассажира",
+    "Система помощи при старте на подъеме (HHC) и при движении под уклон (HDC)",
+    "Система сигнализации при экстренном торможении (ESS)",
+    "Система курсовой устойчивости (ESC) и антипробуксовочная система (TCS)",
+    "Система помощи при экстренном торможении (EBA)",
+    "Антиблокировочная тормозная система (ABS) и система распределения тормозных усилий (EBD)",
+    "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+    "Компактное запасное колесо",
+    "Легкосплавные колесные диски 17\" (шины 225/65 R17)",
+    "Передние и задние светодиодные лампы для чтения",
+    "Передний центральный подлокотник с охлаждаемым отделением",
+    "Подстаканники в центральной консоли",
+    "Отделение для хранения очков",
+    "Шторка в багажном отделении",
+    "Материал отделки стенок багажника: пластик",
+    "Сиденья с отделкой экокожей и вставками под \"карбон\" на передних сиденьях",
+    "Отделка передних стоек пластиком",
+    "Отделка панелей передних и задних дверей экокожей",
+    "Мультифункциональное рулевое колесо с кожаной отделкой",
+    "Рейлинги на крыше",
+    "Светодиодные дневные ходовые огни, указатели поворота, задние комбинированные фонари",
+    "Галогеновые фары ближнего и дальнего света",
+    "Датчик дождя",
+    "Датчик света",
+    "Функция дистанционной разблокировки двери багажника кнопкой на ключе",
+    "Кнопка запуска двигателя",
+    "Система бесключевого доступа",
+    "Система мониторинга температуры и давления в шинах (TPMS)",
+    "Электромеханический стояночный тормоз (EPB) и функция удержания автомобиля на месте (AutoHold)",
+    "Круиз-контроль с ограничителем скорости",
+    "Система камер кругового обзора 360°",
+    "Передние датчики парковки (4)",
+    "Задние датчики парковки (4)",
+    "Электрическая розетка 12В в передней части центральной консоли",
+    "Разъемы USB (2 спереди, 2 сзади)",
+    "Функция дублирования экрана смартфона на экране мультимедиa через USB",
+    "Аудиосистема c 8 динамиками",
+    "Мультимедийная система с сенсорным экраном диагональю 12,3\" с Bluetooth, 6 динамиками",
+    "Цифровая приборная панель с диагональю 7\"",
+    "Электростеклоподъемники передних и задних дверей с функцией защиты от защемления",
+    "Функция автозатемнения и электропривод складывания наружных зеркал заднего вида",
+    "Наружные зеркала заднего вида с электрорегулировкой и подогревом",
+    "Регулировка передних ремней безопасности по высоте",
+    "Спинки сидений второго ряда с возможностью регулировки угла наклона и складывания в соотношении 60:40",
+    "Регулировка подголовников передних сидений в 4 направлениях",
+    "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+    "Сиденье водителя с электрорегулировкой в 6 направлениях",
+    "Обогрев рулевого колеса",
+    "Подогрев передних и задних сидений",
+    "Обогрев форсунок омывателя лобового стекла и зоны покоя стеклоочистителей",
+    "Система контроля качества воздуха (AQS) с фильтром стандарта CN95",
+    "Двухзонный климат-контроль",
+    "Регулировка руля по высоте и по вылету",
+    "Электроусилитель рулевого управления (EPS)",
+    "4 режима движения (Eco, Comfort, Sport, Off-road)",
+    "Механизм блокировки открывания задних боковых дверей изнутри «Детский замок»",
+    "Крепления для детских кресел стандарта ISOFIX на втором ряду сидений",
+    "Функция предупреждения об оставленном в автомобиле ключе",
+    "Преднатяжители ремней безопасности передних и боковых сидений второго ряда",
+    "Система информирования об усталости водителя",
+    "Противоугонная сигнализация, иммобилайзер",
+    "Боковые подушки безопасности занавесочного типа",
+    "Фронтальные и боковые подушки безопасности водителя и переднего пассажира",
+    "Система помощи при старте на подъеме (HHC) и при движении под уклон (HDC)",
+    "Система сигнализации при экстренном торможении (ESS)",
+    "Система курсовой устойчивости (ESC) и антипробуксовочная система (TCS)",
+    "Система помощи при экстренном торможении (EBA)",
+    "Антиблокировочная тормозная система (ABS) и система распределения тормозных усилий (EBD)",
+    "Система вызова экстренных оперативных служб ЭРА-ГЛОНАСС",
+    "Компактное запасное колесо",
+    "Легкосплавные колесные диски 18\" (шины 225/60 R18)",
+    "Передние и задние светодиодные лампы для чтения",
+    "Задний центральный подлокотник с подстаканниками скрытого типа",
+    "Передний центральный подлокотник с охлаждаемым отделением",
+    "Подстаканники в центральной консоли",
+    "Салонное зеркало заднего вида с функцией автозатемнения",
+    "Отделение для хранения очков",
+    "Шторка в багажном отделении",
+    "Материал отделки стенок багажника: пластик",
+    "Декоративная металлическая накладка на порог багажного отделения",
+    "Декоративные металлические накладки на пороги дверей",
+    "Сиденья с отделкой экокожей и вставками под \"карбон\" на передних сиденьях",
+    "Отделка передних стоек тканью",
+    "Отделка панелей передних и задних дверей экокожей",
+    "Мультифункциональное рулевое колесо с кожаной отделкой",
+    "Рейлинги на крыше",
+    "Подсветка околодверной зоны в наружных зеркалах заднего вида",
+    "Задние динамические указатели поворотов",
+    "Светодиодные дневные ходовые огни, указатели поворота, задние комбинированные фонари",
+    "Светодиодные фары ближнего и дальнего света"
+  ],
+  "colors": [
+    {
+      "name": "Белый",
+      "image": "/api/cars/geely/atlas-pro/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серебристый металлик",
+      "image": "/api/cars/geely/atlas-pro/colors/serebristyj-metallik.jpg",
+      "style": "background: #afaeb2"
+    },
+    {
+      "name": "Серый металлик",
+      "image": "/api/cars/geely/atlas-pro/colors/seryj-metallik.jpg",
+      "style": "background: #5a5c5f"
+    },
+    {
+      "name": "Черный металлик",
+      "image": "/api/cars/geely/atlas-pro/colors/chernyj-metallik.jpg",
+      "style": "background: #231f20"
+    },
+    {
+      "name": "Красный металлик",
+      "image": "/api/cars/geely/atlas-pro/colors/krasnyj-metallik.jpg",
+      "style": "background: #df3729"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5T 4WD 7DCT (177 л.с.)",
+      "engineDisplacement": "1.5",
+      "price": "1485000",
+      "priceOld": "3231990",
+      "monthlyPayment": "11272"
+    },
+    {
+      "modification": "1.5T 2WD 6AT (150 л.с.)",
+      "engineDisplacement": "1.5",
+      "price": "1090000",
+      "priceOld": "2836990",
+      "monthlyPayment": "8273"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №32"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-33.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №33"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-34.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №34"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-35.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №35"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-36.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №36"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-37.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №37"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-38.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №38"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-39.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №39"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-40.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №40"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-41.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №41"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-42.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №42"
+    },
+    {
+      "fullImage": "/api/cars/geely/atlas-pro/gallery/gallery-43.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Atlas Pro в Краснодаре - фото №43"
+    }
+  ]
+}

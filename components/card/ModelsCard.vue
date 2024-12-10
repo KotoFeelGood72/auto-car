@@ -23,5 +23,8 @@ const props = defineProps<{
   padding: 1.5rem;
   border-radius: 1rem;
   font-size: 1.4rem;
+  @include bp($point_2) {
+    width: 23%;
+  }
 }
 </style>

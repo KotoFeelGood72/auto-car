@@ -1,0 +1,207 @@
+{
+  "title": "Renault Logan в Москвае",
+  "brand": "Renault",
+  "model": "Logan",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/AY7jbkgXrjGI42RoDa4bUz6VgWWnqEOHiEcS7HDh.png",
+  "slug": "/api/cars/renault/logan-/logan.json",
+  "priceOld": "1 124 000",
+  "priceNew": "569 000",
+  "monthlyPayment": "4 319",
+  "features": [
+    "Бамперы в цвет кузова",
+    "Решетка радиатора черного цвета",
+    "Наружные зеркала и ручки дверей черного цвета",
+    "Передние брызговики",
+    "Штампованные стальные 15-дюймовые диски колес Magiceo",
+    "Лёгкая тонировка стекол",
+    "Тканевая обивка сидений",
+    "Ручки дверей черного цвета",
+    "Новый дизайн рулевого колеса с улучшенной эргономикой",
+    "Гидроусилитель рулевого управления",
+    "Светодиодные «С-образные» дневные ходовые огни",
+    "Рециркуляция воздуха",
+    "Обогрев заднего стекла",
+    "Наружные зеркала с ручной регулировкой",
+    "Центральный замок с дистанционным управлением",
+    "Спинка заднего сиденья, складывающаяся в соотношении 1/3 - 2/3",
+    "Открытие лючка бензобака из салона",
+    "Подушка безопасности водителя",
+    "ABS с электронным распределением тормозных усилий",
+    "Звуковое напоминание о непристегнутом ремне водителя",
+    "Cистема креплений ISOFIX на задних боковых сиденьях",
+    "2 передних регулируемых по высоте подголовника",
+    "Трехточечные ремни безопасности на передних сиденьях с ограничителями усилий",
+    "Три трехточечных ремня безопасности на задних сиденьях",
+    "Система контроля парковки (задние датчики)",
+    "Полноразмерное запасное колесо",
+    "Электронное противоугонное устройство",
+    "Адаптация двигателя к запуску в холодном климате",
+    "Защита картера двигателя",
+    "Гарантия 3 года или 100000 км (в зависимости от того, что наступит раньше)",
+    "Антикоррозийная защита: 6 лет гарантии производителя",
+    "Штампованные стальные 15-дюймовые диски колес Magiceo",
+    "Лёгкая тонировка стекол",
+    "Тканевая обивка сидений",
+    "Новый дизайн рулевого колеса с улучшенной эргономикой",
+    "Бортовой компьютер",
+    "Передние электростеклоподъёмники",
+    "Центральный замок с дистанционным управлением",
+    "Спинка заднего сиденья, складывающаяся в соотношении 1/3 - 2/3",
+    "Подушка безопасности водителя",
+    "Cистема креплений ISOFIX на задних боковых сиденьях",
+    "Полноразмерное запасное колесо",
+    "Адаптация двигателя к запуску в холодном климате",
+    "Защита картера двигателя",
+    "Гарантия 3 года или 100000 км (в зависимости от того, что наступит раньше)",
+    "Антикоррозийная защита: 6 лет гарантии производителя",
+    "Электроусилитель рулевого управления"
+  ],
+  "colors": [
+    {
+      "name": "БЕЛЫЙ ЛЕД",
+      "image": "/api/cars/renault/logan/colors/belyj-led.jpg",
+      "style": "background: #e0e0e2"
+    },
+    {
+      "name": "СЕРАЯ ПЛАТИНА",
+      "image": "/api/cars/renault/logan/colors/seraya-platina.jpg",
+      "style": "background: #bebec0"
+    },
+    {
+      "name": "СВЕТЛЫЙ БАЗАЛЬТ",
+      "image": "/api/cars/renault/logan/colors/svetlyj-bazalt.jpg",
+      "style": "background: #aea596"
+    },
+    {
+      "name": "ЛАЗУРНО-СИНИЙ",
+      "image": "/api/cars/renault/logan/colors/lazurno-sinij.jpg",
+      "style": "background: #058ecb"
+    },
+    {
+      "name": "КРАСНЫЙ",
+      "image": "/api/cars/renault/logan/colors/krasnyj.jpg",
+      "style": "background: #c2112d"
+    },
+    {
+      "name": "ЧЕРНАЯ ЖЕМЧУЖИНА",
+      "image": "/api/cars/renault/logan/colors/chernaya-zhemchuzhina.jpg",
+      "style": "background: #0e0e01"
+    },
+    {
+      "name": "КОРИЧНЕВЫЙ",
+      "image": "/api/cars/renault/logan/colors/korichnevyj.jpg",
+      "style": "background: #28231d"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л. 5MKПП (82 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "569000",
+      "priceOld": "1124000",
+      "monthlyPayment": "4319"
+    },
+    {
+      "modification": "1.6 л. 4АKПП (102 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "761000",
+      "priceOld": "1316000",
+      "monthlyPayment": "5776"
+    },
+    {
+      "modification": "1.6 л. 5MKПП (113 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "706000",
+      "priceOld": "1261000",
+      "monthlyPayment": "5359"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan в Краснодаре - фото №17"
+    }
+  ]
+}

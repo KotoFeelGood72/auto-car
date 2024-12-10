@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { useModalStore } from "#build/imports";
+import { useModalStore } from "~/stores/useModalStore";
 import Btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
 import timer from "../ui/timer.vue";

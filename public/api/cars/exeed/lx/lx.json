@@ -1,0 +1,266 @@
+{
+  "title": "EXEED LX в Москвае",
+  "brand": "EXEED",
+  "model": "LX",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/TTrdUe7UaMRxGSLIIgTmLqD2SfTcJ7KROlpx4SH4.png",
+  "slug": "/api/cars/exeed/lx-/lx.json",
+  "priceOld": "3 380 000",
+  "priceNew": "2 028 000",
+  "monthlyPayment": "15 393",
+  "features": [
+    "Камера 360°",
+    "Камера задняя",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Парктроник передний",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 2-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Адаптивный круиз-контроль",
+    "Регулировка руля по высоте и вылету",
+    "Дистанционный запуск двигателя",
+    "Электропривод крышки багажника",
+    "Система выбора режима движения Driving Mode Selection",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Электропривод двери багажника (открытие багажника без помощи рук)",
+    "Мультифункциональное рулевое колесо",
+    "Датчик дождя/света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев лобового стекла",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Тонированные стекла",
+    "Подогрев задних сидений",
+    "Память сиденья водителя",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Вентиляция передних сидений",
+    "Декоративная подсветка салона",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Электрорегулировка передних сидений",
+    "Искусственная кожа (Материал салона)",
+    "Регулировка передних сидений по высоте",
+    "Сиденье водителя с поясничной поддержкой",
+    "Розетка 12V",
+    "Голосовое управление",
+    "Навигационная система",
+    "Премиальная аудиосистема Bose",
+    "Мультимедиа система с ЖК-экраном",
+    "Беспроводная зарядка для смартфона",
+    "Легкосплавные диски 19\" с шинами 245/45 R19",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Система контроля слепых зон",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система предотвращения столкновения",
+    "Система контроля за полосой движения",
+    "Подушки безопасности оконные (шторки)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Полноразмерное запасное колесо"
+  ],
+  "colors": [
+    {
+      "name": "Титан (темно-серый)",
+      "image": "/api/cars/exeed/lx/colors/titan-temno-seryj.jpg",
+      "style": "background: #29292f"
+    },
+    {
+      "name": "Сириус (синий)",
+      "image": "/api/cars/exeed/lx/colors/sirius-sinij.jpg",
+      "style": "background: #184488"
+    },
+    {
+      "name": "Кассиопея (голубой)",
+      "image": "/api/cars/exeed/lx/colors/kassiopeya-goluboj.jpg",
+      "style": "background: #afd0e9"
+    },
+    {
+      "name": "Фуор (красный)",
+      "image": "/api/cars/exeed/lx/colors/fuor-krasnyj.jpg",
+      "style": "background: #ab0e2c"
+    },
+    {
+      "name": "Серый фантом (серый)",
+      "image": "/api/cars/exeed/lx/colors/seryj-fantom-seryj.jpg",
+      "style": "background: #636c79"
+    },
+    {
+      "name": "Аструм (белый)",
+      "image": "/api/cars/exeed/lx/colors/astrum-belyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. 9AMT(147 л.c.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "2108000",
+      "priceOld": "3460000",
+      "monthlyPayment": "16000"
+    },
+    {
+      "modification": "1.6 л. 7AMT (150 л.с) 4WD",
+      "engineDisplacement": "1.6",
+      "price": "2028000",
+      "priceOld": "3380000",
+      "monthlyPayment": "15393"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX в Краснодаре - фото №27"
+    }
+  ]
+}

@@ -17,13 +17,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
-import TradeFly from "~/components/ui/TradeFly.vue";
-import Map from "~/components/shared/Map.vue";
-import { useModalStore, useModalStoreRefs } from "~/stores/useModalStore";
+import { ref, computed, onMounted, onUnmounted, watch } from "vue";
+import TradeFly from "../components/ui/TradeFly.vue";
+import Map from "../components/shared/Map.vue";
+import { useModalStoreRefs, useModalStore } from "../stores/useModalStore";
 import { useRoute } from "vue-router";
-import modal from "~/components/modals/modal.vue";
-import SaleBanner from "~/components/shared/SaleBanner.vue";
+import modal from "../components/modals/modal.vue";
+import SaleBanner from "../components/shared/SaleBanner.vue";
 
 const { closeAllModals } = useModalStore();
 const { modals } = useModalStoreRefs();

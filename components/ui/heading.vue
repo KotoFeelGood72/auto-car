@@ -40,12 +40,24 @@ const isColor = computed(() => {
   line-height: 120%;
   font-family: $font_1;
   font-weight: 600;
+  @include bp($point_2) {
+    font-size: 2.6rem;
+  }
+}
+.heading-30 {
+  font-size: 3rem;
+  line-height: 120%;
+  font-family: $font_1;
+  font-weight: 600;
 }
 .heading-42 {
   font-size: 4.2rem;
   line-height: 120%;
   font-family: $font_1;
   font-weight: 600;
+  @include bp($point_2) {
+    font-size: 2.6rem;
+  }
 }
 .heading-36 {
   font-size: 3.6rem;
@@ -64,6 +76,9 @@ const isColor = computed(() => {
   line-height: 100%;
   font-family: $font_1;
   font-weight: 600;
+  @include bp($point_2) {
+    font-size: 2.2rem;
+  }
 }
 .heading-24 {
   font-size: 2.4rem;

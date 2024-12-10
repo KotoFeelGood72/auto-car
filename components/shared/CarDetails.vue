@@ -87,6 +87,12 @@ const formatLoanTerm = (months: number): string => {
   padding: 4rem;
   border-radius: 2rem;
   overflow: hidden;
+
+  @include bp($point_2) {
+    padding: 2rem;
+    width: 100%;
+    flex-grow: 1;
+  }
 }
 .car-image {
   background-color: #e4e4e4;
@@ -97,6 +103,13 @@ const formatLoanTerm = (months: number): string => {
   width: 100%;
   object-fit: contain;
   margin-bottom: 3rem;
+  @include bp($point_2) {
+    max-width: 20rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: transparent;
+  }
 }
 .info {
   background: radial-gradient(
@@ -117,9 +130,16 @@ const formatLoanTerm = (months: number): string => {
     grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
     font-size: 2rem;
     font-weight: 500;
+    @include bp($point_2) {
+      font-size: 1.2rem;
+      gap: 1rem 2rem;
+    }
     span {
       font-size: 2.4rem;
       font-weight: 600;
+      @include bp($point_2) {
+        font-size: 1.4rem;
+      }
     }
   }
 }

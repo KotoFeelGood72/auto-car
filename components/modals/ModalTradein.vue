@@ -9,7 +9,7 @@
       <div>Скидка <span>300 000 руб</span> на следующий автомобиль</div>
       <div>3 ТО в подарок</div>
     </div>
-    <heading title="Укажите контактные данные" :size="24" />
+    <heading title="Укажите контактные данные" :size="24" class="subtitle" />
     <Form :row="true" :deal-type="85" />
   </div>
 </template>
@@ -26,7 +26,7 @@ import heading from "../ui/heading.vue";
   display: inline-flex;
   padding: 1.5rem 2rem 0.5rem 2rem;
   border-radius: 1rem;
-  margin: 1.5rem 0 3rem 0;
+  margin: 1.5rem 0 2rem 0;
 }
 
 .title {
@@ -48,6 +48,9 @@ import heading from "../ui/heading.vue";
 }
 
 .title {
+  margin-bottom: 3rem;
+}
+.subtitle {
   margin-bottom: 2rem;
 }
 
@@ -56,6 +59,7 @@ import heading from "../ui/heading.vue";
   gap: 1.5rem;
   font-size: 2.2rem;
   margin-bottom: 4rem;
+
   div {
     border-radius: 1rem;
     border: 0.2rem dashed #1f64b8ad;

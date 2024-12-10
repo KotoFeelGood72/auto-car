@@ -1,0 +1,228 @@
+{
+  "title": "Hyundai Tucson в Москвае",
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/R8IAteEbyNd7mN8WCrOP6L0GS8L2OYlN8LwKa86a.png",
+  "slug": "/api/cars/hyundai/tucson-/tucson.json",
+  "priceOld": "2 749 000",
+  "priceNew": "1 649 400",
+  "monthlyPayment": "12 519",
+  "features": [
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Боковые подушки безопасности водителя и переднего пассажира",
+    "Боковые шторки безопасности",
+    "Регулировка передних ремней безопасности по высоте",
+    "Система предупреждения водителей сзади при экстренном торможении (ESS)",
+    "Пульт управления центральным замком в ключе + сигнализация",
+    "Система помощи при движение на уклоне (HAC, DAC)",
+    "Система управления стабилизацией (ABS, ESP, TSC, EBD, VSM)",
+    "Электропривод и подогрев наружных зеркал",
+    "Система мониторинга давления в шинах",
+    "Светодиодные дневные ходовые огни и передние габаритные огни",
+    "Датчик света",
+    "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
+    "Повторители сигналов поворота в корпусах наружных зеркал",
+    "Программа «Помощь на дороге»",
+    "Интеграция со смартфонами (Apple CarPlay™/Android Auto™)",
+    "Управление аудиосистемой на руле /Bluetooth для 2 устройств)",
+    "Панель приборов Supervision с цветным экраном 4.2",
+    "Круиз-контроль с управлением на руле с ограничителем скорости",
+    "Выбор режимов движения Drive mode (для 2.5 GDI и 2.0D с функцией Multi-Terrain Control)",
+    "Регулировка угла наклона спинок сидений второго ряда",
+    "Подогрев передних сидений",
+    "Складывающаяся спинка второго ряда сидений (в пропорции 60:40)",
+    "Электростеклоподъемники",
+    "Защита порогов от загрязнения / передние и задние брызговики",
+    "Регулировка рулевой колонки по высоте и вылету",
+    "Шторка багажника",
+    "Розетка 12 В в багажном отделении",
+    "Ручки дверей и зеркала в цвет кузова",
+    "Отделка руля и рукоятки КПП кожей",
+    "Кондиционер",
+    "Фары проекционного типа",
+    "Мультимедийная система с сенсорным экраном 8'', 6 динамиков",
+    "Обивка сидений тканью",
+    "Легкосплавные диски 17\" с шинами 235/65 R17",
+    "Запасное колесо для временного использования",
+    "Система доступа в салон без ключа и кнопка запуска двигателя"
+  ],
+  "colors": [
+    {
+      "name": "Черный / Phantom Black",
+      "image": "/api/cars/hyundai/tucson/colors/chernyj-phantom-black.jpg",
+      "style": "background: #18161b"
+    },
+    {
+      "name": "Серый / Titan Gray",
+      "image": "/api/cars/hyundai/tucson/colors/seryj-titan-gray.jpg",
+      "style": "background: #353535"
+    },
+    {
+      "name": "Красный / Crimson Red",
+      "image": "/api/cars/hyundai/tucson/colors/krasnyj-crimson-red.jpg",
+      "style": "background: #691620"
+    },
+    {
+      "name": "White Cream",
+      "image": "/api/cars/hyundai/tucson/colors/white-cream.jpg",
+      "style": "background: #f8f8f6"
+    },
+    {
+      "name": "Бежевый / Silky Bronze",
+      "image": "/api/cars/hyundai/tucson/colors/bezhevyj-silky-bronze.jpg",
+      "style": "background: #dcd5ca"
+    },
+    {
+      "name": "Синий / Deep Sea",
+      "image": "/api/cars/hyundai/tucson/colors/sinij-deep-sea.jpg",
+      "style": "background: #020713"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 л (149.6 л.c.), 6MT 2WD",
+      "engineDisplacement": "2",
+      "price": "1649400",
+      "priceOld": "2749000",
+      "monthlyPayment": "12519"
+    },
+    {
+      "modification": "2.0 л (149.6 л.c.), 6AT 2WD",
+      "engineDisplacement": "2",
+      "price": "1709400",
+      "priceOld": "2809000",
+      "monthlyPayment": "12975"
+    },
+    {
+      "modification": "2.0 л (149.6 л.c.), 6MT HTRAC",
+      "engineDisplacement": "2",
+      "price": "1839400",
+      "priceOld": "2939000",
+      "monthlyPayment": "13962"
+    },
+    {
+      "modification": "2.0 л (149.6 л.c.), 6AT HTRAC",
+      "engineDisplacement": "2",
+      "price": "1899400",
+      "priceOld": "2999000",
+      "monthlyPayment": "14417"
+    },
+    {
+      "modification": "2.5 л GDi (190 л.c.), 8AT HTRAC",
+      "engineDisplacement": "2.5",
+      "price": "2049400",
+      "priceOld": "3149000",
+      "monthlyPayment": "15555"
+    },
+    {
+      "modification": "D2.0 л (186 л.c.), 8AT HTRAC",
+      "engineDisplacement": "2",
+      "price": "2239400",
+      "priceOld": "3339000",
+      "monthlyPayment": "16998"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/hyundai/tucson/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Hyundai Tucson в Краснодаре - фото №20"
+    }
+  ]
+}

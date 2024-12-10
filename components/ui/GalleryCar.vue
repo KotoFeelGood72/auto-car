@@ -2,6 +2,7 @@
   <div class="cars">
     <div class="img">
       <img :src="selectedImage" alt="Автомобиль" />
+      <div class="hot">Выгода 739 600 ₽</div>
     </div>
     <div class="color-picker__w">
       <p class="label">Цвет: {{ selectedColor }}</p>
@@ -45,6 +46,18 @@ const selectColor = (colorName: string, image: string) => {
   background-color: #f3f3f3;
   border-radius: 1rem;
   overflow: hidden;
+  position: relative;
+}
+
+.hot {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border-radius: 1rem;
+  background-color: $red;
+  padding: 1rem 2rem;
+  color: $white;
+  font-size: 1.8rem;
 }
 
 .cars {

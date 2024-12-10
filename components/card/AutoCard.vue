@@ -26,6 +26,13 @@
             size="normal"
             styles="primary"
             color="blue"
+            @click.prevent="
+              openModal('car', {
+                img: '/assets/img/cars/beige.png',
+                title: 'Спецпредложение по кредиту',
+                name: 'Jetta VS7',
+              })
+            "
           />
         </div>
       </div>
@@ -36,6 +43,9 @@
 <script setup lang="ts">
 import btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
+import { useModalStore } from "~/stores/useModalStore";
+
+const { openModal } = useModalStore();
 </script>
 
 <style scoped lang="scss">

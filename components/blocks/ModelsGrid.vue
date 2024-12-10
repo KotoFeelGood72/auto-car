@@ -30,5 +30,9 @@ defineProps<{
   @include flex-start;
   gap: 2.1rem;
   flex-wrap: wrap;
+
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 }
 </style>

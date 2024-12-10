@@ -8,12 +8,13 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { useModalStoreRefs } from "@/stores/useModalStore";
+import { useModalStoreRefs } from "~/stores/useModalStore";
 import ModalSale from "./ModalSale.vue";
 import ModalCredit from "./ModalCredit.vue";
 import ModalHappy from "./ModalHappy.vue";
 import ModalTradein from "./ModalTradein.vue";
 import ClassicModal from "./ClassicModal.vue";
+import ModalCar from "./ModalCar.vue";
 
 const { modals } = useModalStoreRefs();
 type ModalKey = keyof typeof modals.value;
@@ -43,6 +44,8 @@ const activeModalComponent = computed(() => {
           return ModalCredit;
         case "call":
           return ClassicModal;
+        case "car":
+          return ModalCar;
         default:
           return null;
       }
@@ -136,5 +139,12 @@ const modalTransitionName = computed(() => {
   transform: translate(-50%, -50%);
   flex-direction: column;
   z-index: 115;
+  @include bp($point_2) {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    transform: translate(0, 0%);
+    left: 0;
+  }
 }
 </style>

@@ -1,7 +1,8 @@
 export interface Modals {
-  sale: boolean
-  trade: boolean
-  happy: boolean
-  credit: boolean
-  call: boolean
+  sale: boolean;
+  trade: boolean;
+  happy: boolean;
+  credit: boolean;
+  call: boolean;
+  car: boolean;
 }

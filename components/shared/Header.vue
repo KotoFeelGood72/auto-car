@@ -24,6 +24,7 @@
             styles="secondary"
             color="dark"
             @click="openModal('call')"
+            class="header_btn"
           />
           <div class="burger">
             <Icon name="iconamoon:menu-burger-horizontal-light" :size="40" />
@@ -101,11 +102,17 @@ const other = [
 .phone {
   @include flex-start;
   gap: 1rem;
+  @include bp($point_2) {
+    display: none;
+  }
 }
 
 .timework {
   @include flex-end;
   text-align: right;
+  @include bp($point_2) {
+    display: none;
+  }
 }
 
 .contact {
@@ -116,10 +123,16 @@ const other = [
 
 .stars {
   max-width: 15.4rem;
+  @include bp($point_2) {
+    display: none;
+  }
 }
 .bottom {
   background-color: $black;
   color: $white;
+  @include bp($point_2) {
+    display: none;
+  }
   a {
     color: inherit;
     font-size: 2rem;
@@ -134,4 +147,10 @@ nav {
   @include flex-start;
   gap: 5.2rem;
 }
+
+// .header_btn {
+//   @include bp($point_2) {
+//     display: none;
+//   }
+// }
 </style>

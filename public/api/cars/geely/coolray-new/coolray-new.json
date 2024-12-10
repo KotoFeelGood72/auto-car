@@ -1,0 +1,471 @@
+{
+  "title": "Geely Coolray  NEW в Москвае",
+  "brand": "Geely",
+  "model": "Coolray  NEW",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/KHrm0wKlsVKeOhQOjpImoFJhXA1907YMGh4bPZjG.png",
+  "slug": "/api/cars/geely/coolray-new-/coolray-new.json",
+  "priceOld": "2 713 190",
+  "priceNew": "1 219 990",
+  "monthlyPayment": "9 260",
+  "features": [
+    "Камера задняя",
+    "Круиз-контроль",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 1-зонный",
+    "Запуск двигателя с кнопки",
+    "Регулировка руля по высоте и вылету",
+    "Электронная приборная панель",
+    "Дистанционный запуск двигателя",
+    "Система выбора режима движения Driving Mode Selection",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Датчик света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев зоны стеклоочистителей",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Подогрев задних сидений",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Искусственная кожа (Материал салона)",
+    "Регулировка сиденья водителя по высоте",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Сигнализация",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система помощи при старте в гору (HSA)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка",
+    "Камера задняя",
+    "Круиз-контроль",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 1-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Регулировка руля по высоте и вылету",
+    "Электронная приборная панель",
+    "Дистанционный запуск двигателя",
+    "Система выбора режима движения Driving Mode Selection",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Датчик света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев зоны стеклоочистителей",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Подогрев задних сидений",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Искусственная кожа (Материал салона)",
+    "Регулировка сиденья водителя по высоте",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Сигнализация",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система помощи при старте в гору (HSA)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка",
+    "Камера 360°",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Парктроник передний",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 1-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Адаптивный круиз-контроль",
+    "Регулировка руля по высоте и по вылету",
+    "Электронная приборная панель",
+    "Дистанционный запуск двигателя",
+    "Электропривод крышки багажника",
+    "Электростеклоподъемники задние",
+    "Система автоматической парковки",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Датчик дождя/света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Система управления дальним светом (HBA)",
+    "Электрообогрев зоны стеклоочистителей",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Подогрев задних сидений",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Декоративная подсветка салона",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Декоративные накладки на педали",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Комбинированный (Материал салона)",
+    "Электрорегулировка сиденья водителя",
+    "Регулировка сиденья водителя по высоте",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Беспроводная зарядка для смартфона",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Сигнализация",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Система контроля слепых зон",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система предотвращения столкновения",
+    "Система распознавания дорожных знаков SLIF",
+    "Подушки безопасности оконные (шторки)",
+    "Система помощи при старте в гору (HSA)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка",
+    "Камера 360°",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Парктроник передний",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 1-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Адаптивный круиз-контроль",
+    "Регулировка руля по высоте и вылету",
+    "Электронная приборная панель",
+    "Дистанционный запуск двигателя",
+    "Электропривод крышки багажника",
+    "Система выбора режима движения Driving Mode Selection",
+    "Электростеклоподъемники задние",
+    "Система автоматической парковки",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Датчик дождя/света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Система управления дальним светом (HBA)",
+    "Электрообогрев зоны стеклоочистителей",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Подогрев задних сидений",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Декоративная подсветка салона",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Декоративные накладки на педали",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Комбинированный (Материал салона)",
+    "Электрорегулировка сиденья водителя",
+    "Регулировка сиденья водителя по высоте",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Беспроводная зарядка для смартфона",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Сигнализация",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Система контроля слепых зон",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система предотвращения столкновения",
+    "Система распознавания дорожных знаков SLIF",
+    "Подушки безопасности оконные (шторки)",
+    "Система помощи при старте в гору (HSA)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка"
+  ],
+  "colors": [
+    {
+      "name": "Красный",
+      "image": "/api/cars/geely/coolray-new/colors/krasnyj.jpg",
+      "style": "background: #ff0000"
+    },
+    {
+      "name": "Голубой металлик",
+      "image": "/api/cars/geely/coolray-new/colors/goluboj-metallik.jpg",
+      "style": "background: #49b6d0"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/geely/coolray-new/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/geely/coolray-new/colors/seryj.jpg",
+      "style": "background: #696969"
+    },
+    {
+      "name": "Лиловый перламутр",
+      "image": "/api/cars/geely/coolray-new/colors/lilovyj-perlamutr.jpg",
+      "style": "background: #bdadc2"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5T 2WD 7DCT (147 л.с.)",
+      "engineDisplacement": "1.5",
+      "price": "1219990",
+      "priceOld": "2713190",
+      "monthlyPayment": "9260"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №32"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-33.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №33"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-34.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №34"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-35.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №35"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-36.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №36"
+    },
+    {
+      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-37.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Coolray  NEW в Краснодаре - фото №37"
+    }
+  ]
+}

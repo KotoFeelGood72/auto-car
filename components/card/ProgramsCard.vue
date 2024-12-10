@@ -23,6 +23,12 @@ defineProps<{
   border: 0.1rem solid $border;
   padding: 3.1rem 4rem;
   border-radius: 1rem;
+
+  @include bp($point_2) {
+    width: 100%;
+
+    padding: 2rem;
+  }
 }
 
 .text {
@@ -33,5 +39,8 @@ defineProps<{
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  @include bp($point_2) {
+    gap: 0.5rem;
+  }
 }
 </style>

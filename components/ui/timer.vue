@@ -80,10 +80,16 @@ onUnmounted(() => {
 .timer-row {
   @include flex-start;
   gap: 2rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 
   p {
     @include flex-center;
     font-size: 2rem;
+    @include bp($point_2) {
+      font-size: 1.4rem;
+    }
   }
 }
 
@@ -99,6 +105,11 @@ onUnmounted(() => {
   border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  @include bp($point_2) {
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0.3rem;
+  }
 
   div {
     flex-grow: 1;
@@ -107,6 +118,9 @@ onUnmounted(() => {
   }
   span {
     font-size: 5rem;
+    @include bp($point_2) {
+      font-size: 2rem;
+    }
   }
 }
 

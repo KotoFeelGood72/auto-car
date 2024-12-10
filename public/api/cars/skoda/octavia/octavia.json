@@ -1,0 +1,321 @@
+{
+  "title": "Skoda Octavia в Москвае",
+  "brand": "Skoda",
+  "model": "Octavia",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/vlINrJUI8Mmmm3A1uOqtDmyZJHQJrnGg0FlNCrEZ.png",
+  "slug": "/api/cars/skoda/octavia-/octavia.json",
+  "priceOld": "1 657 000",
+  "priceNew": "994 200",
+  "monthlyPayment": "7 546",
+  "features": [
+    "Наружные зеркала в цвет кузова",
+    "Теплозащитное остекление",
+    "Подвеска для плохих дорог",
+    "LED-фонари сзади (для Style - фонари High)",
+    "2-спицевое кожаное рулевое колесо, кожаный рычаг КПП (только для МКПП)",
+    "Многофункциональное 2-спицевое кожаное рулевое колесо (для АКПП - с управлением АКПП)",
+    "Центральная консоль со шторкой-жалюзи (в Style Plus с беспроводной зарядкой для телефона)",
+    "Передний центральный подлокотник Jumbo Box",
+    "2x USB спереди, 2x USB сзади и 1х USB в зеркале заднего вида (в Active Plus - только 2x USB спереди)",
+    "Макияжные зеркала спереди (в Style Plus - со светодиодной подсветкой)",
+    "Ручная регулировка высоты передних сидений (для Active Plus - только водительского)",
+    "Спинка заднего сиденья делимая складная (для Style Plus - с подлокотником)",
+    "Подсветка в багажнике + фонарик",
+    "Розетка 12В в багажнике, полка багажника складная",
+    "Антиблокировочная система тормозов (ABS)",
+    "ESC (Система электронной стабилизации)",
+    "Электронная межколесная блокировка дифференциала XDS",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Боковые подушки безопасности спереди",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Крепления для детских сидений ISOFIX",
+    "Индикатор непристегнутого ремня безопасности водителя и всех пассажиров",
+    "Датчик давления воздуха в шинах",
+    "Кнопка запуска двигателя Kessy Go, центральный замок с ДУ, электронный иммобилайзер",
+    "3 подголовника сзади (для Entry - 2 подголовника)",
+    "Набор автомобилиста премиум",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Многофункциональный дисплей Maxi Dot",
+    "Кондиционер, охлаждаемый перчаточный ящик",
+    "Наружные электрозеркала с обогревом (для Style Plus - c электроскладыванием и затемнением)",
+    "Светодиодные фары (LED) ближнего и дальнего света, дневной свет фар Day Light на светодиодах",
+    "Электростеклоподъемники спереди и сзади c автоматическим режимом, с блокировкой открывания пассажирами",
+    "Передние сиденья с подогревом",
+    "Скребок для льда",
+    "Радио Swing - экран 8''",
+    "Функция блютуз",
+    "Полноразмерное стальное запасное колесо, комплект инструментов и домкрат",
+    "Наружные зеркала в цвет кузова",
+    "Теплозащитное остекление",
+    "Подвеска для плохих дорог",
+    "LED-фонари сзади (для Style - фонари High)",
+    "Многофункциональное 2-спицевое кожаное рулевое колесо (для АКПП - с управлением АКПП)",
+    "Центральная консоль со шторкой-жалюзи (в Style Plus с беспроводной зарядкой для телефона)",
+    "Передний центральный подлокотник Jumbo Box",
+    "2x USB спереди, 2x USB сзади и 1х USB в зеркале заднего вида (в Active Plus - только 2x USB спереди)",
+    "Макияжные зеркала спереди (в Style Plus - со светодиодной подсветкой)",
+    "Ручная регулировка высоты передних сидений (для Active Plus - только водительского)",
+    "Спинка заднего сиденья делимая складная (для Style Plus - с подлокотником)",
+    "Подсветка в багажнике + фонарик",
+    "Розетка 12В в багажнике, полка багажника складная",
+    "Антиблокировочная система тормозов (ABS)",
+    "ESC (Система электронной стабилизации)",
+    "Электронная межколесная блокировка дифференциала XDS",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Боковые подушки безопасности спереди",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Крепления для детских сидений ISOFIX",
+    "Индикатор непристегнутого ремня безопасности водителя и всех пассажиров",
+    "Датчик давления воздуха в шинах",
+    "Кнопка запуска двигателя Kessy Go, центральный замок с ДУ, электронный иммобилайзер",
+    "3 подголовника сзади (для Entry - 2 подголовника)",
+    "Набор автомобилиста премиум",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Многофункциональный дисплей Maxi Dot",
+    "Наружные электрозеркала с обогревом (для Style Plus - c электроскладыванием и затемнением)",
+    "Светодиодные фары (LED) ближнего и дальнего света, дневной свет фар Day Light на светодиодах",
+    "Электростеклоподъемники спереди и сзади c автоматическим режимом, с блокировкой открывания пассажирами",
+    "Передние сиденья с подогревом",
+    "Скребок для льда",
+    "Радио Swing - экран 8''",
+    "Функция блютуз",
+    "Полноразмерное стальное запасное колесо, комплект инструментов и домкрат",
+    "Поясничные опоры в спинках передних сидений, с механической регулировкой",
+    "Вещевые отделения в багажнике справа и слева",
+    "Набор сеток в багажнике",
+    "Шторки безопасности",
+    "Двухтональный клаксон",
+    "Круиз-контроль с ограничителем скорости",
+    "2-зонный климат-контроль Climatronic, охлаждаемый перчаточный ящик",
+    "Внутрисалонное зеркало заднего вида с автоматическим затемнением, датчики дождя и света",
+    "Обогреваемые форсунки омывателя лобового стекла",
+    "Передние светодиодные противотуманные фары (для Style Plus - с функцией освещения поворотов Corner)",
+    "Задние датчики парковки (для Style Plus - передние и задние)",
+    "Система SmartLink+ (для Style Plus с беспроводным подключением по WLAN",
+    "Наружные зеркала в цвет кузова",
+    "Теплозащитное остекление",
+    "Подвеска для плохих дорог",
+    "LED-фонари сзади (для Style - фонари High)",
+    "Центральная консоль со шторкой-жалюзи (в Style Plus с беспроводной зарядкой для телефона)",
+    "Передний центральный подлокотник Jumbo Box",
+    "2x USB спереди, 2x USB сзади и 1х USB в зеркале заднего вида (в Active Plus - только 2x USB спереди)",
+    "Макияжные зеркала спереди (в Style Plus - со светодиодной подсветкой)",
+    "Ручная регулировка высоты передних сидений (для Active Plus - только водительского)",
+    "Спинка заднего сиденья делимая складная (для Style Plus - с подлокотником)",
+    "Подсветка в багажнике + фонарик",
+    "Розетка 12В в багажнике, полка багажника складная",
+    "Антиблокировочная система тормозов (ABS)",
+    "ESC (Система электронной стабилизации)",
+    "Электронная межколесная блокировка дифференциала XDS",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Боковые подушки безопасности спереди",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Крепления для детских сидений ISOFIX",
+    "Индикатор непристегнутого ремня безопасности водителя и всех пассажиров",
+    "Датчик давления воздуха в шинах",
+    "3 подголовника сзади (для Entry - 2 подголовника)",
+    "Набор автомобилиста премиум",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Наружные электрозеркала с обогревом (для Style Plus - c электроскладыванием и затемнением)",
+    "Светодиодные фары (LED) ближнего и дальнего света, дневной свет фар Day Light на светодиодах",
+    "Электростеклоподъемники спереди и сзади c автоматическим режимом, с блокировкой открывания пассажирами",
+    "Передние сиденья с подогревом",
+    "Скребок для льда",
+    "Функция блютуз",
+    "Полноразмерное стальное запасное колесо, комплект инструментов и домкрат",
+    "Поясничные опоры в спинках передних сидений, с механической регулировкой",
+    "Вещевые отделения в багажнике справа и слева",
+    "Набор сеток в багажнике",
+    "Шторки безопасности",
+    "Двухтональный клаксон",
+    "Круиз-контроль с ограничителем скорости",
+    "2-зонный климат-контроль Climatronic, охлаждаемый перчаточный ящик",
+    "Внутрисалонное зеркало заднего вида с автоматическим затемнением, датчики дождя и света",
+    "Обогреваемые форсунки омывателя лобового стекла",
+    "Передние светодиодные противотуманные фары (для Style Plus - с функцией освещения поворотов Corner)",
+    "Задние датчики парковки (для Style Plus - передние и задние)",
+    "Система SmartLink+ (для Style Plus с беспроводным подключением по WLAN",
+    "Хромированная накладка на нижнюю решетку радиатора",
+    "Многофункциональное 2-спицевое кожаное рулевое колесо с подогревом (для АКПП - с управлением АКПП)",
+    "Комбинированная обивка сидений кожа/искусственная замша черного цвета",
+    "Светодиодная подсветка пространства для ног",
+    "Атмосферная светодиодная подсветка салона, проекция логотипа в дверях",
+    "Механизм складывания спинки заднего сиденья из багажного отделения",
+    "Центральный замок Kessy Full, противоугонная сигнализация с датчиками объема, крена и сиреной",
+    "Радио-навигационная система Columbus - экран 10''",
+    "Цифровая приборная панель с экраном 10,2''",
+    "Голосовое управление"
+  ],
+  "colors": [
+    {
+      "name": "Белый / Pure White",
+      "image": "/api/cars/skoda/octavia/colors/belyj-pure-white.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серебристый металлик / Brilliant Silver",
+      "image": "/api/cars/skoda/octavia/colors/serebristyj-metallik-brilliant-silver.jpg",
+      "style": "background: #c8cccc"
+    },
+    {
+      "name": "Бежевый металлик / Cappucino Beige",
+      "image": "/api/cars/skoda/octavia/colors/bezhevyj-metallik-cappucino-beige.jpg",
+      "style": "background: #857e76"
+    },
+    {
+      "name": "Серый металлик / Platinum Grey",
+      "image": "/api/cars/skoda/octavia/colors/seryj-metallik-platinum-grey.jpg",
+      "style": "background: #787672"
+    },
+    {
+      "name": "Черный перламутр / Deep Black",
+      "image": "/api/cars/skoda/octavia/colors/chernyj-perlamutr-deep-black.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Зеленый металлик / Emerald Green",
+      "image": "/api/cars/skoda/octavia/colors/zelenyj-metallik-emerald-green.jpg",
+      "style": "background: #005a00"
+    },
+    {
+      "name": "Синий металлик / Reef Blue",
+      "image": "/api/cars/skoda/octavia/colors/sinij-metallik-reef-blue.jpg",
+      "style": "background: #0070c0"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.4 6МКПП (150 л.с.) FWD",
+      "engineDisplacement": "1.4",
+      "price": "1156200",
+      "priceOld": "1819000",
+      "monthlyPayment": "8776"
+    },
+    {
+      "modification": "1.4 8АКПП (150 л.с.) FWD",
+      "engineDisplacement": "1.4",
+      "price": "1213200",
+      "priceOld": "1876000",
+      "monthlyPayment": "9209"
+    },
+    {
+      "modification": "1.6 6АКПП (110 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "1062200",
+      "priceOld": "1725000",
+      "monthlyPayment": "8062"
+    },
+    {
+      "modification": "2.0 7AMT (190 л.с.) FWD",
+      "engineDisplacement": "2",
+      "price": "1519200",
+      "priceOld": "2182000",
+      "monthlyPayment": "11531"
+    },
+    {
+      "modification": "1.6 5МКПП (110 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "994200",
+      "priceOld": "1657000",
+      "monthlyPayment": "7546"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/skoda/octavia/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Octavia в Краснодаре - фото №19"
+    }
+  ]
+}

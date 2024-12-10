@@ -1,0 +1,226 @@
+{
+  "title": "Lada Granta Sportline в Москвае",
+  "brand": "Lada",
+  "model": "Granta Sportline",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/XQ0NB90hrPpLppcYliOBndU258ylVwJ3Mr33pKoa.png",
+  "slug": "/api/cars/lada/granta-sportline-/granta-sportline.json",
+  "priceOld": "1 301 000",
+  "priceNew": "780 600",
+  "monthlyPayment": "5 925",
+  "features": [
+    "Подвеска с заниженным клиренсом и спортивной настройкой",
+    "Подушка безопасности водителя",
+    "Подушка безопасности переднего пассажира",
+    "Индикация незастегнутого ремня безопасности водителя",
+    "Подголовники задних сидений 3 шт.",
+    "Крепления для детских сидений ISOFIX",
+    "Блокировка задних дверей от открывания детьми",
+    "Система экстренного оповещения ЭРА-ГЛОНАСС",
+    "Дневные ходовые огни",
+    "Антиблокировочная система с электронным распределением тормозных сил (ABS, EBD)",
+    "Экологический класс Евро 5",
+    "Бортовой компьютер",
+    "Заднее сиденье с раскладкой в пропорции 60/40",
+    "Обивка сидений ткань. Цвет черный с красными элементами",
+    "Отделка руля, чехла КПП кожей с красной отстрочкой",
+    "Противосолнечный козырек пассажира с зеркалом",
+    "Розетка 12V на центральной консоли",
+    "Электроусилитель рулевого управления",
+    "Регулируемая по высоте рулевая колонка",
+    "Воздушный фильтр салона",
+    "Электростеклоподъемники передних дверей",
+    "Подогрев передних сидений",
+    "Электропривод и обогрев наружных зеркал",
+    "Кондиционер",
+    "Центральный замок",
+    "Аудиосистема (FM, USB, SD-карта, Bluetooth, Hands free)",
+    "Антенна наружная",
+    "4 динамика",
+    "Наружные зеркала с боковыми указателями поворота в цвет кузова",
+    "Наружные ручки дверей в цвет кузова",
+    "Спойлер крышки багажника",
+    "Декоративная насадка выпускной трубы",
+    "Запасное стальное колесо 14''",
+    "15'' легкосплавные диски оригинальные",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)"
+  ],
+  "colors": [
+    {
+      "name": "СЕРЕБРИСТО-ТЕМНО-СЕРЫЙ \"БОРНЕО\" (633) - МЕТАЛЛИК",
+      "image": "/api/cars/lada/granta-sportline/colors/serebristo-temno-seryj-borneo-633-metallik.jpg",
+      "style": "background: #444E4E"
+    },
+    {
+      "name": "ЗОЛОТИСТО-КОРИЧНЕВЫЙ \"КОРИАНДР\" (790) - МЕТАЛЛИК",
+      "image": "/api/cars/lada/granta-sportline/colors/zolotisto-korichnevyj-koriandr-790-metallik.jpg",
+      "style": "background: #706C62"
+    },
+    {
+      "name": "БЕЛЫЙ \"ЛЕДНИКОВЫЙ\" (221)",
+      "image": "/api/cars/lada/granta-sportline/colors/belyj-lednikovyj-221.jpg",
+      "style": "background: #FFFFFF"
+    },
+    {
+      "name": "ЧЕРНЫЙ \"ПАНТЕРА\" (672)",
+      "image": "/api/cars/lada/granta-sportline/colors/chernyj-pantera-672.jpg",
+      "style": "background: #161313"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л (106 л.с.) 5МТ",
+      "engineDisplacement": "1.6",
+      "price": "780600",
+      "priceOld": "1301000",
+      "monthlyPayment": "5925"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-sportline/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Sportline в Краснодаре - фото №29"
+    }
+  ]
+}

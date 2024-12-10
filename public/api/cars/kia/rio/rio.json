@@ -1,0 +1,230 @@
+{
+  "title": "KIA Rio в Москвае",
+  "brand": "KIA",
+  "model": "Rio",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/Y4FPK5vJcHncVwFKdpHhGhhej8kCp0QXodjZtc9T.png",
+  "slug": "/api/cars/kia/rio-/rio.json",
+  "priceOld": "1 434 900",
+  "priceNew": "623 900",
+  "monthlyPayment": "4 736",
+  "features": [
+    "Ручки дверей, окрашенные в цвет кузова",
+    "Боковые зеркала с электрообогревом/электрорегулировкой, окрашенные в цвет кузова",
+    "Запасное колесо на стальном диске 15\"",
+    "Фронтальные подушки безопасности",
+    "Антиблокировочная система тормозов (ABS)",
+    "Электронная система курсовой устойчивости",
+    "Интегрированная система активного управления (VSM)",
+    "Система помощи при трогании на подъеме (HSA)",
+    "Система предупреждения при экстренном торможении",
+    "Система мониторинга давления в шинах",
+    "Передние дисковые тормоза",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Спинка заднего сиденья, складывающаяся в соотношении 60:40",
+    "Регулировка рулевой колонки по высоте",
+    "Кондиционер",
+    "Регулировка водительского сиденья по высоте",
+    "Тройное срабатывание указателей поворота при однократном нажатии",
+    "Передние электростеклоподъёмники",
+    "Электроусилитель рулевого управления",
+    "Брызговики",
+    "Воздуховоды к сиденьям 2-го ряда",
+    "Аккумулятор увеличенной ёмкости",
+    "Увеличенный дорожный просвет",
+    "Обработка кузова и днища автомобиля антикоррозионным покрытием",
+    "Увеличенный срок службы ламп передних фар",
+    "Увеличенный бачок омывающей жидкости",
+    "Шумоизоляция капота",
+    "Стальные диски 15\" с декоративными колпаками и шинами 185/65R15",
+    "Дневные ходовые огни",
+    "Тканевая обивка сидений",
+    "4 динамика",
+    "Сиденья с отделкой тканью",
+    "Передние брызговики",
+    "Воздуховоды к сидениям 2-го ряда",
+    "Аккумулятор увеличенной ёмкости (60Ач)",
+    "Увеличенный срок службы ламп передних фар (до 1500 часов)",
+    "Увеличенный бачок омывающей жидкости (5,3 л)",
+    "Водительское сиденье с регулировкой по высоте,длине,углу наклона спинки",
+    "Передние стеклоподъёмники с электроприводом",
+    "Электроусилитель руля",
+    "Cистема стабилизации с двухступенчатым отключением (ESC)",
+    "Система помощи при старте в горку (HAC)",
+    "Система предупреждения об экстренном торможении (ESS)",
+    "Система контроля давления в шинах",
+    "Запасное колесо временного использования",
+    "Корпуса зеркал заднего вида, окрашенные в цвет кузова",
+    "Зеркала заднего вида с электроприводом и подогревом",
+    "Рефлекторные галогенные фары"
+  ],
+  "colors": [
+    {
+      "name": "Crystal White",
+      "image": "/api/cars/kia/rio/colors/crystal-white.jpg",
+      "style": "background: #ebe8e8"
+    },
+    {
+      "name": "Sleek Silver",
+      "image": "/api/cars/kia/rio/colors/sleek-silver.jpg",
+      "style": "background: #d4cec9"
+    },
+    {
+      "name": "Ice Wine",
+      "image": "/api/cars/kia/rio/colors/ice-wine.jpg",
+      "style": "background: #cbc2b3"
+    },
+    {
+      "name": "Marina Blue",
+      "image": "/api/cars/kia/rio/colors/marina-blue.jpg",
+      "style": "background: #4970d2"
+    },
+    {
+      "name": "Fiery Red",
+      "image": "/api/cars/kia/rio/colors/fiery-red.jpg",
+      "style": "background: #a93625"
+    },
+    {
+      "name": "Urban Gray",
+      "image": "/api/cars/kia/rio/colors/urban-gray.jpg",
+      "style": "background: #a49c9a"
+    },
+    {
+      "name": "Siena Brown",
+      "image": "/api/cars/kia/rio/colors/siena-brown.jpg",
+      "style": "background: #4d382e"
+    },
+    {
+      "name": "Phantom Black",
+      "image": "/api/cars/kia/rio/colors/phantom-black.jpg",
+      "style": "background: #101010"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.4 л. 6МКПП (100 л.с) FWD",
+      "engineDisplacement": "1.4",
+      "price": "623900",
+      "priceOld": "1434900",
+      "monthlyPayment": "4736"
+    },
+    {
+      "modification": "1.4 л. 6АКПП (100 л.с) FWD",
+      "engineDisplacement": "1.4",
+      "price": "723900",
+      "priceOld": "1534900",
+      "monthlyPayment": "5495"
+    },
+    {
+      "modification": "1.6 л. 6МКПП (123 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "708900",
+      "priceOld": "1519900",
+      "monthlyPayment": "5381"
+    },
+    {
+      "modification": "1.6 л. 6АКПП (123 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "723900",
+      "priceOld": "1534900",
+      "monthlyPayment": "5495"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/kia/rio/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Rio в Краснодаре - фото №19"
+    }
+  ]
+}

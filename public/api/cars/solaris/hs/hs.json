@@ -1,0 +1,340 @@
+{
+  "title": "Solaris HS в Москвае",
+  "brand": "Solaris",
+  "model": "HS",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/Pu259vqslYv306ngMFgttvZ6fYtMqYJf3iaXkd6o.png",
+  "slug": "/api/cars/solaris/hs-/hs.json",
+  "priceOld": "2 010 000",
+  "priceNew": "1 206 000",
+  "monthlyPayment": "9 154",
+  "features": [
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Система управления стабилизацией (ABS, ESP, TCS, EBD, VSM)",
+    "Система помощи при старте на подъеме (HAC)",
+    "Датчик низкого уровня омывающей жидкости",
+    "Система предупреждения водителей сзади при экстренном торможении (ESS)",
+    "Система мониторинга давления в шинах",
+    "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Регулировка передних ремней безопасности по высоте",
+    "Регулировка рулевой колонки по высоте",
+    "Шумоизоляция капота",
+    "Тройное мигание поворотников при неполном нажатии рычага",
+    "Крепления детских сидений ISOFIX сзади",
+    "Дневные ходовые огни",
+    "Пояcничная поддержка водителя (с электрорегулировкой)",
+    "Передние электростеклоподъёмники",
+    "Электроусилитель руля",
+    "Датчик наружной температуры",
+    "Увеличенный до 160 мм дорожный просвет",
+    "Регулировка сиденья водителя по высоте",
+    "Телематическая система",
+    "Зеркальца в солнцезащитных козырьках",
+    "Карман в спинке кресла переднего пассажира",
+    "Карманы в задних дверях",
+    "Воздушный фильтр салона",
+    "Две розетки 12В на центральной консоли",
+    "Стальные диски 15\" с шинами 185/65 R15",
+    "Лампы салонного освещения",
+    "Ручки дверей и зеркала в цвет кузова",
+    "Внутренняя обшивка крышки багажника",
+    "Складывающаяся спинка второго ряда сидений (в пропорции 60:40)",
+    "Зеркала с электроприводом и обогревом",
+    "Подогрев передних сидений",
+    "Тканевая вставка в дверях",
+    "Аудиосистема (Радио//MP3) с 4 динамиками",
+    "Управление аудиосистемой на руле",
+    "Разъем USB для подключения внешних устройств",
+    "Кондиционер",
+    "Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, безопасным доводчиком и задержкой отключения",
+    "Задние электростеклоподъемники",
+    "Пульт управления центральным замком в ключе + сигнализация",
+    "Bluetooth для воспроизведения аудио"
+  ],
+  "colors": [
+    {
+      "name": "Белый/ Crystal White",
+      "image": "/api/cars/solaris/hs/colors/belyj-crystal-white.jpg",
+      "style": "background: #FFFFFF"
+    },
+    {
+      "name": "Черный / Phantom Black",
+      "image": "/api/cars/solaris/hs/colors/chernyj-phantom-black.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Красный / Dragon Red",
+      "image": "/api/cars/solaris/hs/colors/krasnyj-dragon-red.jpg",
+      "style": "background: #a72225"
+    },
+    {
+      "name": "Коричневый / Cognac Brown",
+      "image": "/api/cars/solaris/hs/colors/korichnevyj-cognac-brown.jpg",
+      "style": "background: #866641"
+    },
+    {
+      "name": "Серебристый / Sleek Silver",
+      "image": "/api/cars/solaris/hs/colors/serebristyj-sleek-silver.jpg",
+      "style": "background: #d3d8df"
+    },
+    {
+      "name": "Темно-серый / Urban Gray",
+      "image": "/api/cars/solaris/hs/colors/temno-seryj-urban-gray.jpg",
+      "style": "background: #828385"
+    },
+    {
+      "name": "Синий / Galaxy Blue",
+      "image": "/api/cars/solaris/hs/colors/sinij-galaxy-blue.jpg",
+      "style": "background: #2170aa"
+    },
+    {
+      "name": "Оранжевый / Orange Burnt",
+      "image": "/api/cars/solaris/hs/colors/oranzhevyj-orange-burnt.jpg",
+      "style": "background: #d69a33"
+    },
+    {
+      "name": "Коричневый / Liquid sand",
+      "image": "/api/cars/solaris/hs/colors/korichnevyj-liquid-sand.jpg",
+      "style": "background: #241b0b"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.4 л (100 л.с) 6MT",
+      "engineDisplacement": "1.4",
+      "price": "1206000",
+      "priceOld": "2010000",
+      "monthlyPayment": "9154"
+    },
+    {
+      "modification": "1.4 л (100 л.с) 6АТ",
+      "engineDisplacement": "1.4",
+      "price": "1227000",
+      "priceOld": "2031000",
+      "monthlyPayment": "9313"
+    },
+    {
+      "modification": "1.6 л (123 л.с.) 6MT",
+      "engineDisplacement": "1.6",
+      "price": "1209000",
+      "priceOld": "2013000",
+      "monthlyPayment": "9177"
+    },
+    {
+      "modification": "1.6 л (123 л.с.) 6АT",
+      "engineDisplacement": "1.6",
+      "price": "1246000",
+      "priceOld": "2050000",
+      "monthlyPayment": "9457"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №32"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-33.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №33"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-34.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №34"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-35.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №35"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-36.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №36"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-37.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №37"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-38.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №38"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-39.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №39"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-40.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №40"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hs/gallery/gallery-41.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HS в Краснодаре - фото №41"
+    }
+  ]
+}

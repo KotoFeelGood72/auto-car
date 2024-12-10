@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { useModalStore } from "#build/imports";
+import { useModalStore } from "~/stores/useModalStore";
 
 const { openModal } = useModalStore();
 </script>
@@ -28,14 +28,24 @@ const { openModal } = useModalStore();
   color: $white;
   cursor: pointer;
 
+  @include bp($point_2) {
+    padding: 1rem 0;
+  }
+
   .title {
     font-size: 3rem;
     font-weight: 600;
+    @include bp($point_2) {
+      font-size: 1.8rem;
+    }
   }
 
   .line {
     width: 7.4rem;
     border-bottom: 0.1rem solid $white;
+    @include bp($point_2) {
+      display: none;
+    }
   }
 
   .txt {
@@ -54,5 +64,9 @@ const { openModal } = useModalStore();
 .row {
   @include flex-center;
   gap: 20px;
+  flex-wrap: wrap;
+  @include bp($point_2) {
+    align-items: flex-start;
+  }
 }
 </style>

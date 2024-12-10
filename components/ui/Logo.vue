@@ -26,5 +26,16 @@ import heading from "./heading.vue";
   max-width: 26.6rem;
   border-right: 0.1rem solid $border;
   padding-right: 3rem;
+  @include bp($point_2) {
+    max-width: 10rem;
+    padding-right: 0;
+    border: none;
+  }
+}
+
+.logo-txt {
+  @include bp($point_2) {
+    display: none;
+  }
 }
 </style>

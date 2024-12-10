@@ -56,11 +56,17 @@ const services = [
 <style scoped lang="scss">
 .services-w {
   max-width: 32.5rem;
+  @include bp($point_2) {
+    max-width: 100%;
+  }
 }
 .row {
   @include flex-start;
   align-items: flex-start;
   gap: 4.3rem;
+  @include bp($point_2) {
+    flex-direction: column;
+  }
 }
 
 .title {
@@ -76,18 +82,27 @@ const services = [
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 }
 
 .services {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 
   li {
     position: relative;
     font-size: 2rem;
     font-weight: 500;
     padding-left: 2.7rem;
+    @include bp($point_2) {
+      width: 100%;
+    }
     &:before {
       content: "";
       background-color: $primary;

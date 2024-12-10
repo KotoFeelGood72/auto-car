@@ -27,6 +27,10 @@ const props = defineProps<{
 .row {
   @include flex-start;
   gap: 2rem;
+  @include bp($point_2) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
   .card {
     background-color: $primary;
@@ -37,6 +41,11 @@ const props = defineProps<{
     font-size: 2.4rem;
     position: relative;
     cursor: pointer;
+
+    @include bp($point_2) {
+      font-size: 1.6rem;
+      width: 100%;
+    }
 
     &:hover {
       .icon {

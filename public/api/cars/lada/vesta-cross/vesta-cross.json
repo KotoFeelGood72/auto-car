@@ -1,0 +1,222 @@
+{
+  "title": "Lada Vesta Cross в Москвае",
+  "brand": "Lada",
+  "model": "Vesta Cross",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/5AvFph1hAQpxghKk77fUc9VK8JfefH0H7Nehx6OO.png",
+  "slug": "/api/cars/lada/vesta-cross-/vesta-cross.json",
+  "priceOld": "1 759 000",
+  "priceNew": "569 000",
+  "monthlyPayment": "4 319",
+  "features": [
+    "Кондиционер",
+    "Круиз-контроль",
+    "Активный усилитель руля",
+    "Бортовой компьютер",
+    "Электропривод зеркал",
+    "Регулировка руля по высоте и по вылету",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Подогрев передних сидений",
+    "Складывающееся заднее сиденье",
+    "Передний центральный подлокотник",
+    "Комбинированный (Материал салона)",
+    "Регулировка сиденья водителя по высоте",
+    "Сиденье водителя с поясничной поддержкой",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка",
+    "Кондиционер",
+    "Круиз-контроль",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Электропривод зеркал",
+    "Регулировка руля по высоте и по вылету",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев лобового стекла",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Комбинированный (Материал салона)",
+    "Регулировка сиденья водителя по высоте",
+    "Сиденье водителя с поясничной поддержкой",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка",
+    "Кондиционер",
+    "Круиз-контроль",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Электропривод зеркал",
+    "Регулировка руля по высоте и по вылету",
+    "Электронная приборная панель",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев лобового стекла",
+    "Тонированные стекла",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Декоративная подсветка салона",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Комбинированный (Материал салона)",
+    "Регулировка сиденья водителя по высоте",
+    "Сиденье водителя с поясничной поддержкой",
+    "Яндекс Авто",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка"
+  ],
+  "colors": [
+    {
+      "name": "Серебристый \"Платина\"",
+      "image": "/api/cars/lada/vesta-cross/colors/serebristyj-platina.jpg",
+      "style": "background: #c3c4c4"
+    },
+    {
+      "name": "Белый \"Ледниковый\"",
+      "image": "/api/cars/lada/vesta-cross/colors/belyj-lednikovyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л. 5МКПП (106 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "569000",
+      "priceOld": "1759000",
+      "monthlyPayment": "4319"
+    },
+    {
+      "modification": "1.8 л. CVT (122 л.с) FWD",
+      "engineDisplacement": "1.8",
+      "price": "644000",
+      "priceOld": "1834000",
+      "monthlyPayment": "4888"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/lada/vesta-cross/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Vesta Cross в Краснодаре - фото №15"
+    }
+  ]
+}

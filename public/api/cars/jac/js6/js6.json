@@ -1,0 +1,325 @@
+{
+  "title": "Jac JS6 в Москвае",
+  "brand": "Jac",
+  "model": "JS6",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/yBkjFWb3NRJkdFnVrYxugibDZkz82R4tIsRfDkjM.png",
+  "slug": "/api/cars/jac/js6-/js6.json",
+  "priceOld": "2 399 000",
+  "priceNew": "1 439 400",
+  "monthlyPayment": "10 925",
+  "features": [
+    "18\" легкосплавные диски",
+    "Рейлинги",
+    "Галогеновые фары",
+    "Выключение света с задержкой, функция \"проводи меня домой\"",
+    "Дневные ходовые огни (LED)",
+    "Антенна «Акулий плавник»",
+    "Боковые зеркала с электроприводом и обогревом",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Боковые подушки безопасности передних пассажиров",
+    "Система крепления детских кресел ISOFIX",
+    "Система мониторинга давления в шинах (TPMS)",
+    "Задние датчики парковки",
+    "Камера заднего вида",
+    "Регулировка ремня безопасности по высоте",
+    "Электрический стояночный тормоз с функцией Auto Hold",
+    "Антиблокировочная система тормозов (ABS, ESP)",
+    "Система помощи при экстренном торможении (HBA)",
+    "Система помощи при старте в гору (HSA)",
+    "Электронная система распределения тормозных усилий (EBD)",
+    "Датчик света",
+    "Запасное колесо (докатка)",
+    "Механическая регулировка сиденья водителя в 6 направлениях",
+    "Механическая регулировка сиденья переднего пассажира в 4-х направлениях",
+    "Обогрев передних сидений",
+    "Регулировка руля по углу наклона и вылету",
+    "Мультифункциональный руль",
+    "Подрулевые лепестки переключения передач",
+    "Кондиционер",
+    "Воздуховоды задних пассажиров",
+    "Складываемый задний ряд сидений в соотношении 60/40",
+    "Цифровая приборная панель 12,3\"",
+    "Сенсорный дисплей мультимедийной системы размером 12,3\"",
+    "Bluetooth / Apple CarPlay / Android Auto",
+    "Динамики (6)",
+    "Система беcключевого доступа",
+    "18\" легкосплавные диски",
+    "Рейлинги",
+    "LED фары (ближний и дальний свет)",
+    "Выключение света с задержкой, функция \"проводи меня домой\"",
+    "Дневные ходовые огни (LED)",
+    "Антенна «Акулий плавник»",
+    "Боковые зеркала с электроприводом и обогревом",
+    "Автоматическое складывание боковых зеркал при закрытии автомобиля",
+    "Электропривод двери багажника с функцией дистанционного открытия ногой",
+    "Панорамная крыша",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Боковые подушки безопасности передних пассажиров",
+    "Боковые шторки безопасности",
+    "Детский замок",
+    "Система крепления детских кресел ISOFIX",
+    "Система мониторинга давления в шинах (TPMS)",
+    "Задние датчики парковки",
+    "Система кругового обзора 360°",
+    "Регулировка ремня безопасности по высоте",
+    "Электрический стояночный тормоз с функцией Auto Hold",
+    "Антиблокировочная система тормозов (ABS, ESP)",
+    "Система помощи при экстренном торможении (HBA)",
+    "Система помощи при старте в гору (HSA)",
+    "Электронная система распределения тормозных усилий (EBD)",
+    "Датчик света",
+    "Запасное колесо (докатка)",
+    "Электрорегулировка сиденья водителя в 6 направлениях",
+    "память настроек сиденья водителя",
+    "Система облегчения посадки водителя",
+    "Электропривод регулировки сиденья переднего пассажира в 6-х направлениях",
+    "Обогрев передних сидений",
+    "Регулировка руля по углу наклона и вылету",
+    "Мультифункциональный руль с отделкой из экокожи",
+    "Подрулевые лепестки переключения передач",
+    "Атмосферная подсветка интерьера",
+    "Климат-контроль",
+    "Воздуховоды задних пассажиров",
+    "Антибликовое зеркало заднего вида",
+    "Складываемый задний ряд сидений в соотношении 60/40",
+    "Цифровая приборная панель 12,3\"",
+    "Сенсорный дисплей мультимедийной системы размером 12,3\"",
+    "Bluetooth / Apple CarPlay / Android Auto",
+    "Беспроводная зарядка для смартфона",
+    "Динамики (8)",
+    "Система беcключевого доступа",
+    "Розетка 12V в багажнике",
+    "18\" легкосплавные диски",
+    "Рейлинги",
+    "LED фары (ближний и дальний свет)",
+    "Выключение света с задержкой, функция \"проводи меня домой\"",
+    "Дневные ходовые огни (LED)",
+    "Антенна «Акулий плавник»",
+    "Боковые зеркала с электроприводом и обогревом",
+    "Автоматическое складывание боковых зеркал при закрытии автомобиля",
+    "Электропривод двери багажника с функцией дистанционного открытия ногой",
+    "Панорамная крыша",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Боковые подушки безопасности передних пассажиров",
+    "Боковые шторки безопасности",
+    "Детский замок",
+    "Система крепления детских кресел ISOFIX",
+    "Система мониторинга давления в шинах (TPMS)",
+    "Задние датчики парковки",
+    "Система кругового обзора 360°",
+    "Регулировка ремня безопасности по высоте",
+    "Электрический стояночный тормоз с функцией Auto Hold",
+    "Антиблокировочная система тормозов (ABS, ESP)",
+    "Система помощи при экстренном торможении (HBA)",
+    "Система помощи при старте в гору (HSA)",
+    "Электронная система распределения тормозных усилий (EBD)",
+    "Адаптивный круиз-контроль",
+    "Система активного торможения двигателем (АЕВ)",
+    "Предупреждение о выезде с полосы движения",
+    "Предупреждение о фронтальном столкновении",
+    "Мониторинг слепых зон",
+    "Автоматическое переключение ближний / дальний свет",
+    "Датчик света",
+    "Запасное колесо (докатка)",
+    "Электрорегулировка сиденья водителя в 6 направлениях",
+    "Электрорегулировка поясничного подпора сиденья водителя",
+    "память настроек сиденья водителя",
+    "Система облегчения посадки водителя",
+    "Электропривод регулировки сиденья переднего пассажира в 6-х направлениях",
+    "Обогрев передних сидений",
+    "Регулировка руля по углу наклона и вылету",
+    "Мультифункциональный руль с отделкой из экокожи",
+    "Подрулевые лепестки переключения передач",
+    "Атмосферная подсветка интерьера",
+    "Климат-контроль",
+    "Воздуховоды задних пассажиров",
+    "Антибликовое зеркало заднего вида",
+    "Складываемый задний ряд сидений в соотношении 60/40",
+    "Цифровая приборная панель 12,3\"",
+    "Сенсорный дисплей мультимедийной системы размером 12,3\"",
+    "Bluetooth / Apple CarPlay / Android Auto",
+    "Беспроводная зарядка для смартфона",
+    "Динамики (8)",
+    "Система беcключевого доступа",
+    "Розетка 12V в багажнике"
+  ],
+  "colors": [
+    {
+      "name": "Белый глянец",
+      "image": "/api/cars/jac/js6/colors/belyj-glyanec.jpg",
+      "style": "background: #FFFFFF"
+    },
+    {
+      "name": "Серая платина",
+      "image": "/api/cars/jac/js6/colors/seraya-platina.jpg",
+      "style": "background: #AFAFAF"
+    },
+    {
+      "name": "Чёрный жемчуг",
+      "image": "/api/cars/jac/js6/colors/chyornyj-zhemchug.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Коричневый каштан",
+      "image": "/api/cars/jac/js6/colors/korichnevyj-kashtan.jpg",
+      "style": "background: #613302"
+    },
+    {
+      "name": "Спелая вишня",
+      "image": "/api/cars/jac/js6/colors/spelaya-vishnya.jpg",
+      "style": "background: #B30505"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. DCT (174 л.с.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1439400",
+      "priceOld": "2399000",
+      "monthlyPayment": "10925"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/jac/js6/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jac JS6 в Краснодаре - фото №28"
+    }
+  ]
+}

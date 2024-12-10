@@ -82,12 +82,21 @@ const info = [
 .row-head {
   @include flex-space;
   margin-bottom: 4rem;
+  @include bp($point_2) {
+    flex-wrap: wrap;
+  }
 }
 
 .info-list {
   @include flex-start;
   gap: 3rem;
   font-size: 2rem;
+  @include bp($point_2) {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem 0;
+    gap: 1.5rem;
+  }
   li {
     @include flex-start;
     gap: 1.5rem;
@@ -102,6 +111,11 @@ const info = [
   align-items: flex-start;
   border-top: 0.1rem solid #ffffff21;
   padding-top: 4rem;
+
+  @include bp($point_2) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .footer-bottom__left {
@@ -110,6 +124,14 @@ const info = [
   font-size: 1.2rem;
   color: #ffffff95;
   max-width: 82rem;
+
+  @include bp($point_2) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
 }
 
 .nav-col {
@@ -118,6 +140,10 @@ const info = [
   align-items: flex-end;
   font-size: 1.2rem;
   gap: 0.5rem;
+  @include bp($point_2) {
+    font-size: 1rem;
+    align-items: flex-start;
+  }
   a {
     color: #ffffff95;
     &:hover {
@@ -129,6 +155,10 @@ const info = [
 .img {
   min-width: 24rem;
   @include flex-center;
+  @include bp($point_2) {
+    min-width: 12rem;
+    max-width: 12rem;
+  }
   img {
     width: 100%;
   }

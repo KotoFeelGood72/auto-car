@@ -2,10 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "nuxt-swiper", "@pinia/nuxt"],
-  plugins: [
-    "~/plugins/toast.js",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "nuxt-swiper", "@pinia/nuxt", "@nuxt/content"],
+  plugins: ["~/plugins/toast.js"],
   vite: {
     css: {
       preprocessorOptions: {

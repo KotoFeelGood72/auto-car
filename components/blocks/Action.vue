@@ -32,6 +32,10 @@ import Form from "../shared/Form.vue";
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   gap: 4rem;
+  @include bp($point_2) {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 2rem;
+  }
 }
 
 .forms {
@@ -41,6 +45,10 @@ import Form from "../shared/Form.vue";
   display: flex;
   flex-direction: column;
   gap: 3rem;
+
+  @include bp($point_2) {
+    padding: 3rem 2rem;
+  }
 }
 
 .form-head {
@@ -55,6 +63,9 @@ import Form from "../shared/Form.vue";
   height: 47.9rem;
   border-radius: 1rem;
   overflow: hidden;
+  @include bp($point_2) {
+    max-height: 20rem;
+  }
   img {
     width: 100%;
     height: 100%;

@@ -1,0 +1,173 @@
+{
+  "title": "Skoda Kodiaq Sportline в Москвае",
+  "brand": "Skoda",
+  "model": "Kodiaq Sportline",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/eREZ2pROm0RiwlxYRtzXKaL46i7Sc5lQH2SF7bhd.png",
+  "slug": "/api/cars/skoda/kodiaq-sportline-/kodiaq-sportline.json",
+  "priceOld": "5 378 000",
+  "priceNew": "2 989 000",
+  "monthlyPayment": "22 687",
+  "features": [
+    "Тонировка задних стекол",
+    "Передний и задний бампер SportLine",
+    "Зеркала черного цвета (глянцевые)",
+    "Наружные электрозеркала с обогревом, электроскладыванием, автоматическим затемнением и памятью",
+    "Рейлинги на крыше, черные",
+    "Защита двигателя снизу",
+    "Многофункциональное спортивное 3-спицевое кожаное рулевое колесо с управлением коробкой DSG",
+    "Атмосферная светодиодная подсветка салона (10 цветов)",
+    "2 лампы для чтения спереди LED",
+    "Крепление для детского кресла сзади Isofix",
+    "Сиденье водителя с электроприводом и памятью настроек",
+    "Декоративные вставки SportLine (под карбон)",
+    "Макияжные зеркала в солнцезащитных козырьках слева и справа, с LED подсветкой",
+    "Вещевые отделения в багажнике с крышкой, 4 крючка для сумок",
+    "Декоративные накладки под металл на педали",
+    "Передний центральный подлокотник",
+    "Подсветка пространства для ног спереди и сзади",
+    "Набор сеток в багажнике",
+    "Розетка 12В в багажнике",
+    "Накладки на порогах дверей SportLine",
+    "Подсветка в багажнике + пластиковые фиксаторы",
+    "Спортивные сиденья (кожа/искуственная кожа/алькантара)",
+    "Ящик под сиденьем переднего пассажира",
+    "Текстильные коврики",
+    "Bluetooth",
+    "Система SmartLink+",
+    "Радио Bolero - 2DIN, SD, USB, MP3, голосовое управление с усилителем голоса, 8 динамиков, Apple Chip",
+    "Уменьшенное запасное колесо (докатка), комплект инструментов и домкрат",
+    "Легкосплавные диски TRIGLAV (антрацит) 7J x 19 шины 235/50 R19",
+    "Рулевое управление с переменным передаточным отношением",
+    "Обогрев лобового стекла",
+    "Передние и задние сиденья с подогревом",
+    "Система выбора режима движения Driving Mode Selection",
+    "Центральный замок KESSY",
+    "Внутрисалонное зеркало заднего вида с автоматическим затемнением",
+    "Заднее сиденье и спинка делимые, спинка складная и центральный подлокотник",
+    "Электронный иммобилайзер",
+    "Очечник",
+    "Передние и задние датчики парковки",
+    "Система контроля слепых зон",
+    "Светодиодные фары (LED), AFS",
+    "Стеклоочиститель с интервальным режимом, датчик света/дождя",
+    "Система Light Assistant (Coming Home, Leaving Home)",
+    "2 лампы для чтения спереди",
+    "Задние светодиодные фонари High",
+    "Круиз-контроль с ограничителем скорости",
+    "Передние противотуманные фары с системой освещения поворотов Corner",
+    "Исполнение для курящих",
+    "Климат-контроль Climatronic (2 зоны)",
+    "Многофункциональный индикатор Maxi Dot",
+    "Ассистент подъема в гору",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Обогреваемые форсунки омывателя лобового стекла",
+    "Скребок для льда",
+    "Электронная система курсовой устойчивости",
+    "Подголовники сзади (3 шт.)",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Шторки безопасности и боковые подушки безопасности спереди",
+    "Индикатор давления воздуха в шинах",
+    "Индикатор непристегнутого ремня безопасности для всех пассажиров (5 мест)",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)",
+    "Система \"ЭРА-ГЛОНАСС\""
+  ],
+  "colors": [
+    {
+      "name": "Красный металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/krasnyj-metallik.jpg",
+      "style": "background: #b32028"
+    },
+    {
+      "name": "Белый металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/belyj-metallik.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серебристый металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/serebristyj-metallik.jpg",
+      "style": "background: #c3c1c1"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/seryj.jpg",
+      "style": "background: #939596"
+    },
+    {
+      "name": "Серый металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/seryj-metallik.jpg",
+      "style": "background: #595a5a"
+    },
+    {
+      "name": "Бежевый металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/bezhevyj-metallik.jpg",
+      "style": "background: #e0cfa0"
+    },
+    {
+      "name": "Коричневый металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/korichnevyj-metallik.jpg",
+      "style": "background: #3d2b1f"
+    },
+    {
+      "name": "Синий металлик",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/sinij-metallik.jpg",
+      "style": "background: #045b75"
+    },
+    {
+      "name": "Черный перламутр",
+      "image": "/api/cars/skoda/kodiaq-sportline/colors/chernyj-perlamutr.jpg",
+      "style": "background: #000000"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 Л. (180 Л.С.) AT 4X4",
+      "engineDisplacement": "2",
+      "price": "2989000",
+      "priceOld": "5378000",
+      "monthlyPayment": "22687"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-sportline/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Sportline в Краснодаре - фото №8"
+    }
+  ]
+}

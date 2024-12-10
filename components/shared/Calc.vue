@@ -85,14 +85,26 @@ const updateLoanTerm = (value: number) => {
   background-color: #f7f7f7;
   padding: 4rem;
   border-radius: 2rem;
+  @include bp($point_2) {
+    order: 1;
+    padding: 2rem;
+  }
 }
 .right-side {
   flex-grow: 1;
+  @include bp($point_2) {
+    order: 0;
+    width: 100%;
+  }
 }
 
 .calc {
   @include flex-start;
   align-items: flex-start;
   gap: 4rem;
+  @include bp($point_2) {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 </style>

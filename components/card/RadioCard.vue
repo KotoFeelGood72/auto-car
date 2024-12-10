@@ -1,17 +1,17 @@
 <template>
   <div class="card-check">
-    <input
+    <!-- <input
       type="radio"
       :id="card.id"
       :name="card.name"
       :value="card"
       v-model="selectedValue"
-    />
+    /> -->
     <label :for="card.id">
       <div class="card">
-        <div class="icon">
+        <!-- <div class="icon">
           <Icon name="ep:check" :size="16" />
-        </div>
+        </div> -->
         <heading :title="card.title" :level="5" :size="24" />
         <heading :title="'от ' + card.price + ' ₽'" :level="4" :size="20" />
         <p class="text">
@@ -44,32 +44,34 @@ const selectedValue = computed({
 
 <style lang="scss" scoped>
 .card-check {
-  input {
-    display: none;
-    &:checked + label {
-      background-color: #f3f3f3;
-      .icon {
-        span {
-          opacity: 1;
-          visibility: visible;
-        }
-      }
-    }
-  }
-
-  label {
-    cursor: pointer;
-    position: relative;
-    padding: 1.5rem 2rem 1.5rem 6rem;
-    border-radius: 1rem;
-    @include flex-start;
-    user-select: none;
-  }
-  :deep(h4) {
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
+  // input {
+  //   display: none;
+  //   &:checked + label {
+  //     background-color: #f3f3f3;
+  //     .icon {
+  //       span {
+  //         opacity: 1;
+  //         visibility: visible;
+  //       }
+  //     }
+  //   }
 }
+
+label {
+  cursor: pointer;
+  position: relative;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  @include flex-start;
+  user-select: none;
+  background-color: #f3f3f3;
+  flex-grow: 1;
+}
+:deep(h4) {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+// }
 
 .icon {
   position: absolute;

@@ -1,0 +1,205 @@
+{
+  "title": "MG 6 в Москвае",
+  "brand": "MG",
+  "model": "6",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/Q12Mj1u5o59DpSbOlRo5MCjfzkBO5jbLbXOHxZtR.png",
+  "slug": "/api/cars/mg/6-/6.json",
+  "priceOld": "2 899 000",
+  "priceNew": "1 739 400",
+  "monthlyPayment": "13 202",
+  "features": [
+    "ESP с EPBI (ABS + EBD + CBC + TCS + VDC + HAZ + HHC + BDW) + EBA",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Подушки безопасности водителя и переднего пассажира",
+    "3-точечный ремень безопасности с преднатяжителем на переднем сиденье с возможностью регулировки высоты крепления",
+    "3-точечный ремень безопасности с преднатяжителем на задних сиденьях",
+    "Крепления для детских сидений ISOFIX",
+    "Напоминание о непристегнутых ремнях безопасности на передних и задних сиденьях",
+    "Система контроля давления в шинах (TPMS)",
+    "CCD-камера заднего вида",
+    "Задние парктроники",
+    "Легкосплавные диски 215/50/R17",
+    "Галогенная фара с линзой, с регулировкой пучка света по высоте",
+    "Светодиодные задние фонари",
+    "Светодиодные дневные ходовые огни",
+    "Зеркала заднего вида с подогревом, электрорегулировкой и индикаторами поворота",
+    "2-зонный климат-контроль",
+    "Фильтр в системе вентиляции салона",
+    "Система очистки воздуха в салоне VAPS",
+    "Вентиляционные сопла у задних сидений",
+    "Спортивные сиденья из экокожи",
+    "Раздельные задние сиденья 60/40",
+    "Сиденье водителя с электрической регулировкой в 6 направлениях",
+    "Сиденье переднего пассажира с ручной регулировкой в 4 направлениях",
+    "Задний центральный подлокотник с подстаканником",
+    "Кожаный мультируль",
+    "Механическая регулировка положения руля по высоте и по вылету",
+    "Подрулевые лепестки переключения передач",
+    "Круиз-контроль",
+    "Смарт-ключ",
+    "Дистанционное управление замками",
+    "Кнопка запуска и остановки двигателя",
+    "Электрические стеклоподъемники передних и задних дверей с функцией защиты от защемления",
+    "Люк в крыше с защитой от защемления",
+    "Фары с функцией \"Follow me home\"",
+    "2 USB-разъема",
+    "Мультимедиа с 8-дюймовым сенсорным экраном",
+    "Система Inkalink для подключения Apple CarPlay",
+    "Динамики (6)",
+    "Bluetooth",
+    "Бортовой компьютер",
+    "ESP с EPBI (ABS + EBD + CBC + TCS + VDC + HAZ + HHC + BDW) + EBA",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Подушки безопасности водителя и переднего пассажира",
+    "Передние боковые подушки безопасности",
+    "3-точечный ремень безопасности с преднатяжителем на переднем сиденье с возможностью регулировки высоты крепления",
+    "3-точечный ремень безопасности с преднатяжителем на задних сиденьях",
+    "Крепления для детских сидений ISOFIX",
+    "Напоминание о непристегнутых ремнях безопасности на передних и задних сиденьях",
+    "Система контроля давления в шинах (TPMS)",
+    "CCD-камера заднего вида",
+    "Задние парктроники",
+    "Легкосплавные диски 225/45/R18",
+    "Светодиодные фары с регулировкой пучка света по высоте",
+    "Светодиодные задние фонари",
+    "Светодиодные дневные ходовые огни",
+    "Зеркала заднего вида с подогревом, электрорегулировкой и индикаторами поворота",
+    "Электрическое складывание зеркал заднего вида",
+    "2-зонный климат-контроль",
+    "Фильтр в системе вентиляции салона",
+    "Система очистки воздуха в салоне VAPS",
+    "Вентиляционные сопла у задних сидений",
+    "Спортивные сиденья из экокожи",
+    "Раздельные задние сиденья 60/40",
+    "Сиденье водителя с электрической регулировкой в 6 направлениях",
+    "Сиденье переднего пассажира с ручной регулировкой в 4 направлениях",
+    "Задний центральный подлокотник с подстаканником",
+    "Кожаный мультируль",
+    "Механическая регулировка положения руля по высоте и по вылету",
+    "Подрулевые лепестки переключения передач",
+    "Круиз-контроль",
+    "Смарт-ключ",
+    "Дистанционное управление замками",
+    "Бесключевой доступ",
+    "Кнопка запуска и остановки двигателя",
+    "Электрические стеклоподъемники передних и задних дверей с функцией защиты от защемления",
+    "Люк в крыше с защитой от защемления",
+    "Функция автоматического включения центрального света",
+    "Фары с функцией \"Follow me home\"",
+    "2 USB-разъема",
+    "Мультимедиа с 8-дюймовым сенсорным экраном",
+    "Система Inkalink для подключения Apple CarPlay",
+    "Динамики (6)",
+    "Bluetooth",
+    "Бортовой компьютер"
+  ],
+  "colors": [
+    {
+      "name": "Arctic White",
+      "image": "/api/cars/mg/6/colors/arctic-white.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Monument Silver",
+      "image": "/api/cars/mg/6/colors/monument-silver.jpg",
+      "style": "background: #BBBBBB"
+    },
+    {
+      "name": "Black Pearl",
+      "image": "/api/cars/mg/6/colors/black-pearl.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Dynamic Red",
+      "image": "/api/cars/mg/6/colors/dynamic-red.jpg",
+      "style": "background: #FF0000"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л 7DCT (162 л.с.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1739400",
+      "priceOld": "2899000",
+      "monthlyPayment": "13202"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/mg/6/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "MG 6 в Краснодаре - фото №15"
+    }
+  ]
+}

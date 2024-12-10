@@ -13,17 +13,17 @@
 </template>
 
 <script setup lang="ts">
-import Slider from "~/components/slider/Slider.vue";
-import Credit from "~/components/shared/Credit.vue";
-import Programs from "~/components/shared/Programs.vue";
-import { useModalStore } from "~/stores/useModalStore";
+import Credit from "../components/shared/Credit.vue";
+import Slider from "../components/slider/Slider.vue";
+import Programs from "../components/shared/Programs.vue";
+import { useModalStore } from "../stores/useModalStore";
 
 // Blocks
-import Hero from "~/components/blocks/Hero.vue";
-import Adv from "~/components/blocks/Adv.vue";
-import ModelsGrid from "~/components/blocks/ModelsGrid.vue";
-import Action from "~/components/blocks/Action.vue";
-import Trade from "~/components/blocks/Trade.vue";
+import Hero from "../components/blocks/Hero.vue";
+import Adv from "../components/blocks/Adv.vue";
+import ModelsGrid from "../components/blocks/ModelsGrid.vue";
+import Action from "../components/blocks/Action.vue";
+import Trade from "../components/blocks/Trade.vue";
 
 const { openModal } = useModalStore();
 
@@ -76,11 +76,6 @@ const models = [
   { img: "tank", name: "Tank", link: "" },
   { img: "ww", name: "Volkswagen", link: "" },
 ];
-
-const form = ref<any>({
-  name: "",
-  tel: "",
-});
 </script>
 
 <style scoped lang="scss"></style>

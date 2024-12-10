@@ -1,0 +1,508 @@
+{
+  "title": "Geely Monjaro в Москвае",
+  "brand": "Geely",
+  "model": "Monjaro",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/PphOptJWb0VDJXqHB3ZqVmjSnRECqvjDG5acHp17.png",
+  "slug": "/api/cars/geely/monjaro-/monjaro.json",
+  "priceOld": "4 490 190",
+  "priceNew": "2 694 114",
+  "monthlyPayment": "20 449",
+  "features": [
+    "Светодиодные фары",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные указатели поворотов",
+    "Светодиодные задние комбинированные фонари с противотуманными фарами, дополнительный стоп-сигнал",
+    "Зеркала заднего вида с электроприводом",
+    "Панорамная крыша с люком",
+    "Рейлинги на крыше",
+    "Кожаная обивка сидений",
+    "Мультифункциональное рулевое колесо",
+    "Кожаный руль ( встроенный полный медиа функционал)",
+    "Кожаный салон",
+    "Декор `матовый хром` на центральной части передней консоли",
+    "Обивка потолка искусственной замшей",
+    "Багажное отделение с подсветкой, отсеком для хранения (с сеткой) и органайзером под полом",
+    "Атмосферная подсветка салона",
+    "Солнцезащитные козырьки со встроенными зеркалами",
+    "Подлокотник с боксом",
+    "Подстаканники на центральной консоли",
+    "Центральный задний подлокотник с подстаканниками",
+    "Накладки на пороги",
+    "Передние и задние лампы для чтения",
+    "Шторка багажника",
+    "Компактное запасное колесо",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "ESC (Система электронной стабилизации)",
+    "Система стабилизации прицепа TSC",
+    "Антиблокировочная система тормозов (ABS) с системой распределения тормозных усилий (EBD)",
+    "Система предотвращения опрокидывания (ARM)",
+    "Система предупреждения при экстренном торможении",
+    "Электронная система экстренного торможения (EBA)",
+    "Система помощи при старте в горку (HAC)",
+    "6 подушек безопасности",
+    "Сигнализация",
+    "Иммобилайзер",
+    "Система предупреждения о фронтальном столкновении FCW",
+    "Система предупреждения об угрозе фронтального столкновения с функцией автоматического торможения",
+    "Система удержания в полосе LKAS",
+    "Ассистент помощи при перестроении",
+    "TSR — система распознавания дорожных знаков (необходима навигация)",
+    "Система распознавания усталости",
+    "Детский замок",
+    "Крепления для детских сидений ISOFIX",
+    "Выбор режима движения (Drive mode select)",
+    "кнопка \"старт-стоп\"",
+    "Система автоматического управления дальним светом",
+    "Электроусилитель рулевого управления",
+    "Регулировка руля по высоте и вылету",
+    "Климат-контроль",
+    "Подогрев сидений",
+    "Подогрев форсунок стеклоомывателя",
+    "Подогрев лобового стекла",
+    "Обогрев руля",
+    "Вентиляция сиденья водителя",
+    "Сиденье водителя с электрорегулировкой в 8 направлениях",
+    "Регулировка поясничного упора на сиденье водителя",
+    "Сиденье переднего пассажира с механической регулировкой в 6 направлениях",
+    "Складываемый задний ряд сидений 60:40",
+    "Наружные зеркала с электроприводом и электрообогревом",
+    "Электростеклоподъемники всех дверей с безопасным режимом",
+    "8 динамиков",
+    "Розетка 12В и вход USB на передней панели",
+    "Беспроводное зарядное устройство",
+    "Передние и задние датчики парковки",
+    "Камера 360°",
+    "Круиз-контроль",
+    "Функция ограничения скорости (LIM)",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Дистанционный запуск двигателя",
+    "Датчик контроля давления в шинах TPMS",
+    "Бесключевой доступ",
+    "Электропривод двери багажника",
+    "Датчики дождя и света",
+    "Система контроля спуска со склона (HDC)",
+    "Тонировка задних стекол",
+    "Светодиодные фары",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные указатели поворотов",
+    "Задние комбинированные фонари со светодиодами",
+    "Повторители поворота в корпусах наружных зеркал",
+    "Панорамная крыша с люком",
+    "Рейлинги на крыше",
+    "Кожаная обивка сидений",
+    "Мультифункциональное рулевое колесо",
+    "Отделка дверей и боковых панелей мягким текстилем, вставки из искусственной кожи",
+    "Декор `матовый хром` на центральной части передней консоли",
+    "Обивка потолка искусственной замшей",
+    "Багажное отделение с подсветкой, отсеком для хранения (с сеткой) и органайзером под полом",
+    "Атмосферная подсветка салона",
+    "Подсветка зеркал в солнцезащитных козырьках",
+    "Автозатемняющееся зеркало заднего вида",
+    "Подлокотник с боксом",
+    "Подстаканник",
+    "Накладки на пороги",
+    "Передние и задние лампы для чтения",
+    "Шторка багажника",
+    "Компактное запасное колесо",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Cистема стабилизации с двухступенчатым отключением (ESC)",
+    "TCS – противобуксовочная система",
+    "Антиблокировочная система тормозов (ABS) с системой распределения тормозных усилий (EBD)",
+    "Система предотвращения опрокидывания (ARM)",
+    "Система помощи при экстренном торможении",
+    "Световая индикация при экстренном торможении",
+    "Система помощи при старте в горку (HAC)",
+    "6 подушек безопасности",
+    "Сигнализация",
+    "Иммобилайзер",
+    "Система предупреждения о фронтальном столкновении FCW",
+    "Система предупреждения об угрозе фронтального столкновения с функцией автоматического торможения",
+    "Система удержания в полосе LKAS",
+    "Система контроля слепых зон (BSD)",
+    "Ассистент при открывании дверей (DOW)",
+    "Система помощи при выезде с парковки задним ходом (RCTA)",
+    "Система помощи при cмене полосы движения (LCA)",
+    "Система распознавания присутствия пассажиров сзади",
+    "Система распознавания дорожных знаков SLIF",
+    "Система распознавания усталости",
+    "Детский замок",
+    "Крепления для детских сидений ISOFIX",
+    "Выбор режимов движения",
+    "кнопка \"старт-стоп\"",
+    "Система автоматического управления дальним светом",
+    "Электроусилитель рулевого управления",
+    "Регулировка руля по высоте и вылету",
+    "Шумоизоляция",
+    "Климат-контроль",
+    "Подогрев сидений",
+    "Подогрев форсунок стеклоомывателя",
+    "Подогрев лобового стекла",
+    "Обогрев руля",
+    "Вентиляция сиденья водителя",
+    "Вентиляция переднего пассажирского сиденья",
+    "Электропривод регулировки сиденья водителя по 8 направлениям, включая регулировку поясничной опоры",
+    "Сиденье переднего пассажира с механической регулировкой в 6 направлениях",
+    "Спинка заднего сиденья, складывающаяся в соотношении 60:40",
+    "Камера заднего вида",
+    "Электропривод передних и задних стеклоподъемников",
+    "Проекционный дисплей HUD (Head up display)",
+    "Премиальная аудиосистема harman/kardon с 10- ю динамиками (включая сабвуфер и внешний усилитель)",
+    "Система активного шумоподавления",
+    "Розетка 12В и вход USB на передней панели",
+    "Беспроводное зарядное устройство",
+    "Передние и задние датчики парковки",
+    "Усовершенствованная система активной помощи при парковке (APA), включая передние и задние датчики парковки",
+    "Камера 360°",
+    "Advanced Park Pilot",
+    "Круиз-контроль",
+    "Функция ограничения скорости (LIM)",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Дистанционный запуск двигателя",
+    "Датчик контроля давления в шинах TPMS",
+    "Бесключевой доступ",
+    "Электропривод двери багажника",
+    "Датчики дождя и света",
+    "Система контроля спуска со склона (HDC)",
+    "Тонированные стекла",
+    "Светодиодные фары дневного света",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные указатели поворотов",
+    "Задние комбинированные фонари со светодиодами",
+    "Электроподогрев наружных зеркал",
+    "Панорамная крыша с люком",
+    "Рейлинги на крыше",
+    "Кожаная обивка сидений",
+    "Мультифункциональное рулевое колесо",
+    "Рулевое колесо с кожаной отделкой",
+    "Отделка подоконной линии дверей черным пластиком",
+    "Новый дизайн приборной панели",
+    "Обивка потолка искусственной замшей",
+    "Багажное отделение с подсветкой, отсеком для хранения (с сеткой) и органайзером под полом",
+    "Атмосферная подсветка салона",
+    "Подсветка зеркал в солнцезащитных козырьках",
+    "Автозатемняющееся зеркало заднего вида",
+    "Передний подлокотник с боксом",
+    "Подстаканник",
+    "Задний центральный подлокотник с подстаканниками",
+    "Накладки на пороги",
+    "Передние и задние лампы для чтения",
+    "Шторка багажника",
+    "Компактное запасное колесо",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Cистема стабилизации с двухступенчатым отключением (ESC)",
+    "TCS – противобуксовочная система",
+    "Антиблокировочная система тормозов (ABS) с системой распределения тормозных усилий (EBD)",
+    "Система защиты от опрокидывания (RMI)",
+    "Световая индикация при экстренном торможении",
+    "Система помощи при экстренном торможении",
+    "Система помощи при старте в горку (HAC)",
+    "контроль спуска со склона （HDC）",
+    "6 подушек безопасности",
+    "Сигнализация",
+    "Иммобилайзер",
+    "Система предупреждения о фронтальном столкновении FCW",
+    "Система предупреждения об угрозе фронтального столкновения с функцией автоматического торможения",
+    "Система удержания в полосе LKAS",
+    "Система контроля слепых зон (BSD)",
+    "Ассистент при открывании дверей (DOW)",
+    "RCTA - система предупреждения об опасности наезда сзади",
+    "Система распознавания дорожных знаков SLIF",
+    "Система распознавания усталости",
+    "Детский замок",
+    "Крепления для детских сидений ISOFIX",
+    "Выбор режима движения (Drive mode select)",
+    "кнопка \"старт-стоп\"",
+    "Система автоматического управления дальним светом",
+    "Электроусилитель рулевого управления",
+    "Регулировка руля по высоте и вылету",
+    "Шумоизоляция",
+    "Климат-контроль",
+    "Подогрев сидений",
+    "Электрообогрев лобового стекла и форсунок стеклоомывателей",
+    "Обогрев руля",
+    "Вентиляция передних сидений",
+    "Электропривод регулировки сиденья водителя по 8 направлениям, включая регулировку поясничной опоры",
+    "Сиденье переднего пассажира с механической регулировкой в 6 направлениях",
+    "Спинка заднего сиденья, складывающаяся в соотношении 60:40",
+    "Наружные зеркала с электроприводом и электрообогревом",
+    "Электропривод передних и задних стеклоподъемников",
+    "Большой сенсорный емкостный дисплей 12.3\"",
+    "Проекционный дисплей (Head Up Display)",
+    "Премиальная аудиосистема harman/kardon с 10- ю динамиками (включая сабвуфер и внешний усилитель)",
+    "Система активного шумоподавления",
+    "Розетка 12В и вход USB на передней панели",
+    "Передние и задние датчики парковки",
+    "Система автоматической парковки",
+    "Камера 360°",
+    "Advanced Park Pilot",
+    "Круиз-контроль",
+    "Функция ограничения скорости (LIM)",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Дистанционный запуск двигателя",
+    "Датчик контроля давления в шинах TPMS",
+    "Бесключевой доступ",
+    "Смарт-ключ",
+    "Электропривод двери багажника",
+    "Датчики дождя и света",
+    "Система контроля спуска со склона (HDC)"
+  ],
+  "colors": [
+    {
+      "name": "Черный",
+      "image": "/api/cars/geely/monjaro/colors/chernyj.jpg",
+      "style": "background: #222222"
+    },
+    {
+      "name": "Голубой",
+      "image": "/api/cars/geely/monjaro/colors/goluboj.jpg",
+      "style": "background: #0d5566"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/geely/monjaro/colors/seryj.jpg",
+      "style": "background: #7c8284"
+    },
+    {
+      "name": "Серебристый",
+      "image": "/api/cars/geely/monjaro/colors/serebristyj.jpg",
+      "style": "background: #dcdde1"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/geely/monjaro/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 л. 8АКПП (238 л.с.) 4WD",
+      "engineDisplacement": "2",
+      "price": "2694114",
+      "priceOld": "4490190",
+      "monthlyPayment": "20449"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №32"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-33.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №33"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-34.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №34"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-35.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №35"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-36.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №36"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-37.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №37"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-38.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №38"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-39.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №39"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-40.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №40"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-41.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №41"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-42.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №42"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-43.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №43"
+    },
+    {
+      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-44.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Geely Monjaro в Краснодаре - фото №44"
+    }
+  ]
+}

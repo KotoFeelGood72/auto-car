@@ -1,0 +1,198 @@
+{
+  "title": "Skoda Kodiaq Scout в Москвае",
+  "brand": "Skoda",
+  "model": "Kodiaq Scout",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/ZrLtHBFwwEV9rs21NQxQVpQainyyGJd7K2XOxJ37.png",
+  "slug": "/api/cars/skoda/kodiaq-scout-/kodiaq-scout.json",
+  "priceOld": "3 248 000",
+  "priceNew": "1 948 800",
+  "monthlyPayment": "14 792",
+  "features": [
+    "Тонировка задних стекол",
+    "Хром пакет для боковых стекол",
+    "Наружные электрозеркала с обогревом, электроскладыванием и автоматическим затемнением",
+    "Наружные зеркала серебристого цвета",
+    "Рейлинги на крыше, серебристые",
+    "Защита двигателя снизу",
+    "Многофункциональное 3-спицевое кожаное рулевое колесо c обогревом",
+    "Крепление для детского кресла сзади Isofix",
+    "Ручная регулировка высоты передних сидений",
+    "Декоративные вставки Scout",
+    "Вещевые отделения в багажнике с крышкой, 4 крючка для сумок",
+    "Декоративные накладки под металл на педали",
+    "Передний центральный подлокотник",
+    "Атмосферная светодиодная подсветка салона (10 цветов)",
+    "Подсветка пространства для ног спереди и сзади",
+    "Макияжные зеркала в солнцезащитных козырьках слева и справа, с LED подсветкой",
+    "Набор сеток в багажнике",
+    "Розетка 12В в багажнике",
+    "Накладки на порогах дверей",
+    "Подсветка в багажнике + пластиковые фиксаторы",
+    "Комбинированная обивка сидений Scout (кожа/искусственная кожа/алькантара)",
+    "Текстильные коврики",
+    "Bluetooth",
+    "Система SmartLink+",
+    "Радио Bolero - 2DIN, SD, USB, MP3, голосовое управление с усилителем голоса, 8 динамиков, Apple Chip",
+    "Уменьшенное запасное колесо (докатка), комплект инструментов и домкрат",
+    "Легкосплавные диски Braga 7J x 19 шины 235/50 R19 (цвет черно-серебристый)",
+    "Рулевое управление с переменным передаточным отношением",
+    "Обогрев лобового стекла",
+    "Передние и задние сиденья с подогревом",
+    "Система выбора режима движения Driving Mode Selection с Off Road режимом",
+    "Центральный замок KESSY",
+    "Внутрисалонное зеркало заднего вида с автоматическим затемнением",
+    "Заднее сиденье и спинка делимые, спинка складная и центральный подлокотник",
+    "Электронный иммобилайзер",
+    "Очечник",
+    "Передние и задние датчики парковки",
+    "Дополнительный электрический нагреватель",
+    "Система контроля \"слепых\" зон",
+    "Светодиодные фары (LED), AFS",
+    "Стеклоочиститель с интервальным режимом, датчик света/дождя",
+    "Система Light Assistant (Coming Home, Leaving Home)",
+    "2 лампы для чтения спереди",
+    "Задние светодиодные фонари High",
+    "Круиз-контроль с ограничителем скорости",
+    "Передние противотуманные фары с системой освещения поворотов Corner",
+    "Исполнение для курящих",
+    "Климат-контроль Climatronic (2 зоны)",
+    "Многофункциональный индикатор Maxi Dot",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Обогреваемые форсунки омывателя лобового стекла",
+    "Скребок для льда",
+    "Электронная система курсовой устойчивости",
+    "Подголовники сзади (3 шт.)",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Шторки безопасности и боковые подушки безопасности спереди",
+    "Индикатор давления воздуха в шинах",
+    "Индикатор непристегнутого ремня безопасности для всех пассажиров (5 мест)",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)",
+    "Система «ЭРА-ГЛОНАСС»"
+  ],
+  "colors": [
+    {
+      "name": "Черный",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/chernyj.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Голубой",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/goluboj.jpg",
+      "style": "background: #045b75"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/sinij.jpg",
+      "style": "background: #12498c"
+    },
+    {
+      "name": "Коричневый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/korichnevyj.jpg",
+      "style": "background: #251900"
+    },
+    {
+      "name": "Зеленый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/zelenyj.jpg",
+      "style": "background: #223a14"
+    },
+    {
+      "name": "Темно-синий",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/temno-sinij.jpg",
+      "style": "background: #53618d"
+    },
+    {
+      "name": "Красный",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/krasnyj.jpg",
+      "style": "background: #b32028"
+    },
+    {
+      "name": "Темно-Серый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/temno-seryj.jpg",
+      "style": "background: #939596"
+    },
+    {
+      "name": "Светло-серый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/svetlo-seryj.jpg",
+      "style": "background: #a19f98"
+    },
+    {
+      "name": "Гладкое серебро",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/gladkoe-serebro.jpg",
+      "style": "background: #c3c3c3"
+    },
+    {
+      "name": "Серебристый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/serebristyj.jpg",
+      "style": "background: #dadada"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/skoda/kodiaq-scout/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 Л. (150 Л.С.) AT 4X4",
+      "engineDisplacement": "2",
+      "price": "1948800",
+      "priceOld": "3248000",
+      "monthlyPayment": "14792"
+    },
+    {
+      "modification": "2.0 Л. (180 Л.С.) AT 4X4",
+      "engineDisplacement": "2",
+      "price": "2001800",
+      "priceOld": "3301000",
+      "monthlyPayment": "15194"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-scout/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Scout в Краснодаре - фото №9"
+    }
+  ]
+}

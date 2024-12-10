@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { useModalStore } from "#build/imports";
+import { useModalStore } from "~/stores/useModalStore";
 
 const { openModal } = useModalStore();
 </script>
@@ -18,5 +18,11 @@ const { openModal } = useModalStore();
   bottom: 4rem;
   left: 4rem;
   z-index: 99;
+
+  @include bp($point_2) {
+    bottom: 2rem;
+    left: 2rem;
+    max-width: 10rem;
+  }
 }
 </style>

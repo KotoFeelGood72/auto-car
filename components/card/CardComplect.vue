@@ -1,18 +1,18 @@
 <template>
   <div class="card-check">
     <div>
-      <input
+      <!-- <input
         type="radio"
         :id="data.id"
         :name="data.name"
         :value="data.id"
         v-model="selectedValue"
-      />
+      /> -->
 
       <label :for="data.id">
-        <div class="icon">
+        <!-- <div class="icon">
           <Icon name="ep:check" :size="16" />
-        </div>
+        </div> -->
         <div class="col">
           <heading :title="data.title" :level="5" :size="24" class="title" />
           <heading
@@ -57,31 +57,32 @@ const props = defineProps<{
 
 const emit = defineEmits(["update:modelValue"]);
 
-const selectedValue = computed({
-  get: () => props.modelValue,
-  set: (value: string) => emit("update:modelValue", value),
-});
+// const selectedValue = computed({
+//   get: () => props.modelValue,
+//   set: (value: string) => emit("update:modelValue", value),
+// });
 </script>
 
 <style lang="scss" scoped>
 .card-check {
-  input {
-    display: none;
-    &:checked + label {
-      background-color: #f3f3f3;
-      .icon {
-        span {
-          opacity: 1;
-          visibility: visible;
-        }
-      }
-    }
-  }
+  // input {
+  //   display: none;
+  //   &:checked + label {
+  //     background-color: #f3f3f3;
+  //     .icon {
+  //       span {
+  //         opacity: 1;
+  //         visibility: visible;
+  //       }
+  //     }
+  //   }
+  // }
 
   label {
+    background-color: #f3f3f3;
     cursor: pointer;
     position: relative;
-    padding: 1.5rem 2rem 1.5rem 7rem;
+    padding: 1.5rem 4rem;
     border-radius: 1rem;
     @include flex-start;
     align-items: flex-start;

@@ -23,9 +23,15 @@ import closeBtn from "../ui/buttons/close-btn.vue";
   background-color: #f7f7f7;
   width: 45vw;
   text-align: center;
+  max-width: 65rem;
 
   padding: 4rem 6rem;
   border-radius: 1rem;
+  @include bp($point_2) {
+    padding: 6rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
 }
 
 .subtitle {

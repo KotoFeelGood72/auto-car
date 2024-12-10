@@ -44,6 +44,13 @@
                     color="white"
                     :weight="true"
                     name="Заявка на TRADE-IN"
+                    @click.prevent="
+                      openModal('car', {
+                        img: '/assets/img/cars/beige.png',
+                        title: 'Заявка на TRADE-IN',
+                        name: 'Jetta VS7',
+                      })
+                    "
                   />
                   <btn
                     size="large"
@@ -51,6 +58,13 @@
                     color="white"
                     :weight="true"
                     name="Специальное предложение"
+                    @click.prevent="
+                      openModal('car', {
+                        img: '/assets/img/cars/beige.png',
+                        title: 'Специальное предложение',
+                        name: 'Jetta VS7',
+                      })
+                    "
                   />
                   <btn
                     size="large"
@@ -116,15 +130,21 @@
 </template>
 
 <script setup lang="ts">
-import btn from "~/components/ui/btn.vue";
-import RadioCard from "~/components/card/RadioCard.vue";
-import CardComplect from "~/components/card/CardComplect.vue";
-import Gallery from "~/components/shared/Gallery.vue";
-import GalleryCar from "~/components/ui/GalleryCar.vue";
-import Credit from "~/components/shared/Credit.vue";
-import Programs from "~/components/shared/Programs.vue";
-import heading from "~/components/ui/heading.vue";
-import Calc from "~/components/shared/Calc.vue";
+import btn from "../../components/ui/btn.vue";
+import RadioCard from "../../components/card/RadioCard.vue";
+import CardComplect from "../../components/card/CardComplect.vue";
+import Gallery from "../../components/shared/Gallery.vue";
+import GalleryCar from "../../components/ui/GalleryCar.vue";
+import Credit from "../../components/shared/Credit.vue";
+import Programs from "../../components/shared/Programs.vue";
+import heading from "../../components/ui/heading.vue";
+import Calc from "../../components/shared/Calc.vue";
+import { useModalStore } from "../../stores/useModalStore";
+import { ref } from "vue";
+
+const { openModal } = useModalStore();
+
+const data = ref<any>(null);
 
 const credits = [
   { title: "от 1%", txt: "Ставка по <br/>кредиту" },
@@ -165,24 +185,10 @@ const complect = [
       "Блокировка задних дверей от открывания детьми",
     ],
   },
-  {
-    id: "comfort-24",
-    name: "modification",
-    title: "Comfort'24",
-    price: 354400,
-    monthlyPrice: 2690,
-    features: [
-      "Подушка безопасности водителя",
-      "Подушка безопасности переднего пассажира",
-      "Индикация незащегнутого ремня безопасности водителя",
-      "Подголовники задних сидений 2 шт.",
-      "Крепления для детских сидений ISOFIX",
-      "Блокировка задних дверей от открывания детьми",
-    ],
-  },
 ];
 const selectedCard = ref(cards[0]);
 const selectedComplect = ref(complect[0]?.id);
+// const { data: page } = await useFetch("/cars/");
 </script>
 
 <style lang="scss" scoped>
@@ -200,6 +206,9 @@ const selectedComplect = ref(complect[0]?.id);
   align-items: flex-start;
   gap: 5rem;
   padding-top: 3rem;
+  @include bp($point_2) {
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -209,6 +218,9 @@ const selectedComplect = ref(complect[0]?.id);
   color: $white;
   max-width: 65rem;
   margin-bottom: 3rem;
+  @include bp($point_2) {
+    max-width: 100%;
+  }
 }
 
 .card-row {
@@ -281,6 +293,9 @@ const selectedComplect = ref(complect[0]?.id);
   flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 3rem;
+  li {
+    flex-grow: 1;
+  }
 }
 
 .mode {
@@ -308,5 +323,8 @@ const selectedComplect = ref(complect[0]?.id);
   position: sticky;
   top: 3rem;
   left: 0;
+  @include bp($point_2) {
+    position: static;
+  }
 }
 </style>

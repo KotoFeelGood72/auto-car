@@ -1,0 +1,232 @@
+{
+  "title": "KIA Sportage в Москвае",
+  "brand": "KIA",
+  "model": "Sportage",
+  "city": "Краснодаре",
+  "image": "https://api.cdn-ya.ru/storage/auto/colors/UiJlYO23gI1WNhMCHndmVPPm8nlH8kRjnGMShXdY.png",
+  "slug": "/api/cars/kia/sportage-/sportage.json",
+  "priceOld": "2 849 900",
+  "priceNew": "1 709 940",
+  "monthlyPayment": "12 979",
+  "features": [
+    "Светодиодные дневные ходовые огни",
+    "Cтеклоочистители \"Aero blade\"",
+    "Задний спойлер со светодиодным стоп-сигналом",
+    "Передние и задние брызговики",
+    "Светодиодные повторители поворота в боковых зеркалах",
+    "Задние сиденья со спинками, складывающимися в соотношении 60/40",
+    "Шторка багажного отделения",
+    "Дополнительная розетка 12В в багажном отделении",
+    "Фронтальные подушки безопасности",
+    "Передние боковые подушки и шторки безопасности",
+    "Антиблокировочная система тормозов (ABS)",
+    "Система курсовой устойчивости (ESC)",
+    "Система управления стабилизацией (VSM)",
+    "Система курсовой устойчивости прицепа (TSA)",
+    "Cистема помощи при спуске с горы (DBC)",
+    "Система помощи при старте в горку (HAC)",
+    "Система предупреждения об экстренном торможении (ESS)",
+    "Система контроля давления в шинах (TPMS)",
+    "Иммобилайзер",
+    "Система экстренной связи ЭРА-ГЛОНАСС",
+    "Регулировка рулевой колонки по высоте и вылету",
+    "Ключ с дистанционным управлением центральным замком",
+    "Дефлекторы обдува для пассажиров второго ряда",
+    "Регулировка сиденья водителя по высоте",
+    "Передние и задние стеклоподъёмники с электроприводом",
+    "Стеклоподъемник водителя с функцией Auto",
+    "Электроусилитель руля",
+    "Механическая регулировка спинок задних сидений",
+    "Bluetooth для подключения мобильного телефона",
+    "Мультифункциональное рулевое колесо",
+    "Дистанционное складывание сидений 2-го ряда со стороны багажника",
+    "Круиз-контроль с ограничителем скорости",
+    "Функция \"Эскорт\" (задержка выключения фар при закрывании замков)",
+    "Лобовое стекло с дополнительной шумоизоляцией",
+    "Крепления для детского кресла ISOFIX на втором ряду сидений",
+    "Разъём USB-C для зарядки мобильных устройств в передней панели",
+    "Легкосплавные диски 17\" с шинами 235/65 R17",
+    "Рефлекторные светодиодные (LED) фары",
+    "Зеркала заднего вида окрашенные в цвет кузова",
+    "Сиденья с отделкой тканью",
+    "Отделка передней панели вставками под металл (Metal Paint)",
+    "Двухзонный климат-контроль",
+    "Камера заднего вида",
+    "Запасное колесо временного использования",
+    "Мультимедиа 8\" с 6 динамиками, поддержкой Android Auto и Apple Carplay",
+    "Приборная панель Supervision c цветным дисплеем 4.2'' и цифровыми шкалами",
+    "Боковые зеркала заднего вида с электроприводом и обогревом",
+    "Подогрев передних сидений"
+  ],
+  "colors": [
+    {
+      "name": "Snow White Pearl (SWP)",
+      "image": "/api/cars/kia/sportage/colors/snow-white-pearl-swp.jpg",
+      "style": "background: #fafafa"
+    },
+    {
+      "name": "Clear White (UD)",
+      "image": "/api/cars/kia/sportage/colors/clear-white-ud.jpg",
+      "style": "background: #e8e9e7"
+    },
+    {
+      "name": "Gravity Gray (KDG)",
+      "image": "/api/cars/kia/sportage/colors/gravity-gray-kdg.jpg",
+      "style": "background: #3f434a"
+    },
+    {
+      "name": "Steel Gray (KLG)",
+      "image": "/api/cars/kia/sportage/colors/steel-gray-klg.jpg",
+      "style": "background: #585856"
+    },
+    {
+      "name": "Modern Black (FSB)",
+      "image": "/api/cars/kia/sportage/colors/modern-black-fsb.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Dawning Red (DWR)",
+      "image": "/api/cars/kia/sportage/colors/dawning-red-dwr.jpg",
+      "style": "background: #ad181f"
+    },
+    {
+      "name": "Deep Blue (BB2)",
+      "image": "/api/cars/kia/sportage/colors/deep-blue-bb2.jpg",
+      "style": "background: #2b637f"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 6МКПП (150 л.с.) FWD",
+      "engineDisplacement": "2",
+      "price": "1709940",
+      "priceOld": "2849900",
+      "monthlyPayment": "12979"
+    },
+    {
+      "modification": "2.0 6АКПП (150 л.с.) FWD",
+      "engineDisplacement": "2",
+      "price": "1809940",
+      "priceOld": "2949900",
+      "monthlyPayment": "13738"
+    },
+    {
+      "modification": "2.0 6МКПП (150 л.с.) 4WD",
+      "engineDisplacement": "2",
+      "price": "1929940",
+      "priceOld": "3069900",
+      "monthlyPayment": "14649"
+    },
+    {
+      "modification": "2.0 6АКПП (150 л.с.) 4WD",
+      "engineDisplacement": "2",
+      "price": "1989940",
+      "priceOld": "3129900",
+      "monthlyPayment": "15104"
+    },
+    {
+      "modification": "2.5  8АКПП (190 л.с.) 4WD",
+      "engineDisplacement": "2",
+      "price": "2324940",
+      "priceOld": "3464900",
+      "monthlyPayment": "17647"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/kia/sportage/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KIA Sportage в Краснодаре - фото №19"
+    }
+  ]
+}

@@ -35,6 +35,7 @@ const list = [
 
 <style scoped lang="scss">
 .happy {
+  max-width: 142rem;
   background-image: url("~/assets/img/modal-happy.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -47,6 +48,14 @@ const list = [
   color: $white;
   padding: 4rem;
   position: relative;
+  @include bp($point_2) {
+    padding: 6rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    flex-direction: column;
+    max-height: 90dvh;
+    overflow-y: auto;
+  }
   &:before {
     position: absolute;
     top: 0;

@@ -1,13 +1,14 @@
 {
-  "title": "Skoda Kodiaq Sportline в Москвае",
+  "title": "Skoda Kodiaq Sportline в Москвe",
   "brand": "Skoda",
   "model": "Kodiaq Sportline",
+  "saleBlock": "Выгода 2 151 200 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/eREZ2pROm0RiwlxYRtzXKaL46i7Sc5lQH2SF7bhd.png",
   "slug": "/api/cars/skoda/kodiaq-sportline-/kodiaq-sportline.json",
   "priceOld": "5 378 000",
-  "priceNew": "2 989 000",
-  "monthlyPayment": "22 687",
+  "priceNew": "3 226 800",
+  "monthlyPayment": "24 492",
   "features": [
     "Тонировка задних стекол",
     "Передний и задний бампер SportLine",
@@ -123,9 +124,9 @@
     {
       "modification": "2.0 Л. (180 Л.С.) AT 4X4",
       "engineDisplacement": "2",
-      "price": "2989000",
+      "price": "3226800",
       "priceOld": "5378000",
-      "monthlyPayment": "22687"
+      "monthlyPayment": "24492"
     }
   ],
   "gallery": [

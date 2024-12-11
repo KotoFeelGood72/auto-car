@@ -1,13 +1,14 @@
 {
-  "title": "Haval H9  NEW в Москвае",
+  "title": "Haval H9  NEW в Москвe",
   "brand": "Haval",
   "model": "H9  NEW",
+  "saleBlock": "Выгода 1 819 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/0sVSLyBBnewmASGZSWd0nSqxwk0OkJ3KDo7x75h0.png",
   "slug": "/api/cars/haval/h9-new-/h9-new.json",
   "priceOld": "4 399 000",
-  "priceNew": "2 639 400",
-  "monthlyPayment": "20 034",
+  "priceNew": "2 579 400",
+  "monthlyPayment": "19 578",
   "features": [
     "Специальная антикоррозионная подготовка",
     "Автоматический полный привод ToD",
@@ -235,16 +236,16 @@
     {
       "modification": "2.0 л. 8АКПП (218 л.с) 4WD",
       "engineDisplacement": "2",
-      "price": "2639400",
+      "price": "2579400",
       "priceOld": "4399000",
-      "monthlyPayment": "20034"
+      "monthlyPayment": "19578"
     },
     {
       "modification": "2.4 л. 9АКПП (184 л.с) 4WD",
       "engineDisplacement": "2.4",
-      "price": "3039400",
+      "price": "2979400",
       "priceOld": "4799000",
-      "monthlyPayment": "23070"
+      "monthlyPayment": "22614"
     }
   ],
   "gallery": [

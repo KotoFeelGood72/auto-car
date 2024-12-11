@@ -7,6 +7,7 @@
 <script setup lang="ts"></script>
 
 <style lang="scss">
+@use "./assets/scss/style.scss";
 .is_fixed {
   overflow: hidden;
 }
@@ -91,5 +92,11 @@ a {
   @include bp($point_2) {
     margin-bottom: 6rem;
   }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 </style>

@@ -1,13 +1,14 @@
 {
-  "title": "Jetour T2 в Москвае",
+  "title": "Jetour T2 в Москвe",
   "brand": "Jetour",
   "model": "T2",
+  "saleBlock": "Выгода 1 703 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/yTRxCpWMFgtAkDn76gLBiMRuI9nvvLazlcuyloxa.png",
   "slug": "/api/cars/jetour/t2-/t2.json",
   "priceOld": "3 959 000",
-  "priceNew": "2 375 400",
-  "monthlyPayment": "18 030",
+  "priceNew": "2 255 400",
+  "monthlyPayment": "17 119",
   "features": [
     "Антиблокировочная тормозная система (ABS)",
     "Система курсовой устойчивости (ESC)",
@@ -228,9 +229,9 @@
     {
       "modification": "2.0 л. 7DCT (245 л.с.)",
       "engineDisplacement": "2",
-      "price": "2375400",
+      "price": "2255400",
       "priceOld": "3959000",
-      "monthlyPayment": "18030"
+      "monthlyPayment": "17119"
     }
   ],
   "gallery": [

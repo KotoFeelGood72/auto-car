@@ -1,13 +1,14 @@
 {
-  "title": "Changan Lamore в Москвае",
+  "title": "Changan Lamore в Москвe",
   "brand": "Changan",
   "model": "Lamore",
+  "saleBlock": "Выгода 1 195 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/hMP8KNBtmS33BnCiLWNjLm0yu3aQtD7K0IhzotCv.png",
   "slug": "/api/cars/changan/lamore-/lamore.json",
   "priceOld": "2 869 900",
-  "priceNew": "1 721 940",
-  "monthlyPayment": "13 070",
+  "priceNew": "1 673 940",
+  "monthlyPayment": "12 706",
   "features": [
     "Светодиодные фары головного освещения",
     "Программируемая функция отложенного выключения головного света (Follow me home)",
@@ -152,9 +153,9 @@
     {
       "modification": "1.5 л. 7АМТ (170 л.с) FWD",
       "engineDisplacement": "1.5",
-      "price": "1721940",
+      "price": "1673940",
       "priceOld": "2869900",
-      "monthlyPayment": "13070"
+      "monthlyPayment": "12706"
     }
   ],
   "gallery": [

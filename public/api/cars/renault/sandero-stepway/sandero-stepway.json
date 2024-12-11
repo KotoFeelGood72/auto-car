@@ -1,13 +1,14 @@
 {
-  "title": "Renault Sandero Stepway в Москвае",
+  "title": "Renault Sandero Stepway в Москвe",
   "brand": "Renault",
   "model": "Sandero Stepway",
+  "saleBlock": "Выгода 549 200 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/Z2kMbKkULne94zd9vXTEfzxsLWCyotkNDQ1OWbWl.png",
   "slug": "/api/cars/renault/sandero-stepway-/sandero-stepway.json",
   "priceOld": "1 373 000",
-  "priceNew": "739 000",
-  "monthlyPayment": "5 609",
+  "priceNew": "823 800",
+  "monthlyPayment": "6 253",
   "features": [
     "Бамперы в цвет кузова",
     "Решетка радиатора c хромированными накладками",
@@ -142,23 +143,23 @@
     {
       "modification": "1.6 л. 5MKПП (82 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "739000",
+      "price": "823800",
       "priceOld": "1373000",
-      "monthlyPayment": "5609"
+      "monthlyPayment": "6253"
     },
     {
       "modification": "1.6 л. 5MKПП (113 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "779000",
+      "price": "863800",
       "priceOld": "1413000",
-      "monthlyPayment": "5913"
+      "monthlyPayment": "6556"
     },
     {
       "modification": "1,6 л. CVT (113 л. с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "864000",
+      "price": "948800",
       "priceOld": "1498000",
-      "monthlyPayment": "6558"
+      "monthlyPayment": "7202"
     }
   ],
   "gallery": [

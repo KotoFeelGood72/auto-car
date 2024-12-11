@@ -1,13 +1,14 @@
 {
-  "title": "Renault Kaptur в Москвае",
+  "title": "Renault Kaptur в Москвe",
   "brand": "Renault",
   "model": "Kaptur",
+  "saleBlock": "Выгода 689 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/F2xSG64EiAeVnp1WsUxnuz5bbve1dny5wLCUMwqA.png",
   "slug": "/api/cars/renault/kaptur-/kaptur.json",
   "priceOld": "1 724 000",
-  "priceNew": "659 000",
-  "monthlyPayment": "5 002",
+  "priceNew": "1 034 400",
+  "monthlyPayment": "7 851",
   "features": [
     "Хромированные боковые молдинги",
     "Передние и задние бамперы в цвет кузова",
@@ -299,30 +300,30 @@
     {
       "modification": "1.6 л. 5МКПП (114 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "659000",
+      "price": "1034400",
       "priceOld": "1724000",
-      "monthlyPayment": "5002"
+      "monthlyPayment": "7851"
     },
     {
       "modification": "1.6 л. CVT (114 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "844000",
+      "price": "1219400",
       "priceOld": "1909000",
-      "monthlyPayment": "6406"
+      "monthlyPayment": "9256"
     },
     {
       "modification": "1.3 л. CVT (150 л.с) FWD",
       "engineDisplacement": "1.4",
-      "price": "1004000",
+      "price": "1379400",
       "priceOld": "2069000",
-      "monthlyPayment": "7621"
+      "monthlyPayment": "10470"
     },
     {
       "modification": "1.3 л. CVT (150 л.с) 4WD",
       "engineDisplacement": "1.4",
-      "price": "1294000",
+      "price": "1669400",
       "priceOld": "2359000",
-      "monthlyPayment": "9822"
+      "monthlyPayment": "12671"
     }
   ],
   "gallery": [

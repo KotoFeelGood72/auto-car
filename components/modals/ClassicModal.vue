@@ -1,8 +1,22 @@
 <template>
   <div class="classic">
     <closeBtn />
-    <heading title="Отправьте заявку" :level="2" :size="42" class="title" />
     <heading
+      v-if="modalData.name"
+      :title="modalData.name"
+      :level="2"
+      :size="30"
+      color="gradient"
+      class="subtitle"
+    />
+    <heading
+      :title="modalData.title ? modalData.title : 'Отправьте заявку'"
+      :level="2"
+      :size="42"
+      :class="['title', { mb: modalData.title }]"
+    />
+    <heading
+      v-if="!modalData.name"
       title="И наши сотрудники свяжутся с вами"
       :level="2"
       :size="20"
@@ -16,6 +30,9 @@
 import Form from "../shared/Form.vue";
 import heading from "../ui/heading.vue";
 import closeBtn from "../ui/buttons/close-btn.vue";
+import { useModalStoreRefs } from "~/stores/useModalStore";
+
+const { modalData } = useModalStoreRefs();
 </script>
 
 <style scoped lang="scss">
@@ -36,5 +53,14 @@ import closeBtn from "../ui/buttons/close-btn.vue";
 
 .subtitle {
   margin-bottom: 4rem;
+}
+
+.mb {
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+}
+
+.title {
+  margin-bottom: 1rem;
 }
 </style>

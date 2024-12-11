@@ -1,13 +1,14 @@
 {
-  "title": "EXEED VX  NEW в Москвае",
+  "title": "EXEED VX  NEW в Москвe",
   "brand": "EXEED",
   "model": "VX  NEW",
+  "saleBlock": "Выгода 2 150 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/j7NdU5YGsV2yVIvRWD9Sx4PIZ1zcCESd41wtFe5t.png",
   "slug": "/api/cars/exeed/vx-new-/vx-new.json",
   "priceOld": "6 050 000",
-  "priceNew": "3 630 000",
-  "monthlyPayment": "27 553",
+  "priceNew": "3 900 000",
+  "monthlyPayment": "29 602",
   "features": [
     "Капитанские сиденья 2-го ряда с электрорегулировками",
     "Обивка центральной части сидений кожей Nappa",
@@ -257,9 +258,9 @@
     {
       "modification": "2.0 л. 8AT (249 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "3630000",
+      "price": "3900000",
       "priceOld": "6050000",
-      "monthlyPayment": "27553"
+      "monthlyPayment": "29602"
     }
   ],
   "gallery": [

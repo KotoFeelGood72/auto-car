@@ -2,7 +2,7 @@
   <div class="car-details">
     <img :src="car.image" :alt="`Фото ${car.model}`" class="car-image" />
     <heading
-      :title="'от ' + car.price.toLocaleString() + ' ₽'"
+      :title="'от ' + car.priceNew.toLocaleString() + ' ₽'"
       :level="2"
       :size="32"
       color="blue"
@@ -34,18 +34,29 @@ const props = defineProps<{
 }>();
 
 const monthlyPayment = computed(() => {
-  const initialPayment = (props.car.price * props.downPayment) / 100;
-  const loanAmount = props.car.price - initialPayment;
-  const interestRate = 0.07;
+  const priceNew = Number(props.car.priceNew.replace(/\s/g, "")); // Убираем пробелы и преобразуем в число
+
+  if (isNaN(priceNew) || priceNew <= 0) {
+    return 0; // Возвращаем 0, если значение некорректное
+  }
+
+  const initialPayment = (priceNew * props.downPayment) / 100;
+  const loanAmount = priceNew - initialPayment;
+  const interestRate = 0.07; // Годовая процентная ставка
   const monthlyRate = interestRate / 12;
   const numPayments = props.loanTerm;
+
   return Math.round(
     (loanAmount * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -numPayments))
   );
 });
 
 const formatCurrency = (value: number): string => {
-  return value.toLocaleString("ru-RU", { style: "currency", currency: "RUB" });
+  return value.toLocaleString("ru-RU", {
+    style: "currency",
+    currency: "RUB",
+    maximumFractionDigits: 0, // Убираем копейки
+  });
 };
 
 const getYearEnding = (years: number): string => {

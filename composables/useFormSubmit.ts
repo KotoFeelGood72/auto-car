@@ -1,8 +1,10 @@
 import { ref } from "vue";
 import { useToast } from "vue-toastification";
+import { useModalStore } from "~/stores/useModalStore";
 
 export function useFormSubmit() {
   const toast = useToast();
+  const { closeAllModals } = useModalStore();
   const isLoading = ref(false);
   const isSuccess = ref(false);
   const isError = ref(false);
@@ -14,8 +16,13 @@ export function useFormSubmit() {
   const canSubmit = () => {
     const now = Date.now();
     if (lastSubmitTime.value && now - lastSubmitTime.value < cooldownTime) {
-      const remainingTime = ((cooldownTime - (now - lastSubmitTime.value)) / 1000).toFixed(1);
-      toast.warning(`Пожалуйста, подождите ${remainingTime} секунд перед повторной отправкой.`);
+      const remainingTime = (
+        (cooldownTime - (now - lastSubmitTime.value)) /
+        1000
+      ).toFixed(1);
+      toast.warning(
+        `Пожалуйста, подождите ${remainingTime} секунд перед повторной отправкой.`
+      );
       return false;
     }
     lastSubmitTime.value = now;
@@ -47,16 +54,32 @@ export function useFormSubmit() {
       toast.success("Данные успешно отправлены!");
     } catch (error: any) {
       isError.value = true;
-      errorMessage.value = error.message || "Произошла ошибка при отправке данных";
+      errorMessage.value =
+        error.message || "Произошла ошибка при отправке данных";
       toast.error(errorMessage.value);
     } finally {
+      closeAllModals();
       isLoading.value = false;
     }
   };
 
   const sendToCRM = async (data: Record<string, any>) => {
     const crmUrl = "http://crm.renault-s.ru/expo/api/deal/add"; // Укажите ваш URL
-    await submitForm(crmUrl, data);
+
+    const extendedData =
+      data.deal_type === 80 || data.deal_type === 81
+        ? {
+            ...data,
+            additional_info: {
+              deal_marka: data.deal_marka || "Не указано",
+              deal_model: data.deal_model || "Не указано",
+              down_payment: data.down_payment || 0,
+              loan_term: data.loan_term || 0,
+            },
+          }
+        : { ...data };
+
+    await submitForm(crmUrl, extendedData);
   };
 
   const sendToTelegram = async (data: Record<string, any>) => {
@@ -80,8 +103,19 @@ export function useFormSubmit() {
 
     const dealTypeName = dealTypes[data.deal_type] || "Неизвестный тип сделки";
 
-    const message = `Новая заявка:\nИмя: ${data.deal_name}\nТелефон: ${data.deal_phone_mobile}\nТип сделки: ${dealTypeName}${
-      data.deal_marka ? `\nАвтомобиль: ${data.deal_marka} ${data.deal_model}` : ""
+    const message = `Новая заявка:
+    Имя: ${data.deal_name}
+    Телефон: ${data.deal_phone_mobile}
+    Тип сделки: ${dealTypeName}${
+      data.deal_marka
+        ? `\nАвтомобиль: ${data.deal_marka} ${data.deal_model}`
+        : ""
+    }${
+      data.deal_type === 80 || data.deal_type === 81 || data.deal_type === 47
+        ? `\nПервоначальный взнос: ${
+            data.down_payment || 0
+          }%\nСрок кредитования: ${data.loan_term || 0} месяцев`
+        : ""
     }`;
 
     const tgUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;

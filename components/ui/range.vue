@@ -5,12 +5,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, defineProps, defineEmits } from "vue";
+import { ref, onMounted, watch, defineProps, defineEmits } from "vue";
 import noUiSlider from "nouislider";
 import "nouislider/dist/nouislider.css";
 
 const props = defineProps({
-  start: { type: Number, default: 50 },
+  modelValue: { type: Number, default: 50 }, // Используем modelValue для v-model
   min: { type: Number, default: 0 },
   max: { type: Number, default: 100 },
   step: { type: Number, default: 1 },
@@ -23,7 +23,7 @@ const props = defineProps({
   unit: { type: String, default: "%" }, // Новое поле для единицы измерения
 });
 
-const emits = defineEmits(["update"]);
+const emits = defineEmits(["update:modelValue"]); // Эмитим событие для v-model
 
 const slider = ref<any>(null);
 
@@ -40,8 +40,8 @@ onMounted(() => {
     range.min = Math.min(...props.values);
     range.max = Math.max(...props.values);
 
-    noUiSlider.create(slider.value, {
-      start: props.start, // Начальное значение
+    const noUiSliderInstance = noUiSlider.create(slider.value, {
+      start: props.modelValue, // Используем значение modelValue
       connect: props.connect,
       range: range, // Используем кастомный range
       snap: true, // Привязка к значениям
@@ -57,11 +57,22 @@ onMounted(() => {
     });
 
     // Обновление при перемещении ползунка
-    slider.value.noUiSlider?.on("update", (value: any) => {
-      emits("update", parseFloat(value));
+    noUiSliderInstance.on("update", (value: any) => {
+      const parsedValue = parseFloat(value[0]);
+      emits("update:modelValue", parsedValue); // Обновляем v-model
     });
   }
 });
+
+// Следим за изменениями modelValue и обновляем слайдер
+watch(
+  () => props.modelValue,
+  (newValue) => {
+    if (slider.value && slider.value.noUiSlider) {
+      slider.value.noUiSlider.set(newValue);
+    }
+  }
+);
 </script>
 
 <style lang="scss">

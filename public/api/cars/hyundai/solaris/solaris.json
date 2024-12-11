@@ -1,13 +1,14 @@
 {
-  "title": "Hyundai Solaris в Москвае",
+  "title": "Hyundai Solaris в Москвe",
   "brand": "Hyundai",
   "model": "Solaris",
+  "saleBlock": "Выгода 563 200 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ddu49CVftgxijei24Hi7zOzCMhbJwjkMxBrQDNJI.png",
   "slug": "/api/cars/hyundai/solaris-/solaris.json",
   "priceOld": "1 408 000",
-  "priceNew": "619 000",
-  "monthlyPayment": "4 698",
+  "priceNew": "844 800",
+  "monthlyPayment": "6 412",
   "features": [
     "Фронтальные подушки безопасности водителя и переднего пассажира",
     "Система управления стабилизацией (ABS, ESP, TCS, EBD, VSM)",
@@ -190,30 +191,30 @@
     {
       "modification": "1.4 л (100 л.с) 6MT",
       "engineDisplacement": "1.4",
-      "price": "619000",
+      "price": "844800",
       "priceOld": "1408000",
-      "monthlyPayment": "4698"
+      "monthlyPayment": "6412"
     },
     {
       "modification": "1.4 л (100 л.с) 6АТ",
       "engineDisplacement": "1.4",
-      "price": "740000",
+      "price": "965800",
       "priceOld": "1529000",
-      "monthlyPayment": "5617"
+      "monthlyPayment": "7331"
     },
     {
       "modification": "1.6 л (123 л.с.) 6MT",
       "engineDisplacement": "1.6",
-      "price": "725000",
+      "price": "950800",
       "priceOld": "1514000",
-      "monthlyPayment": "5503"
+      "monthlyPayment": "7217"
     },
     {
       "modification": "1.6 л (123 л.с.) 6АT",
       "engineDisplacement": "1.6",
-      "price": "765000",
+      "price": "990800",
       "priceOld": "1554000",
-      "monthlyPayment": "5807"
+      "monthlyPayment": "7520"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "Geely Tugella в Москвае",
+  "title": "Geely Tugella в Москвe",
   "brand": "Geely",
   "model": "Tugella",
+  "saleBlock": "Выгода 1 583 996 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/lRrnTETmQ8p8DCESmvxuJuUe9CUbXTkhSWMJMS0X.png",
   "slug": "/api/cars/geely/tugella-/tugella.json",
   "priceOld": "3 959 990",
-  "priceNew": "2 199 990",
-  "monthlyPayment": "16 698",
+  "priceNew": "2 375 994",
+  "monthlyPayment": "18 034",
   "features": [
     "Передний подлокотник с боксом для хранения",
     "Подстаканники в центральной консоли",
@@ -147,16 +148,16 @@
     {
       "modification": "2.0 л. 8АКПП (238 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2299990",
+      "price": "2475994",
       "priceOld": "4059990",
-      "monthlyPayment": "17458"
+      "monthlyPayment": "18793"
     },
     {
       "modification": "2.0 л. 8АКПП (200 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2199990",
+      "price": "2375994",
       "priceOld": "3959990",
-      "monthlyPayment": "16698"
+      "monthlyPayment": "18034"
     }
   ],
   "gallery": [
@@ -304,11 +305,6 @@
       "fullImage": "/api/cars/geely/tugella/gallery/gallery-29.jpg",
       "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
       "alt": "Geely Tugella в Краснодаре - фото №29"
-    },
-    {
-      "fullImage": "/api/cars/geely/tugella/gallery/gallery-30.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Tugella в Краснодаре - фото №30"
     }
   ]
 }

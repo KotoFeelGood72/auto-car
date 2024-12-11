@@ -1,18 +1,18 @@
 <template>
-  <NuxtLink to="/car/1" class="card">
+  <NuxtLink :to="formattedSlug" class="card" v-if="isCardValid">
     <div class="">
-      <div class="hot">Выгода 390 000 ₽</div>
+      <div class="hot">{{ card.saleBlock }}</div>
       <div class="img">
-        <img src="~/assets/img/jetta.png" alt="Jetta VS7" />
+        <img :src="card.image" :alt="card.title" />
       </div>
       <div class="content">
-        <heading title="Jetta VS7" :size="24" class="title" />
+        <heading :title="card.title" :size="24" class="title" />
         <div class="row">
           <div>
-            <p class="price">от 1 759 000 ₽</p>
-            <p class="old">от 2 149 000 ₽</p>
+            <p class="price">от {{ card.priceNew }} ₽</p>
+            <p class="old">от {{ card.priceOld }} ₽</p>
           </div>
-          <div class="credit">В кредит от 13 351 ₽/мес.</div>
+          <div class="credit">В кредит от {{ card.monthlyPayment }} ₽/мес.</div>
         </div>
         <div class="btn-row">
           <btn
@@ -28,9 +28,9 @@
             color="blue"
             @click.prevent="
               openModal('car', {
-                img: '/assets/img/cars/beige.png',
+                img: card.image,
                 title: 'Спецпредложение по кредиту',
-                name: 'Jetta VS7',
+                name: card.title,
               })
             "
           />
@@ -45,7 +45,28 @@ import btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
 import { useModalStore } from "~/stores/useModalStore";
 
+const props = defineProps<{
+  card: any;
+}>();
+
 const { openModal } = useModalStore();
+const isCardValid = computed(() => {
+  return (
+    props.card &&
+    Object.keys(props.card).length > 0 && // Проверка, что объект не пуст
+    props.card.slug &&
+    props.card.image &&
+    props.card.title // Убедитесь, что ключевые данные присутствуют
+  );
+});
+const formattedSlug = computed(() =>
+  props.card && props.card.slug
+    ? props.card.slug
+        .replace("/api", "") // Удаляем префикс "/api"
+        .replace(".json", "") // Удаляем суффикс ".json"
+        .replace(/\/[^/]+-/, "") // Удаляем слово перед дефисом
+    : ""
+);
 </script>
 
 <style scoped lang="scss">
@@ -73,6 +94,7 @@ const { openModal } = useModalStore();
   padding: 1.5rem;
   .title {
     margin-bottom: 2rem;
+    min-height: 6rem;
   }
   .row {
     @include flex-start;

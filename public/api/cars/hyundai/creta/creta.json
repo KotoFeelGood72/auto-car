@@ -1,13 +1,14 @@
 {
-  "title": "Hyundai Creta в Москвае",
+  "title": "Hyundai Creta в Москвe",
   "brand": "Hyundai",
   "model": "Creta",
+  "saleBlock": "Выгода 743 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ZqJRw0pfBHwnWDBfadjZPV841JpLfxgdkUjszq6I.png",
   "slug": "/api/cars/hyundai/creta-/creta.json",
   "priceOld": "1 859 000",
-  "priceNew": "962 000",
-  "monthlyPayment": "7 302",
+  "priceNew": "1 115 400",
+  "monthlyPayment": "8 466",
   "features": [
     "Фронтальные подушки безопасности водителя и переднего пассажира",
     "Передние ремни безопасности с преднатяжителями и регулировкой по высоте",
@@ -218,44 +219,44 @@
     {
       "modification": "1.6 л (123 л.c.) 6МТ 2WD",
       "engineDisplacement": "1.6",
-      "price": "962000",
+      "price": "1115400",
       "priceOld": "1859000",
-      "monthlyPayment": "7302"
+      "monthlyPayment": "8466"
     },
     {
       "modification": "1.6 л (123 л.c.) 6АТ 2WD",
       "engineDisplacement": "1.6",
-      "price": "1027000",
+      "price": "1180400",
       "priceOld": "1924000",
-      "monthlyPayment": "7795"
+      "monthlyPayment": "8960"
     },
     {
       "modification": "1.6 л (121 л.c.) 6МТ 4WD",
       "engineDisplacement": "1.6",
-      "price": "1113000",
+      "price": "1266400",
       "priceOld": "2010000",
-      "monthlyPayment": "8448"
+      "monthlyPayment": "9612"
     },
     {
       "modification": "1.6 л (121 л.c.) 6АТ 4WD",
       "engineDisplacement": "1.6",
-      "price": "1253000",
+      "price": "1406400",
       "priceOld": "2150000",
-      "monthlyPayment": "9511"
+      "monthlyPayment": "10675"
     },
     {
       "modification": "2.0 л (149.6 л.c.) 6АТ 2WD",
       "engineDisplacement": "2",
-      "price": "1158000",
+      "price": "1311400",
       "priceOld": "2055000",
-      "monthlyPayment": "8790"
+      "monthlyPayment": "9954"
     },
     {
       "modification": "2.0 л (149.6 л.c.) 6АТ 4WD",
       "engineDisplacement": "2",
-      "price": "1418000",
+      "price": "1571400",
       "priceOld": "2315000",
-      "monthlyPayment": "10763"
+      "monthlyPayment": "11927"
     }
   ],
   "gallery": [

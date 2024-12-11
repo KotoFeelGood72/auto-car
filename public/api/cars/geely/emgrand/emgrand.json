@@ -1,13 +1,14 @@
 {
-  "title": "Geely Emgrand в Москвае",
+  "title": "Geely Emgrand в Москвe",
   "brand": "Geely",
   "model": "Emgrand",
+  "saleBlock": "Выгода 933 996 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/A0SEHXtRNVauy4ernvokp4sWwJAMrJ2jyWEdJz2c.png",
   "slug": "/api/cars/geely/emgrand-/emgrand.json",
   "priceOld": "2 157 990",
-  "priceNew": "1 279 990",
-  "monthlyPayment": "9 715",
+  "priceNew": "1 223 994",
+  "monthlyPayment": "9 290",
   "features": [
     "Кондиционер",
     "Активный усилитель руля",
@@ -114,16 +115,16 @@
     {
       "modification": "1.5L 5MT (122 л.с.) 2WD",
       "engineDisplacement": "1.5",
-      "price": "1279990",
+      "price": "1223994",
       "priceOld": "2157990",
-      "monthlyPayment": "9715"
+      "monthlyPayment": "9290"
     },
     {
       "modification": "1.5L 6AT (122 л.с.) 2WD",
       "engineDisplacement": "1.5",
-      "price": "1489990",
+      "price": "1433994",
       "priceOld": "2367990",
-      "monthlyPayment": "11309"
+      "monthlyPayment": "10884"
     }
   ],
   "gallery": [

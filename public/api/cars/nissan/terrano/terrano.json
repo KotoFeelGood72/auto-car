@@ -1,13 +1,14 @@
 {
-  "title": "Nissan Terrano в Москвае",
+  "title": "Nissan Terrano в Москвe",
   "brand": "Nissan",
   "model": "Terrano",
+  "saleBlock": "Выгода 676 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/UIPhAHOeXUxYBlxqIDgjws1NgUAanmx1zB8KyYqA.png",
   "slug": "/api/cars/nissan/terrano-/terrano.json",
   "priceOld": "1 690 000",
-  "priceNew": "619 000",
-  "monthlyPayment": "4 698",
+  "priceNew": "1 014 000",
+  "monthlyPayment": "7 697",
   "features": [
     "Автоматическая блокировка дверей при начале движения",
     "Подушка безопасности водителя",
@@ -219,30 +220,30 @@
     {
       "modification": "1.6 л. 5МКПП (114 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "619000",
+      "price": "1014000",
       "priceOld": "1690000",
-      "monthlyPayment": "4698"
+      "monthlyPayment": "7697"
     },
     {
       "modification": "2.0 л. 6МКПП (143 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "876000",
+      "price": "1271000",
       "priceOld": "1947000",
-      "monthlyPayment": "6649"
+      "monthlyPayment": "9647"
     },
     {
       "modification": "2.0 л. 4АКПП (143 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "921000",
+      "price": "1316000",
       "priceOld": "1992000",
-      "monthlyPayment": "6991"
+      "monthlyPayment": "9989"
     },
     {
       "modification": "1.6 л. 6МКПП (114 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "700000",
+      "price": "1095000",
       "priceOld": "1771000",
-      "monthlyPayment": "5313"
+      "monthlyPayment": "8311"
     }
   ],
   "gallery": [

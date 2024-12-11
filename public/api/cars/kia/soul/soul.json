@@ -1,13 +1,14 @@
 {
-  "title": "KIA Soul в Москвае",
+  "title": "KIA Soul в Москвe",
   "brand": "KIA",
   "model": "Soul",
+  "saleBlock": "Выгода 773 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/PaAiR6xFXwrbb3Rwq0Q4kR2Nc5O2h8B93BumDdrq.png",
   "slug": "/api/cars/kia/soul-/soul.json",
   "priceOld": "1 934 900",
-  "priceNew": "879 900",
-  "monthlyPayment": "6 679",
+  "priceNew": "1 160 940",
+  "monthlyPayment": "8 812",
   "features": [
     "Подогрев форсунок омывателя лобового стекла",
     "Боковые зеркала заднего вида с электроприводом и подогревом",
@@ -134,30 +135,30 @@
     {
       "modification": "1.6 л. 6МКПП (123 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "879900",
+      "price": "1160940",
       "priceOld": "1934900",
-      "monthlyPayment": "6679"
+      "monthlyPayment": "8812"
     },
     {
       "modification": "1.6 л. 6АКПП (123 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "939900",
+      "price": "1220940",
       "priceOld": "1994900",
-      "monthlyPayment": "7134"
+      "monthlyPayment": "9267"
     },
     {
       "modification": "2.0 л. 6АКПП (150 л.с) FWD",
       "engineDisplacement": "2",
-      "price": "1159900",
+      "price": "1440940",
       "priceOld": "2214900",
-      "monthlyPayment": "8804"
+      "monthlyPayment": "10937"
     },
     {
       "modification": "1.6 л. 7АМТ (200 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "1559900",
+      "price": "1840940",
       "priceOld": "2614900",
-      "monthlyPayment": "11840"
+      "monthlyPayment": "13973"
     }
   ],
   "gallery": [

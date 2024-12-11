@@ -1,13 +1,14 @@
 {
-  "title": "KIA Picanto в Москвае",
+  "title": "KIA Picanto в Москвe",
   "brand": "KIA",
   "model": "Picanto",
+  "saleBlock": "Выгода 533 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ujiYgvmPHo2WYXi8a5WFgOoZ3QIpyCdsHQEE1Aty.png",
   "slug": "/api/cars/kia/picanto-/picanto.json",
   "priceOld": "1 334 900",
-  "priceNew": "619 900",
-  "monthlyPayment": "4 705",
+  "priceNew": "800 940",
+  "monthlyPayment": "6 079",
   "features": [
     "Передние и задние брызговики",
     "Задние сиденья со спинками, складывающимися в соотношении 60:40",
@@ -117,16 +118,16 @@
     {
       "modification": "1.0 Л. (67 Л.С.) 5MT",
       "engineDisplacement": "1",
-      "price": "619900",
+      "price": "800940",
       "priceOld": "1334900",
-      "monthlyPayment": "4705"
+      "monthlyPayment": "6079"
     },
     {
       "modification": "1.2 Л. (67 Л.С.) 4AT",
       "engineDisplacement": "1.2",
-      "price": "714900",
+      "price": "895940",
       "priceOld": "1429900",
-      "monthlyPayment": "5426"
+      "monthlyPayment": "6800"
     }
   ],
   "gallery": [

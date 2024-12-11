@@ -1,13 +1,14 @@
 {
-  "title": "KIA Seltos в Москвае",
+  "title": "KIA Seltos в Москвe",
   "brand": "KIA",
   "model": "Seltos",
+  "saleBlock": "Выгода 825 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/kRZvdXe44MO0XEfV2NJ4cahvgX1EVoJSHu0JhsDU.png",
   "slug": "/api/cars/kia/seltos-/seltos.json",
   "priceOld": "2 064 900",
-  "priceNew": "989 900",
-  "monthlyPayment": "7 514",
+  "priceNew": "1 238 940",
+  "monthlyPayment": "9 404",
   "features": [
     "Боковые зеркала, окрашенные в цвет кузова",
     "Серебристые накладки на передний и задний бамперы",
@@ -137,51 +138,51 @@
     {
       "modification": "1.6 6МКПП (121 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "1129900",
+      "price": "1378940",
       "priceOld": "2204900",
-      "monthlyPayment": "8576"
+      "monthlyPayment": "10467"
     },
     {
       "modification": "1.6 6МКПП (123 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "989900",
+      "price": "1238940",
       "priceOld": "2064900",
-      "monthlyPayment": "7514"
+      "monthlyPayment": "9404"
     },
     {
       "modification": "2.0 CVT (149 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1284900",
+      "price": "1533940",
       "priceOld": "2359900",
-      "monthlyPayment": "9753"
+      "monthlyPayment": "11643"
     },
     {
       "modification": "2.0 CVT (149 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "1404900",
+      "price": "1653940",
       "priceOld": "2479900",
-      "monthlyPayment": "10664"
+      "monthlyPayment": "12554"
     },
     {
       "modification": "1.6 7АМТ (177 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "1724900",
+      "price": "1973940",
       "priceOld": "2799900",
-      "monthlyPayment": "13092"
+      "monthlyPayment": "14983"
     },
     {
       "modification": "1.6 6АКПП (123 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1029900",
+      "price": "1278940",
       "priceOld": "2104900",
-      "monthlyPayment": "7817"
+      "monthlyPayment": "9707"
     },
     {
       "modification": "1.6 6АКПП (121 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "1179900",
+      "price": "1428940",
       "priceOld": "2254900",
-      "monthlyPayment": "8956"
+      "monthlyPayment": "10846"
     }
   ],
   "gallery": [

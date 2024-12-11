@@ -1,13 +1,14 @@
 {
-  "title": "Tank 500 в Москвае",
+  "title": "Tank 500 в Москвe",
   "brand": "Tank",
   "model": "500",
+  "saleBlock": "Выгода 2 699 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/MjJ0HWGtTIPiOHQbdQHZ92qTfxLXC8oaF9exgwfx.png",
   "slug": "/api/cars/tank/500-/500.json",
   "priceOld": "6 599 000",
-  "priceNew": "3 959 400",
-  "monthlyPayment": "30 053",
+  "priceNew": "3 899 400",
+  "monthlyPayment": "29 597",
   "features": [
     "Рулевая колонка, регулируемая по высоте и вылету",
     "Электроусилитель рулевого управления с переменным усилием и возможностью выбора режима",
@@ -122,23 +123,23 @@
     {
       "modification": "3.0 л 9АКПП (V6 299 л.с.) 4WD",
       "engineDisplacement": "3",
-      "price": "4109400",
+      "price": "4049400",
       "priceOld": "6749000",
-      "monthlyPayment": "31191"
+      "monthlyPayment": "30736"
     },
     {
       "modification": "3.0 л 9АКПП (V6 354 л.с.) 4WD",
       "engineDisplacement": "3",
-      "price": "5309400",
+      "price": "5249400",
       "priceOld": "7949000",
-      "monthlyPayment": "40300"
+      "monthlyPayment": "39844"
     },
     {
       "modification": "2.0 л 9АКПП (HEV 299 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "3959400",
+      "price": "3899400",
       "priceOld": "6599000",
-      "monthlyPayment": "30053"
+      "monthlyPayment": "29597"
     }
   ],
   "gallery": [

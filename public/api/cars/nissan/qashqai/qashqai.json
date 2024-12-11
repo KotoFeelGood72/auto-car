@@ -1,13 +1,14 @@
 {
-  "title": "Nissan Qashqai в Москвае",
+  "title": "Nissan Qashqai в Москвe",
   "brand": "Nissan",
   "model": "Qashqai",
+  "saleBlock": "Выгода 934 800 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/spus8DuoC3K57qhRi5ToOVsKD1tzcXxttjAgaDbL.png",
   "slug": "/api/cars/nissan/qashqai-/qashqai.json",
   "priceOld": "2 337 000",
-  "priceNew": "880 000",
-  "monthlyPayment": "6 679",
+  "priceNew": "1 402 200",
+  "monthlyPayment": "10 643",
   "features": [
     "Лобовое стекло с электроподогревом",
     "Заднее стекло с обогревом",
@@ -189,37 +190,37 @@
     {
       "modification": "1.2  6МКПП (115 л.с.) FWD",
       "engineDisplacement": "1197",
-      "price": "880000",
+      "price": "1402200",
       "priceOld": "2337000",
-      "monthlyPayment": "6679"
+      "monthlyPayment": "10643"
     },
     {
       "modification": "1.2 CVT (115 л.с.) FWD",
       "engineDisplacement": "1.2",
-      "price": "941000",
+      "price": "1463200",
       "priceOld": "2398000",
-      "monthlyPayment": "7142"
+      "monthlyPayment": "11106"
     },
     {
       "modification": "2.0 6MКПП (144 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1013000",
+      "price": "1535200",
       "priceOld": "2470000",
-      "monthlyPayment": "7689"
+      "monthlyPayment": "11653"
     },
     {
       "modification": "2.0 CVT (144 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1074000",
+      "price": "1596200",
       "priceOld": "2531000",
-      "monthlyPayment": "8152"
+      "monthlyPayment": "12116"
     },
     {
       "modification": "2.0 CVT (144 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "1166000",
+      "price": "1688200",
       "priceOld": "2623000",
-      "monthlyPayment": "8850"
+      "monthlyPayment": "12814"
     }
   ],
   "gallery": [

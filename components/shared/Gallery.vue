@@ -3,24 +3,27 @@
     <a
       class="gallery-item"
       v-if="images.length > 0"
-      :href="images[0].url"
+      :href="images[0].fullImage"
       data-fancybox="gallery"
     >
-      <img :src="images[0].url" :alt="images[0].alt || 'Картинка 1'" />
+      <img :src="images[0].fullImage" :alt="images[0].alt || 'Картинка 1'" />
     </a>
     <template v-for="(image, index) in images.slice(1, -1)" :key="index">
-      <a :href="image.url" class="gallery-item" data-fancybox="gallery">
-        <img :src="image.url" :alt="image.alt || `Изображение ${index + 2}`" />
+      <a :href="image.fullImage" class="gallery-item" data-fancybox="gallery">
+        <img
+          :src="image.fullImage"
+          :alt="image.alt || `Изображение ${index + 2}`"
+        />
       </a>
     </template>
     <a
       v-if="images.length > 1"
-      :href="images[images.length - 1].url"
+      :href="images[images.length - 1].fullImage"
       class="gallery-item"
       data-fancybox="gallery"
     >
       <img
-        :src="images[images.length - 1].url"
+        :src="images[images.length - 1].fullImage"
         :alt="images[images.length - 1].alt || 'Открыть галерею'"
       />
       <div class="open-gallery">Открыть галерею</div>
@@ -33,7 +36,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import { Fancybox } from "@fancyapps/ui";
 Fancybox.bind("[data-fancybox]", {});
 defineProps<{
-  images: { url: string; alt?: string }[];
+  images: any;
 }>();
 </script>
 
@@ -82,5 +85,6 @@ defineProps<{
   color: $white;
   font-size: 2rem;
   font-weight: 500;
+  cursor: pointer;
 }
 </style>

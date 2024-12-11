@@ -1,13 +1,14 @@
 {
-  "title": "Changan CS75 FL в Москвае",
+  "title": "Changan CS75 FL в Москвe",
   "brand": "Changan",
   "model": "CS75 FL",
+  "saleBlock": "Выгода 987 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/TxdpxNy2nmPiJZmqaGZYdzac8EX4J1XPb4UnPhST.png",
   "slug": "/api/cars/changan/cs75-fl-/cs75-fl.json",
   "priceOld": "2 469 900",
-  "priceNew": "1 439 900",
-  "monthlyPayment": "10 929",
+  "priceNew": "1 481 940",
+  "monthlyPayment": "11 248",
   "features": [
     "Эргономичное многофункциональное рулевое колесо с отделкой искусственной кожей, возможностью управления развлекательным центром и устройствами, подключенными по Bluetooth",
     "Механическая регулировка рулевой колонки по вылету и по наклону",
@@ -197,16 +198,16 @@
     {
       "modification": "1.8 6АКПП (150 л. с.) FWD",
       "engineDisplacement": "1.8",
-      "price": "1439900",
+      "price": "1481940",
       "priceOld": "2469900",
-      "monthlyPayment": "10929"
+      "monthlyPayment": "11248"
     },
     {
       "modification": "1.8 6АКПП (150 л. с.) 4WD",
       "engineDisplacement": "1.8",
-      "price": "1659900",
+      "price": "1701940",
       "priceOld": "2689900",
-      "monthlyPayment": "12599"
+      "monthlyPayment": "12918"
     }
   ],
   "gallery": [

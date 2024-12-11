@@ -1,13 +1,14 @@
 {
-  "title": "Faw Bestune B70 в Москвае",
+  "title": "Faw Bestune B70 в Москвe",
   "brand": "Faw",
   "model": "Bestune B70",
+  "saleBlock": "Выгода 904 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/enyZTia9uPOZfEFBnAfjMcxA0bYPqrVclurrGIS9.png",
   "slug": "/api/cars/faw/bestune-b70-/bestune-b70.json",
   "priceOld": "2 374 000",
-  "priceNew": "1 424 400",
-  "monthlyPayment": "10 812",
+  "priceNew": "1 470 000",
+  "monthlyPayment": "11 158",
   "features": [
     "Светодиодные комбинированные фары",
     "Светодиодные дневные ходовые огни",
@@ -308,16 +309,16 @@
     {
       "modification": "1.5 л 7АМТ (160 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1424400",
+      "price": "1470000",
       "priceOld": "2374000",
-      "monthlyPayment": "10812"
+      "monthlyPayment": "11158"
     },
     {
       "modification": "2.0 л 6АКПП (217 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1854400",
+      "price": "1900000",
       "priceOld": "2804000",
-      "monthlyPayment": "14075"
+      "monthlyPayment": "14421"
     }
   ],
   "gallery": [

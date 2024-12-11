@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 8 Pro в Москвае",
+  "title": "Chery Tiggo 8 Pro в Москвe",
   "brand": "Chery",
   "model": "Tiggo 8 Pro",
+  "saleBlock": "Выгода 1 372 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/gw2nQcLZt4pE1ywUHqn9F2NdfOWFIYe2xCfn5IJA.png",
   "slug": "/api/cars/chery/tiggo-8-pro-/tiggo-8-pro.json",
   "priceOld": "3 430 000",
-  "priceNew": "1 229 900",
-  "monthlyPayment": "9 335",
+  "priceNew": "2 058 000",
+  "monthlyPayment": "15 621",
   "features": [
     "Окраска металлик (на выбор)",
     "18\" алюминиевые литые диски",
@@ -252,9 +253,9 @@
     {
       "modification": "1.6 л. 7АМТ (186 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1229900",
+      "price": "2058000",
       "priceOld": "3430000",
-      "monthlyPayment": "9335"
+      "monthlyPayment": "15621"
     }
   ],
   "gallery": [

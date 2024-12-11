@@ -1,13 +1,14 @@
 {
-  "title": "Haval Jolion в Москвае",
+  "title": "Haval Jolion в Москвe",
   "brand": "Haval",
   "model": "Jolion",
+  "saleBlock": "Выгода 779 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/Zfe1j1ArL0wHlOGtzeB6Amn8M2jcPyStm5qNS4jU.png",
   "slug": "/api/cars/haval/jolion-/jolion.json",
   "priceOld": "1 949 000",
-  "priceNew": "689 900",
-  "monthlyPayment": "5 237",
+  "priceNew": "1 169 400",
+  "monthlyPayment": "8 876",
   "features": [
     "Система помощи при старте на подъеме",
     "Малоразмерное запасное колесо (докатка)",
@@ -164,23 +165,23 @@
     {
       "modification": "1.5 л. (143 л.с) АКПП 4х2",
       "engineDisplacement": "1.5",
-      "price": "809900",
+      "price": "1289400",
       "priceOld": "2069000",
-      "monthlyPayment": "6147"
+      "monthlyPayment": "9787"
     },
     {
       "modification": "1.5 л. (143 л.с) МКПП 4х2",
       "engineDisplacement": "1.5",
-      "price": "689900",
+      "price": "1169400",
       "priceOld": "1949000",
-      "monthlyPayment": "5237"
+      "monthlyPayment": "8876"
     },
     {
       "modification": "1.5 л. (150 л.с) АКПП 4х4",
       "engineDisplacement": "1.5",
-      "price": "1159900",
+      "price": "1639400",
       "priceOld": "2419000",
-      "monthlyPayment": "8804"
+      "monthlyPayment": "12443"
     }
   ],
   "gallery": [

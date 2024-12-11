@@ -1,13 +1,14 @@
 {
-  "title": "Lada Granta Лифтбек в Москвае",
+  "title": "Lada Granta Лифтбек в Москвe",
   "brand": "Lada",
   "model": "Granta Лифтбек",
+  "saleBlock": "Выгода 416 800 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ZCbi6Ul2OTGuLwBaIDSkFfZESctI5SdNfAYfhoPs.png",
   "slug": "/api/cars/lada/granta-/granta.json",
   "priceOld": "1 042 000",
-  "priceNew": "375 610",
-  "monthlyPayment": "2 851",
+  "priceNew": "625 200",
+  "monthlyPayment": "4 745",
   "features": [
     "Подушка безопасности водителя",
     "Индикация незастегнутого ремня безопасности водителя",
@@ -122,23 +123,23 @@
     {
       "modification": "1.6 л (90 л.с.), 5МТ",
       "engineDisplacement": "1.6",
-      "price": "375610",
+      "price": "625200",
       "priceOld": "1042000",
-      "monthlyPayment": "2851"
+      "monthlyPayment": "4745"
     },
     {
       "modification": "1.6 л (106 л.с.) 5МТ",
       "engineDisplacement": "1.6",
-      "price": "435610",
+      "price": "685200",
       "priceOld": "1102000",
-      "monthlyPayment": "3306"
+      "monthlyPayment": "5201"
     },
     {
       "modification": "1.6 л (98 л.с.) 4АТ",
       "engineDisplacement": "1.6",
-      "price": "682610",
+      "price": "932200",
       "priceOld": "1349000",
-      "monthlyPayment": "5181"
+      "monthlyPayment": "7076"
     }
   ],
   "gallery": [

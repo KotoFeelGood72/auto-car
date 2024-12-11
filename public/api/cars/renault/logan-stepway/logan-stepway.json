@@ -1,13 +1,14 @@
 {
-  "title": "Renault Logan Stepway в Москвае",
+  "title": "Renault Logan Stepway в Москвe",
   "brand": "Renault",
   "model": "Logan Stepway",
+  "saleBlock": "Выгода 520 400 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/N0Ick86HyuuvvIHEjgBqoLnmfSLNGwg6kFT3Dsl7.png",
   "slug": "/api/cars/renault/logan-stepway-/logan-stepway.json",
   "priceOld": "1 301 000",
-  "priceNew": "689 000",
-  "monthlyPayment": "5 230",
+  "priceNew": "780 600",
+  "monthlyPayment": "5 925",
   "features": [
     "Бамперы в цвет кузова",
     "Решетка радиатора c хромированными накладками",
@@ -97,23 +98,23 @@
     {
       "modification": "1.6 л. 5MKПП (82 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "689000",
+      "price": "780600",
       "priceOld": "1301000",
-      "monthlyPayment": "5230"
+      "monthlyPayment": "5925"
     },
     {
       "modification": "1.6 л. 5MKПП (113 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "729000",
+      "price": "820600",
       "priceOld": "1341000",
-      "monthlyPayment": "5533"
+      "monthlyPayment": "6229"
     },
     {
       "modification": "1,6 л CVT (113 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "814000",
+      "price": "905600",
       "priceOld": "1426000",
-      "monthlyPayment": "6178"
+      "monthlyPayment": "6874"
     }
   ],
   "gallery": [

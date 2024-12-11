@@ -1,13 +1,14 @@
 {
-  "title": "Geely Coolray в Москвае",
+  "title": "Geely Coolray в Москвe",
   "brand": "Geely",
   "model": "Coolray",
+  "saleBlock": "Выгода 797 996 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/XDpsRubDNRqTqfal94XEEeohRg7QHxEMtsVpE9H8.png",
   "slug": "/api/cars/geely/coolray-/coolray.json",
   "priceOld": "1 994 990",
-  "priceNew": "619 990",
-  "monthlyPayment": "4 706",
+  "priceNew": "1 196 994",
+  "monthlyPayment": "9 085",
   "features": [
     "Задние датчики парковки",
     "Система помощи при движении под уклон (HDC)",
@@ -506,9 +507,9 @@
     {
       "modification": "1.5 л. 7AMT (150 л. с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "619990",
+      "price": "1196994",
       "priceOld": "1994990",
-      "monthlyPayment": "4706"
+      "monthlyPayment": "9085"
     }
   ],
   "gallery": [

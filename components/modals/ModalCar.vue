@@ -12,7 +12,7 @@
     <div class="modal-img">
       <img :src="modalData?.img" />
     </div>
-    <Form :deal-type="83" :row="true" />
+    <Form :deal-type="80" :row="true" />
   </div>
 </template>
 

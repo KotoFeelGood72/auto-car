@@ -85,13 +85,13 @@ const handleSubmit = async () => {
   // Формируем объект данных для отправки
   const data = {
     api_key: "ed2f550d045b3d3a54d2662fe6d5e677",
-    deal_type: props.dealType, // Переданный тип сделки
+    deal_type: props.dealType,
     deal_name: form.value.name,
     deal_reklama: "Автокар",
     deal_phone_mobile: form.value.phone,
     deal_status: 82,
     deal_desc: `Имя: ${form.value.name}, Телефон: ${form.value.phone}`,
-    ...props.additionalData, // Добавляем дополнительные данные, если есть
+    ...props.additionalData,
   };
 
   isLoading.value = true;

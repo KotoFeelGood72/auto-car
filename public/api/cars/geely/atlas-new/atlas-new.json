@@ -1,13 +1,14 @@
 {
-  "title": "Geely Atlas  NEW в Москвае",
+  "title": "Geely Atlas  NEW в Москвe",
   "brand": "Geely",
   "model": "Atlas  NEW",
+  "saleBlock": "Выгода 1 486 196 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/lmZgMnX8ioOsjHTsharLvJ6XAEFOiOketRQ1GZYH.png",
   "slug": "/api/cars/geely/atlas-new-/atlas-new.json",
   "priceOld": "3 424 190",
-  "priceNew": "1 529 000",
-  "monthlyPayment": "11 606",
+  "priceNew": "1 937 994",
+  "monthlyPayment": "14 710",
   "features": [
     "Светодиодные фары ближнего и дальнего света",
     "Светодиодные дневные ходовые огни и указатели поворотов",
@@ -242,16 +243,16 @@
     {
       "modification": "2.0 л (200 л.с.) 7DCT 2WD",
       "engineDisplacement": "2",
-      "price": "1529000",
+      "price": "1937994",
       "priceOld": "3424190",
-      "monthlyPayment": "11606"
+      "monthlyPayment": "14710"
     },
     {
       "modification": "2.0 л (200 л.с.) 8AT 4WD",
       "engineDisplacement": "2",
-      "price": "1729000",
+      "price": "2137994",
       "priceOld": "3624190",
-      "monthlyPayment": "13124"
+      "monthlyPayment": "16228"
     }
   ],
   "gallery": [
@@ -374,46 +375,6 @@
       "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-24.jpg",
       "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
       "alt": "Geely Atlas  NEW в Краснодаре - фото №24"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-25.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №25"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-26.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №26"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-27.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №27"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-28.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №28"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-29.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №29"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-30.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №30"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-31.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №31"
-    },
-    {
-      "fullImage": "/api/cars/geely/atlas-new/gallery/gallery-32.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Atlas  NEW в Краснодаре - фото №32"
     }
   ]
 }

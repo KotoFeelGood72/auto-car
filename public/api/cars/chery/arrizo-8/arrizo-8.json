@@ -1,13 +1,14 @@
 {
-  "title": "Chery Arrizo 8 в Москвае",
+  "title": "Chery Arrizo 8 в Москвe",
   "brand": "Chery",
   "model": "Arrizo 8",
+  "saleBlock": "Выгода 1 020 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/7uEx163Umo2LIwfgZBJeyi9rOOh1F54cUwuKrx94.png",
   "slug": "/api/cars/chery/arrizo-8-/arrizo-8.json",
   "priceOld": "2 730 000",
-  "priceNew": "1 638 000",
-  "monthlyPayment": "12 433",
+  "priceNew": "1 710 000",
+  "monthlyPayment": "12 979",
   "features": [
     "Окраска металлик",
     "17-дюймовые алюминиевые литые диски",
@@ -276,9 +277,9 @@
     {
       "modification": "1.6 Turbo 150 DCT7 2WD",
       "engineDisplacement": "1.6",
-      "price": "1638000",
+      "price": "1710000",
       "priceOld": "2730000",
-      "monthlyPayment": "12433"
+      "monthlyPayment": "12979"
     }
   ],
   "gallery": [

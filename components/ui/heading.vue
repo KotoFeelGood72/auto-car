@@ -82,7 +82,7 @@ const isColor = computed(() => {
 }
 .heading-24 {
   font-size: 2.4rem;
-  line-height: 100%;
+  line-height: 130%;
   font-family: $font_1;
   font-weight: 500;
 }
@@ -96,11 +96,7 @@ const isColor = computed(() => {
   line-height: 100%;
   font-family: $font_1;
 }
-.heading-24 {
-  font-size: 24px;
-  line-height: 100%;
-  font-family: $font_1;
-}
+
 .heading-28 {
   font-size: 28px;
   line-height: 100%;

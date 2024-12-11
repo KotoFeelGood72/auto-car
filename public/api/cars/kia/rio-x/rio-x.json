@@ -1,13 +1,14 @@
 {
-  "title": "KIA Rio X в Москвае",
+  "title": "KIA Rio X в Москвe",
   "brand": "KIA",
   "model": "Rio X",
+  "saleBlock": "Выгода 629 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/3MAXE9wmgAuSKEzXVBj161FZ8JKXS01iKpeP0yoc.png",
   "slug": "/api/cars/kia/rio-x-/rio-x.json",
   "priceOld": "1 574 900",
-  "priceNew": "759 900",
-  "monthlyPayment": "5 768",
+  "priceNew": "944 940",
+  "monthlyPayment": "7 172",
   "features": [
     "Управление аудиосистемой на руле",
     "Регулировка рулевой колонки по вылету",
@@ -108,30 +109,30 @@
     {
       "modification": "1.4 6МКПП (100 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "759900",
+      "price": "944940",
       "priceOld": "1574900",
-      "monthlyPayment": "5768"
+      "monthlyPayment": "7172"
     },
     {
       "modification": "1.4 6АКПП (100 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "799900",
+      "price": "984940",
       "priceOld": "1614900",
-      "monthlyPayment": "6071"
+      "monthlyPayment": "7476"
     },
     {
       "modification": "1.6 6МКПП (123 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "784900",
+      "price": "969940",
       "priceOld": "1599900",
-      "monthlyPayment": "5958"
+      "monthlyPayment": "7362"
     },
     {
       "modification": "1.6 6АКПП (123 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "824900",
+      "price": "1009940",
       "priceOld": "1639900",
-      "monthlyPayment": "6261"
+      "monthlyPayment": "7666"
     }
   ],
   "gallery": [

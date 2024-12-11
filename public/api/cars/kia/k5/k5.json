@@ -1,13 +1,14 @@
 {
-  "title": "KIA K5 в Москвае",
+  "title": "KIA K5 в Москвe",
   "brand": "KIA",
   "model": "K5",
+  "saleBlock": "Выгода 1 093 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/JRhbzwvPHzwwHLwl8NbwpD608XPCrEfCHRIlFYuY.png",
   "slug": "/api/cars/kia/k5-/k5.json",
   "priceOld": "2 734 900",
-  "priceNew": "1 379 900",
-  "monthlyPayment": "10 474",
+  "priceNew": "1 640 940",
+  "monthlyPayment": "12 455",
   "features": [
     "Подогрев форсунок стеклоомывателя",
     "Боковые зеркала заднего вида с электроприводом и подогревом",
@@ -296,16 +297,16 @@
     {
       "modification": "2.0 6АКПП (150 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1379900",
+      "price": "1640940",
       "priceOld": "2734900",
-      "monthlyPayment": "10474"
+      "monthlyPayment": "12455"
     },
     {
       "modification": "2.5 8АКПП (194 л.с.) FWD",
       "engineDisplacement": "2.5",
-      "price": "1839900",
+      "price": "2100940",
       "priceOld": "3194900",
-      "monthlyPayment": "13965"
+      "monthlyPayment": "15947"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "KIA Rio в Москвае",
+  "title": "KIA Rio в Москвe",
   "brand": "KIA",
   "model": "Rio",
+  "saleBlock": "Выгода 573 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/Y4FPK5vJcHncVwFKdpHhGhhej8kCp0QXodjZtc9T.png",
   "slug": "/api/cars/kia/rio-/rio.json",
   "priceOld": "1 434 900",
-  "priceNew": "623 900",
-  "monthlyPayment": "4 736",
+  "priceNew": "860 940",
+  "monthlyPayment": "6 535",
   "features": [
     "Ручки дверей, окрашенные в цвет кузова",
     "Боковые зеркала с электрообогревом/электрорегулировкой, окрашенные в цвет кузова",
@@ -104,30 +105,30 @@
     {
       "modification": "1.4 л. 6МКПП (100 л.с) FWD",
       "engineDisplacement": "1.4",
-      "price": "623900",
+      "price": "860940",
       "priceOld": "1434900",
-      "monthlyPayment": "4736"
+      "monthlyPayment": "6535"
     },
     {
       "modification": "1.4 л. 6АКПП (100 л.с) FWD",
       "engineDisplacement": "1.4",
-      "price": "723900",
+      "price": "960940",
       "priceOld": "1534900",
-      "monthlyPayment": "5495"
+      "monthlyPayment": "7294"
     },
     {
       "modification": "1.6 л. 6МКПП (123 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "708900",
+      "price": "945940",
       "priceOld": "1519900",
-      "monthlyPayment": "5381"
+      "monthlyPayment": "7180"
     },
     {
       "modification": "1.6 л. 6АКПП (123 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "723900",
+      "price": "960940",
       "priceOld": "1534900",
-      "monthlyPayment": "5495"
+      "monthlyPayment": "7294"
     }
   ],
   "gallery": [

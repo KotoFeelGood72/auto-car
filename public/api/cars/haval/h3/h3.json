@@ -1,13 +1,14 @@
 {
-  "title": "Haval H3 в Москвае",
+  "title": "Haval H3 в Москвe",
   "brand": "Haval",
   "model": "H3",
+  "saleBlock": "Выгода 1 089 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/vSebsrWjQF7GYL2dhEctErutuVDcwXKTGe0X4owj.png",
   "slug": "/api/cars/haval/h3-/h3.json",
   "priceOld": "2 649 000",
-  "priceNew": "1 589 400",
-  "monthlyPayment": "12 064",
+  "priceNew": "1 559 400",
+  "monthlyPayment": "11 836",
   "features": [
     "Система помощи при старте на подъеме",
     "Система помощи при спуске (для SUV)",
@@ -194,16 +195,16 @@
     {
       "modification": "1.5 л. (143 л.с.) АКПП 4х2",
       "engineDisplacement": "1.5",
-      "price": "1589400",
+      "price": "1559400",
       "priceOld": "2649000",
-      "monthlyPayment": "12064"
+      "monthlyPayment": "11836"
     },
     {
       "modification": "1.5 л. (177 л.с.) АКПП 4х4",
       "engineDisplacement": "1.5",
-      "price": "2089400",
+      "price": "2059400",
       "priceOld": "3149000",
-      "monthlyPayment": "15859"
+      "monthlyPayment": "15631"
     }
   ],
   "gallery": [

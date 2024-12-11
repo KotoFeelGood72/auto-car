@@ -1,13 +1,14 @@
 {
-  "title": "KIA Ceed SW в Москвае",
+  "title": "KIA Ceed SW в Москвe",
   "brand": "KIA",
   "model": "Ceed SW",
+  "saleBlock": "Выгода 925 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/VseFusvlktIqqVgth4j0xPLLuc3fG4HTjjIFoQmW.png",
   "slug": "/api/cars/kia/ceed-sw-/ceed-sw.json",
   "priceOld": "2 314 900",
-  "priceNew": "1 023 000",
-  "monthlyPayment": "7 765",
+  "priceNew": "1 388 940",
+  "monthlyPayment": "10 542",
   "features": [
     "Ручки дверей, окрашенные в цвет кузова",
     "Передние и задние брызговики",
@@ -303,16 +304,16 @@
     {
       "modification": "1.6 л. 6АКПП (128 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "1023000",
+      "price": "1388940",
       "priceOld": "2314900",
-      "monthlyPayment": "7765"
+      "monthlyPayment": "10542"
     },
     {
       "modification": "1.5 7АМТ (150 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1508000",
+      "price": "1873940",
       "priceOld": "2799900",
-      "monthlyPayment": "11446"
+      "monthlyPayment": "14224"
     }
   ],
   "gallery": [

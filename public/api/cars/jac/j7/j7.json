@@ -1,13 +1,14 @@
 {
-  "title": "Jac J7 в Москвае",
+  "title": "Jac J7 в Москвe",
   "brand": "Jac",
   "model": "J7",
+  "saleBlock": "Выгода 840 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/TTwvYqJRxZYo66lkkxgMhMuna4syLNBFXvULI6wL.png",
   "slug": "/api/cars/jac/j7-/j7.json",
   "priceOld": "2 100 000",
-  "priceNew": "779 000",
-  "monthlyPayment": "5 913",
+  "priceNew": "1 260 000",
+  "monthlyPayment": "9 564",
   "features": [
     "17\" легкосплавные диски",
     "Светодиодная головная оптика",
@@ -181,9 +182,9 @@
     {
       "modification": "1.5 л. CVT (136 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "779000",
+      "price": "1260000",
       "priceOld": "2100000",
-      "monthlyPayment": "5913"
+      "monthlyPayment": "9564"
     }
   ],
   "gallery": [

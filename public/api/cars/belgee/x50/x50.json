@@ -1,13 +1,14 @@
 {
-  "title": "Belgee X50 в Москвае",
+  "title": "Belgee X50 в Москвe",
   "brand": "Belgee",
   "model": "X50",
+  "saleBlock": "Выгода 922 396 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/GKxtfMnCy2mzor5Xqo3sPQ8NAuCCFKuR9kOxUL2x.png",
   "slug": "/api/cars/belgee/x50-/x50.json",
   "priceOld": "2 305 990",
-  "priceNew": "1 349 000",
-  "monthlyPayment": "10 239",
+  "priceNew": "1 383 594",
+  "monthlyPayment": "10 502",
   "features": [
     "Кондиционер",
     "Камера заднего вида",
@@ -222,9 +223,9 @@
     {
       "modification": "1.5 л. (150 л.с) AT",
       "engineDisplacement": "1.5",
-      "price": "1349000",
+      "price": "1383594",
       "priceOld": "2305990",
-      "monthlyPayment": "10239"
+      "monthlyPayment": "10502"
     }
   ],
   "gallery": [

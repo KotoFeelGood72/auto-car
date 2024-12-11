@@ -1,13 +1,14 @@
 {
-  "title": "Skoda Kodiaq Laurin & Klement в Москвае",
+  "title": "Skoda Kodiaq Laurin & Klement в Москвe",
   "brand": "Skoda",
   "model": "Kodiaq Laurin & Klement",
+  "saleBlock": "Выгода 2 322 400 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/HnJCzsrpHSJ78aC4bsrUZdpmwbqDkXLUU3lUT0Sc.png",
   "slug": "/api/cars/skoda/kodiaq-laurin-klement-/kodiaq-laurin-klement.json",
   "priceOld": "5 806 000",
-  "priceNew": "3 058 000",
-  "monthlyPayment": "23 211",
+  "priceNew": "3 483 600",
+  "monthlyPayment": "26 441",
   "features": [
     "Тонировка задних стекол",
     "Передний и задний бампер L&K",
@@ -130,9 +131,9 @@
     {
       "modification": "2.0 Л. (180 Л.С.) AT 4X4",
       "engineDisplacement": "2",
-      "price": "3058000",
+      "price": "3483600",
       "priceOld": "5806000",
-      "monthlyPayment": "23211"
+      "monthlyPayment": "26441"
     }
   ],
   "gallery": [

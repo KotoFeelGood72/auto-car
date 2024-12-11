@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 4 Pro 18 YEARS EDITION в Москвае",
+  "title": "Chery Tiggo 4 Pro 18 YEARS EDITION в Москвe",
   "brand": "Chery",
   "model": "Tiggo 4 Pro 18 YEARS EDITION",
+  "saleBlock": "Выгода 648 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/IBx32GU7qbHDY5qjFnfeF4z7XxVJYrSgGcIOwlOr.png",
   "slug": "/api/cars/chery/tiggo-4-pro-18-years-edition-/tiggo-4-pro-18-years-edition.json",
   "priceOld": "1 920 000",
-  "priceNew": "1 152 000",
-  "monthlyPayment": "8 744",
+  "priceNew": "1 272 000",
+  "monthlyPayment": "9 655",
   "features": [
     "Рейлинги на крыше",
     "Окраска металлик (на выбор)",
@@ -95,23 +96,23 @@
     {
       "modification": "1.5 л. 5МКПП (113 л.с) FWD",
       "engineDisplacement": "1.5",
-      "price": "1152000",
+      "price": "1272000",
       "priceOld": "1920000",
-      "monthlyPayment": "8744"
+      "monthlyPayment": "9655"
     },
     {
       "modification": "1.5 л. 7AMT (113 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1282000",
+      "price": "1402000",
       "priceOld": "2050000",
-      "monthlyPayment": "9731"
+      "monthlyPayment": "10642"
     },
     {
       "modification": "1.5 л. 9AMT (147 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1482000",
+      "price": "1602000",
       "priceOld": "2250000",
-      "monthlyPayment": "11249"
+      "monthlyPayment": "12160"
     }
   ],
   "gallery": [

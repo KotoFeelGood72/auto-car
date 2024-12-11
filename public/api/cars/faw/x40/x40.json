@@ -1,13 +1,14 @@
 {
-  "title": "Faw X40 в Москвае",
+  "title": "Faw X40 в Москвe",
   "brand": "Faw",
   "model": "X40",
+  "saleBlock": "Выгода 640 800 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/YViAqZUiuLhw9CUfk6spURwMNRJaqh3tiS0H7UCt.png",
   "slug": "/api/cars/faw/x40-/x40.json",
   "priceOld": "1 602 000",
-  "priceNew": "889 000",
-  "monthlyPayment": "6 748",
+  "priceNew": "961 200",
+  "monthlyPayment": "7 296",
   "features": [
     "Антиблокировочная система тормозов (ABS)",
     "Электронная система экстренного торможения (EBA)",
@@ -144,16 +145,16 @@
     {
       "modification": "1.6 5МКПП (108 л. с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "889000",
+      "price": "961200",
       "priceOld": "1602000",
-      "monthlyPayment": "6748"
+      "monthlyPayment": "7296"
     },
     {
       "modification": "1.6 6АКПП (108 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1041000",
+      "price": "1113200",
       "priceOld": "1754000",
-      "monthlyPayment": "7901"
+      "monthlyPayment": "8449"
     }
   ],
   "gallery": [

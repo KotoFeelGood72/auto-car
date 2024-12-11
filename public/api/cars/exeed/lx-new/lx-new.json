@@ -1,13 +1,14 @@
 {
-  "title": "EXEED LX  NEW в Москвае",
+  "title": "EXEED LX  NEW в Москвe",
   "brand": "EXEED",
   "model": "LX  NEW",
+  "saleBlock": "Выгода 1 196 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/3Mbz3vjLMLaDEjQmoQEIl1nM9oZ466qG3lngZ1pj.png",
   "slug": "/api/cars/exeed/lx-new-/lx-new.json",
   "priceOld": "3 090 000",
-  "priceNew": "1 854 000",
-  "monthlyPayment": "14 072",
+  "priceNew": "1 894 000",
+  "monthlyPayment": "14 376",
   "features": [
     "Обивка сидений экокожей",
     "Водительское сиденье с электрической регулировкой в 6 направлениях, с памятью настроек",
@@ -101,23 +102,23 @@
     {
       "modification": "1.5 л. CVT9 (147 л.c.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1854000",
+      "price": "1894000",
       "priceOld": "3090000",
-      "monthlyPayment": "14072"
+      "monthlyPayment": "14376"
     },
     {
       "modification": "1.6 л. 7DCT (150 л.c.) FWD",
       "engineDisplacement": "1.6",
-      "price": "2259000",
+      "price": "2299000",
       "priceOld": "3495000",
-      "monthlyPayment": "17146"
+      "monthlyPayment": "17450"
     },
     {
       "modification": "1.6 л. 7DCT (150 л.c.) AWD",
       "engineDisplacement": "1.6",
-      "price": "2559000",
+      "price": "2599000",
       "priceOld": "3795000",
-      "monthlyPayment": "19423"
+      "monthlyPayment": "19727"
     }
   ],
   "gallery": [

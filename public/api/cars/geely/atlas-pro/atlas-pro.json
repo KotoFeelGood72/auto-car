@@ -1,13 +1,14 @@
 {
-  "title": "Geely Atlas Pro в Москвае",
+  "title": "Geely Atlas Pro в Москвe",
   "brand": "Geely",
   "model": "Atlas Pro",
+  "saleBlock": "Выгода 1 169 596 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/CCnrJs5q1qtXFROtKFNHsOaA45DOfDJPsygpt1bF.png",
   "slug": "/api/cars/geely/atlas-pro-/atlas-pro.json",
   "priceOld": "2 836 990",
-  "priceNew": "1 090 000",
-  "monthlyPayment": "8 273",
+  "priceNew": "1 667 394",
+  "monthlyPayment": "12 656",
   "features": [
     "Датчик света",
     "Функция дистанционной разблокировки двери багажника кнопкой на ключе",
@@ -164,16 +165,16 @@
     {
       "modification": "1.5T 4WD 7DCT (177 л.с.)",
       "engineDisplacement": "1.5",
-      "price": "1485000",
+      "price": "2062394",
       "priceOld": "3231990",
-      "monthlyPayment": "11272"
+      "monthlyPayment": "15654"
     },
     {
       "modification": "1.5T 2WD 6AT (150 л.с.)",
       "engineDisplacement": "1.5",
-      "price": "1090000",
+      "price": "1667394",
       "priceOld": "2836990",
-      "monthlyPayment": "8273"
+      "monthlyPayment": "12656"
     }
   ],
   "gallery": [

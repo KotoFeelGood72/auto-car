@@ -1,13 +1,14 @@
 {
-  "title": "Geely Okavango в Москвае",
+  "title": "Geely Okavango в Москвe",
   "brand": "Geely",
   "model": "Okavango",
+  "saleBlock": "Выгода 1 568 196 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/OlkrlS5zcUF0xFiI9EhbCgGrsiWvwF5VSVzhTpUx.png",
   "slug": "/api/cars/geely/okavango-/okavango.json",
   "priceOld": "3 656 190",
-  "priceNew": "2 193 714",
-  "monthlyPayment": "16 651",
+  "priceNew": "2 087 994",
+  "monthlyPayment": "15 848",
   "features": [
     "Легкосплавные колесные диски 19\" (шины 235/50 R19)",
     "Компактное запасное колесо",
@@ -156,9 +157,9 @@
     {
       "modification": "2.0T 2WD 7DCT (200 л.с.)",
       "engineDisplacement": "2",
-      "price": "2193714",
+      "price": "2087994",
       "priceOld": "3656190",
-      "monthlyPayment": "16651"
+      "monthlyPayment": "15848"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "Tank 300 в Москвае",
+  "title": "Tank 300 в Москвe",
   "brand": "Tank",
   "model": "300",
+  "saleBlock": "Выгода 1 779 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/tOnqflyZkiIRnXSjo2a11YxzxtMal7JxhQuqISKI.png",
   "slug": "/api/cars/tank/300-/300.json",
   "priceOld": "4 299 000",
-  "priceNew": "2 579 400",
-  "monthlyPayment": "19 578",
+  "priceNew": "2 519 400",
+  "monthlyPayment": "19 123",
   "features": [
     "Рулевая колонка, регулируемая по высоте и вылету",
     "Электроусилитель рулевого управления с переменным усилием и возможностью выбора режима",
@@ -336,9 +337,9 @@
     {
       "modification": "2.0 л 8АКПП (220 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2579400",
+      "price": "2519400",
       "priceOld": "4299000",
-      "monthlyPayment": "19578"
+      "monthlyPayment": "19123"
     }
   ],
   "gallery": [

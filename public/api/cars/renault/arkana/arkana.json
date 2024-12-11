@@ -1,13 +1,14 @@
 {
-  "title": "Renault Arkana в Москвае",
+  "title": "Renault Arkana в Москвe",
   "brand": "Renault",
   "model": "Arkana",
+  "saleBlock": "Выгода 749 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/jqbrnO2ZZXcktP0omETjOtSrgCCS2JLUtphHaO0T.png",
   "slug": "/api/cars/renault/arkana-/arkana.json",
   "priceOld": "1 874 000",
-  "priceNew": "938 000",
-  "monthlyPayment": "7 120",
+  "priceNew": "1 124 400",
+  "monthlyPayment": "8 534",
   "features": [
     "Зеркала заднего вида черного цвета",
     "Хромированная верхняя решетка радиатора",
@@ -165,37 +166,37 @@
     {
       "modification": "1,6 5МКПП (114 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "938000",
+      "price": "1124400",
       "priceOld": "1874000",
-      "monthlyPayment": "7120"
+      "monthlyPayment": "8534"
     },
     {
       "modification": "1,6 CVT  (114 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1113000",
+      "price": "1299400",
       "priceOld": "2049000",
-      "monthlyPayment": "8448"
+      "monthlyPayment": "9863"
     },
     {
       "modification": "1,6 6МКПП (114 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "1128000",
+      "price": "1314400",
       "priceOld": "2064000",
-      "monthlyPayment": "8562"
+      "monthlyPayment": "9977"
     },
     {
       "modification": "1,3 CVT  (150 л.с.) FWD",
       "engineDisplacement": "1.3",
-      "price": "1421000",
+      "price": "1607400",
       "priceOld": "2357000",
-      "monthlyPayment": "10786"
+      "monthlyPayment": "12201"
     },
     {
       "modification": "1,3 CVT  (150 л.с.) 4WD",
       "engineDisplacement": "1.3",
-      "price": "1531000",
+      "price": "1717400",
       "priceOld": "2467000",
-      "monthlyPayment": "11621"
+      "monthlyPayment": "13036"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "KIA Cerato в Москвае",
+  "title": "KIA Cerato в Москвe",
   "brand": "KIA",
   "model": "Cerato",
+  "saleBlock": "Выгода 863 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/zMln79uXNsKfkIHuY6sVDGRvKgmPAGX4nM3wdDMd.png",
   "slug": "/api/cars/kia/cerato-/cerato.json",
   "priceOld": "2 159 900",
-  "priceNew": "989 900",
-  "monthlyPayment": "7 514",
+  "priceNew": "1 295 940",
+  "monthlyPayment": "9 837",
   "features": [
     "Передние и задние брызговики",
     "Зеркала заднего вида окрашенные в цвет кузова",
@@ -140,23 +141,23 @@
     {
       "modification": "1.6 л. 6МКПП (128 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "989900",
+      "price": "1295940",
       "priceOld": "2159900",
-      "monthlyPayment": "7514"
+      "monthlyPayment": "9837"
     },
     {
       "modification": "1.6 л. 6АКПП (128 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "1029900",
+      "price": "1335940",
       "priceOld": "2199900",
-      "monthlyPayment": "7817"
+      "monthlyPayment": "10140"
     },
     {
       "modification": "2.0 л. 6АКПП (150 л.с) FWD",
       "engineDisplacement": "2",
-      "price": "1144900",
+      "price": "1450940",
       "priceOld": "2314900",
-      "monthlyPayment": "8690"
+      "monthlyPayment": "11013"
     }
   ],
   "gallery": [

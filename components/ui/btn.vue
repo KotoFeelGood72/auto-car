@@ -1,16 +1,30 @@
 <template>
   <button
-    :class="['btn', size, styles, color, { weight: weight }, { full: full }]"
+    :class="[
+      'btn',
+      size,
+      styles,
+      color,
+      { weight: weight },
+      { full: full },
+      'light',
+    ]"
     :disabled="loading"
+    @click="createRipple"
   >
     <div v-if="loading" class="loading">
       <Icon name="svg-spinners:ring-resize" :size="20" />
     </div>
     <span>{{ name }}</span>
+    <div class="flash">
+      <div class="flash-line"></div>
+    </div>
   </button>
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
+
 const props = defineProps<{
   name?: string;
   loading?: boolean;
@@ -20,6 +34,24 @@ const props = defineProps<{
   weight?: boolean;
   full?: boolean;
 }>();
+
+const createRipple = (e: MouseEvent) => {
+  const btn = e.currentTarget as HTMLElement;
+  const boundingBox = btn.getBoundingClientRect();
+  const x = e.clientX - boundingBox.left;
+  const y = e.clientY - boundingBox.top;
+
+  const ripple = document.createElement("span");
+  ripple.classList.add("ripple");
+  ripple.style.left = `${x}px`;
+  ripple.style.top = `${y}px`;
+
+  btn.appendChild(ripple);
+
+  ripple.addEventListener("animationend", () => {
+    ripple.remove();
+  });
+};
 </script>
 
 <style scoped lang="scss">
@@ -28,9 +60,10 @@ const props = defineProps<{
   border-radius: 1rem;
   @include flex-center;
   gap: 2rem;
+  cursor: pointer;
+  position: relative; /* Для Ripple эффекта */
+  overflow: hidden; /* Чтобы Ripple не выходил за пределы кнопки */
 
-  &.small {
-  }
   &.normal {
     height: 4.5rem;
     padding: 1.3rem 2rem;
@@ -61,6 +94,14 @@ const props = defineProps<{
     &.blue {
       border-color: $primary;
     }
+    &.white {
+      border-color: $white;
+      color: $white;
+      &:hover {
+        background-color: transparent;
+        color: $white;
+      }
+    }
     &.dark {
       border-color: $black;
       &:hover {
@@ -83,9 +124,9 @@ const props = defineProps<{
     }
     &.blue {
       background-color: $primary;
-      &:hover {
-        background-color: $darkPrimary;
-      }
+      // &:hover {
+      //   background-color: $darkPrimary;
+      // }
     }
   }
 }
@@ -102,5 +143,79 @@ const props = defineProps<{
 
 .loading {
   @include flex-center;
+}
+
+:deep(.ripple) {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+
+  border-radius: 50%;
+  background-color: white;
+
+  pointer-events: none;
+  opacity: 0.5;
+  animation: ripple 0.5s linear;
+}
+@keyframes ripple {
+  to {
+    width: 15rem;
+    height: 15rem;
+    opacity: 0;
+  }
+}
+
+.flash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-8.5rem);
+  animation-name: flash;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.flash-line {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0.1)),
+    to(rgba(255, 255, 255, 0.4))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.4)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.4)
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.4)
+  );
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  transform: skewX(-45deg);
+}
+
+@keyframes flash {
+  20% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 </style>

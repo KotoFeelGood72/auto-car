@@ -1,13 +1,14 @@
 {
-  "title": "Volkswagen Taos в Москвае",
+  "title": "Volkswagen Taos в Москвe",
   "brand": "Volkswagen",
   "model": "Taos",
+  "saleBlock": "Выгода 1 131 560 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/uwi5XanQISJ3iVieVd2i4vsNYbpp8PsrWwICsCTO.png",
   "slug": "/api/cars/volkswagen/taos-/taos.json",
   "priceOld": "2 828 900",
-  "priceNew": "1 399 900",
-  "monthlyPayment": "10 626",
+  "priceNew": "1 697 340",
+  "monthlyPayment": "12 883",
   "features": [
     "Кожаный мультируль с обогревом",
     "Обогрев передних сидений",
@@ -121,30 +122,30 @@
     {
       "modification": "1.6 5МКПП (110 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1399900",
+      "price": "1697340",
       "priceOld": "2828900",
-      "monthlyPayment": "10626"
+      "monthlyPayment": "12883"
     },
     {
       "modification": "1.4 8АКПП (150 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "1729900",
+      "price": "2027340",
       "priceOld": "3158900",
-      "monthlyPayment": "13130"
+      "monthlyPayment": "15388"
     },
     {
       "modification": "1.4 7AMT (150 л.с.) 4WD",
       "engineDisplacement": "1.4",
-      "price": "1629900",
+      "price": "1927340",
       "priceOld": "3058900",
-      "monthlyPayment": "12371"
+      "monthlyPayment": "14629"
     },
     {
       "modification": "1.6 6АКПП (110 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "1459900",
+      "price": "1757340",
       "priceOld": "2888900",
-      "monthlyPayment": "11081"
+      "monthlyPayment": "13339"
     }
   ],
   "gallery": [

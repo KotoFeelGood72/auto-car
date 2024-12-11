@@ -1,13 +1,14 @@
 {
-  "title": "Changan UNI-T в Москвае",
+  "title": "Changan UNI-T в Москвe",
   "brand": "Changan",
   "model": "UNI-T",
+  "saleBlock": "Выгода 1 327 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/djVEC06neH7gGJik2HMygZIbJEQDFC8kPZD6ZlTO.png",
   "slug": "/api/cars/changan/uni-t-/uni-t.json",
   "priceOld": "3 049 900",
-  "priceNew": "1 829 940",
-  "monthlyPayment": "13 890",
+  "priceNew": "1 721 940",
+  "monthlyPayment": "13 070",
   "features": [
     "Круиз-контроль",
     "Мультифункциональное рулевое колесо",
@@ -136,9 +137,9 @@
     {
       "modification": "1.5 л 7АМТ (167 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1829940",
+      "price": "1721940",
       "priceOld": "3049900",
-      "monthlyPayment": "13890"
+      "monthlyPayment": "13070"
     }
   ],
   "gallery": [

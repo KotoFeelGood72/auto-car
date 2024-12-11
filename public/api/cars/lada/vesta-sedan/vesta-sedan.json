@@ -1,13 +1,14 @@
 {
-  "title": "Lada Vesta Седан в Москвае",
+  "title": "Lada Vesta Седан в Москвe",
   "brand": "Lada",
   "model": "Vesta Седан",
+  "saleBlock": "Выгода 495 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/6W5iyC74V5AzgiYpH30BXpH1TJuqJsWL1S59upOo.png",
   "slug": "/api/cars/lada/vesta-/vesta.json",
   "priceOld": "1 239 900",
-  "priceNew": "519 000",
-  "monthlyPayment": "3 939",
+  "priceNew": "743 940",
+  "monthlyPayment": "5 647",
   "features": [
     "Кондиционер",
     "Активный усилитель руля",
@@ -181,16 +182,16 @@
     {
       "modification": "1.6 л. 5МКПП (106 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "519000",
+      "price": "743940",
       "priceOld": "1239900",
-      "monthlyPayment": "3939"
+      "monthlyPayment": "5647"
     },
     {
       "modification": "1.8 л. CVT (122 л.с) FWD",
       "engineDisplacement": "1.8",
-      "price": "879100",
+      "price": "1104040",
       "priceOld": "1600000",
-      "monthlyPayment": "6673"
+      "monthlyPayment": "8380"
     }
   ],
   "gallery": [

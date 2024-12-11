@@ -1,13 +1,14 @@
 {
-  "title": "Geely Coolray  NEW в Москвае",
+  "title": "Geely Coolray  NEW в Москвe",
   "brand": "Geely",
   "model": "Coolray  NEW",
+  "saleBlock": "Выгода 1 129 196 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/KHrm0wKlsVKeOhQOjpImoFJhXA1907YMGh4bPZjG.png",
   "slug": "/api/cars/geely/coolray-new-/coolray-new.json",
   "priceOld": "2 713 190",
-  "priceNew": "1 219 990",
-  "monthlyPayment": "9 260",
+  "priceNew": "1 583 994",
+  "monthlyPayment": "12 023",
   "features": [
     "Камера задняя",
     "Круиз-контроль",
@@ -276,9 +277,9 @@
     {
       "modification": "1.5T 2WD 7DCT (147 л.с.)",
       "engineDisplacement": "1.5",
-      "price": "1219990",
+      "price": "1583994",
       "priceOld": "2713190",
-      "monthlyPayment": "9260"
+      "monthlyPayment": "12023"
     }
   ],
   "gallery": [
@@ -441,31 +442,6 @@
       "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-32.jpg",
       "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
       "alt": "Geely Coolray  NEW в Краснодаре - фото №32"
-    },
-    {
-      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-33.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Coolray  NEW в Краснодаре - фото №33"
-    },
-    {
-      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-34.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Coolray  NEW в Краснодаре - фото №34"
-    },
-    {
-      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-35.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Coolray  NEW в Краснодаре - фото №35"
-    },
-    {
-      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-36.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Coolray  NEW в Краснодаре - фото №36"
-    },
-    {
-      "fullImage": "/api/cars/geely/coolray-new/gallery/gallery-37.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Coolray  NEW в Краснодаре - фото №37"
     }
   ]
 }

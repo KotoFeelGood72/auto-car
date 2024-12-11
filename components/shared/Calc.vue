@@ -14,7 +14,7 @@
         :values="[0, 23, 45, 68, 90]"
         :connect="true"
         :show-values="true"
-        @update="updateDownPayment"
+        v-model="down_payment"
         unit="%"
       />
 
@@ -27,17 +27,17 @@
         :values="[6, 24, 36, 48, 60, 72, 84, 96]"
         :connect="true"
         :show-values="true"
-        @update="updateLoanTerm"
+        v-model="loan_term"
         unit=""
       />
       <heading title="Укажите контактные данные" :level="2" :size="32" />
-      <Form :row="true" :deal-type="80" />
+      <Form :row="true" :deal-type="80" :additionalData="formAdditionalData" />
     </div>
     <div class="right-side">
       <CarDetails
-        :car="selectedCar"
-        :downPayment="downPayment"
-        :loanTerm="loanTerm"
+        :car="car"
+        :downPayment="down_payment"
+        :loanTerm="loan_term"
       />
     </div>
   </div>
@@ -51,29 +51,18 @@ import Form from "./Form.vue";
 import heading from "../ui/heading.vue";
 import CarDetails from "./CarDetails.vue";
 
-const options = [
-  { value: "lada", label: "LADA" },
-  { value: "kia", label: "KIA" },
-  { value: "toyota", label: "Toyota" },
-];
+const props = defineProps<{
+  car: any;
+}>();
 
-const selectedCar = ref({
-  brand: "LADA",
-  model: "Granta",
-  price: 354400,
-  image: "/assets/img/cars/black.png",
-});
+const down_payment = ref(45);
+const loan_term = ref(36);
 
-const downPayment = ref(30);
-const loanTerm = ref(36);
-
-const updateDownPayment = (value: number) => {
-  downPayment.value = value;
-};
-
-const updateLoanTerm = (value: number) => {
-  loanTerm.value = value;
-};
+const formAdditionalData = computed(() => ({
+  down_payment: down_payment.value,
+  loan_term: loan_term.value,
+  car: props.car,
+}));
 </script>
 
 <style lang="scss" scoped>

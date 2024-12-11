@@ -1,13 +1,14 @@
 {
-  "title": "Changan Alsvin в Москвае",
+  "title": "Changan Alsvin в Москвe",
   "brand": "Changan",
   "model": "Alsvin",
+  "saleBlock": "Выгода 780 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/wDvOD8QCgjxA3uIeq5mXmhyWq8bZSsqR4AqSqzFf.png",
   "slug": "/api/cars/changan/alsvin-/alsvin.json",
   "priceOld": "1 830 000",
-  "priceNew": "890 000",
-  "monthlyPayment": "6 755",
+  "priceNew": "1 050 000",
+  "monthlyPayment": "7 970",
   "features": [
     "Иммобилайзер",
     "Кондиционер",
@@ -111,9 +112,9 @@
     {
       "modification": "1.5 л. 5AMT (107 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "890000",
+      "price": "1050000",
       "priceOld": "1830000",
-      "monthlyPayment": "6755"
+      "monthlyPayment": "7970"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "Lada Granta Drive Active в Москвае",
+  "title": "Lada Granta Drive Active в Москвe",
   "brand": "Lada",
   "model": "Granta Drive Active",
+  "saleBlock": "Выгода 380 360 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/6Td9bc0P4Pd3A7AiyHa897szr66wulsQqE4l2BH4.png",
   "slug": "/api/cars/lada/granta-drive-active-/granta-drive-active.json",
   "priceOld": "950 900",
-  "priceNew": "419 000",
-  "monthlyPayment": "3 180",
+  "priceNew": "570 540",
+  "monthlyPayment": "4 331",
   "features": [
     "Подвеска с заниженным клиренсом и спортивной настройкой",
     "Подушка безопасности водителя",
@@ -115,16 +116,16 @@
     {
       "modification": "1.6 л 5МКПП (90 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "419000",
+      "price": "570540",
       "priceOld": "950900",
-      "monthlyPayment": "3180"
+      "monthlyPayment": "4331"
     },
     {
       "modification": "1.6 л. 5МКПП (106 л.с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "577000",
+      "price": "728540",
       "priceOld": "1108900",
-      "monthlyPayment": "4380"
+      "monthlyPayment": "5530"
     }
   ],
   "gallery": [

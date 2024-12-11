@@ -1,13 +1,14 @@
 {
-  "title": "Changan UNI-V в Москвае",
+  "title": "Changan UNI-V в Москвe",
   "brand": "Changan",
   "model": "UNI-V",
+  "saleBlock": "Выгода 1 333 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/rrtswqb9DAB8377bG8bCh5aAb8rghI5R1IRugCWO.png",
   "slug": "/api/cars/changan/uni-v-/uni-v.json",
   "priceOld": "3 049 900",
-  "priceNew": "1 729 900",
-  "monthlyPayment": "13 130",
+  "priceNew": "1 715 940",
+  "monthlyPayment": "13 024",
   "features": [
     "Климат-контроль с PM0.1 фильтром и функцией ионизации воздуха",
     "Электронная система помощи при подъёме (HHC)",
@@ -442,9 +443,9 @@
     {
       "modification": "1.5 л. 7DCT (181 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1729900",
+      "price": "1715940",
       "priceOld": "3049900",
-      "monthlyPayment": "13130"
+      "monthlyPayment": "13024"
     }
   ],
   "gallery": [

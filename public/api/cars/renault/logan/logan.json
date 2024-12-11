@@ -1,13 +1,14 @@
 {
-  "title": "Renault Logan в Москвае",
+  "title": "Renault Logan в Москвe",
   "brand": "Renault",
   "model": "Logan",
+  "saleBlock": "Выгода 449 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/AY7jbkgXrjGI42RoDa4bUz6VgWWnqEOHiEcS7HDh.png",
   "slug": "/api/cars/renault/logan-/logan.json",
   "priceOld": "1 124 000",
-  "priceNew": "569 000",
-  "monthlyPayment": "4 319",
+  "priceNew": "674 400",
+  "monthlyPayment": "5 119",
   "features": [
     "Бамперы в цвет кузова",
     "Решетка радиатора черного цвета",
@@ -98,23 +99,23 @@
     {
       "modification": "1.6 л. 5MKПП (82 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "569000",
+      "price": "674400",
       "priceOld": "1124000",
-      "monthlyPayment": "4319"
+      "monthlyPayment": "5119"
     },
     {
       "modification": "1.6 л. 4АKПП (102 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "761000",
+      "price": "866400",
       "priceOld": "1316000",
-      "monthlyPayment": "5776"
+      "monthlyPayment": "6576"
     },
     {
       "modification": "1.6 л. 5MKПП (113 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "706000",
+      "price": "811400",
       "priceOld": "1261000",
-      "monthlyPayment": "5359"
+      "monthlyPayment": "6159"
     }
   ],
   "gallery": [

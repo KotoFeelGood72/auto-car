@@ -18,6 +18,9 @@ const { openModal } = useModalStore();
   bottom: 4rem;
   left: 4rem;
   z-index: 99;
+  img {
+    width: 100%;
+  }
 
   @include bp($point_2) {
     bottom: 2rem;

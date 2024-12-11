@@ -1,13 +1,14 @@
 {
-  "title": "Dongfeng 580 в Москвае",
+  "title": "Dongfeng 580 в Москвe",
   "brand": "Dongfeng",
   "model": "580",
+  "saleBlock": "Выгода 999 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/VbUu8aCUe1Vb9V5Chl0emLtr6GzR5eBYrqvLyXDM.png",
   "slug": "/api/cars/dongfeng/580-/580.json",
   "priceOld": "2 499 000",
-  "priceNew": "919 900",
-  "monthlyPayment": "6 982",
+  "priceNew": "1 499 400",
+  "monthlyPayment": "11 381",
   "features": [
     "Шины размерностью 225/60R17",
     "Заглушка колесных дисков",
@@ -90,9 +91,9 @@
     {
       "modification": "1.5 л. CVT (145 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "919900",
+      "price": "1499400",
       "priceOld": "2499000",
-      "monthlyPayment": "6982"
+      "monthlyPayment": "11381"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "Changan EADOPlus в Москвае",
+  "title": "Changan EADOPlus в Москвe",
   "brand": "Changan",
   "model": "EADOPlus",
+  "saleBlock": "Выгода 1 021 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ViPnBqDbjNfwmRA2pKL5EcgK5RqlTgcq1IaVsqAi.png",
   "slug": "/api/cars/changan/eadoplus-/eadoplus.json",
   "priceOld": "2 419 900",
-  "priceNew": "1 400 000",
-  "monthlyPayment": "10 626",
+  "priceNew": "1 397 940",
+  "monthlyPayment": "10 611",
   "features": [
     "Круиз-контроль",
     "Мультифункциональное рулевое колесо",
@@ -127,9 +128,9 @@
     {
       "modification": "1.4 л. 7AMT (155 л.с) FWD",
       "engineDisplacement": "1.4",
-      "price": "1400000",
+      "price": "1397940",
       "priceOld": "2419900",
-      "monthlyPayment": "10626"
+      "monthlyPayment": "10611"
     }
   ],
   "gallery": [

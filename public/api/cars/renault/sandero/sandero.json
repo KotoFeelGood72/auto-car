@@ -1,13 +1,14 @@
 {
-  "title": "Renault Sandero в Москвае",
+  "title": "Renault Sandero в Москвe",
   "brand": "Renault",
   "model": "Sandero",
+  "saleBlock": "Выгода 503 200 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/bxBjbo1BHCa6HOT1ofTP7cqEYa4oag2CGuMGTMxG.png",
   "slug": "/api/cars/renault/sandero-/sandero.json",
   "priceOld": "1 258 000",
-  "priceNew": "579 000",
-  "monthlyPayment": "4 395",
+  "priceNew": "754 800",
+  "monthlyPayment": "5 729",
   "features": [
     "Бамперы в цвет кузова",
     "Решетка радиатора черного цвета",
@@ -96,9 +97,9 @@
     {
       "modification": "1.6 л. 5MKПП (82 л.с) FWD",
       "engineDisplacement": "1.6",
-      "price": "579000",
+      "price": "754800",
       "priceOld": "1258000",
-      "monthlyPayment": "4395"
+      "monthlyPayment": "5729"
     }
   ],
   "gallery": [

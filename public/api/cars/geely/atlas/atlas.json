@@ -1,13 +1,14 @@
 {
-  "title": "Geely Atlas в Москвае",
+  "title": "Geely Atlas в Москвe",
   "brand": "Geely",
   "model": "Atlas",
+  "saleBlock": "Выгода 872 596 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/sxzsArh9neG6tV8nSOye1sWsvVxFpN3aRTHwL3vF.png",
   "slug": "/api/cars/geely/atlas-/atlas.json",
   "priceOld": "1 975 990",
-  "priceNew": "990 000",
-  "monthlyPayment": "7 514",
+  "priceNew": "1 103 394",
+  "monthlyPayment": "8 375",
   "features": [
     "Дневные ходовые огни",
     "МЕХАНИЧЕСКИЙ ПРИВОД ЗЕРКАЛ",
@@ -162,23 +163,23 @@
     {
       "modification": "2.0 л. 6MКПП (139 л.с) FWD",
       "engineDisplacement": "2",
-      "price": "990000",
+      "price": "1103394",
       "priceOld": "1975990",
-      "monthlyPayment": "7514"
+      "monthlyPayment": "8375"
     },
     {
       "modification": "2.4 л. 6АКПП (149 л.с) FWD",
       "engineDisplacement": "2.4",
-      "price": "1415000",
+      "price": "1528394",
       "priceOld": "2400990",
-      "monthlyPayment": "10740"
+      "monthlyPayment": "11601"
     },
     {
       "modification": "2.4 л. 6АКПП (149 л.с) 4WD",
       "engineDisplacement": "2.4",
-      "price": "1539000",
+      "price": "1652394",
       "priceOld": "2524990",
-      "monthlyPayment": "11681"
+      "monthlyPayment": "12542"
     }
   ],
   "gallery": [

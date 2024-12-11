@@ -26,6 +26,9 @@ import heading from "./heading.vue";
   max-width: 26.6rem;
   border-right: 0.1rem solid $border;
   padding-right: 3rem;
+  img {
+    width: 100%;
+  }
   @include bp($point_2) {
     max-width: 10rem;
     padding-right: 0;

@@ -1,13 +1,14 @@
 {
-  "title": "Volkswagen Tiguan в Москвае",
+  "title": "Volkswagen Tiguan в Москвe",
   "brand": "Volkswagen",
   "model": "Tiguan",
+  "saleBlock": "Выгода 2 094 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/8EViz0g2paRRWRaulWZLxhMfEh7yWgH8JEKSYn0i.png",
   "slug": "/api/cars/volkswagen/tiguan-/tiguan.json",
   "priceOld": "3 375 900",
-  "priceNew": "1 597 000",
-  "monthlyPayment": "12 122",
+  "priceNew": "1 280 940",
+  "monthlyPayment": "9 723",
   "features": [
     "Многофункциональное рулевое колесо с кожаной отделкой и подогревом",
     "Подогрев передних сидений",
@@ -118,30 +119,30 @@
     {
       "modification": "1.4 л. 6МКПП (125 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "1597000",
+      "price": "1280940",
       "priceOld": "3375900",
-      "monthlyPayment": "12122"
+      "monthlyPayment": "9723"
     },
     {
       "modification": "1.4 л. 6AMT (150 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "1727000",
+      "price": "1410940",
       "priceOld": "3505900",
-      "monthlyPayment": "13108"
+      "monthlyPayment": "10709"
     },
     {
       "modification": "2.0 л. 7AMT (180 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2267000",
+      "price": "1950940",
       "priceOld": "4045900",
-      "monthlyPayment": "17207"
+      "monthlyPayment": "14808"
     },
     {
       "modification": "2.0 л. 7AMT (220 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2967000",
+      "price": "2650940",
       "priceOld": "4745900",
-      "monthlyPayment": "22520"
+      "monthlyPayment": "20121"
     }
   ],
   "gallery": [

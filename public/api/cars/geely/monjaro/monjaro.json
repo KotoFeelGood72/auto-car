@@ -1,13 +1,14 @@
 {
-  "title": "Geely Monjaro в Москвае",
+  "title": "Geely Monjaro в Москвe",
   "brand": "Geely",
   "model": "Monjaro",
+  "saleBlock": "Выгода 1 925 196 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/PphOptJWb0VDJXqHB3ZqVmjSnRECqvjDG5acHp17.png",
   "slug": "/api/cars/geely/monjaro-/monjaro.json",
   "priceOld": "4 490 190",
-  "priceNew": "2 694 114",
-  "monthlyPayment": "20 449",
+  "priceNew": "2 564 994",
+  "monthlyPayment": "19 469",
   "features": [
     "Светодиодные фары",
     "Светодиодные дневные ходовые огни",
@@ -278,9 +279,9 @@
     {
       "modification": "2.0 л. 8АКПП (238 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "2694114",
+      "price": "2564994",
       "priceOld": "4490190",
-      "monthlyPayment": "20449"
+      "monthlyPayment": "19469"
     }
   ],
   "gallery": [
@@ -498,11 +499,6 @@
       "fullImage": "/api/cars/geely/monjaro/gallery/gallery-43.jpg",
       "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
       "alt": "Geely Monjaro в Краснодаре - фото №43"
-    },
-    {
-      "fullImage": "/api/cars/geely/monjaro/gallery/gallery-44.jpg",
-      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
-      "alt": "Geely Monjaro в Краснодаре - фото №44"
     }
   ]
 }

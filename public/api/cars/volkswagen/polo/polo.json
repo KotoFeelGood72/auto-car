@@ -1,13 +1,14 @@
 {
-  "title": "Volkswagen Polo в Москвае",
+  "title": "Volkswagen Polo в Москвe",
   "brand": "Volkswagen",
   "model": "Polo",
+  "saleBlock": "Выгода 554 360 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/icXp2Naa8EyFn9RqcqKgCyllonNMIyLKUWj1iwQm.png",
   "slug": "/api/cars/volkswagen/polo-/polo.json",
   "priceOld": "1 385 900",
-  "priceNew": "730 900",
-  "monthlyPayment": "5 548",
+  "priceNew": "831 540",
+  "monthlyPayment": "6 312",
   "features": [
     "Бамперы окрашены в цвет кузова",
     "Корпуса наружных зеркал и ручки дверей окрашены в цвет кузова",
@@ -137,30 +138,30 @@
     {
       "modification": "1.6 5МКПП (90 л. с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "730900",
+      "price": "831540",
       "priceOld": "1385900",
-      "monthlyPayment": "5548"
+      "monthlyPayment": "6312"
     },
     {
       "modification": "1.6 5МКПП (110 л. с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "820900",
+      "price": "921540",
       "priceOld": "1475900",
-      "monthlyPayment": "6231"
+      "monthlyPayment": "6995"
     },
     {
       "modification": "1.6 6АКПП (110 л. с.) FWD",
       "engineDisplacement": "1.6",
-      "price": "873900",
+      "price": "974540",
       "priceOld": "1528900",
-      "monthlyPayment": "6633"
+      "monthlyPayment": "7397"
     },
     {
       "modification": "1.4 TSI 7АКПП (125 л. c.) FWD",
       "engineDisplacement": "1.4",
-      "price": "996900",
+      "price": "1097540",
       "priceOld": "1651900",
-      "monthlyPayment": "7567"
+      "monthlyPayment": "8331"
     }
   ],
   "gallery": [

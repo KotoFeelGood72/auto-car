@@ -1,13 +1,14 @@
 {
-  "title": "EXEED RX в Москвае",
+  "title": "EXEED RX в Москвe",
   "brand": "EXEED",
   "model": "RX",
+  "saleBlock": "Выгода 1 690 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/XcMpTczGeclhoqbsgMAKxASWcpLsBs9yRyPEIe9K.png",
   "slug": "/api/cars/exeed/rx-/rx.json",
   "priceOld": "4 960 000",
-  "priceNew": "2 976 000",
-  "monthlyPayment": "22 589",
+  "priceNew": "3 270 000",
+  "monthlyPayment": "24 820",
   "features": [
     "Камера 360°",
     "Активный усилитель руля",
@@ -121,9 +122,9 @@
     {
       "modification": "2.0 л. 7АМТ (249 л.с) 4WD",
       "engineDisplacement": "2",
-      "price": "2976000",
+      "price": "3270000",
       "priceOld": "4960000",
-      "monthlyPayment": "22589"
+      "monthlyPayment": "24820"
     }
   ],
   "gallery": [

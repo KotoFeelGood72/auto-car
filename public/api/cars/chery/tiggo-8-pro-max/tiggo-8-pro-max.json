@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 8 Pro MAX в Москвае",
+  "title": "Chery Tiggo 8 Pro MAX в Москвe",
   "brand": "Chery",
   "model": "Tiggo 8 Pro MAX",
+  "saleBlock": "Выгода 939 400 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/BU7judDRJmF3WRzaD3AWcSIOxBWxaS15tbQc1FaT.png",
   "slug": "/api/cars/chery/tiggo-8-pro-max-/tiggo-8-pro-max.json",
   "priceOld": "3 250 000",
-  "priceNew": "1 950 000",
-  "monthlyPayment": "14 801",
+  "priceNew": "2 310 600",
+  "monthlyPayment": "17 538",
   "features": [
     "Окраска «металлик»",
     "Рейлинги на крыше",
@@ -193,9 +194,9 @@
     {
       "modification": "2.0 л. 7АМТ (197 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "1950000",
+      "price": "2310600",
       "priceOld": "3250000",
-      "monthlyPayment": "14801"
+      "monthlyPayment": "17538"
     }
   ],
   "gallery": [

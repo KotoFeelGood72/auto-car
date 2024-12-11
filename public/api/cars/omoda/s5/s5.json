@@ -1,13 +1,14 @@
 {
-  "title": "Omoda S5 в Москвае",
+  "title": "Omoda S5 в Москвe",
   "brand": "Omoda",
   "model": "S5",
+  "saleBlock": "Выгода 879 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/ArdOxc7pe9ix4I10KvuBpc2QgL78ylOXiM6FHAVS.png",
   "slug": "/api/cars/omoda/s5-/s5.json",
   "priceOld": "2 079 000",
-  "priceNew": "1 247 400",
-  "monthlyPayment": "9 468",
+  "priceNew": "1 199 400",
+  "monthlyPayment": "9 104",
   "features": [
     "16-дюймовые алюминиевые литые диски",
     "Окраска металлик",
@@ -82,9 +83,9 @@
     {
       "modification": "1.5 л. СVT (113л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1247400",
+      "price": "1199400",
       "priceOld": "2079000",
-      "monthlyPayment": "9468"
+      "monthlyPayment": "9104"
     }
   ],
   "gallery": [

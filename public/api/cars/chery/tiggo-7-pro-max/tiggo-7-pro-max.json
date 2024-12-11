@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 7 Pro MAX в Москвае",
+  "title": "Chery Tiggo 7 Pro MAX в Москвe",
   "brand": "Chery",
   "model": "Tiggo 7 Pro MAX",
+  "saleBlock": "Выгода 1 138 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/8GR46tAearqLwLYSqXQiWdfCNDmXVnbT4iUkGfld.png",
   "slug": "/api/cars/chery/tiggo-7-pro-max-/tiggo-7-pro-max.json",
   "priceOld": "2 770 000",
-  "priceNew": "1 390 000",
-  "monthlyPayment": "10 550",
+  "priceNew": "1 632 000",
+  "monthlyPayment": "12 387",
   "features": [
     "18-дюймовые алюминиевые литые диски",
     "Окраска металлик",
@@ -232,9 +233,9 @@
     {
       "modification": "1.6 Turbo 150 DCT FWD",
       "engineDisplacement": "1.6",
-      "price": "1390000",
+      "price": "1632000",
       "priceOld": "2770000",
-      "monthlyPayment": "10550"
+      "monthlyPayment": "12387"
     }
   ],
   "gallery": [

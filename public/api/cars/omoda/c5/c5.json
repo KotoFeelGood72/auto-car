@@ -1,13 +1,14 @@
 {
-  "title": "Omoda C5 в Москвае",
+  "title": "Omoda C5 в Москвe",
   "brand": "Omoda",
   "model": "C5",
+  "saleBlock": "Выгода 981 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/VZ2Zc3LNj9f6mxgTsWgNhSbCJRrxyqhqxOBH48nR.png",
   "slug": "/api/cars/omoda/c5-/c5.json",
   "priceOld": "2 319 900",
-  "priceNew": "1 319 900",
-  "monthlyPayment": "10 018",
+  "priceNew": "1 337 940",
+  "monthlyPayment": "10 155",
   "features": [
     "17-дюймовые алюминиевые литые диски",
     "Окраска металлик (на выбор)",
@@ -215,16 +216,16 @@
     {
       "modification": "1.5 л. CVT (147 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1319900",
+      "price": "1337940",
       "priceOld": "2319900",
-      "monthlyPayment": "10018"
+      "monthlyPayment": "10155"
     },
     {
       "modification": "1.6 л. 7DCT (150 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "2069900",
+      "price": "2087940",
       "priceOld": "3069900",
-      "monthlyPayment": "15711"
+      "monthlyPayment": "15848"
     }
   ],
   "gallery": [

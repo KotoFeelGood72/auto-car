@@ -23,6 +23,7 @@
             color="white"
             size="large"
             :weight="true"
+            @click="openModal('call')"
           />
         </div>
       </div>
@@ -55,6 +56,9 @@
 <script setup lang="ts">
 import Btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
+import { useModalStore } from "~/stores/useModalStore";
+
+const { openModal } = useModalStore();
 
 const footerLinks = [
   { name: "Политика конфиденциальности", link: "/" },

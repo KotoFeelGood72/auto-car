@@ -1,13 +1,14 @@
 {
-  "title": "EXEED TXL  NEW в Москвае",
+  "title": "EXEED TXL  NEW в Москвe",
   "brand": "EXEED",
   "model": "TXL  NEW",
+  "saleBlock": "Выгода 1 300 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/J37U6P25ChsDfKqYlMRSZTveYSKINGlGkCfUYtH3.png",
   "slug": "/api/cars/exeed/txl-new-/txl-new.json",
   "priceOld": "4 050 000",
-  "priceNew": "2 430 000",
-  "monthlyPayment": "18 444",
+  "priceNew": "2 750 000",
+  "monthlyPayment": "20 873",
   "features": [
     "Рулевая колонка с механической регулировкой в 4х направлениях (по вылету и углу наклона)",
     "Подголовники всех сидений с регулировкой по высоте",
@@ -198,16 +199,16 @@
     {
       "modification": "1.6 л. 7DCT (194 л.с.) 4WD",
       "engineDisplacement": "1.6",
-      "price": "2430000",
+      "price": "2750000",
       "priceOld": "4050000",
-      "monthlyPayment": "18444"
+      "monthlyPayment": "20873"
     },
     {
       "modification": "2.0 л. 8AT (197 л.с.) 4WD",
       "engineDisplacement": "1998",
-      "price": "2690000",
+      "price": "3010000",
       "priceOld": "4310000",
-      "monthlyPayment": "20418"
+      "monthlyPayment": "22847"
     }
   ],
   "gallery": [

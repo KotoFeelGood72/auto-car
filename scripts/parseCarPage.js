@@ -111,6 +111,12 @@ const extractCarData = async (page) => {
     );
     const brand = brandElement ? brandElement.textContent.trim() : "Неизвестно";
 
+    // Извлечение данных из блока sale-block
+    const saleBlockElement = document.querySelector(".sale-block");
+    const saleBlock = saleBlockElement
+      ? saleBlockElement.textContent.trim()
+      : "Нет данных";
+
     const model = title.replace(brand, "").split("в")[0].trim(); // Извлечение модели
     const cityMatch = title.match(/в\s([А-Яа-я\s-]+)/); // Поиск города через регулярное выражение
     const city = cityMatch ? cityMatch[1].trim() : "Неизвестный город"; // Извлечение города
@@ -167,6 +173,7 @@ const extractCarData = async (page) => {
       title,
       brand,
       model,
+      saleBlock,
       city,
       image,
       slug,

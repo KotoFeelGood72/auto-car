@@ -1,13 +1,14 @@
 {
-  "title": "Faw Bestune T77 в Москвае",
+  "title": "Faw Bestune T77 в Москвe",
   "brand": "Faw",
   "model": "Bestune T77",
+  "saleBlock": "Выгода 1 562 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/P1PlWHpqkZmuJl2B0lULPk37n4MR8xb5DGzdhOpo.png",
   "slug": "/api/cars/faw/bestune-t77-/bestune-t77.json",
   "priceOld": "2 864 000",
-  "priceNew": "1 718 400",
-  "monthlyPayment": "13 043",
+  "priceNew": "1 302 000",
+  "monthlyPayment": "9 883",
   "features": [
     "Светодиодные (LED) фары",
     "Светодиодные (LED) задние фонари",
@@ -262,9 +263,9 @@
     {
       "modification": "1.5 7АКПП (160 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1718400",
+      "price": "1302000",
       "priceOld": "2864000",
-      "monthlyPayment": "13043"
+      "monthlyPayment": "9883"
     }
   ],
   "gallery": [

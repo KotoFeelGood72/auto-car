@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 4 в Москвае",
+  "title": "Chery Tiggo 4 в Москвe",
   "brand": "Chery",
   "model": "Tiggo 4",
+  "saleBlock": "Выгода 679 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/q27VSA299kbWVm4PB86KIycpMkLD7fu1hiPC154a.png",
   "slug": "/api/cars/chery/tiggo-4-/tiggo-4.json",
   "priceOld": "1 699 900",
-  "priceNew": "869 900",
-  "monthlyPayment": "6 603",
+  "priceNew": "1 019 940",
+  "monthlyPayment": "7 742",
   "features": [
     "16-дюймовые алюминиевые литые диски",
     "Рейлинги на крыше",
@@ -162,30 +163,30 @@
     {
       "modification": "2,0 CVT (122 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1129900",
+      "price": "1279940",
       "priceOld": "1959900",
-      "monthlyPayment": "8576"
+      "monthlyPayment": "9715"
     },
     {
       "modification": "1.5 CVT (113 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "969900",
+      "price": "1119940",
       "priceOld": "1799900",
-      "monthlyPayment": "7362"
+      "monthlyPayment": "8501"
     },
     {
       "modification": "1.5 5МКПП (113 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "869900",
+      "price": "1019940",
       "priceOld": "1699900",
-      "monthlyPayment": "6603"
+      "monthlyPayment": "7742"
     },
     {
       "modification": "1,5 6АМТ (147л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1229900",
+      "price": "1379940",
       "priceOld": "2059900",
-      "monthlyPayment": "9335"
+      "monthlyPayment": "10474"
     }
   ],
   "gallery": [

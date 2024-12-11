@@ -1,13 +1,14 @@
 {
-  "title": "Nissan X-Trail в Москвае",
+  "title": "Nissan X-Trail в Москвe",
   "brand": "Nissan",
   "model": "X-Trail",
+  "saleBlock": "Выгода 1 104 800 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/XUt3RpJHhMObwCAfMFcUF82gWRg84h1NmxVeRkvf.png",
   "slug": "/api/cars/nissan/x-trail-/x-trail.json",
   "priceOld": "2 762 000",
-  "priceNew": "1 155 000",
-  "monthlyPayment": "8 767",
+  "priceNew": "1 657 200",
+  "monthlyPayment": "12 579",
   "features": [
     "Устройство «Эра-Глонасс»",
     "Антиблокировочная система ABS",
@@ -116,30 +117,30 @@
     {
       "modification": "2.0 л. 6МКПП (144 л.с) FWD",
       "engineDisplacement": "2",
-      "price": "1155000",
+      "price": "1657200",
       "priceOld": "2762000",
-      "monthlyPayment": "8767"
+      "monthlyPayment": "12579"
     },
     {
       "modification": "2.0 л. CVT (144 л.с) FWD",
       "engineDisplacement": "2",
-      "price": "1367000",
+      "price": "1869200",
       "priceOld": "2974000",
-      "monthlyPayment": "10376"
+      "monthlyPayment": "14188"
     },
     {
       "modification": "2.0 л. CVT (144 л.с) 4WD",
       "engineDisplacement": "2",
-      "price": "1346000",
+      "price": "1848200",
       "priceOld": "2953000",
-      "monthlyPayment": "10216"
+      "monthlyPayment": "14028"
     },
     {
       "modification": "2.5 л. CVT (171 л.с) 4WD",
       "engineDisplacement": "2.5",
-      "price": "1738000",
+      "price": "2240200",
       "priceOld": "3345000",
-      "monthlyPayment": "13192"
+      "monthlyPayment": "17004"
     }
   ],
   "gallery": [

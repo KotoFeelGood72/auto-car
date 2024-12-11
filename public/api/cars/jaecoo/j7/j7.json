@@ -1,13 +1,14 @@
 {
-  "title": "Jaecoo J7 в Москвае",
+  "title": "Jaecoo J7 в Москвe",
   "brand": "Jaecoo",
   "model": "J7",
+  "saleBlock": "Выгода 999 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/amyIr8GhrbTR17R94g1ouCPbRPgOTcvyQ0RHhiyk.png",
   "slug": "/api/cars/jaecoo/j7-/j7.json",
   "priceOld": "2 889 900",
-  "priceNew": "1 733 940",
-  "monthlyPayment": "13 161",
+  "priceNew": "1 889 940",
+  "monthlyPayment": "14 345",
   "features": [
     "18\" алюминиевые литые диски",
     "Окраска металлик",
@@ -135,30 +136,30 @@
     {
       "modification": "1.6 л. 7AMT (186 л.с) 2WD",
       "engineDisplacement": "1.6",
-      "price": "1983940",
+      "price": "2139940",
       "priceOld": "3139900",
-      "monthlyPayment": "15059"
+      "monthlyPayment": "16243"
     },
     {
       "modification": "1.6 л. 7AMT (186 л.с) 4WD",
       "engineDisplacement": "1.6",
-      "price": "2363940",
+      "price": "2519940",
       "priceOld": "3519900",
-      "monthlyPayment": "17943"
+      "monthlyPayment": "19127"
     },
     {
       "modification": "1.6 л. 7AMT (150 л.с) 2WD",
       "engineDisplacement": "1.6",
-      "price": "1733940",
+      "price": "1889940",
       "priceOld": "2889900",
-      "monthlyPayment": "13161"
+      "monthlyPayment": "14345"
     },
     {
       "modification": "1.6 л. 7AMT (150 л.с) 4WD",
       "engineDisplacement": "1.6",
-      "price": "2363940",
+      "price": "2519940",
       "priceOld": "3519900",
-      "monthlyPayment": "17943"
+      "monthlyPayment": "19127"
     }
   ],
   "gallery": [

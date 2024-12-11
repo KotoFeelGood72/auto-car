@@ -1,13 +1,14 @@
 {
-  "title": "Haval F7X в Москвае",
+  "title": "Haval F7X в Москвe",
   "brand": "Haval",
   "model": "F7X",
+  "saleBlock": "Выгода 999 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/jbm7ffrCELPVJigZUp1bzED2yHNROSMjBlAETyNv.png",
   "slug": "/api/cars/haval/f7x-/f7x.json",
   "priceOld": "2 499 000",
-  "priceNew": "1 299 000",
-  "monthlyPayment": "9 860",
+  "priceNew": "1 499 400",
+  "monthlyPayment": "11 381",
   "features": [
     "Галогеновые фары",
     "Светодиодные дневные ходовые огни",
@@ -203,23 +204,23 @@
     {
       "modification": "1.5 л. 7АМТ (150 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1299000",
+      "price": "1499400",
       "priceOld": "2499000",
-      "monthlyPayment": "9860"
+      "monthlyPayment": "11381"
     },
     {
       "modification": "1.5 л. 7АМТ (150 л. с.) 4WD",
       "engineDisplacement": "1.5",
-      "price": "1599000",
+      "price": "1799400",
       "priceOld": "2799000",
-      "monthlyPayment": "12137"
+      "monthlyPayment": "13658"
     },
     {
       "modification": "2.0 л. 7АМТ (190 л. с.) 4FWD",
       "engineDisplacement": "2",
-      "price": "1799000",
+      "price": "1999400",
       "priceOld": "2999000",
-      "monthlyPayment": "13655"
+      "monthlyPayment": "15176"
     }
   ],
   "gallery": [

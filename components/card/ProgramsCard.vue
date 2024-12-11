@@ -4,13 +4,27 @@
       <heading :title="card.title" :level="2" :size="32" class="title" />
       <p class="text">{{ card.txt }}</p>
     </div>
-    <btn size="normal" styles="primary" color="blue" name="Подробнее" />
+    <btn
+      size="normal"
+      styles="primary"
+      color="blue"
+      name="Подробнее"
+      @click.prevent="
+        openModal('call', {
+          title: card?.title,
+          name: card?.txt,
+        })
+      "
+    />
   </div>
 </template>
 
 <script setup lang="ts">
 import btn from "../ui/btn.vue";
 import heading from "../ui/heading.vue";
+import { useModalStore } from "~/stores/useModalStore";
+
+const { openModal } = useModalStore();
 
 defineProps<{
   card: any;

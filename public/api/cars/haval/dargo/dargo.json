@@ -1,13 +1,14 @@
 {
-  "title": "Haval Dargo в Москвае",
+  "title": "Haval Dargo в Москвe",
   "brand": "Haval",
   "model": "Dargo",
+  "saleBlock": "Выгода 1 219 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/lv7ffSju0CfrPNMmyx9ETTW40WSslkXwb9j2o1J1.png",
   "slug": "/api/cars/haval/dargo-/dargo.json",
   "priceOld": "3 049 000",
-  "priceNew": "1 779 000",
-  "monthlyPayment": "13 503",
+  "priceNew": "1 829 400",
+  "monthlyPayment": "13 886",
   "features": [
     "Круиз-контроль",
     "Система защиты от опрокидывания (RMI)",
@@ -111,16 +112,16 @@
     {
       "modification": "2.0 л. 7АМТ (192 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1779000",
+      "price": "1829400",
       "priceOld": "3049000",
-      "monthlyPayment": "13503"
+      "monthlyPayment": "13886"
     },
     {
       "modification": "2.0 л. 7АМТ (192 л.с.) 4WD",
       "engineDisplacement": "2",
-      "price": "1979000",
+      "price": "2029400",
       "priceOld": "3249000",
-      "monthlyPayment": "15021"
+      "monthlyPayment": "15404"
     }
   ],
   "gallery": [

@@ -1,13 +1,14 @@
 {
-  "title": "Chery Tiggo 7 Pro в Москвае",
+  "title": "Chery Tiggo 7 Pro в Москвe",
   "brand": "Chery",
   "model": "Tiggo 7 Pro",
+  "saleBlock": "Выгода 1 028 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/FgDvJdNfIzViH34tPsdgBvkUkRSJPqn0D2xzGwUj.png",
   "slug": "/api/cars/chery/tiggo-7-pro-/tiggo-7-pro.json",
   "priceOld": "2 570 000",
-  "priceNew": "1 139 900",
-  "monthlyPayment": "8 652",
+  "priceNew": "1 542 000",
+  "monthlyPayment": "11 704",
   "features": [
     "Наружные зеркала и ручки дверей в цвет кузова",
     "Рейлинги на крыше",
@@ -165,9 +166,9 @@
     {
       "modification": "1.5 л. CVT (147 л.с.) FWD",
       "engineDisplacement": "1.5",
-      "price": "1139900",
+      "price": "1542000",
       "priceOld": "2570000",
-      "monthlyPayment": "8652"
+      "monthlyPayment": "11704"
     }
   ],
   "gallery": [

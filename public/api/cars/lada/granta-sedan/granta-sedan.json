@@ -1,13 +1,14 @@
 {
-  "title": "Lada Granta Седан в Москвае",
+  "title": "Lada Granta Седан в Москвe",
   "brand": "Lada",
   "model": "Granta Седан",
+  "saleBlock": "Выгода 279 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/dENlCSmhOHhQMcRVLyNIi7UQX1iWb1ptaYokhokt.png",
   "slug": "/api/cars/lada/granta-/granta.json",
   "priceOld": "699 900",
-  "priceNew": "358 510",
-  "monthlyPayment": "2 721",
+  "priceNew": "419 940",
+  "monthlyPayment": "3 187",
   "features": [
     "Индикация незастегнутого ремня безопасности водителя",
     "Крепления для детских сидений ISOFIX",
@@ -171,23 +172,23 @@
     {
       "modification": "1.6 л (90 л.с.), 5МТ",
       "engineDisplacement": "1.6",
-      "price": "358510",
+      "price": "419940",
       "priceOld": "699900",
-      "monthlyPayment": "2721"
+      "monthlyPayment": "3187"
     },
     {
       "modification": "1.6 л (106 л.с.) 5МТ",
       "engineDisplacement": "1.6",
-      "price": "730610",
+      "price": "792040",
       "priceOld": "1072000",
-      "monthlyPayment": "5546"
+      "monthlyPayment": "6012"
     },
     {
       "modification": "1.6 л (98 л.с.) 4АТ",
       "engineDisplacement": "1.6",
-      "price": "956610",
+      "price": "1018040",
       "priceOld": "1298000",
-      "monthlyPayment": "7261"
+      "monthlyPayment": "7727"
     }
   ],
   "gallery": [

@@ -2,7 +2,7 @@
   <div class="cars">
     <div class="img">
       <img :src="selectedImage" alt="Автомобиль" />
-      <div class="hot">Выгода 739 600 ₽</div>
+      <div class="hot">{{ price }}</div>
     </div>
     <div class="color-picker__w">
       <p class="label">Цвет: {{ selectedColor }}</p>
@@ -10,8 +10,8 @@
         <div
           v-for="color in colors"
           :key="color.name"
-          :style="{ backgroundColor: color.hex }"
-          :class="{ 'border-black': selectedColor === color.name }"
+          :style="color.style"
+          :class="{ active: selectedColor === color.name }"
           @click="selectColor(color.name, color.image)"
           title="Нажмите, чтобы выбрать цвет"
         ></div>
@@ -23,16 +23,13 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const colors = [
-  { name: "Белый", hex: "#FFFFFF", image: "/assets/img/cars/white.png" },
-  { name: "Черный", hex: "#000000", image: "/assets/img/cars/black.png" },
-  { name: "Синий", hex: "#1D4E89", image: "/assets/img/cars/blue.png" },
-  { name: "Коричневый", hex: "#F58220", image: "/assets/img/cars/brown.png" },
-  { name: "Бежевый", hex: "#F58220", image: "/assets/img/cars/beige.png" },
-];
+const props = defineProps<{
+  colors: any;
+  price: any;
+}>();
 
-const selectedColor = ref(colors[0].name);
-const selectedImage = ref(colors[0].image);
+const selectedColor = ref(props.colors[0]?.name);
+const selectedImage = ref(props.colors[0]?.image);
 
 const selectColor = (colorName: string, image: string) => {
   selectedColor.value = colorName;
@@ -75,13 +72,18 @@ const selectColor = (colorName: string, image: string) => {
 }
 .color-picker {
   @include flex-start;
-  gap: 1rem;
+  gap: 1.5rem;
   div {
-    width: 4rem;
+    width: 5rem;
     height: 4rem;
-    border-radius: 100%;
+    border-radius: 1rem;
     border: 0.1rem solid $border;
     cursor: pointer;
+    @include flex-center;
+    transition: all 0.3s ease-in-out;
+    &.active {
+      transform: scale(1.1);
+    }
   }
 }
 </style>

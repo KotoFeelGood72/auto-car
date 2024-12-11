@@ -1,13 +1,14 @@
 {
-  "title": "Lada Granta Cross в Москвае",
+  "title": "Lada Granta Cross в Москвe",
   "brand": "Lada",
   "model": "Granta Cross",
+  "saleBlock": "Выгода 456 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/YZCoq6FbDYTpRseGgsH4Sz9v6IBEzz6H5up4vVmY.png",
   "slug": "/api/cars/lada/granta-cross-/granta-cross.json",
   "priceOld": "1 140 000",
-  "priceNew": "426 900",
-  "monthlyPayment": "3 240",
+  "priceNew": "684 000",
+  "monthlyPayment": "5 192",
   "features": [
     "Подушка безопасности водителя",
     "Подушка безопасности переднего пассажира",
@@ -114,16 +115,16 @@
     {
       "modification": "1.6 л (90 л.с.), 5МТ",
       "engineDisplacement": "1.6",
-      "price": "426900",
+      "price": "684000",
       "priceOld": "1140000",
-      "monthlyPayment": "3240"
+      "monthlyPayment": "5192"
     },
     {
       "modification": "1.6 л (106 л.с.), 5МТ",
       "engineDisplacement": "1.6",
-      "price": "456900",
+      "price": "714000",
       "priceOld": "1170000",
-      "monthlyPayment": "3468"
+      "monthlyPayment": "5419"
     }
   ],
   "gallery": [

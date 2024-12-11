@@ -1,13 +1,14 @@
 {
-  "title": "Hyundai Sonata Седан в Москвае",
+  "title": "Hyundai Sonata Седан в Москвe",
   "brand": "Hyundai",
   "model": "Sonata Седан",
+  "saleBlock": "Выгода 1 107 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/Z38YI2xO69SNGAEMuZobS1DFPthW8oEdDfsyiwpG.png",
   "slug": "/api/cars/hyundai/sonata-/sonata.json",
   "priceOld": "2 769 000",
-  "priceNew": "1 481 000",
-  "monthlyPayment": "11 241",
+  "priceNew": "1 661 400",
+  "monthlyPayment": "12 610",
   "features": [
     "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
     "6 подушек безопасности: фронтальные, боковые, оконные шторки",
@@ -231,16 +232,16 @@
     {
       "modification": "2.5 АКПП (180 л.с.) FWD",
       "engineDisplacement": "2.5",
-      "price": "1731000",
+      "price": "1911400",
       "priceOld": "3019000",
-      "monthlyPayment": "13139"
+      "monthlyPayment": "14508"
     },
     {
       "modification": "2.0 6AКПП (150 л.с.) FWD",
       "engineDisplacement": "2",
-      "price": "1481000",
+      "price": "1661400",
       "priceOld": "2769000",
-      "monthlyPayment": "11241"
+      "monthlyPayment": "12610"
     }
   ],
   "gallery": [

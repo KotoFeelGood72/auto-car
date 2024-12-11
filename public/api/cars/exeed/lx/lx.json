@@ -1,13 +1,14 @@
 {
-  "title": "EXEED LX в Москвае",
+  "title": "EXEED LX в Москвe",
   "brand": "EXEED",
   "model": "LX",
+  "saleBlock": "Выгода 1 544 000 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/TTrdUe7UaMRxGSLIIgTmLqD2SfTcJ7KROlpx4SH4.png",
   "slug": "/api/cars/exeed/lx-/lx.json",
   "priceOld": "3 380 000",
-  "priceNew": "2 028 000",
-  "monthlyPayment": "15 393",
+  "priceNew": "1 836 000",
+  "monthlyPayment": "13 936",
   "features": [
     "Камера 360°",
     "Камера задняя",
@@ -114,16 +115,16 @@
     {
       "modification": "1.5 л. 9AMT(147 л.c.) FWD",
       "engineDisplacement": "1.5",
-      "price": "2108000",
+      "price": "1916000",
       "priceOld": "3460000",
-      "monthlyPayment": "16000"
+      "monthlyPayment": "14543"
     },
     {
       "modification": "1.6 л. 7AMT (150 л.с) 4WD",
       "engineDisplacement": "1.6",
-      "price": "2028000",
+      "price": "1836000",
       "priceOld": "3380000",
-      "monthlyPayment": "15393"
+      "monthlyPayment": "13936"
     }
   ],
   "gallery": [

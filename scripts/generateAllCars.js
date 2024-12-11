@@ -6,7 +6,7 @@ const basePath = path.join(process.cwd(), "public", "api", "cars");
 // Функция для чтения всех файлов JSON и генерации общего файла
 const collectCarsData = () => {
   const allCars = [];
-  
+
   const readDirectory = (dirPath) => {
     const items = fs.readdirSync(dirPath);
 
@@ -23,6 +23,7 @@ const collectCarsData = () => {
         allCars.push({
           title: carData.title,
           image: carData.image,
+          saleBlock: carData.saleBlock,
           slug: carData.slug,
           priceOld: carData.priceOld,
           priceNew: carData.priceNew,

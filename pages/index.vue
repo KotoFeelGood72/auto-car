@@ -3,9 +3,9 @@
     <Hero />
     <Adv :adv="adv" />
     <ModelsGrid :models="models" />
-    <Slider title="Популярные модели" />
+    <Slider title="Популярные модели" :cars="popularCars" id="popular" />
     <Action />
-    <Slider title="Акционные предложения" />
+    <Slider title="Акционные предложения" :cars="promotionalCars" id="sales" />
     <Programs />
     <Trade :services="services" :topservices="topservices" />
     <Credit :credits="credits" />
@@ -16,6 +16,8 @@
 import Credit from "../components/shared/Credit.vue";
 import Slider from "../components/slider/Slider.vue";
 import Programs from "../components/shared/Programs.vue";
+import axios from "axios";
+
 import { useModalStore } from "../stores/useModalStore";
 
 // Blocks
@@ -24,8 +26,9 @@ import Adv from "../components/blocks/Adv.vue";
 import ModelsGrid from "../components/blocks/ModelsGrid.vue";
 import Action from "../components/blocks/Action.vue";
 import Trade from "../components/blocks/Trade.vue";
-
+import { useCars } from "~/composables/useCars";
 const { openModal } = useModalStore();
+const { useGetAll, popularCars, promotionalCars } = useCars();
 
 const adv = [
   "Выгода до 600 000 ₽ на все модели",
@@ -76,6 +79,10 @@ const models = [
   { img: "tank", name: "Tank", link: "" },
   { img: "ww", name: "Volkswagen", link: "" },
 ];
+
+onMounted(() => {
+  useGetAll(40);
+});
 </script>
 
 <style scoped lang="scss"></style>

@@ -4,10 +4,10 @@
       <div class="head">
         <heading :title="title" :size="40" class="title" />
         <div class="nav">
-          <div class="prev">
+          <div :class="'prev-' + id">
             <Icon name="f:left" />
           </div>
-          <div class="next">
+          <div :class="'next-' + id">
             <Icon name="f:right" />
           </div>
         </div>
@@ -19,8 +19,8 @@
           :slides-per-view="4"
           :space-between="20"
           :navigation="{
-            prevEl: '.prev',
-            nextEl: '.next',
+            prevEl: `.prev-${id}`,
+            nextEl: `.next-${id}`,
           }"
           :breakpoints="{
             320: {
@@ -41,7 +41,7 @@
             },
           }"
         >
-          <SwiperSlide v-for="(item, i) in 12" :key="'models-item-' + i">
+          <SwiperSlide v-for="(item, i) in cars" :key="'models-item-' + i">
             <AutoCard :card="item" />
           </SwiperSlide>
         </Swiper>
@@ -59,6 +59,8 @@ import "swiper/swiper-bundle.css";
 
 defineProps<{
   title: string;
+  cars: any;
+  id: string;
 }>();
 </script>
 

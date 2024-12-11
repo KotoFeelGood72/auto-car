@@ -1,13 +1,14 @@
 {
-  "title": "Hyundai Elantra в Москвае",
+  "title": "Hyundai Elantra в Москвe",
   "brand": "Hyundai",
   "model": "Elantra",
+  "saleBlock": "Выгода 859 600 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/xyi8l2cLdOLtEiW6KdhAcG1gY5JiStHFQBFKM0XM.png",
   "slug": "/api/cars/hyundai/elantra-/elantra.json",
   "priceOld": "2 149 000",
-  "priceNew": "1 006 000",
-  "monthlyPayment": "7 636",
+  "priceNew": "1 289 400",
+  "monthlyPayment": "9 787",
   "features": [
     "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
     "Фронтальные подушки безопасности водителя и переднего пассажира",
@@ -361,16 +362,16 @@
     {
       "modification": "1.6 MPI 6AT",
       "engineDisplacement": "1.6",
-      "price": "1006000",
+      "price": "1289400",
       "priceOld": "2149000",
-      "monthlyPayment": "7636"
+      "monthlyPayment": "9787"
     },
     {
       "modification": "Smartstream G2.0 6AT",
       "engineDisplacement": "2",
-      "price": "1141000",
+      "price": "1424400",
       "priceOld": "2284000",
-      "monthlyPayment": "8660"
+      "monthlyPayment": "10812"
     }
   ],
   "gallery": [

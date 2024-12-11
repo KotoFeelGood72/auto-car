@@ -1,13 +1,14 @@
 {
-  "title": "Changan CS35Plus  New в Москвае",
+  "title": "Changan CS35Plus  New в Москвe",
   "brand": "Changan",
   "model": "CS35Plus  New",
+  "saleBlock": "Выгода 1 135 960 ₽",
   "city": "Краснодаре",
   "image": "https://api.cdn-ya.ru/storage/auto/colors/RmdQ7pq3Qf8QuR5HPKhMjLrRS3AQwav7SPY2EXyR.png",
   "slug": "/api/cars/changan/cs35plus-new-/cs35plus-new.json",
   "priceOld": "2 539 900",
-  "priceNew": "810 000",
-  "monthlyPayment": "6 148",
+  "priceNew": "1 403 940",
+  "monthlyPayment": "10 656",
   "features": [
     "Светодиодные фары",
     "Система головного освещения с автоматическим отключением «Follow me home»",
@@ -210,9 +211,9 @@
     {
       "modification": "1.4 л. 7AMT (150 л.с.) FWD",
       "engineDisplacement": "1.4",
-      "price": "810000",
+      "price": "1403940",
       "priceOld": "2539900",
-      "monthlyPayment": "6148"
+      "monthlyPayment": "10656"
     }
   ],
   "gallery": [

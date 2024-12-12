@@ -11,6 +11,7 @@ export const useModalStore = defineStore("modal", {
       credit: false,
       call: false,
       car: false,
+      burger: false,
     },
     modalData: {},
   }),

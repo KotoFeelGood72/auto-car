@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header :class="['header', { sticky: isSticky }]">
     <div class="section_in">
       <div class="row top-row">
         <div class="col">
@@ -26,7 +26,7 @@
             @click="openModal('call')"
             class="header_btn"
           />
-          <div class="burger">
+          <div class="burger" @click="openModal('burger')">
             <Icon name="iconamoon:menu-burger-horizontal-light" :size="40" />
           </div>
         </div>
@@ -79,6 +79,20 @@ const other = [
   { name: "Автокредит", link: "/" },
   { name: "Trade-In", link: "/" },
 ];
+
+const isSticky = ref(false);
+
+const handleScroll = () => {
+  isSticky.value = window.scrollY > 50; // Если прокрутка больше 50px, добавляем класс
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style scoped lang="scss">
@@ -88,6 +102,9 @@ const other = [
 }
 .top-row {
   padding: 2rem 0;
+  @include bp($point_2) {
+    padding: 1rem 0;
+  }
 }
 .col {
   gap: 3rem;
@@ -149,9 +166,21 @@ nav {
   gap: 5.2rem;
 }
 
-// .header_btn {
-//   @include bp($point_2) {
-//     display: none;
-//   }
-// }
+.nav-icon {
+  @include flex-center;
+}
+
+.header {
+  width: 100%;
+  background-color: $white;
+  z-index: 99;
+
+  transition: all 0.3s ease-in-out;
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
 </style>

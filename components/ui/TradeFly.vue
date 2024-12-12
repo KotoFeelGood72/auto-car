@@ -23,9 +23,7 @@ const { openModal } = useModalStore();
   }
 
   @include bp($point_2) {
-    bottom: 2rem;
-    left: 2rem;
-    max-width: 10rem;
+    display: none;
   }
 }
 </style>

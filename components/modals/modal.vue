@@ -1,5 +1,5 @@
 <template>
-  <div class="modal">
+  <div :class="['modal', { burgers: activeModalName === 'burger' }]">
     <transition :name="modalTransitionName">
       <component v-if="activeModalComponent" :is="activeModalComponent" />
     </transition>
@@ -10,11 +10,11 @@
 import { computed, ref } from "vue";
 import { useModalStoreRefs } from "~/stores/useModalStore";
 import ModalSale from "./ModalSale.vue";
-import ModalCredit from "./ModalCredit.vue";
 import ModalHappy from "./ModalHappy.vue";
 import ModalTradein from "./ModalTradein.vue";
 import ClassicModal from "./ClassicModal.vue";
 import ModalCar from "./ModalCar.vue";
+import Burger from "./Burger.vue";
 
 const { modals } = useModalStoreRefs();
 type ModalKey = keyof typeof modals.value;
@@ -40,12 +40,13 @@ const activeModalComponent = computed(() => {
           return ModalTradein;
         case "happy":
           return ModalHappy;
-        case "credit":
-          return ModalCredit;
+
         case "call":
           return ClassicModal;
         case "car":
           return ModalCar;
+        case "burger":
+          return Burger;
         default:
           return null;
       }
@@ -54,20 +55,49 @@ const activeModalComponent = computed(() => {
   return null;
 });
 
+const previousModalName = ref<ModalKey | null>(null);
+
 const modalTransitionName = computed(() => {
-  if (activeModalName.value) {
-    if (ModalUp.value.includes(activeModalName.value)) {
-      return "slide-up";
-    }
+  // Если модальное окно "бургер", используем slide-left
+  if (activeModalName.value === "burger") {
+    previousModalName.value = "burger";
+    return "slide-left";
   }
-  return "slide-up";
+
+  // Если активное модальное окно относится к "ModalUp", используем slide-up
+  if (activeModalName.value && ModalUp.value.includes(activeModalName.value)) {
+    previousModalName.value = activeModalName.value; // Сохраняем предыдущее модальное окно
+    return "slide-up";
+  }
+
+  // Если модальное окно закрывается, возвращаем анимацию предыдущего окна
+  if (!activeModalName.value) {
+    if (previousModalName.value === "burger") {
+      return "slide-left";
+    }
+    return "slide-up";
+  }
+
+  return "slide-up"; // Анимация по умолчанию
 });
 </script>
 
 <style lang="scss">
-.slide-right-enter-active,
-.slide-right-leave-active {
+.slide-left-enter-active,
+.slide-left-leave-active {
   transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.slide-left-enter-from,
+.slide-left-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-left-enter-to,
+.slide-left-leave-from {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .slide-right-enter-from {
@@ -146,5 +176,9 @@ const modalTransitionName = computed(() => {
     transform: translate(0, 0%);
     left: 0;
   }
+}
+
+.burgers {
+  max-width: 90%;
 }
 </style>

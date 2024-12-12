@@ -5,4 +5,5 @@ export interface Modals {
   credit: boolean;
   call: boolean;
   car: boolean;
+  burger: boolean;
 }

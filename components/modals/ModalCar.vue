@@ -27,6 +27,7 @@ const { modalData } = useModalStoreRefs();
 
 <style scoped lang="scss">
 .classic {
+  pointer-events: all;
   background-color: #f7f7f7;
   width: 45vw;
   max-width: 55rem;

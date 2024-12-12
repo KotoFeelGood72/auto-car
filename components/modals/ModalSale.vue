@@ -33,6 +33,7 @@ const list = [
 
 <style scoped lang="scss">
 .sale {
+  pointer-events: all;
   max-width: 142rem;
   background-image: url("~/assets/img/sale.jpg");
   background-repeat: no-repeat;

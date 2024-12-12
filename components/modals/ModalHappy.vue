@@ -35,6 +35,7 @@ const list = [
 
 <style scoped lang="scss">
 .happy {
+  pointer-events: all;
   max-width: 142rem;
   background-image: url("~/assets/img/modal-happy.png");
   background-repeat: no-repeat;

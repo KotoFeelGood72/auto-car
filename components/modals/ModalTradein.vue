@@ -45,6 +45,7 @@ import heading from "../ui/heading.vue";
   border-radius: 1rem;
   padding: 4rem;
   max-width: 60rem;
+  pointer-events: all;
 }
 
 .title {

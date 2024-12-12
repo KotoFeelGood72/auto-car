@@ -20,6 +20,10 @@ import heading from "./heading.vue";
 .logo {
   @include flex-start;
   gap: 4.1rem;
+
+  @include bp($point_2) {
+    gap: 2rem;
+  }
 }
 
 .logo-img {
@@ -39,6 +43,16 @@ import heading from "./heading.vue";
 .logo-txt {
   @include bp($point_2) {
     display: none;
+  }
+}
+
+.logo-burger {
+  gap: 2rem !important;
+  .logo-txt {
+    display: block;
+  }
+  .logo-img {
+    max-width: 16rem;
   }
 }
 </style>

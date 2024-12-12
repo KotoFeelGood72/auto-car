@@ -35,6 +35,17 @@ const selectColor = (colorName: string, image: string) => {
   selectedColor.value = colorName;
   selectedImage.value = image;
 };
+
+watch(
+  () => props.colors,
+  (newColors) => {
+    if (newColors && newColors.length) {
+      selectedColor.value = newColors[0]?.name;
+      selectedImage.value = newColors[0]?.image;
+    }
+  },
+  { immediate: true } // Обновляет данные сразу при монтировании
+);
 </script>
 
 <style lang="scss" scoped>

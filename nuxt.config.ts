@@ -17,6 +17,11 @@ export default defineNuxtConfig({
         },
       },
     },
+    build: {
+      commonjsOptions: {
+        include: [/node_modules/],
+      },
+    },
   },
   icon: {
     customCollections: [
@@ -27,6 +32,7 @@ export default defineNuxtConfig({
     ],
   },
   app: {
+    pageTransition: { name: "page", mode: "out-in" },
     head: {
       link: [
         {
@@ -35,5 +41,8 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  build: {
+    transpile: ["vue-toastification"],
   },
 });

@@ -34,6 +34,7 @@ export const useGetCarBySlug = async (slug: string) => {
   try {
     const response = await axios.get(`/api/${slug}.json`);
     singleCar.value = response.data;
+    console.log(singleCar);
   } catch (error) {
     console.error("Ошибка загрузки машины по слагу:", error);
     singleCar.value = null;

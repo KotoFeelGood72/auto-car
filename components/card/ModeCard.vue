@@ -52,7 +52,7 @@ const formatPrice = (price: number | string): string => {
 
 .col-txt {
   max-width: 70%;
-  max-height: 40rem;
+  max-height: 25rem;
   overflow-y: auto;
   padding-right: 3rem;
   ul {

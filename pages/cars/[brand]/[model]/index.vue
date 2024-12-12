@@ -177,6 +177,15 @@ onMounted(async () => {
   const slug = `${route.path}/${route.params.model}`;
   await useGetCarBySlug(slug);
 });
+
+watch(
+  () => route.params.model,
+  async (newSlug) => {
+    console.log("Слаг изменился:", newSlug);
+    const slug = `${route.path}/${newSlug}`;
+    await useGetCarBySlug(slug);
+  }
+);
 </script>
 
 <style lang="scss" scoped>
@@ -285,7 +294,10 @@ onMounted(async () => {
   }
 }
 
-.mode {
+.modes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   &:deep(h4) {
     margin-bottom: 2rem;
   }

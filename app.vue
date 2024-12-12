@@ -1,4 +1,5 @@
 <template>
+  <NuxtLoadingIndicator />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
@@ -26,18 +27,7 @@ html {
   @include bp($point_2) {
     font-size: 10px;
   }
-  // &::-webkit-scrollbar-track {
-  //   background-color: $lbrown;
-  // }
 
-  // &::-webkit-scrollbar {
-  //   width: 0.6rem;
-  //   background-color: $lbrown;
-  // }
-
-  // &::-webkit-scrollbar-thumb {
-  //   background-color: $brown;
-  // }
 }
 
 body {
@@ -98,5 +88,14 @@ img {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
 }
 </style>

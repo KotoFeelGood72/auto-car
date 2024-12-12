@@ -67,10 +67,7 @@ const applyMask = (event: Event) => {
     formattedValue += "-" + value.slice(9, 11);
   }
 
-  // Ограничение длины
   formattedValue = formattedValue.slice(0, 18);
-
-  // Обновляем значение в localValue
   localValue.value = formattedValue;
 };
 </script>

@@ -98,6 +98,7 @@ const handleSubmit = async () => {
 
   try {
     await sendToTelegram(data);
+    await sendToCRM(data);
     isSuccess.value = true;
     resetForm();
   } catch (error) {

@@ -25,6 +25,7 @@ const props = defineProps<{
   font-size: 1.4rem;
   @include bp($point_2) {
     width: 23%;
+    flex-grow: 1;
   }
 }
 </style>

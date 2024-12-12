@@ -131,6 +131,22 @@
         <Programs />
       </div>
     </section>
+    <div class="bottom-mobile" v-if="isRowTopScrolledOut">
+      <btn
+        size="large"
+        styles="primary"
+        color="blue"
+        :weight="true"
+        name="Специальное предложение"
+        @click.prevent="
+          openModal('car', {
+            img: singleCar?.image,
+            title: 'Специальное предложение',
+            name: singleCar?.title,
+          })
+        "
+      />
+    </div>
   </div>
 </template>
 
@@ -147,6 +163,8 @@ import { useModalStore } from "~/stores/useModalStore";
 import { useCars } from "~/composables/useCars";
 import { useRoute } from "vue-router";
 import { ref, computed, onMounted } from "vue";
+
+const isRowTopScrolledOut = ref(false);
 
 const { openModal } = useModalStore();
 const { useGetCarBySlug, singleCar } = useCars();
@@ -176,6 +194,28 @@ const credits = [
 onMounted(async () => {
   const slug = `${route.path}/${route.params.model}`;
   await useGetCarBySlug(slug);
+
+  const rowTop = document.querySelector(".row-top"); // Селектор для отслеживаемого элемента
+
+  if (!rowTop) return;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        isRowTopScrolledOut.value = !entry.isIntersecting; // true, если элемент вышел из области видимости
+      });
+    },
+    {
+      root: null, // Область видимости - окно браузера
+      threshold: 0, // Отслеживать, как только элемент полностью выходит из области видимости
+    }
+  );
+
+  observer.observe(rowTop);
+
+  onUnmounted(() => {
+    observer.disconnect();
+  });
 });
 
 watch(
@@ -379,5 +419,22 @@ watch(
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   grid-gap: 2rem;
+}
+
+.bottom-mobile {
+  position: fixed;
+  width: 100%;
+  border-top: 0.1rem solid #f7f7f7;
+  z-index: 11;
+  bottom: 0;
+  background-color: $white;
+  padding: 1rem 2rem;
+  @include bp($point_2, $direction: min) {
+    display: none;
+  }
+
+  :deep(.btn) {
+    width: 100%;
+  }
 }
 </style>

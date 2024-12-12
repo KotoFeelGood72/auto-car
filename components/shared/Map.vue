@@ -96,7 +96,7 @@ onMounted(() => {
       map.geoObjects.add(placemark);
 
       // Открываем балун сразу
-      placemark.balloon.open();
+      // placemark.balloon.open();
     });
   };
 

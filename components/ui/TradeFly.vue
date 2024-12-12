@@ -18,6 +18,11 @@ const { openModal } = useModalStore();
   bottom: 4rem;
   left: 4rem;
   z-index: 99;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
   img {
     width: 100%;
   }

@@ -108,6 +108,9 @@ onUnmounted(() => {
 }
 .col {
   gap: 3rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 }
 
 .burger {
@@ -178,9 +181,11 @@ nav {
   transition: all 0.3s ease-in-out;
 
   &.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
+    @include bp($point_2) {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
   }
 }
 </style>

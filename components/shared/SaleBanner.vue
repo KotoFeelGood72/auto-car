@@ -36,7 +36,7 @@ const { openModal } = useModalStore();
     font-size: 3rem;
     font-weight: 600;
     @include bp($point_2) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -50,6 +50,9 @@ const { openModal } = useModalStore();
 
   .txt {
     max-width: 34rem;
+    @include bp($point_2) {
+      max-width: 100%;
+    }
   }
 
   .work {
@@ -59,14 +62,19 @@ const { openModal } = useModalStore();
     border-radius: 1rem;
     color: $darkPrimary;
     font-weight: 500;
+    @include bp($point_2) {
+      font-size: 1.6rem;
+    }
   }
 }
 .row {
   @include flex-center;
-  gap: 20px;
+  gap: 2rem;
   flex-wrap: wrap;
   @include bp($point_2) {
+    gap: 1rem;
     align-items: flex-start;
+    text-align: center;
   }
 }
 </style>

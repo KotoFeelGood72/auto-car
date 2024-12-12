@@ -2,7 +2,16 @@
   <section class="adv mb-8">
     <div class="section_in">
       <div class="row">
-        <div v-for="(item, i) in adv" :key="'adv-item-' + i" class="card">
+        <div
+          v-for="(item, i) in adv"
+          :key="'adv-item-' + i"
+          class="card"
+          @click.prevent="
+            openModal('call', {
+              txt: item,
+            })
+          "
+        >
           <p class="title">{{ item }}</p>
           <div class="decorator"></div>
           <div class="icon">
@@ -15,7 +24,10 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+import { useModalStore } from "~/stores/useModalStore";
+
+const { openModal } = useModalStore();
+defineProps<{
   adv: any[];
 }>();
 </script>

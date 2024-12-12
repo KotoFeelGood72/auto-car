@@ -38,12 +38,18 @@ const formatPrice = (price: number | string): string => {
   @include flex-start;
   gap: 2rem;
   align-items: flex-start;
+  @include bp($point_2) {
+    flex-direction: column;
+  }
 }
 
 .col {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 }
 
 :deep(.heading-20) {
@@ -55,6 +61,10 @@ const formatPrice = (price: number | string): string => {
   max-height: 25rem;
   overflow-y: auto;
   padding-right: 3rem;
+  @include bp($point_2) {
+    width: 100%;
+    max-width: 100%;
+  }
   ul {
     display: flex;
     flex-direction: column;

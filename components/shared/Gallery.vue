@@ -45,6 +45,10 @@ defineProps<{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+
+  @include bp($point_2) {
+    grid-gap: 0.5rem;
+  }
 }
 
 .gallery-item:first-child {
@@ -58,9 +62,20 @@ defineProps<{
   transition: all 0.3s ease-in-out;
   overflow: hidden;
   position: relative;
+  @include bp($point_2) {
+    border-radius: 0.3rem;
+  }
 
   &:last-child {
     position: relative;
+    grid-column: 1 / -1;
+    max-height: 30rem;
+    img {
+      object-fit: cover;
+    }
+    @include bp($point_2) {
+      height: 20rem;
+    }
     &:before {
       position: absolute;
       top: 0;

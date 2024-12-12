@@ -66,6 +66,11 @@ watch(
   padding: 1rem 2rem;
   color: $white;
   font-size: 1.8rem;
+  @include bp($point_2) {
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+  }
 }
 
 .cars {
@@ -73,6 +78,9 @@ watch(
   flex-direction: column;
   gap: 2rem;
   position: sticky;
+  @include bp($point_2) {
+    position: static;
+  }
 }
 
 .color-picker__w {
@@ -80,10 +88,17 @@ watch(
   flex-direction: column;
   gap: 2rem;
   font-size: 2rem;
+  @include bp($point_2) {
+    font-size: 1.8rem;
+  }
 }
 .color-picker {
   @include flex-start;
   gap: 1.5rem;
+  flex-wrap: wrap;
+  @include bp($point_2) {
+    gap: 0.5rem;
+  }
   div {
     width: 5rem;
     height: 4rem;
@@ -92,6 +107,11 @@ watch(
     cursor: pointer;
     @include flex-center;
     transition: all 0.3s ease-in-out;
+    @include bp($point_2) {
+      width: 4rem;
+      height: 3rem;
+      border-radius: 0.5rem;
+    }
     &.active {
       transform: scale(1.1);
     }

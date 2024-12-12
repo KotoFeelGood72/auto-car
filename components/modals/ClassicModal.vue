@@ -1,22 +1,9 @@
 <template>
   <div class="classic">
     <closeBtn />
+
+    <heading title="Отправьте заявку" :level="2" :size="42" class="title" />
     <heading
-      v-if="modalData.name"
-      :title="modalData.name"
-      :level="2"
-      :size="30"
-      color="gradient"
-      class="subtitle"
-    />
-    <heading
-      :title="modalData.title ? modalData.title : 'Отправьте заявку'"
-      :level="2"
-      :size="42"
-      :class="['title', { mb: modalData.title }]"
-    />
-    <heading
-      v-if="!modalData.name"
       title="И наши сотрудники свяжутся с вами"
       :level="2"
       :size="20"
@@ -51,16 +38,10 @@ const { modalData } = useModalStoreRefs();
   }
 }
 
-.subtitle {
-  margin-bottom: 4rem;
-}
-
-.mb {
-  margin-bottom: 3rem;
-  margin-top: -3rem;
-}
-
 .title {
   margin-bottom: 1rem;
+}
+.subtitle {
+  margin-bottom: 5rem;
 }
 </style>

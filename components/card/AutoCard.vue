@@ -15,12 +15,7 @@
           <div class="credit">В кредит от {{ card.monthlyPayment }} ₽/мес.</div>
         </div>
         <div class="btn-row">
-          <btn
-            name="Подробнее"
-            size="normal"
-            styles="secondary"
-            color="white"
-          />
+          <btn name="Подробнее" size="normal" styles="secondary" color="blue" />
           <btn
             name="Купить в кредит"
             size="normal"
@@ -95,6 +90,10 @@ const formattedSlug = computed(() =>
   .title {
     margin-bottom: 2rem;
     min-height: 6rem;
+    @include bp($point_2) {
+      min-height: auto;
+      margin-bottom: 1rem;
+    }
   }
   .row {
     @include flex-start;

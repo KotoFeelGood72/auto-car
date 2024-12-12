@@ -44,18 +44,39 @@ const { openModal } = useModalStore();
   background-position: center center;
   background-repeat: no-repeat;
   color: $white;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    height: 100%;
+    background: linear-gradient(to right, #14141483, #ffffff2d);
+    @include bp($point_2, $direction: min) {
+      display: none;
+    }
+  }
 }
 
 .row {
   padding: 6rem 0 11.2rem 0;
   max-width: 67.5rem;
+  @include bp($point_2) {
+    max-width: 80%;
+  }
 }
 
 .title {
   margin-bottom: 1.2rem;
+  position: relative;
+  z-index: 22;
 }
 .subtitle {
   margin-bottom: 2rem;
   max-width: 50rem;
+  position: relative;
+  z-index: 22;
 }
 </style>

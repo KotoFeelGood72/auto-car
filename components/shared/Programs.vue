@@ -71,10 +71,16 @@ const services = [
 
 .title {
   margin-bottom: 4rem;
+  @include bp($point_2) {
+    margin-bottom: 3rem;
+  }
 }
 
 .subtitle {
   margin-bottom: 4rem;
+  @include bp($point_2) {
+    margin-bottom: 3rem;
+  }
 }
 
 .col {
@@ -93,6 +99,9 @@ const services = [
   gap: 3.2rem;
   @include bp($point_2) {
     gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   li {
@@ -102,6 +111,8 @@ const services = [
     padding-left: 2.7rem;
     @include bp($point_2) {
       width: 100%;
+      font-size: 1.4rem;
+      max-width: 45%;
     }
     &:before {
       content: "";

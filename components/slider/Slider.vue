@@ -65,6 +65,17 @@ defineProps<{
 </script>
 
 <style scoped lang="scss">
+.cars {
+  @include bp($point_2) {
+    overflow-x: hidden;
+  }
+
+  .swiper {
+    @include bp($point_2) {
+      overflow: visible;
+    }
+  }
+}
 .head {
   @include flex-start;
   gap: 4rem;

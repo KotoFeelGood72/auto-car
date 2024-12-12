@@ -191,6 +191,15 @@ watch(
 <style lang="scss" scoped>
 .single {
   padding: 5rem 0 0 0;
+  @include bp($point_2) {
+    padding: 3rem 0 0 0;
+  }
+
+  :deep(.credit) {
+    .section_in {
+      padding: 0;
+    }
+  }
 }
 
 .gallery_single {
@@ -216,6 +225,7 @@ watch(
   max-width: 65rem;
   @include bp($point_2) {
     max-width: 100%;
+    padding: 2rem;
   }
 }
 
@@ -224,6 +234,10 @@ watch(
   flex-wrap: wrap;
   gap: 4rem;
   align-items: flex-start;
+  @include bp($point_2) {
+    gap: 3rem 1rem;
+    justify-content: space-between;
+  }
 }
 
 .prices,
@@ -243,10 +257,16 @@ watch(
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    @include bp($point_2) {
+      font-size: 1.6rem;
+    }
   }
   span {
     font-size: 3.2rem;
     font-weight: 600;
+    @include bp($point_2) {
+      font-size: 2.4rem;
+    }
   }
   li {
     &:first-child {
@@ -269,9 +289,15 @@ watch(
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    @include bp($point_2) {
+      font-size: 1.4rem;
+    }
   }
   span {
     font-size: 1.6rem;
+    @include bp($point_2) {
+      font-size: 1.6rem;
+    }
   }
 }
 
@@ -279,8 +305,14 @@ watch(
   @include flex-start;
   gap: 2rem;
   flex-wrap: wrap;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
   :deep(.btn) {
     flex-grow: 1;
+    @include bp($point_2) {
+      width: 100%;
+    }
   }
 }
 
@@ -339,6 +371,11 @@ watch(
 .modes-grid-1 {
 }
 .modes-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  grid-gap: 2rem;
+}
+.modes-grid-3 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   grid-gap: 2rem;

@@ -94,6 +94,7 @@ const other = [
 }
 
 .burger {
+  @include flex-center;
   @include bp($point_2, $direction: min) {
     display: none;
   }

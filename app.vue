@@ -19,6 +19,7 @@
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
   font: 400 calc(100vw / 1920 * 10) / 1.33 $font_1;
   @include bp(1560px) {
     font: 400 calc(100vw / 1920 * 12) / 1.33 $font_1;
@@ -27,7 +28,6 @@ html {
   @include bp($point_2) {
     font-size: 10px;
   }
-
 }
 
 body {

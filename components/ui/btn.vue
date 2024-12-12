@@ -63,6 +63,7 @@ const createRipple = (e: MouseEvent) => {
   cursor: pointer;
   position: relative; /* Для Ripple эффекта */
   overflow: hidden; /* Чтобы Ripple не выходил за пределы кнопки */
+  transition: all 0.3s ease-in-out;
 
   &.normal {
     height: 4.5rem;
@@ -80,12 +81,19 @@ const createRipple = (e: MouseEvent) => {
   &.large {
     height: 6rem;
     padding: 2rem;
+    @include bp($point_2) {
+      height: auto;
+      padding: 1.5rem 2rem;
+    }
     span {
       font-size: 2rem;
       font-family: $font_1;
       font-weight: 400;
       display: block;
       line-height: 100%;
+      @include bp($point_2) {
+        font-size: 1.6rem;
+      }
     }
   }
 
@@ -93,20 +101,20 @@ const createRipple = (e: MouseEvent) => {
     border: 0.1rem solid;
     &.blue {
       border-color: $primary;
+      color: $primary;
     }
     &.white {
       border-color: $white;
       color: $white;
       &:hover {
-        background-color: transparent;
+        background-color: #f7f7f71c;
         color: $white;
       }
     }
     &.dark {
       border-color: $black;
       &:hover {
-        background-color: $black;
-        color: $white;
+        background-color: #f7f7f7;
       }
     }
     &.blue {
@@ -124,9 +132,6 @@ const createRipple = (e: MouseEvent) => {
     }
     &.blue {
       background-color: $primary;
-      // &:hover {
-      //   background-color: $darkPrimary;
-      // }
     }
   }
 }

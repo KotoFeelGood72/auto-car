@@ -89,7 +89,7 @@ defineProps<{
     div {
       font-size: 2rem;
       @include bp($point_2) {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
   }

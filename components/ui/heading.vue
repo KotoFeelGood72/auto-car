@@ -42,6 +42,7 @@ const isColor = computed(() => {
   font-weight: 600;
   @include bp($point_2) {
     font-size: 2.6rem;
+    line-height: 140%;
   }
 }
 .heading-30 {
@@ -64,6 +65,9 @@ const isColor = computed(() => {
   line-height: 100%;
   font-family: $font_1;
   font-weight: 600;
+  @include bp($point_2) {
+    font-size: 2.6rem;
+  }
 }
 .heading-16 {
   font-size: 1.6rem;
@@ -85,6 +89,9 @@ const isColor = computed(() => {
   line-height: 130%;
   font-family: $font_1;
   font-weight: 500;
+  @include bp($point_2) {
+    font-size: 2rem;
+  }
 }
 .heading-18 {
   font-size: 18px;
@@ -117,6 +124,12 @@ const isColor = computed(() => {
   background: linear-gradient(45deg, #0540a9 0%, #63c7dd 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @include bp($point_2) {
+    background: linear-gradient(45deg, #aadafa 0%, #63c7dd 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .color-blue {

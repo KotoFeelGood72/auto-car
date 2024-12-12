@@ -79,6 +79,8 @@ onUnmounted(() => {
 <style scoped lang="scss">
 .timers {
   padding-top: 2rem;
+  position: relative;
+  z-index: 22;
 }
 .timer-row {
   @include flex-start;

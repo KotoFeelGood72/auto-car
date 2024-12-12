@@ -3,7 +3,7 @@ name: Deploy Vue to WordPress
 on:
   push:
     branches:
-      - main # Укажите ветку, на которую нужно настраивать деплой, например, main или master.
+      - master # Укажите ветку, на которую нужно настраивать деплой, например, main или master.
 
 jobs:
   build-and-deploy:

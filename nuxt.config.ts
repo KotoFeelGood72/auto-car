@@ -36,6 +36,7 @@ export default defineNuxtConfig({
       },
     ],
   },
+  // @ts-ignore
   axios: {
     proxy: true, // Включить прокси
   },

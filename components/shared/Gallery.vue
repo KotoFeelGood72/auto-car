@@ -73,6 +73,10 @@ const openFullGallery = () => {
 
   @include bp($point_2) {
     grid-gap: 0.5rem;
+    @include flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
   }
 }
 
@@ -89,6 +93,11 @@ const openFullGallery = () => {
   position: relative;
   @include bp($point_2) {
     border-radius: 0.3rem;
+    min-width: 25rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 20rem;
   }
 
   &:last-child {
@@ -96,6 +105,9 @@ const openFullGallery = () => {
 
     grid-row: auto;
     max-height: 30rem;
+    @include bp($point_2) {
+      max-height: 100%;
+    }
     img {
       object-fit: cover;
     }
@@ -127,5 +139,10 @@ const openFullGallery = () => {
   font-size: 2rem;
   font-weight: 500;
   cursor: pointer;
+  @include bp($point_2) {
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center;
+  }
 }
 </style>

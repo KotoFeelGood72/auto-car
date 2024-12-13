@@ -170,4 +170,8 @@ watch(
 //   left: 98% !important;
 //   //   transform: translateX(-3rem) translateY(-50%);
 // }
+
+.noUi-target {
+  touch-action: pan-y; /* Разрешает вертикальную прокрутку */
+}
 </style>

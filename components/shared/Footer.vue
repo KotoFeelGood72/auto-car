@@ -106,6 +106,9 @@ const info = [
   background-color: #03183d;
   padding: 5rem 0;
   color: $white;
+  @include bp($point_2) {
+    padding: 5rem 0 10rem 0;
+  }
   a {
     color: inherit;
   }
@@ -128,6 +131,7 @@ const info = [
     align-items: flex-start;
     padding: 3rem 0;
     gap: 1.5rem;
+    font-size: 1.6rem;
   }
   li {
     @include flex-start;

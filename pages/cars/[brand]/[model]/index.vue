@@ -290,6 +290,11 @@ watch(
       padding: 0;
     }
   }
+  :deep(.programs) {
+    .section_in {
+      padding: 0;
+    }
+  }
 }
 
 .gallery_single {
@@ -458,8 +463,6 @@ watch(
   gap: 2rem;
 }
 
-.modes-grid-1 {
-}
 .modes-grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));

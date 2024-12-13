@@ -76,7 +76,7 @@
                     styles="primary"
                     color="white"
                     :weight="true"
-                    name="Рассчитать автокредит от 1%"
+                    name="Рассчитать автокредит от 7%"
                     :full="true"
                     @click="scrollDown"
                   />

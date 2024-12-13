@@ -1,7 +1,7 @@
 <template>
   <section class="models mb-8">
     <div class="section_in">
-      <heading title="Марки автомобилей" :size="42" class="title" />
+      <heading title="АВТОМОБИЛИ В МОСКВЕ" :size="42" class="title" />
       <div class="grid">
         <ModelsCard
           v-for="(item, i) in models"

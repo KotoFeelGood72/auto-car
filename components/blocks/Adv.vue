@@ -12,7 +12,7 @@
             })
           "
         >
-          <p class="title">{{ item }}</p>
+          <div class="title" v-html="item"></div>
           <div class="decorator"></div>
           <div class="icon">
             <Icon name="fluent:chevron-right-28-regular" :size="20" />
@@ -53,6 +53,7 @@ defineProps<{
     font-size: 2.4rem;
     position: relative;
     cursor: pointer;
+    flex-grow: 1;
 
     @include bp($point_2) {
       font-size: 1.6rem;

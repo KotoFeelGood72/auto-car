@@ -101,7 +101,7 @@ const formattedSlug = computed(() =>
     margin-bottom: 2rem;
   }
   .credit {
-    max-width: 40%;
+    max-width: 32%;
   }
   .price {
     font-size: 1.8rem;

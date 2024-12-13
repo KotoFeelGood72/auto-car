@@ -62,7 +62,7 @@ const isColor = computed(() => {
 }
 .heading-36 {
   font-size: 3.6rem;
-  line-height: 100%;
+  line-height: 120%;
   font-family: $font_1;
   font-weight: 600;
   @include bp($point_2) {
@@ -121,7 +121,7 @@ const isColor = computed(() => {
 }
 
 .color-gradient {
-  background: linear-gradient(45deg, #0540a9 0%, #63c7dd 90%);
+  background: linear-gradient(45deg, #1a63e0 0%, #63c7dd 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

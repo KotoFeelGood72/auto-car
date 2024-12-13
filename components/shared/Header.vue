@@ -14,7 +14,7 @@
               <div class="phone-icon">
                 <Icon name="f:phone" :size="20" />
               </div>
-              <heading title="+7 (495) 021 31 19" :level="2" :size="24" />
+              <heading title="+7 (499) 289-87-21" :level="2" :size="24" />
             </a>
             <span class="timework">Без выходных с 10 до 22ч</span>
           </div>

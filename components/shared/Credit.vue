@@ -3,7 +3,7 @@
     <div class="section_in">
       <div class="row">
         <heading
-          title="Выгодный кредит"
+          title="Выгодный автокредит"
           :size="32"
           class="title"
           color="white"

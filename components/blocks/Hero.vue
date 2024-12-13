@@ -2,13 +2,9 @@
   <section class="hero">
     <div class="section_in">
       <div class="row">
+        <heading title="КУПИТЬ АВТО В МОСКВЕ" :size="40" class="title" />
         <heading
-          title="НОВЫЕ АВТОМОБИЛИ В МОСКВЕ ВЫГОДА ДО 600 000 ₽"
-          :size="40"
-          class="title"
-        />
-        <heading
-          title="Кредит от 7% + подарки от салона"
+          title="Выгода до 20% на все модели в наличии с 1 по 31 декабря"
           :level="2"
           :size="36"
           color="gradient"
@@ -75,7 +71,7 @@ const { openModal } = useModalStore();
 }
 .subtitle {
   margin-bottom: 2rem;
-  max-width: 50rem;
+  max-width: 60rem;
   position: relative;
   z-index: 22;
 }

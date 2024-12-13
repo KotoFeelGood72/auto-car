@@ -40,8 +40,8 @@ onMounted(() => {
           <h3 style="text-align: left; font-size: 2rem; font-family: 'Gilroy'; margin-bottom: 1rem;">
             Контакты
           </h3>
-          <a href="tel:+74950213119" style="text-align: left; font-size: 1.4rem; font-family: 'Gilroy'; margin-bottom: 2rem;">
-            +7 (495) 021 31 19
+          <a href="tel:+74992898721" style="text-align: left; font-size: 1.4rem; font-family: 'Gilroy'; margin-bottom: 2rem;">
+            +7 (499) 289-87-21
           </a>
           <p style="text-align: left; font-size: 1.4rem; font-family: 'Gilroy'; margin-bottom: 1rem;">
             Краснобогатырская улица, 2с22, Москва, 107564

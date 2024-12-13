@@ -97,7 +97,7 @@ const footerLinks = [
 const info = [
   { txt: "Ежедневно с 8:00 до 21:00", icon: "svg-spinners:pulse-3" },
   { txt: "г. Москва, 33км МКАД, 6с6", icon: "et:map-pin" },
-  { link: "+7 (495) 021 31 19", icon: "prime:phone" },
+  { link: "+7 (499) 289-87-21", icon: "prime:phone" },
 ];
 </script>
 

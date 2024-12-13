@@ -75,7 +75,7 @@ const createRipple = (e: MouseEvent) => {
     span {
       font-size: 1.4rem;
       font-family: $font_1;
-      font-weight: 400;
+      font-weight: 500;
       display: flex;
       line-height: 100%;
     }

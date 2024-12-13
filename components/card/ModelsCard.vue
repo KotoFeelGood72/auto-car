@@ -1,14 +1,17 @@
 <template>
-  <div class="card">
-    <div class="img">
-      <img :src="`/models/${card.img}.png`" class="" />
+  <NuxtLink :to="'/cars/' + card">
+    <div class="card">
+      <div class="img">
+        <img :src="`/assets/img/brands/${card}.svg`" class="" />
+      </div>
+      <p class="title">{{ card }}</p>
     </div>
-    <p class="title">{{ card.name }}</p>
-  </div>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+import { useRoute } from "vue-router";
+defineProps<{
   card: any;
 }>();
 </script>
@@ -24,7 +27,36 @@ const props = defineProps<{
   border-radius: 1rem;
   font-size: 1.4rem;
   @include bp($point_2) {
-    width: 23%;
+    @include flex-start;
+    width: auto;
+    height: 5rem;
+    flex-direction: row;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+  }
+}
+a {
+  @include bp($point_2) {
+    flex-grow: 1;
+    @include flex-center;
+  }
+}
+
+.router-link-active.router-link-exact-active {
+  .card {
+    border-color: $primary;
+    color: $primary;
+    background-color: #0657ee23;
+  }
+}
+
+.img {
+  width: 4rem;
+  height: 4rem;
+  @include flex-center;
+
+  @include bp($point_2) {
     flex-grow: 1;
   }
 }

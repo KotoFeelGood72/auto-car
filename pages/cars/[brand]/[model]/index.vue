@@ -228,13 +228,13 @@ onMounted(async () => {
       singleCar?.value?.title || "Автокар - Новые автомобили Geely в Москве",
     description:
       "Откройте для себя лучшие автомобили" +
-      singleCar.value.model +
+      singleCar?.value?.model +
       " в автосалоне Автокар. Удобные условия покупки, кредит, тест-драйв в Москве.",
     keywords:
-      singleCar.value.model +
+      singleCar?.value?.model +
       "," +
       "автосалон, Москва, новые автомобили, купить " +
-      singleCar.value.model,
+      singleCar?.value?.model,
     image:
       singleCar.value.image || "https://autocarmsk.ru/assets/img/geely.jpg",
     url: "https://autocarmsk.ru" + formattedSlug.value,
@@ -242,7 +242,7 @@ onMounted(async () => {
     schema: {
       "@context": "https://schema.org",
       "@type": "Product",
-      name: singleCar.value.model + " - " + singleCar.value.brand || "",
+      name: singleCar?.value?.model + " - " + singleCar?.value?.brand || "",
       image:
         singleCar.value.image || "https://autocarmsk.ru/assets/img/geely.jpg",
       description:
@@ -271,7 +271,7 @@ onMounted(async () => {
 watch(
   () => route.params.model,
   async (newSlug) => {
-    console.log("Слаг изменился:", newSlug);
+    // console.log("Слаг изменился:", newSlug);
     const slug = `${route.path}/${newSlug}`;
     await useGetCarBySlug(slug);
   }

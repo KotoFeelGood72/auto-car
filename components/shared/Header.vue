@@ -70,14 +70,14 @@ import { useModalStore } from "~/stores/useModalStore";
 const { openModal } = useModalStore();
 
 const nav = [
-  { name: "Авто в наличии", link: "/" },
+  { name: "Авто в наличии", link: "/cars" },
   { name: "Акции", link: "/" },
   { name: "Отзывы", link: "/" },
-  { name: "Контакты", link: "/" },
+  { name: "Контакты", link: "/#contacts" },
 ];
 const other = [
-  { name: "Автокредит", link: "/" },
-  { name: "Trade-In", link: "/" },
+  { name: "Автокредит", link: "/#credit" },
+  { name: "Trade-In", link: "/#trade" },
 ];
 
 const isSticky = ref(false);

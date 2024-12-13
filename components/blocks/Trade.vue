@@ -1,5 +1,5 @@
 <template>
-  <section class="trade mb-8">
+  <section class="trade mb-8" id="trade">
     <div class="section_in">
       <heading
         title="TRADE - IN по новому!"
@@ -41,7 +41,7 @@
           <img src="~/assets/img/tradein.jpg" alt="Трейд ин" />
         </div>
       </div>
-      <ul class="row-services">
+      <ul class="row-services" id="credit">
         <li
           v-for="(item, i) in services"
           :key="'services-item-' + i"

@@ -36,6 +36,15 @@ export default defineNuxtConfig({
       },
     ],
   },
+  axios: {
+    proxy: true, // Включить прокси
+  },
+  proxy: {
+    "/api/crm": {
+      target: "http://crm.renault-s.ru/expo/api/deal/add",
+      pathRewrite: { "^/api/crm": "" },
+    },
+  },
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {

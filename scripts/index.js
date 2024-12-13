@@ -27,6 +27,7 @@ const collectCarsData = () => {
         const carData = JSON.parse(fs.readFileSync(itemPath, "utf-8"));
         allCars.push({
           title: carData.title,
+          brand: carData.brand,
           image: carData.image,
           slug: carData.slug,
           priceOld: carData.priceOld,

@@ -42,7 +42,6 @@ import AutoCard from "~/components/card/AutoCard.vue";
 import ModelsGrid from "~/components/blocks/ModelsGrid.vue";
 import { useRoute, useRouter } from "vue-router";
 import { useCars } from "~/composables/useCars";
-import { useSeo } from "~/composables/useSeo";
 
 const {
   useGetAll,
@@ -69,16 +68,6 @@ onMounted(() => {
     }
     const pageFromUrl = parseInt(route.query.page as string) || 1;
     setCurrentPage(pageFromUrl); // Устанавливаем текущую страницу из URL
-  });
-
-  useSeo({
-    title:
-      route.params.brand.toString() ||
-      "Автокар - Новые автомобили Geely в Москве",
-    description:
-      "Откройте для себя лучшие автомобили" +
-      route.params.brand.toString() +
-      " в автосалоне Автокар. Удобные условия покупки, кредит, тест-драйв в Москве.",
   });
 });
 

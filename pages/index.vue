@@ -2,7 +2,7 @@
   <div class="home">
     <Hero />
     <Adv :adv="adv" />
-    <ModelsGrid :models="models" />
+    <ModelsGrid :models="brands" />
     <Slider title="Популярные модели авто" :cars="popularCars" id="popular" />
     <Action />
     <Slider
@@ -28,7 +28,7 @@ import ModelsGrid from "../components/blocks/ModelsGrid.vue";
 import Action from "../components/blocks/Action.vue";
 import Trade from "../components/blocks/Trade.vue";
 import { useCars } from "~/composables/useCars";
-const { useGetAll, popularCars, promotionalCars } = useCars();
+const { useGetAll, popularCars, promotionalCars, brands } = useCars();
 
 const adv = [
   "Выгода до 20%<br/> на все модели",
@@ -55,33 +55,6 @@ const credits = [
   { title: "от 7%", txt: "Ставка по <br/>кредиту" },
   { title: "1 час", txt: "Рассмотрение <br/>заявки" },
   { title: "90%", txt: "Одобрение <br/>по кредиту" },
-];
-
-const models = [
-  { img: "baic", name: "BAIC", link: "" },
-  { img: "belgee", name: "Belgee", link: "" },
-  { img: "changan", name: "Changan", link: "" },
-  { img: "chery", name: "Chery", link: "" },
-  { img: "jac", name: "JAC", link: "" },
-  { img: "haval", name: "HAVAL", link: "" },
-  { img: "exeed", name: "EXEED", link: "" },
-  { img: "uaz", name: "УАЗ", link: "" },
-  { img: "gac", name: "GAC", link: "" },
-  { img: "geely", name: "Geely", link: "" },
-  { img: "hyundai", name: "Hyundai", link: "" },
-  { img: "omoda", name: "OMODA", link: "" },
-  { img: "jetour", name: "Jetour", link: "" },
-  { img: "moscow", name: "МОСКВИЧ", link: "" },
-  { img: "kayi", name: "KAIYI", link: "" },
-  { img: "ki", name: "KIA", link: "" },
-  { img: "lada", name: "Lada", link: "" },
-  { img: "skoda", name: "SKODA", link: "" },
-  { img: "jaecoo", name: "Jaecoo", link: "" },
-  { img: "mitsubishi", name: "Mitsubishi", link: "" },
-  { img: "renault", name: "Renault", link: "" },
-  { img: "jetta", name: "Jetta", link: "" },
-  { img: "tank", name: "Tank", link: "" },
-  { img: "ww", name: "Volkswagen", link: "" },
 ];
 
 onMounted(() => {

@@ -8,29 +8,57 @@ export function useFormSubmit() {
   const isLoading = ref(false);
   const isSuccess = ref(false);
   const isError = ref(false);
-  const errorMessage = ref<string | null>(null);
+  const errorMessage = ref<any>(null);
 
-  const lastSubmitTime = ref<number | null>(null); // Время последней отправки
   const cooldownTime = 60000; // Минимальный промежуток между отправками в миллисекундах
+  const localStorageKey = "lastSubmitTime";
+  let warningToastId: any = null; // ID предупреждения, чтобы избежать дублирования
+
+  const getLastSubmitTime = (): number | null => {
+    const storedTime = localStorage.getItem(localStorageKey);
+    return storedTime ? parseInt(storedTime, 10) : null;
+  };
+
+  const setLastSubmitTime = (time: number) => {
+    localStorage.setItem(localStorageKey, time.toString());
+  };
 
   const canSubmit = () => {
     const now = Date.now();
-    if (lastSubmitTime.value && now - lastSubmitTime.value < cooldownTime) {
+    const lastSubmitTime = getLastSubmitTime();
+    if (lastSubmitTime && now - lastSubmitTime < cooldownTime) {
       const remainingTime = (
-        (cooldownTime - (now - lastSubmitTime.value)) /
+        (cooldownTime - (now - lastSubmitTime)) /
         1000
       ).toFixed(1);
-      toast.warning(
-        `Пожалуйста, подождите ${remainingTime} секунд перед повторной отправкой.`
-      );
+
+      // Если предупреждение уже отображается, обновляем его
+      if (warningToastId) {
+        toast.update(warningToastId, {
+          content: `Пожалуйста, подождите ${remainingTime} секунд перед повторной отправкой.`,
+          // @ts-ignore
+          type: "warning",
+        });
+      } else {
+        warningToastId = toast.warning(
+          `Пожалуйста, подождите ${remainingTime} секунд перед повторной отправкой.`
+        );
+      }
+
       return false;
     }
-    lastSubmitTime.value = now;
+
+    warningToastId = null; // Сбрасываем предупреждение после успешной проверки
+    setLastSubmitTime(now);
     return true;
   };
 
-  const submitForm = async (url: string, data: Record<string, any>) => {
-    if (!canSubmit()) return; // Проверяем, можно ли отправлять
+  const submitForm = async (
+    url: string,
+    data: Record<string, any>,
+    showToast: boolean = true
+  ) => {
+    if (!canSubmit()) return;
 
     isLoading.value = true;
     isSuccess.value = false;
@@ -38,6 +66,9 @@ export function useFormSubmit() {
     errorMessage.value = null;
 
     try {
+      console.log("Отправка данных на URL:", url);
+      console.log("Данные:", data);
+
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -46,17 +77,35 @@ export function useFormSubmit() {
         body: JSON.stringify(data),
       });
 
+      console.log("Ответ от CRM:", response);
+
       if (!response.ok) {
-        throw new Error(`Ошибка: ${response.status}`);
+        const errorText = await response.text();
+        console.error("Ошибка ответа CRM:", errorText);
+        throw new Error(`Ошибка: ${response.status}, ${errorText}`);
       }
 
+      const responseData = await response.json();
+      console.log("Успешный ответ CRM:", responseData);
+
       isSuccess.value = true;
-      toast.success("Данные успешно отправлены!");
+
+      if (warningToastId) {
+        toast.dismiss(warningToastId);
+        warningToastId = null;
+      }
+
+      if (showToast) {
+        toast.success("Данные успешно отправлены!");
+      }
     } catch (error: any) {
       isError.value = true;
       errorMessage.value =
         error.message || "Произошла ошибка при отправке данных";
-      toast.error(errorMessage.value);
+      console.error("Ошибка отправки:", error);
+      if (showToast) {
+        toast.error(errorMessage.value);
+      }
     } finally {
       closeAllModals();
       isLoading.value = false;
@@ -64,7 +113,7 @@ export function useFormSubmit() {
   };
 
   const sendToCRM = async (data: Record<string, any>) => {
-    const crmUrl = "http://crm.renault-s.ru/expo/api/deal/add"; // Укажите ваш URL
+    const crmProxyUrl = "/api/crm"; // Используем локальный URL
 
     const extendedData =
       data.deal_type === 80 || data.deal_type === 81
@@ -79,7 +128,9 @@ export function useFormSubmit() {
           }
         : { ...data };
 
-    await submitForm(crmUrl, extendedData);
+    console.log("Отправка данных в CRM:", extendedData);
+
+    await submitForm(crmProxyUrl, extendedData, false);
   };
 
   const sendToTelegram = async (data: Record<string, any>) => {
@@ -104,9 +155,9 @@ export function useFormSubmit() {
     const dealTypeName = dealTypes[data.deal_type] || "Неизвестный тип сделки";
 
     const message = `Новая заявка:
-    Имя: ${data.deal_name}
-    Телефон: ${data.deal_phone_mobile}
-    Тип сделки: ${dealTypeName}${
+      Имя: ${data.deal_name}
+      Телефон: ${data.deal_phone_mobile}
+      Тип сделки: ${dealTypeName}${
       data.deal_marka
         ? `\nАвтомобиль: ${data.deal_marka} ${data.deal_model}`
         : ""
@@ -119,10 +170,16 @@ export function useFormSubmit() {
     }`;
 
     const tgUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-    await submitForm(tgUrl, {
-      chat_id: chatId,
-      text: message,
-    });
+
+    // Передаем showToast = false, чтобы уведомление не отображалось второй раз
+    await submitForm(
+      tgUrl,
+      {
+        chat_id: chatId,
+        text: message,
+      },
+      false
+    );
   };
 
   return {

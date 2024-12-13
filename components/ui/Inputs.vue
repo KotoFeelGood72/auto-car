@@ -96,6 +96,10 @@ input {
   padding: 2rem 3rem;
   width: 100%;
   border-radius: 1rem;
+  @include bp($point_2) {
+    padding: 1.5rem 2rem;
+    height: 4.6rem;
+  }
 
   &:focus {
     border-color: $black;

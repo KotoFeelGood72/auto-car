@@ -1,14 +1,20 @@
 <template>
   <div class="gallery mb-8">
+    <!-- Первое изображение -->
     <a
       class="gallery-item"
-      v-if="images.length > 0"
-      :href="images[0].fullImage"
+      v-if="imagesToShow.length > 0"
+      :href="imagesToShow[0].fullImage"
       data-fancybox="gallery"
     >
-      <img :src="images[0].fullImage" :alt="images[0].alt || 'Картинка 1'" />
+      <img
+        :src="imagesToShow[0].fullImage"
+        :alt="imagesToShow[0].alt || 'Картинка 1'"
+      />
     </a>
-    <template v-for="(image, index) in images.slice(1, -1)" :key="index">
+
+    <!-- Последующие изображения (со 2-го по 8-е) -->
+    <template v-for="(image, index) in imagesToShow.slice(1, 8)" :key="index">
       <a :href="image.fullImage" class="gallery-item" data-fancybox="gallery">
         <img
           :src="image.fullImage"
@@ -16,15 +22,17 @@
         />
       </a>
     </template>
+
+    <!-- Последнее изображение с кнопкой "Открыть галерею" -->
     <a
-      v-if="images.length > 1"
-      :href="images[images.length - 1].fullImage"
-      class="gallery-item"
-      data-fancybox="gallery"
+      v-if="images.length > 9"
+      href="javascript:void(0);"
+      class="gallery-item open-gallery-button"
+      @click="openFullGallery"
     >
       <img
-        :src="images[images.length - 1].fullImage"
-        :alt="images[images.length - 1].alt || 'Открыть галерею'"
+        :src="images[8].fullImage"
+        :alt="images[8].alt || 'Открыть галерею'"
       />
       <div class="open-gallery">Открыть галерею</div>
     </a>
@@ -35,9 +43,26 @@
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import { Fancybox } from "@fancyapps/ui";
 Fancybox.bind("[data-fancybox]", {});
-defineProps<{
+
+const props = defineProps<{
   images: any;
 }>();
+
+// Отображаем первые 9 изображений для галереи
+const imagesToShow = computed(() => props.images.slice(0, 9));
+
+// Функция для открытия полной галереи
+const openFullGallery = () => {
+  Fancybox.show(
+    props.images.map((image: any) => ({
+      src: image.fullImage,
+      type: "image",
+      opts: {
+        caption: image.alt || "Изображение",
+      },
+    }))
+  );
+};
 </script>
 
 <style lang="scss" scoped>
@@ -68,7 +93,8 @@ defineProps<{
 
   &:last-child {
     position: relative;
-    grid-column: 1 / -1;
+
+    grid-row: auto;
     max-height: 30rem;
     img {
       object-fit: cover;

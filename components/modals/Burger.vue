@@ -61,9 +61,16 @@ const nav = [
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  padding: 3rem;
+  gap: 2rem;
+  padding: 2rem;
   position: relative;
+  max-height: 100dvh;
+  overflow-y: auto;
+
+  :deep(.close) {
+    top: 2rem;
+    right: 0;
+  }
 }
 
 nav {

@@ -115,6 +115,9 @@ const handleSubmit = async () => {
   display: flex;
   flex-direction: column;
   gap: 2.7rem;
+  @include bp($point_2) {
+    gap: 1rem;
+  }
 
   &.white {
     :deep(input) {
@@ -130,6 +133,9 @@ const handleSubmit = async () => {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    @include bp($point_2) {
+      gap: 1rem;
+    }
 
     :deep(.btn) {
       width: 100%;
@@ -153,5 +159,8 @@ const handleSubmit = async () => {
   font-size: 1.4rem;
   max-width: 80%;
   margin: 0 auto;
+  @include bp($point_2) {
+    font-size: 1.2rem;
+  }
 }
 </style>

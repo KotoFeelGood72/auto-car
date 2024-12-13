@@ -52,6 +52,7 @@ const list = [
     flex-direction: column;
     max-height: 90dvh;
     overflow-y: auto;
+    background: $white;
   }
 }
 
@@ -87,6 +88,11 @@ ul {
   }
 }
 
+.col-img {
+  @include bp($point_2) {
+    display: none;
+  }
+}
 .list-icon {
   color: $primary;
   @include flex-center;

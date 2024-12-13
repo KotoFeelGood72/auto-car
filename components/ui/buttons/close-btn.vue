@@ -19,6 +19,7 @@ const { closeAllModals } = useModalStore();
   top: 2rem;
   right: 2rem;
   cursor: pointer;
+  z-index: 999;
   &:hover {
     color: rgb(231, 36, 36);
   }

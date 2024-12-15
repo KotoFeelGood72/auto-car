@@ -1,0 +1,175 @@
+{
+  "title": "Lada Granta Хэтчбек в Москве",
+  "brand": "Lada",
+  "model": "Granta Хэтчбек",
+  "saleBlock": "Выгода 311 400 ₽",
+  "city": "Москве",
+  "image": "/api/cars/lada/granta-hetchbek/main.jpg",
+  "slug": "/cars/lada/granta/",
+  "priceOld": "778 500",
+  "priceNew": "467 100",
+  "monthlyPayment": "3 545",
+  "features": [
+    "Подушка безопасности водителя",
+    "Индикация непристегнутого ремня безопасности водителя",
+    "Подголовники задних сидений",
+    "Крепления для детских сидений ISOFIX",
+    "Блокировка задних дверей от открывания детьми",
+    "Иммобилайзер",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Дневные ходовые огни",
+    "Антиблокировочная система тормозов (ABS) с системой распределения тормозных усилий (EBD)",
+    "Система вспомогательного торможения (BAS)",
+    "Бортовой компьютер",
+    "Подсказчик переключения передач в комбинации приборов",
+    "Заднее сиденье с раскладкой в пропорции 60/40",
+    "Розетка 12V на центральной консоли",
+    "Электроусилитель рулевого управления",
+    "Регулируемая по высоте рулевая колонка",
+    "Воздушный фильтр салона",
+    "Центральный замок",
+    "Передние электростеклоподъёмники",
+    "Аудиоподготовка",
+    "Антенна активная",
+    "14\" стальные диски",
+    "Колпаки колес декоративные",
+    "Запасное полноразмерное стальное колесо 14''",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)",
+    "Набор аксессуаров",
+    "Подушка безопасности водителя",
+    "Подушка безопасности переднего пассажира",
+    "Индикация непристегнутого ремня безопасности водителя",
+    "Подголовники задних сидений 2 шт.",
+    "Крепления для детских сидений ISOFIX",
+    "Блокировка задних дверей от открывания детьми",
+    "Иммобилайзер",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Дневные ходовые огни",
+    "Антиблокировочная система тормозов (ABS) с системой распределения тормозных усилий (EBD)",
+    "Система вспомогательного торможения (BAS)",
+    "Бортовой компьютер",
+    "Заднее сиденье с раскладкой в пропорции 60/40",
+    "Противосолнечный козырек пассажира с зеркалом",
+    "Розетка 12V на центральной консоли",
+    "Электроусилитель рулевого управления",
+    "Регулируемая по высоте рулевая колонка",
+    "Воздушный фильтр салона",
+    "Центральный замок",
+    "Передние электростеклоподъёмники",
+    "Подогрев передних сидений",
+    "Электропривод и обогрев наружных зеркал",
+    "Кондиционер",
+    "Аудиосистема (FM, USB, SD-карта, Bluetooth, Hands free), 4 динамика",
+    "Антенна активная",
+    "Наружные зеркала с боковыми указателями поворота в цвет кузова",
+    "Наружные ручки дверей в цвет кузова",
+    "14\" стальные диски",
+    "Колпаки колес декоративные",
+    "Запасное полноразмерное стальное колесо 14''",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)",
+    "Набор аксессуаров"
+  ],
+  "colors": [
+    {
+      "name": "Белый «Ледниковый» (221)",
+      "image": "/api/cars/lada/granta-hetchbek/colors/belyj-«lednikovyj»-221.jpg",
+      "style": "background: #FFFFFF"
+    },
+    {
+      "name": "Черный «Пантера» (672)",
+      "image": "/api/cars/lada/granta-hetchbek/colors/chernyj-«pantera»-672.jpg",
+      "style": "background: #161313"
+    },
+    {
+      "name": "Серебристо-темно-серый «Борнео» (633) - металлик",
+      "image": "/api/cars/lada/granta-hetchbek/colors/serebristo-temno-seryj-«borneo»-633-metallik.jpg",
+      "style": "background: #444E4E"
+    },
+    {
+      "name": "Золотисто-коричневый «Кориандр» (790) - металлик",
+      "image": "/api/cars/lada/granta-hetchbek/colors/zolotisto-korichnevyj-«koriandr»-790-metallik.jpg",
+      "style": "background: #706C62"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/lada/granta-hetchbek/colors/sinij.jpg",
+      "style": "background: #0149c0"
+    },
+    {
+      "name": "Красно-оранжевый",
+      "image": "/api/cars/lada/granta-hetchbek/colors/krasno-oranzhevyj.jpg",
+      "style": "background: #a30c0d"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л 5МКПП (90 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "467100",
+      "priceOld": "778500",
+      "monthlyPayment": "3545"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/lada/granta-hetchbek/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Lada Granta Хэтчбек в Москве - фото №12"
+    }
+  ]
+}

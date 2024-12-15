@@ -1,0 +1,242 @@
+{
+  "title": "Jetta VS5 в Москве",
+  "brand": "Jetta",
+  "model": "VS5",
+  "saleBlock": "Выгода 796 000 ₽",
+  "city": "Москве",
+  "image": "/api/cars/jetta/vs5/main.jpg",
+  "slug": "/cars/jetta/vs5/",
+  "priceOld": "1 990 000",
+  "priceNew": "1 194 000",
+  "monthlyPayment": "9 063",
+  "features": [
+    "Круиз-контроль",
+    "Центральный подлокотник",
+    "Запасное колесо-докатка",
+    "Антиблокировочная система тормозов (ABS)",
+    "ASR (антипробуксовочная система)",
+    "Система курсовой устойчивости (ESP)",
+    "EBD - электронная система распределения тормозных усилий",
+    "Фронтальные подушки безопасности",
+    "Мультимедийная система SYNC с Bluetooth, голосовым управлением на русском языке и функцией AppLink",
+    "Система старт-стоп с рекуперацией",
+    "Электронное противоугонное устройство",
+    "Люк с электроприводом",
+    "Климат-контроль",
+    "Электропривод передних и задних стеклоподъемников",
+    "Кожаный руль ( встроенный полный медиа функционал)",
+    "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+    "Система мониторинга давления в шинах",
+    "Голосовое управление",
+    "Центральный замок",
+    "Бесключевой доступ",
+    "Система помощи при экстренном торможении HBA",
+    "4 динамика",
+    "передний парктроник",
+    "2 USB-разъема",
+    "Подсветка багажника",
+    "Накладки на пороги",
+    "Боковые зеркала с электрорегулировкой, подогревом и встроенными указателями поворота",
+    "Обивка сидений перфорированной кожей",
+    "Детский замок",
+    "Электропривод стояночного тормоза",
+    "Функция напоминания о непристегнутом ремне безопасности водителя и переднего пассажира",
+    "Светодиодные дневные ходовые огни",
+    "Складывающиеся сиденья второго ряда в пропорции 4/6",
+    "Система распознавания усталости",
+    "Камера заднего вида",
+    "Хромированные ручки дверей",
+    "Задний парктроник",
+    "Боковые подушки безопасности для водителя и переднего пассажира",
+    "Крепления для детских сидений ISOFIX",
+    "Антибликовое салонное зеркало заднего вида",
+    "Розетка 12V",
+    "HHC (система помощи при подъеме)",
+    "Датчик дождя",
+    "Рейлинги серебристого цвета",
+    "Центральный подлокотник",
+    "Запасное колесо-докатка",
+    "Антиблокировочная система тормозов (ABS)",
+    "ASR (антипробуксовочная система)",
+    "Система курсовой устойчивости (ESP)",
+    "Электронная система распределения тормозных сил (EBD)",
+    "Фронтальные подушки безопасности",
+    "Мультимедийная система SYNC с Bluetooth, голосовым управлением на русском языке и функцией AppLink",
+    "Система старт-стоп с рекуперацией",
+    "Электронное противоугонное устройство",
+    "Люк с электроприводом",
+    "Электростеклоподъемники передних и задних дверей",
+    "Сиденье переднего пассажира с механической регулировкой в 4 направлениях",
+    "Система мониторинга давления в шинах",
+    "ACC - адаптивный круиз контроль",
+    "Ассистент удержания автомобиля на полосе движения",
+    "Мультимедийная система SYNC 3* , включая Bluetooth, голосовое управление на русском языке, функцию AppLink и поддержку Apple CarPlay и Android Auto",
+    "Аудиосистема (Радио / MP3 / 6 динамиков)",
+    "Рулевая колонка, регулируемая по вылету и углу наклона",
+    "Дополнительный светодиодный стоп-сигнал",
+    "Центральный замок с дистанционным управлением",
+    "Бесключевой доступ",
+    "Система помощи при экстренном торможении HBA",
+    "передний парктроник",
+    "2 USB-разъема",
+    "Подсветка багажника",
+    "Накладки на пороги",
+    "Боковые зеркала с электрорегулировкой, подогревом и встроенными указателями поворота",
+    "Обивка сидений перфорированной кожей",
+    "Детский замок",
+    "Комбинированный салон",
+    "Двухзонный климат-контроль",
+    "Кожаный руль ( встроенный полный медиа функционал)",
+    "Электронный стояночный тормоз",
+    "Функция напоминания о непристегнутом ремне безопасности водителя и переднего пассажира",
+    "Светодиодные дневные ходовые огни",
+    "Складывающиеся сиденья второго ряда в пропорции 4/6",
+    "Система рапознавания усталости водителя",
+    "Хромированные ручки дверей",
+    "Задний парктроник",
+    "Передние боковые подушки безопасности",
+    "Крепления для детских сидений ISOFIX",
+    "Внутреннее\tзеркало\tзаднего\tвида с\tантибликовым\tпокрытием",
+    "Розетка 12V",
+    "Передние и задние шторки безопасности",
+    "Сдвижное боковое окно (для 2-го ряда сидений)",
+    "HHC (система помощи при подъеме)",
+    "Датчик дождя",
+    "Рейлинги серебристого цвета",
+    "Электропривод регулировок (6 направлений) сиденья водителя с поясничной поддержкой",
+    "Подогрев передних сидений"
+  ],
+  "colors": [
+    {
+      "name": "Красный",
+      "image": "/api/cars/jetta/vs5/colors/krasnyj.jpg",
+      "style": "background: #df2725"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/jetta/vs5/colors/sinij.jpg",
+      "style": "background: #389bdc"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/jetta/vs5/colors/seryj.jpg",
+      "style": "background: #808080"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/jetta/vs5/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Черный",
+      "image": "/api/cars/jetta/vs5/colors/chernyj.jpg",
+      "style": "background: #231f20"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.4 л. 6АКПП (150 л.с.) FWD",
+      "engineDisplacement": "1.4",
+      "price": "1194000",
+      "priceOld": "1990000",
+      "monthlyPayment": "9063"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/jetta/vs5/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VS5 в Москве - фото №19"
+    }
+  ]
+}

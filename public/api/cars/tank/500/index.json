@@ -1,0 +1,312 @@
+{
+  "title": "Tank 500 в Москве",
+  "brand": "Tank",
+  "model": "500",
+  "saleBlock": "Выгода 2 699 600 ₽",
+  "city": "Москве",
+  "image": "/api/cars/tank/500/main.jpg",
+  "slug": "/cars/tank/500/",
+  "priceOld": "6 599 000",
+  "priceNew": "3 899 400",
+  "monthlyPayment": "29 597",
+  "features": [
+    "Рулевая колонка, регулируемая по высоте и вылету",
+    "Электроусилитель рулевого управления с переменным усилием и возможностью выбора режима",
+    "Принудительная блокировка заднего межколёсного дифференциала",
+    "Интеллектуальная система старт/стоп",
+    "Система помощи при спуске и при трогании на подъеме",
+    "Система выбора режимов движения с режимом \"Эксперт\"",
+    "Функция поддержания малой скорости на бездорожье (Creep mode)",
+    "Система помощи при повороте на бездорожье (Tank turn)",
+    "Легкосплавные колесные диски 19\"",
+    "Распашная дверь багажника",
+    "Рейлинги на крыше",
+    "Подготовка под установку ТСУ",
+    "Мультифункциональное рулевое колесо с функцией подогрева",
+    "Подрулевые лепестки переключения передач",
+    "Цифровая приборная панель диагональю 12.3\"",
+    "Функция проекции данных на лобовое стекло",
+    "Контурная динамическая подсветка интерьера",
+    "Розетка 220 В",
+    "Шторка багажника",
+    "Подогрев сидений переднего и заднего ряда",
+    "Сиденье водителя с электрорегулировкой в 8 направлениях",
+    "Сиденье водителя с электрорегулировкой поясничной поддержки",
+    "Регулировка угла наклона спинки заднего ряда",
+    "Центральный подлокотник сидений второго ряда с подстаканниками",
+    "Складываемый задний ряд сидений в соотношении 60:40",
+    "Мультимедийная система с цветным сенсорным дисплеем 14,6”",
+    "Аудиосистема с радио AM/FM и Bluetooth",
+    "Поддержка систем Apple CarPlay и Android Auto для интеграции со смартфонами",
+    "Телематический сервис TANK Connection",
+    "Разъемы USB спереди и сзади",
+    "Разъем для подключения видеорегистратора",
+    "Беспроводное зарядное устройство для пассажиров переднего ряда",
+    "Электронная система стабилизации с расширенными возможностями (ESP+TCS+RMI)",
+    "Система помощи при экстренном торможении (BAS)",
+    "Функция автоматического торможения на малой скорости",
+    "Автоматическая система торможения (AEB) с функцией предупреждения о возможном столкновении при движении вперед (FCW) и функцией распознавания пешеходов и велосипедистов",
+    "Адаптивный круиз-контроль (ACC) с функцией движения на малых скоростях",
+    "Система распознавания дорожных знаков (TSR)",
+    "Интеллектуальный круиз-ассистент (ICA)",
+    "Система предупреждения о выходе из полосы движения с функциями возврата в полосу и удержания в центре полосы (LDW+LKA+LCK)",
+    "Функция предотвращения столкновений при проезде перекрестков (AEB Crossroad)",
+    "Камера кругового обзора с функцией «прозрачного» капота",
+    "Задние и передние датчики парковки",
+    "Система контроля усталости водителя",
+    "Фронтальные, передние боковые подушки безопасности + шторки безопасности",
+    "Преднатяжители ремней безопасности переднего и заднего ряда сидений",
+    "Система крепления детских кресел",
+    "Система бесключевого доступа и запуск автомобиля кнопкой",
+    "Климат-контроль, трехзонный",
+    "Электрообогрев лобового стекла и форсунок омывателя",
+    "Шумоизоляционное остекление спереди",
+    "Омыватель камеры заднего вида",
+    "Светодиодные фары ближнего и дальнего света",
+    "Автоматическое управление дальним светом",
+    "Передние противотуманные фары и задние противотуманные фонари",
+    "Функция подсветки поворота",
+    "Датчик света / дождя",
+    "Тонировка стекол",
+    "7 мест в салоне, включая водителя",
+    "Дизайн пакет Perfomance с запасным колесом на задней двери",
+    "Система автоматической парковки",
+    "Электропривод регулировки рулевой колонки",
+    "Блокировка переднего межколесного дифференциала",
+    "Боковые подножки с электроприводом",
+    "Отделка элементов интерьера алькантарой",
+    "Выдвижные шторки на стеклах дверей для пассажиров заднего ряда",
+    "Доводчик двери багажника",
+    "Третий ряд сидений с электроприводом складывания 50:50",
+    "Отделка сидений кожей Nappa",
+    "Сиденье водителя с памятью положений и с функцией помощи при посадке \"Welcome\"",
+    "Передние сиденья с регулировкой подголовника в 4-х направлениях",
+    "Сиденье переднего пассажира с электрорегулировкой в 6 направлениях",
+    "Функции массажа и вентиляции сидений переднего ряда",
+    "Функция вентиляции сидений второго ряда",
+    "Предупреждение для безопасного открытия двери (DOW)",
+    "Система помощи при выезде с парковки задним ходом (RCTA) с функцией торможения (RCTB)",
+    "Система экстренного удержания в полосе (ELK)",
+    "Функция «умного уклонения» (Smart dodge)",
+    "Предупреждение о наезде сзади (RCW)",
+    "Фары с автоматическим корректором (ALS) и функцией приветствия",
+    "Шумоизоляционное остекление задних дверей",
+    "Панорамная крыша с люком",
+    "Зеркала заднего вида с электроуправлением, электроприводом механизма складывания, обогревом, функцией подсветки зоны посадки и памятью положения",
+    "Система контроля качества воздуха в салоне с фильтром твердых частиц по классу N95 и функцией ароматизации",
+    "Система активного шумоподавления",
+    "Премиальная акустическая система (12 динамиков, включая сабвуфер)"
+  ],
+  "colors": [
+    {
+      "name": "Золото Рускеала, металлик",
+      "image": "/api/cars/tank/500/colors/zoloto-ruskeala,-metallik.jpg",
+      "style": "background: #b0a797"
+    },
+    {
+      "name": "Серебристый Сихоте, металлик",
+      "image": "/api/cars/tank/500/colors/serebristyj-sihote,-metallik.jpg",
+      "style": "background: #a2a4ab"
+    },
+    {
+      "name": "Снежная Иремель, металлик",
+      "image": "/api/cars/tank/500/colors/snezhnaya-iremel,-metallik.jpg",
+      "style": "background: #e7e8e8"
+    },
+    {
+      "name": "Черный Богдо, металлик",
+      "image": "/api/cars/tank/500/colors/chernyj-bogdo,-metallik.jpg",
+      "style": "background: #202229"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "3.0 л 9АКПП (V6 299 л.с.) 4WD",
+      "engineDisplacement": "3",
+      "price": "4049400",
+      "priceOld": "6749000",
+      "monthlyPayment": "30736"
+    },
+    {
+      "modification": "3.0 л 9АКПП (V6 354 л.с.) 4WD",
+      "engineDisplacement": "3",
+      "price": "5249400",
+      "priceOld": "7949000",
+      "monthlyPayment": "39844"
+    },
+    {
+      "modification": "2.0 л 9АКПП (HEV 299 л.с.) 4WD",
+      "engineDisplacement": "2",
+      "price": "3899400",
+      "priceOld": "6599000",
+      "monthlyPayment": "29597"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №32"
+    },
+    {
+      "fullImage": "/api/cars/tank/500/gallery/gallery-33.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Tank 500 в Москве - фото №33"
+    }
+  ]
+}

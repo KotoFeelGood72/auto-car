@@ -191,18 +191,9 @@ const credits = [
   { title: "90%", txt: "Одобрение <br/>по кредиту" },
 ];
 
-const formattedSlug = computed(() =>
-  singleCar.value && singleCar.value.slug
-    ? singleCar.value.slug
-        .replace("/api", "") // Удаляем префикс "/api"
-        .replace(".json", "") // Удаляем суффикс ".json"
-        .replace(/\/[^/]+-/, "") // Удаляем слово перед дефисом
-    : ""
-);
-
-// Загружаем данные машины по слагу
 onMounted(async () => {
-  const slug = `${route.path}/${route.params.model}`;
+  const slug = "/cars/" + route.params.brand + "/" + route.params.model;
+  console.log(slug);
   await useGetCarBySlug(slug);
 
   const rowTop = document.querySelector(".row-top"); // Селектор для отслеживаемого элемента
@@ -237,7 +228,7 @@ onMounted(async () => {
       singleCar?.value?.model,
     image:
       singleCar.value.image || "https://autocarmsk.ru/assets/img/geely.jpg",
-    url: "https://autocarmsk.ru" + formattedSlug.value,
+    url: "https://autocarmsk.ru" + singleCar.value.slug,
     type: "article",
     schema: {
       "@context": "https://schema.org",
@@ -258,7 +249,7 @@ onMounted(async () => {
         price: singleCar.value.priceNew || "Цена не указана",
         itemCondition: "https://schema.org/NewCondition",
         availability: "https://schema.org/InStock",
-        url: "https://autocarmsk.ru" + formattedSlug.value,
+        url: "https://autocarmsk.ru" + singleCar.value.slug,
       },
     },
   });
@@ -271,9 +262,7 @@ onMounted(async () => {
 watch(
   () => route.params.model,
   async (newSlug) => {
-    // console.log("Слаг изменился:", newSlug);
-    const slug = `${route.path}/${newSlug}`;
-    await useGetCarBySlug(slug);
+    await useGetCarBySlug(newSlug.toString());
   }
 );
 </script>

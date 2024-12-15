@@ -1,0 +1,222 @@
+{
+  "title": "EXEED RX в Москве",
+  "brand": "EXEED",
+  "model": "RX",
+  "saleBlock": "Выгода 1 690 000 ₽",
+  "city": "Москве",
+  "image": "/api/cars/exeed/rx/main.jpg",
+  "slug": "/cars/exeed/rx/",
+  "priceOld": "4 960 000",
+  "priceNew": "3 270 000",
+  "monthlyPayment": "24 820",
+  "features": [
+    "Камера 360°",
+    "Активный усилитель руля",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Проекционный дисплей 8",
+    "Система «Старт-стоп» (автоматическая остановка и пуск двигателя)",
+    "Электропривод зеркал",
+    "Климат-контроль 2-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Адаптивный круиз-контроль",
+    "Регулировка руля по вылету",
+    "Регулировка руля по высоте",
+    "Электронная приборная панель",
+    "Дистанционный запуск двигателя",
+    "Электропривод крышки багажника",
+    "Система выбора режима движения (Drive Mode Select)",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Электропривод двери багажника (открытие багажника без помощи рук)",
+    "Мультифункциональное рулевое колесо",
+    "Подрулевые лепестки переключения передач",
+    "Датчик дождя",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Электрообогрев лобового стекла",
+    "Система управления дальним светом",
+    "Электрообогрев форсунок стеклоомывателей",
+    "Люк с электроприводом",
+    "Сиденья с массажем",
+    "Тонированные стекла",
+    "Кожа (Материал салона)",
+    "Подогрев задних сидений",
+    "Память сиденья водителя",
+    "Обогрев рулевого колеса",
+    "Подогрев передних сидений",
+    "Вентиляция задних сидений",
+    "Вентиляция передних сидений",
+    "Декоративная подсветка салона",
+    "Складывающееся заднее сиденье",
+    "Отделка кожей рулевого колеса",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Электрорегулировка передних сидений",
+    "Регулировка сиденья водителя по высоте",
+    "Сиденье водителя с поясничной поддержкой",
+    "Функция складывания спинки сиденья пассажира",
+    "Розетка 12V",
+    "Голосовое управление",
+    "Навигационная система",
+    "Премиальная аудиосистема Bose",
+    "Мультимедиа система с ЖК-экраном",
+    "Беспроводная зарядка для смартфона",
+    "Окраска «металлик»",
+    "Рейлинги на крыше",
+    "Иммобилайзер",
+    "Сигнализация",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Датчик усталости водителя",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Система контроля слепых зон",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система предотвращения столкновения",
+    "Система контроля за полосой движения",
+    "Подушки безопасности оконные (шторки)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Подушка безопасности для защиты коленей водителя",
+    "Система помощи при выезде с парковки задним ходом",
+    "Полноразмерное запасное колесо"
+  ],
+  "colors": [
+    {
+      "name": "Метеорный зелёный",
+      "image": "/api/cars/exeed/rx/colors/meteornyj-zelyonyj.jpg",
+      "style": "background: #658377"
+    },
+    {
+      "name": "Небесный голубой",
+      "image": "/api/cars/exeed/rx/colors/nebesnyj-goluboj.jpg",
+      "style": "background: #6798ba"
+    },
+    {
+      "name": "Галактический серый",
+      "image": "/api/cars/exeed/rx/colors/galakticheskij-seryj.jpg",
+      "style": "background: #acb4c1"
+    },
+    {
+      "name": "Бескрайний чёрный",
+      "image": "/api/cars/exeed/rx/colors/beskrajnij-chyornyj.jpg",
+      "style": "background: #1e2126"
+    },
+    {
+      "name": "Лунный серый",
+      "image": "/api/cars/exeed/rx/colors/lunnyj-seryj.jpg",
+      "style": "background: #6d7075"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "2.0 л. 7АМТ (249 л.с) 4WD",
+      "engineDisplacement": "2",
+      "price": "3270000",
+      "priceOld": "4960000",
+      "monthlyPayment": "24820"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/exeed/rx/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED RX в Москве - фото №18"
+    }
+  ]
+}

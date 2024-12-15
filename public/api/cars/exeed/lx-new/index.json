@@ -1,0 +1,246 @@
+{
+  "title": "EXEED LX  NEW в Москве",
+  "brand": "EXEED",
+  "model": "LX  NEW",
+  "saleBlock": "Выгода 1 196 000 ₽",
+  "city": "Москве",
+  "image": "/api/cars/exeed/lx-new/main.jpg",
+  "slug": "/cars/exeed/lx-new/",
+  "priceOld": "3 090 000",
+  "priceNew": "1 894 000",
+  "monthlyPayment": "14 376",
+  "features": [
+    "Обивка сидений экокожей",
+    "Водительское сиденье с электрической регулировкой в 6 направлениях, с памятью настроек",
+    "Водительское сиденье с электрической регулировкой поясничного упора",
+    "Пассажирское сиденье с электрической регулировкой в 4 направлениях",
+    "Рулевая колонка с механической регулировкой в 4х направлениях (по вылету и углу наклона)",
+    "Подголовники всех сидений с регулировкой по высоте",
+    "Обогрев передних и задних сидений",
+    "Обогрев рулевого колеса",
+    "Обогрев лобового стекла",
+    "Обогрев форсунок стеклоомывателя",
+    "Обогрев заднего стекла",
+    "Дефлекторы для 2-го ряда сидений",
+    "Акустическое остекление, передняя часть",
+    "Очечник",
+    "Центральный подлокотник 2-го ряда с подстаканниками",
+    "Передний центральный подлокотник с ёмкостью для хранения и подстаканниками",
+    "Складная спинка сидения 2-го ряда в соотношении 1/3-2/3 (в ровный пол)",
+    "Климат-контроль, 2 зоны",
+    "Атмосферная многоцветная подсветка",
+    "Динамические сигналы поворота",
+    "Рейлинги на крыше",
+    "Светодиодные фары основного света",
+    "Светодиодные передние дневные ходовые огни",
+    "Светодиодные задние фонари",
+    "Боковые зеркала с электрической регулировкой, обогревом, повторителями поворотов",
+    "Отделка линии окон и элементов дверей хромом",
+    "Система мониторинга давления и температуры в шинах (TMPS)",
+    "Задние датчики парковки",
+    "Система стабилизации курсовой устойчивости (ESС)",
+    "Система помощи при спуске с горы (HDC)",
+    "Функция автоматического включения фар при вождении в темное время (датчик света)",
+    "Функция отсрочки выключения фар (Follow me home)",
+    "Функция автоматического включения работы дворников при дожде (датчик дождя)",
+    "Антиблокировочная тормозная система (ABS)",
+    "Память настроек зеркал",
+    "Подушки безопасности водителя и переднего пассажира",
+    "Боковые передние подушки безопасности",
+    "Система удержания детских кресел Isofix для сидений 2-го ряда",
+    "Напоминание о непристегнутых ремнях безопасности спереди",
+    "Автоматическая блокировка дверей на скорости 10 км/ч",
+    "Блокировка замков задних дверей от открывания детьми (детский замок)",
+    "Система экстренной связи «ЭРА ГЛОНАСС»",
+    "Иммобилайзер - электронное противоугонное устройство",
+    "Электрический усилитель рулевого управления с переменным усилием",
+    "Электрический стояночный тормоз с функцией AutoHold",
+    "Бесключевой доступ и запуск двигателя кнопкой (ключ в кармане)",
+    "Дистанционный запуск двигателя",
+    "Электропривод двери багажника",
+    "Автоматическая регулировка громкости в зависимости от скорости движения",
+    "Голосовое управление",
+    "Беспроводная зарядка для смартфона",
+    "Сенсорный центральный дисплей 12.3\"",
+    "Цветной экран с бортовым компьютером в панели приборов 12.3\"",
+    "Доступ к навигации, видео-файлам, интернет через смартфон на экране автомобиля",
+    "Система \"Свободные руки\"(Hands free) с Bluetooth-связью с мобильным телефоном",
+    "2 USB-разъема спереди",
+    "2 USB-разъема на 2-м ряду",
+    "Навигационная система",
+    "Розетка 12V спереди",
+    "18-дюймовые алюминиевые литые диски c шинами 225/60 R18",
+    "Камера заднего вида (с системой динамической разметки и визуализацией шасси)",
+    "Круиз-контроль",
+    "Уменьшенное запасное колесо",
+    "Режимы движения Eco/Sport",
+    "Аудио-система премиум-класса (6 динамиков)"
+  ],
+  "colors": [
+    {
+      "name": "Аструм (белый)",
+      "image": "/api/cars/exeed/lx-new/colors/astrum-belyj.jpg",
+      "style": "background: #DDDFE4"
+    },
+    {
+      "name": "Эклипс (серебро)",
+      "image": "/api/cars/exeed/lx-new/colors/eklips-serebro.jpg",
+      "style": "background: #ABABAF"
+    },
+    {
+      "name": "Титан (темно-серый)",
+      "image": "/api/cars/exeed/lx-new/colors/titan-temno-seryj.jpg",
+      "style": "background: #4F5055"
+    },
+    {
+      "name": "Кассиопея (голубой)",
+      "image": "/api/cars/exeed/lx-new/colors/kassiopeya-goluboj.jpg",
+      "style": "background: #7288A3"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. CVT9 (147 л.c.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1894000",
+      "priceOld": "3090000",
+      "monthlyPayment": "14376"
+    },
+    {
+      "modification": "1.6 л. 7DCT (150 л.c.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "2299000",
+      "priceOld": "3495000",
+      "monthlyPayment": "17450"
+    },
+    {
+      "modification": "1.6 л. 7DCT (150 л.c.) AWD",
+      "engineDisplacement": "1.6",
+      "price": "2599000",
+      "priceOld": "3795000",
+      "monthlyPayment": "19727"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/exeed/lx-new/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "EXEED LX  NEW в Москве - фото №24"
+    }
+  ]
+}

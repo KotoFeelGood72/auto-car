@@ -1,0 +1,426 @@
+{
+  "title": "Solaris HC в Москве",
+  "brand": "Solaris",
+  "model": "HC",
+  "saleBlock": "Выгода 1 038 800 ₽",
+  "city": "Москве",
+  "image": "/api/cars/solaris/hc/main.jpg",
+  "slug": "/cars/solaris/hc/",
+  "priceOld": "2 597 000",
+  "priceNew": "1 558 200",
+  "monthlyPayment": "11 827",
+  "features": [
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Передние ремни безопасности с преднатяжителями и регулировкой по высоте",
+    "Система управления стабилизацией (ABS, ESP, TCS, EBD, VSM)",
+    "Система помощи при старте в гору и спуске с горы (HAC)",
+    "Электрорегулировки и подогрев наружных зеркал",
+    "Система предупреждения об экстренном торможении (ESS)",
+    "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные повторители сигналов поворота в корпусах наружных зеркал",
+    "Ручки дверей в цвет кузова",
+    "Боковые зеркала в цвет кузова",
+    "4 динамика",
+    "Электроусилитель руля",
+    "Передние и задние брызговики",
+    "Передние и задние дисковые тормоза",
+    "Регулировка сиденья водителя по высоте",
+    "Регулировка рулевой колонки по высоте",
+    "Пульт управления центральным замком в ключе",
+    "Разъем USB для подключения внешних устройств",
+    "Bluetooth / громкая связь Hands Free",
+    "Управление аудиосистемой на руле",
+    "Складывающаяся спинка второго ряда сидений (в пропорции 60:40)",
+    "Сигнализация",
+    "Передние и задние электростеклоподъемники",
+    "Система мониторинга давления в шинах",
+    "Центральный подлокотник с боксом",
+    "Передние и задние подголовники",
+    "Галогеновые передние фары проекционного типа",
+    "Розетка 12В на центральной консоли и в багажнике",
+    "Задний спойлер",
+    "Телематическая система",
+    "Антенна «Акулий плавник»",
+    "Запасное колесо для временного пользования",
+    "Стальные диски 16\" с шинами 205/65 R16",
+    "Кондиционер",
+    "Приборная панель c монохромным дисплеем TFT 3.5''",
+    "Обивка сидений тканью",
+    "Аудиосистема с цветным 8'' экраном и интеграцией со смартфонами (Apple CarPlay™/Android Auto™2 )",
+    "Трехступенчатый подогрев передних сидений",
+    "Регулировка рулевой колонки по вылету",
+    "Крючки для фиксации груза в багажнике",
+    "Полка багажника",
+    "Дополнительный разъем USB для подключения внешних устройств для задних пассажиров",
+    "Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, безопасным доводчиком и задержкой отключения",
+    "Электропривод складывания боковых зеркал",
+    "Внутренние ручки дверей с металлизированной отделкой",
+    "Рейлинги на крыше",
+    "Цвет металлик/перламутр",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Передние ремни безопасности с преднатяжителями и регулировкой по высоте",
+    "Система управления стабилизацией (ABS, ESP, TCS, EBD, VSM)",
+    "Система помощи при старте в гору и спуске с горы (HAC)",
+    "Электрорегулировки и подогрев наружных зеркал",
+    "Система предупреждения об экстренном торможении (ESS)",
+    "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные повторители сигналов поворота в корпусах наружных зеркал",
+    "Ручки дверей в цвет кузова",
+    "Боковые зеркала в цвет кузова",
+    "4 динамика",
+    "Электроусилитель руля",
+    "Передние и задние брызговики",
+    "Передние и задние дисковые тормоза",
+    "Регулировка сиденья водителя по высоте",
+    "Регулировка рулевой колонки по высоте",
+    "Пульт управления центральным замком в ключе",
+    "Разъем USB для подключения внешних устройств",
+    "Bluetooth / громкая связь Hands Free",
+    "Управление аудиосистемой на руле",
+    "Складывающаяся спинка второго ряда сидений (в пропорции 60:40)",
+    "Сигнализация",
+    "Передние и задние электростеклоподъемники",
+    "Система мониторинга давления в шинах",
+    "Центральный подлокотник с боксом",
+    "Передние и задние подголовники",
+    "Галогеновые передние фары проекционного типа",
+    "Розетка 12В на центральной консоли и в багажнике",
+    "Задний спойлер",
+    "Телематическая система",
+    "Антенна «Акулий плавник»",
+    "Запасное колесо для временного пользования",
+    "Приборная панель c монохромным дисплеем TFT 3.5''",
+    "Обивка сидений тканью",
+    "Аудиосистема с цветным 8'' экраном и интеграцией со смартфонами (Apple CarPlay™/Android Auto™2 )",
+    "Трехступенчатый подогрев передних сидений",
+    "Регулировка рулевой колонки по вылету",
+    "Крючки для фиксации груза в багажнике",
+    "Полка багажника",
+    "Дополнительный разъем USB для подключения внешних устройств для задних пассажиров",
+    "Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, безопасным доводчиком и задержкой отключения",
+    "Электропривод складывания боковых зеркал",
+    "Внутренние ручки дверей с металлизированной отделкой",
+    "Климат-контроль",
+    "Легкосплавные диски 16\" с шинами 205/65 R16",
+    "Рейлинги на крыше",
+    "Система доступа в салон без ключа и кнопка запуска двигателя",
+    "Внешние ручки дверей с хромированным элементом",
+    "6 динамиков аудиосистемы",
+    "Камера заднего вида с динамической разметкой траектории и омывателем",
+    "Подлокотник на втором ряду сидений",
+    "Кожаная обивка рукоятки рычага переключения передач (экокожа)",
+    "Кожаная обивка руля (экокожа)",
+    "Подогрев руля",
+    "Задние датчики парковки",
+    "Выбор режима движения (Drive mode select)",
+    "Цвет металлик/перламутр",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Передние ремни безопасности с преднатяжителями и регулировкой по высоте",
+    "Система управления стабилизацией (ABS, ESP, TCS, EBD, VSM)",
+    "Система помощи при старте в гору и спуске с горы (HAC)",
+    "Электрорегулировки и подогрев наружных зеркал",
+    "Система предупреждения об экстренном торможении (ESS)",
+    "Устройство вызова экстренных оперативных служб \"Эра-Глонасс\"",
+    "Светодиодные дневные ходовые огни",
+    "Светодиодные повторители сигналов поворота в корпусах наружных зеркал",
+    "Ручки дверей в цвет кузова",
+    "Боковые зеркала в цвет кузова",
+    "4 динамика",
+    "Электроусилитель руля",
+    "Передние и задние брызговики",
+    "Передние и задние дисковые тормоза",
+    "Регулировка сиденья водителя по высоте",
+    "Регулировка рулевой колонки по высоте",
+    "Пульт управления центральным замком в ключе",
+    "Разъем USB для подключения внешних устройств",
+    "Bluetooth / громкая связь Hands Free",
+    "Управление аудиосистемой на руле",
+    "Складывающаяся спинка второго ряда сидений (в пропорции 60:40)",
+    "Сигнализация",
+    "Передние и задние электростеклоподъемники",
+    "Система мониторинга давления в шинах",
+    "Центральный подлокотник с боксом",
+    "Передние и задние подголовники",
+    "Галогеновые передние фары проекционного типа",
+    "Розетка 12В на центральной консоли и в багажнике",
+    "Задний спойлер",
+    "Телематическая система",
+    "Антенна «Акулий плавник»",
+    "Запасное колесо для временного пользования",
+    "Обивка сидений тканью",
+    "Аудиосистема с цветным 8'' экраном и интеграцией со смартфонами (Apple CarPlay™/Android Auto™2 )",
+    "Трехступенчатый подогрев передних сидений",
+    "Регулировка рулевой колонки по вылету",
+    "Крючки для фиксации груза в багажнике",
+    "Полка багажника",
+    "Дополнительный разъем USB для подключения внешних устройств для задних пассажиров",
+    "Электростеклоподъемник водителя с опусканием/поднятием однократным нажатием, безопасным доводчиком и задержкой отключения",
+    "Электропривод складывания боковых зеркал",
+    "Внутренние ручки дверей с металлизированной отделкой",
+    "Климат-контроль",
+    "Рейлинги на крыше",
+    "Система доступа в салон без ключа и кнопка запуска двигателя",
+    "Внешние ручки дверей с хромированным элементом",
+    "6 динамиков аудиосистемы",
+    "Камера заднего вида с динамической разметкой траектории и омывателем",
+    "Подлокотник на втором ряду сидений",
+    "Кожаная обивка рукоятки рычага переключения передач (экокожа)",
+    "Кожаная обивка руля (экокожа)",
+    "Подогрев руля",
+    "Задние датчики парковки",
+    "Выбор режима движения (Drive mode select)",
+    "Электронный стояночный тормоз с режимом автоматического удержания (EPB с режимом Auto hold)",
+    "Светодиодные фары рефлекторного типа",
+    "Передние противотуманные фары и датчик света",
+    "Боковые подушки безопасности водителя и переднего пассажира",
+    "Боковые шторки безопасности",
+    "Электрорегулировки сиденья водителя в 6ти направлениях, включая поясничную поддержку",
+    "Круиз-контроль",
+    "Датчик дождя",
+    "Панель приборов Supervision с 7\" цветным экраном",
+    "Легкосплавные диски 17\" с шинами 215/60 R17 и полноразмерное запасное колесо на легкосплавном диске",
+    "Беспроводная зарядка для телефона (стандарт Qi)",
+    "Цвет металлик/перламутр"
+  ],
+  "colors": [
+    {
+      "name": "Белый / Atlas White",
+      "image": "/api/cars/solaris/hc/colors/belyj-atlas-white.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серебристый / Sleek Silver",
+      "image": "/api/cars/solaris/hc/colors/serebristyj-sleek-silver.jpg",
+      "style": "background: #d3d8df"
+    },
+    {
+      "name": "Темно-серый / Star Dust",
+      "image": "/api/cars/solaris/hc/colors/temno-seryj-star-dust.jpg",
+      "style": "background: #828385"
+    },
+    {
+      "name": "Синий / Galaxy Blue",
+      "image": "/api/cars/solaris/hc/colors/sinij-galaxy-blue.jpg",
+      "style": "background: #2170aa"
+    },
+    {
+      "name": "Светло-серый / Liquid Sand",
+      "image": "/api/cars/solaris/hc/colors/svetlo-seryj-liquid-sand.jpg",
+      "style": "background: #c6bea9"
+    },
+    {
+      "name": "Черный / Phantom Black",
+      "image": "/api/cars/solaris/hc/colors/chernyj-phantom-black.jpg",
+      "style": "background: #18161b"
+    },
+    {
+      "name": "Красный / Dragon Red",
+      "image": "/api/cars/solaris/hc/colors/krasnyj-dragon-red.jpg",
+      "style": "background: #a72225"
+    },
+    {
+      "name": "Коричневый / Cognac Brown",
+      "image": "/api/cars/solaris/hc/colors/korichnevyj-cognac-brown.jpg",
+      "style": "background: #866641"
+    },
+    {
+      "name": "Оранжевый / Burnt Orange",
+      "image": "/api/cars/solaris/hc/colors/oranzhevyj-burnt-orange.jpg",
+      "style": "background: #861900"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л (123 л.c.) 6МТ 2WD",
+      "engineDisplacement": "1.6",
+      "price": "1706200",
+      "priceOld": "2745000",
+      "monthlyPayment": "12950"
+    },
+    {
+      "modification": "1.6 л (123 л.c.) 6АТ 2WD",
+      "engineDisplacement": "1.6",
+      "price": "1558200",
+      "priceOld": "2597000",
+      "monthlyPayment": "11827"
+    },
+    {
+      "modification": "1.6 л (121 л.c.) 6МТ 4WD",
+      "engineDisplacement": "1.6",
+      "price": "1576200",
+      "priceOld": "2615000",
+      "monthlyPayment": "11964"
+    },
+    {
+      "modification": "1.6 л (121 л.c.) 6АТ 4WD",
+      "engineDisplacement": "1.6",
+      "price": "1752200",
+      "priceOld": "2791000",
+      "monthlyPayment": "13300"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/solaris/hc/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Solaris HC в Москве - фото №32"
+    }
+  ]
+}

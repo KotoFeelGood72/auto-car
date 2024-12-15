@@ -1,0 +1,200 @@
+{
+  "title": "Chevrolet Nexia в Москве",
+  "brand": "Chevrolet",
+  "model": "Nexia",
+  "saleBlock": "Выгода 352 360 ₽",
+  "city": "Москве",
+  "image": "/api/cars/chevrolet/nexia/main.jpg",
+  "slug": "/cars/chevrolet/nexia/",
+  "priceOld": "880 900",
+  "priceNew": "528 540",
+  "monthlyPayment": "4 012",
+  "features": [
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Блокировка задних дверей от случайного открытия детьми",
+    "Иммобилайзер",
+    "Бортовой компьютер",
+    "Передние ремни безопасности с регулировкой по высоте",
+    "Противоударные балки в передних и задних дверях",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "3-х точечные инерционные ремни безопасности",
+    "Функция напоминания о включенных габаритных огнях, о ключе в замке зажиганияи и непристегнутом ремне безопасности водителя",
+    "Крепления для детских сидений ISOFIX",
+    "Система курсовой устойчивости ESC",
+    "Тканевая обивка сидений",
+    "Складываемые задние сиденья с раздельными подголовниками (3 шт.)",
+    "Солнцезащитный козырёк переднего пассажира с косметическим зеркалом",
+    "Обшивка двери - пластиковая",
+    "Освещение багажного отделения",
+    "Цифровые часы",
+    "Передняя пепельница (без подсветки)",
+    "Перчаточный ящик",
+    "Регулируемое внутреннее зеркало заднего вида",
+    "Прикуриватель",
+    "Серебристая окантовка спидометра",
+    "Аудиосистема с AM/ FM радио и CD, MP3 плеером, а также AUX",
+    "Воздуховоды к сиденьям 2-го ряда",
+    "Гидроусилитель руля",
+    "Кнопка открытия багажного отсека на водительской двери",
+    "Подкапотный шумопоглотитель",
+    "Передние противотуманные фары",
+    "Антенна, встроенная в заднее стекло",
+    "Полноразмерное запасное колесо",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Блокировка задних дверей от случайного открытия детьми",
+    "Иммобилайзер",
+    "Бортовой компьютер",
+    "Передние ремни безопасности с регулировкой по высоте",
+    "Противоударные балки в передних и задних дверях",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "3-х точечные инерционные ремни безопасности",
+    "Функция напоминания о включенных габаритных огнях, о ключе в замке зажиганияи и непристегнутом ремне безопасности водителя",
+    "Крепления для детских сидений ISOFIX",
+    "Система курсовой устойчивости ESC",
+    "Тканевая обивка сидений",
+    "Складываемые задние сиденья с раздельными подголовниками (3 шт.)",
+    "Солнцезащитный козырёк переднего пассажира с косметическим зеркалом",
+    "Обшивка двери - пластиковая",
+    "Освещение багажного отделения",
+    "Цифровые часы",
+    "Передняя пепельница (без подсветки)",
+    "Перчаточный ящик",
+    "Регулируемое внутреннее зеркало заднего вида",
+    "Прикуриватель",
+    "Серебристая окантовка спидометра",
+    "Аудиосистема с AM/ FM радио и CD, MP3 плеером, а также AUX",
+    "Воздуховоды к сиденьям 2-го ряда",
+    "Гидроусилитель руля",
+    "Кнопка открытия багажного отсека на водительской двери",
+    "Подкапотный шумопоглотитель",
+    "Передние противотуманные фары",
+    "Антенна, встроенная в заднее стекло",
+    "Полноразмерное запасное колесо",
+    "Центральный замок",
+    "Электропривод регулировки боковых зеркал заднего вида",
+    "Обогрев боковых зеркал",
+    "Кондиционер с фильтром вентиляции салона",
+    "Задние стеклоподъёмники с электроприводом",
+    "Передние стеклоподъёмники с электроприводом"
+  ],
+  "colors": [
+    {
+      "name": "Слоновая кость",
+      "image": "/api/cars/chevrolet/nexia/colors/slonovaya-kost.jpg",
+      "style": "background: #d8d5cb"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/chevrolet/nexia/colors/seryj.jpg",
+      "style": "background: #9fa4a7"
+    },
+    {
+      "name": "Серебристый",
+      "image": "/api/cars/chevrolet/nexia/colors/serebristyj.jpg",
+      "style": "background: #c2c2c2"
+    },
+    {
+      "name": "Черный",
+      "image": "/api/cars/chevrolet/nexia/colors/chernyj.jpg",
+      "style": "background: #0c0b0b"
+    },
+    {
+      "name": "Голубой",
+      "image": "/api/cars/chevrolet/nexia/colors/goluboj.jpg",
+      "style": "background: #9da6b5"
+    },
+    {
+      "name": "Коричневый",
+      "image": "/api/cars/chevrolet/nexia/colors/korichnevyj.jpg",
+      "style": "background: #21120f"
+    },
+    {
+      "name": "Красный",
+      "image": "/api/cars/chevrolet/nexia/colors/krasnyj.jpg",
+      "style": "background: #e93f33"
+    },
+    {
+      "name": "Графит",
+      "image": "/api/cars/chevrolet/nexia/colors/grafit.jpg",
+      "style": "background: #303030"
+    },
+    {
+      "name": "Марсала",
+      "image": "/api/cars/chevrolet/nexia/colors/marsala.jpg",
+      "style": "background: #7e2c3c"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/chevrolet/nexia/colors/sinij.jpg",
+      "style": "background: #3b4f78"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 5МКПП (105 л. с.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "528540",
+      "priceOld": "880900",
+      "monthlyPayment": "4012"
+    },
+    {
+      "modification": "1.5 6АКПП (105 л. с.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "591540",
+      "priceOld": "943900",
+      "monthlyPayment": "4490"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/chevrolet/nexia/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Chevrolet Nexia в Москве - фото №10"
+    }
+  ]
+}

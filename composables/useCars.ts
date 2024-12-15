@@ -63,7 +63,7 @@ export const useGetAll = async (
 
 export const useGetCarBySlug = async (slug: string) => {
   try {
-    const response = await axios.get(`/api${slug}.json`);
+    const response = await axios.get(`/api${slug}/index.json`);
     singleCar.value = response.data;
     console.log(singleCar);
   } catch (error) {

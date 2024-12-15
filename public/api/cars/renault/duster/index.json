@@ -1,0 +1,231 @@
+{
+  "title": "Renault Duster в Москве",
+  "brand": "Renault",
+  "model": "Duster",
+  "saleBlock": "Выгода 647 200 ₽",
+  "city": "Москве",
+  "image": "/api/cars/renault/duster/main.jpg",
+  "slug": "/cars/renault/duster/",
+  "priceOld": "1 618 000",
+  "priceNew": "970 800",
+  "monthlyPayment": "7 369",
+  "features": [
+    "Новая хромированная решетка радиатора",
+    "Передние и задние бамперы новой формы",
+    "Продольные рейлинги новой формы, черного цвета",
+    "Накладка на дверь багажника с названием Duster с объемными буквами",
+    "Зеркала заднего вида черного цвета",
+    "Передние и задние брызговики",
+    "Стальные колесные диски 16´´ стандартные",
+    "Лёгкая тонировка стекол",
+    "Тканевая обивка (комбинация темно-серого и черного)",
+    "Гидроусилитель рулевого управления",
+    "Дневные ходовые огни",
+    "Передние фары с двойной оптикой",
+    "Задние фонари, стилизованные под светодиодные",
+    "Центральное освещение салона",
+    "Подсветка багажного отделения",
+    "Новые сиденья",
+    "Пакет шумоизоляции",
+    "Индикатор переключения передач",
+    "Режим Eco mode",
+    "12-вольтовая розетка для задних пассажиров",
+    "Бесключевой доступ к бензобаку",
+    "Рециркуляция воздуха",
+    "Кондиционер",
+    "Обогрев заднего стекла",
+    "Передние электростеклоподъёмники",
+    "Наружные зеркала асферической формы",
+    "Наружные зеркала с электроприводом и электрообогревом",
+    "Регулировка руля по высоте и вылету",
+    "Спинка заднего сиденья, складывающаяся в соотношении 1/3 - 2/3",
+    "Центральный замок с ДУ",
+    "Аудиосистема AUX + USB + Bluetouth + подрулевой джойстик",
+    "Полка багажника с отделениями для мелочей",
+    "Иммобилайзер",
+    "ABS с электронным распределением тормозных усилий + AFU",
+    "Подушка безопасности водителя",
+    "2 задних подголовника",
+    "Cистема креплений ISOFIX на задних боковых сиденьях",
+    "Трехточечные ремни безопасности на передних сиденьях с ограничителями усилий",
+    "Регулировка ремней безопасности на передних сиденьях по высоте",
+    "Адаптация двигателя к запуску в холодном климате",
+    "Защита картера двигателя",
+    "Гарантия производителя 3 года или 100000 км пробега (в зависимости от того, что наступит раньше)",
+    "Антикоррозийная защита: 6 лет гарантии производителя",
+    "Полноразмерное запасное колесо"
+  ],
+  "colors": [
+    {
+      "name": "Белый неметаллик Blanc Glacier",
+      "image": "/api/cars/renault/duster/colors/belyj-nemetallik-blanc-glacier.jpg",
+      "style": "background: #fbfbf3"
+    },
+    {
+      "name": "Темно-серый металлик Dark Grey",
+      "image": "/api/cars/renault/duster/colors/temno-seryj-metallik-dark-grey.jpg",
+      "style": "background: #2d2e29"
+    },
+    {
+      "name": "Оранжевый металлик Orange Atakama",
+      "image": "/api/cars/renault/duster/colors/oranzhevyj-metallik-orange-atakama.jpg",
+      "style": "background: #84460c"
+    },
+    {
+      "name": "Серебристый металлик Gris Platine",
+      "image": "/api/cars/renault/duster/colors/serebristyj-metallik-gris-platine.jpg",
+      "style": "background: #9a9a92"
+    },
+    {
+      "name": "Серо-коричневый металлик Tenakuru",
+      "image": "/api/cars/renault/duster/colors/sero-korichnevyj-metallik-tenakuru.jpg",
+      "style": "background: #62583f"
+    },
+    {
+      "name": "Черный металлик Noir Nacre",
+      "image": "/api/cars/renault/duster/colors/chernyj-metallik-noir-nacre.jpg",
+      "style": "background: #0a0a08"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 5МКПП (114 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "970800",
+      "priceOld": "1618000",
+      "monthlyPayment": "7369"
+    },
+    {
+      "modification": "1.6 6МКПП (117 л.с.) 4WD",
+      "engineDisplacement": "1.6",
+      "price": "1080800",
+      "priceOld": "1728000",
+      "monthlyPayment": "8204"
+    },
+    {
+      "modification": "2.0 6МКПП (143 л.с) 4WD",
+      "engineDisplacement": "2",
+      "price": "1190800",
+      "priceOld": "1838000",
+      "monthlyPayment": "9038"
+    },
+    {
+      "modification": "1.3  6МКПП (150 л.с) 4WD",
+      "engineDisplacement": "1.3",
+      "price": "1350800",
+      "priceOld": "1998000",
+      "monthlyPayment": "10253"
+    },
+    {
+      "modification": "1.3 CVT (150 л.с) 4WD",
+      "engineDisplacement": "1.3",
+      "price": "1480800",
+      "priceOld": "2128000",
+      "monthlyPayment": "11240"
+    },
+    {
+      "modification": "1,5d 6МКПП (109 л.с.) 4WD",
+      "engineDisplacement": "1.4",
+      "price": "1220800",
+      "priceOld": "1868000",
+      "monthlyPayment": "9266"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/renault/duster/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Duster в Москве - фото №19"
+    }
+  ]
+}

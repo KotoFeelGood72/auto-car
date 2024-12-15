@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="formattedSlug" class="card" v-if="isCardValid">
+  <NuxtLink :to="card.slug" class="card" v-if="isCardValid">
     <div class="hot">{{ card.saleBlock }}</div>
     <div class="img">
       <img :src="card.image" :alt="card.title" />
@@ -59,14 +59,14 @@ const isCardValid = computed(() => {
   );
 });
 // console.log(props.card.slug);
-const formattedSlug = computed(() =>
-  props.card && props.card.slug
-    ? props.card.slug
-        .replace("/api", "") // Удаляем префикс "/api"
-        .replace(".json", "") // Удаляем суффикс ".json"
-        .replace(/\/[^/]+-/, "") // Удаляем слово перед дефисом
-    : ""
-);
+// const formattedSlug = computed(() =>
+//   props.card && props.card.slug
+//     ? props.card.slug
+//         .replace("/api", "") // Удаляем префикс "/api"
+//         .replace(".json", "") // Удаляем суффикс ".json"
+//         .replace(/\/[^/]+-/, "") // Удаляем слово перед дефисом
+//     : ""
+// );
 </script>
 
 <style scoped lang="scss">

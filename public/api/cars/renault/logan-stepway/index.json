@@ -1,0 +1,162 @@
+{
+  "title": "Renault Logan Stepway в Москве",
+  "brand": "Renault",
+  "model": "Logan Stepway",
+  "saleBlock": "Выгода 520 400 ₽",
+  "city": "Москве",
+  "image": "/api/cars/renault/logan-stepway/main.jpg",
+  "slug": "/cars/renault/logan-stepway/",
+  "priceOld": "1 301 000",
+  "priceNew": "780 600",
+  "monthlyPayment": "5 925",
+  "features": [
+    "Бамперы в цвет кузова",
+    "Решетка радиатора c хромированными накладками",
+    "Наружные зеркала в цвет кузова",
+    "Ручки дверей в цвет кузова",
+    "Накладки на пороги (передние)",
+    "Передние и задние брызговики",
+    "Cтилизованные под литые 16-дюймовые диски колес Bayadere",
+    "Лёгкая тонировка стекол",
+    "Окраска «металлик»",
+    "Эксклюзивная тканевая обивка сидений Stepway",
+    "Хромированная отделка внутренних элементов на приборной панели",
+    "Ручки дверей черного цвета",
+    "Новый дизайн рулевого колеса с улучшенной эргономикой",
+    "Гидроусилитель рулевого управления",
+    "Бортовой компьютер",
+    "Светодиодные «С-образные» дневные ходовые огни",
+    "Противотуманные фары",
+    "Подсветка багажного отделения",
+    "Кондиционер",
+    "Регулируемое по высоте сиденье водителя",
+    "Обогрев заднего стекла",
+    "Передние электростеклоподъёмники",
+    "Наружные зеркала с электроприводом и электрообогревом",
+    "Регулировка рулевого колеса по высоте",
+    "Подогрев передних сидений",
+    "Центральный замок с дистанционным управлением",
+    "Спинка заднего сиденья, складывающаяся в соотношении 1/3–2/3",
+    "Аудиосистема с AUX + USB + Bluetooth + подрулевой джойстик",
+    "Датчик внешней температуры",
+    "Индикатор температуры двигателя*",
+    "Центральная консоль с 12V розеткой для заднего ряда сидений",
+    "Открытие лючка бензобака из салона",
+    "Подушка безопасности водителя",
+    "Подушка безопасности переднего пассажира",
+    "ABS с электронным распределением тормозных усилий",
+    "Звуковое напоминание о непристегнутом ремне водителя",
+    "Cистема креплений ISOFIX на задних боковых сиденьях",
+    "2 передних регулируемых по высоте подголовника",
+    "Трехточечные ремни безопасности на передних сиденьях с ограничителями усилий и регулировкой по высоте",
+    "Три трехточечных ремня безопасности на задних сиденьях",
+    "Электронное противоугонное устройство",
+    "Адаптация двигателя к запуску в холодном климате",
+    "Защита картера двигателя",
+    "Гарантия 3 года или 100 000 км (в зависимости от того, что наступит раньше)",
+    "Антикоррозийная защита: 6 лет гарантии производителя",
+    "Полноразмерное запасное колесо"
+  ],
+  "colors": [
+    {
+      "name": "Черная жемчужина",
+      "image": "/api/cars/renault/logan-stepway/colors/chernaya-zhemchuzhina.jpg",
+      "style": "background: #1e1e1c"
+    },
+    {
+      "name": "Лазурно-синий",
+      "image": "/api/cars/renault/logan-stepway/colors/lazurno-sinij.jpg",
+      "style": "background: #59c6fe"
+    },
+    {
+      "name": "Красный",
+      "image": "/api/cars/renault/logan-stepway/colors/krasnyj.jpg",
+      "style": "background: #a20b04"
+    },
+    {
+      "name": "Светлый базальт",
+      "image": "/api/cars/renault/logan-stepway/colors/svetlyj-bazalt.jpg",
+      "style": "background: #a09c91"
+    },
+    {
+      "name": "Серая платина",
+      "image": "/api/cars/renault/logan-stepway/colors/seraya-platina.jpg",
+      "style": "background: #a4a4a4"
+    },
+    {
+      "name": "Коричневый",
+      "image": "/api/cars/renault/logan-stepway/colors/korichnevyj.jpg",
+      "style": "background: #7c6f5f"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/renault/logan-stepway/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 л. 5MKПП (82 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "780600",
+      "priceOld": "1301000",
+      "monthlyPayment": "5925"
+    },
+    {
+      "modification": "1.6 л. 5MKПП (113 л.с) FWD",
+      "engineDisplacement": "1.6",
+      "price": "820600",
+      "priceOld": "1341000",
+      "monthlyPayment": "6229"
+    },
+    {
+      "modification": "1,6 л CVT (113 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "905600",
+      "priceOld": "1426000",
+      "monthlyPayment": "6874"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/renault/logan-stepway/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Renault Logan Stepway в Москве - фото №8"
+    }
+  ]
+}

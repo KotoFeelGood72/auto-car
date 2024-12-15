@@ -1,11 +1,11 @@
 <template>
   <div class="mode">
     <div class="col">
-      <heading :title="card.modification" :level="5" :size="24" />
+      <heading :title="card.modification" :level="5" :size="20" />
       <heading
         :title="'от ' + formatPrice(card.price) + ' ₽'"
         :level="4"
-        :size="20"
+        :size="16"
       />
     </div>
     <div class="col-txt" v-if="features">
@@ -104,5 +104,9 @@ const formatPrice = (price: number | string): string => {
 .col-txt::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.055); /* Цвет трека */
   border-radius: 0.4rem;
+}
+
+:deep(h4) {
+  margin-bottom: 0 !important;
 }
 </style>

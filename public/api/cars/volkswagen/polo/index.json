@@ -1,0 +1,214 @@
+{
+  "title": "Volkswagen Polo в Москве",
+  "brand": "Volkswagen",
+  "model": "Polo",
+  "saleBlock": "Выгода 554 360 ₽",
+  "city": "Москве",
+  "image": "/api/cars/volkswagen/polo/main.jpg",
+  "slug": "/cars/volkswagen/polo/",
+  "priceOld": "1 385 900",
+  "priceNew": "831 540",
+  "monthlyPayment": "6 312",
+  "features": [
+    "Бамперы окрашены в цвет кузова",
+    "Корпуса наружных зеркал и ручки дверей окрашены в цвет кузова",
+    "Оцинкованный кузов",
+    "Зеленое атермальное остекление",
+    "Подвеска для плохих дорог",
+    "светодиодные фары рефлекторного типа ECO LED",
+    "Светодиодные задние фонари",
+    "Дневные ходовые огни",
+    "Сиденье водителя с регулировкой по высоте",
+    "Тканевая обивка сидений",
+    "Заднее сиденье 3-местное, спинка ассиметрично разделенная, складная",
+    "Подстаканник спереди",
+    "Хромированная отделка внутренних ручек дверей",
+    "Карманы в дверях спереди и сзади",
+    "3-спицевое рулевое колесо",
+    "Подушки безопасности для водителя и переднего пассажира",
+    "Трехточечные ремни безопасности на всех сиденьях, спереди с регулировкой по высоте",
+    "Подголовники спереди с регулировкой по высоте",
+    "З подголовника сзади, регулируемые по высоте",
+    "Дисковые тормоза спереди",
+    "Электронный иммобилайзер",
+    "Крепления для детских сидений ISOFIX",
+    "Индикация и звуковая сигнализация непристегнутого ремня безопасности водителя",
+    "Антиблокировочная система тормозов (ABS)",
+    "Cистема стабилизации с двухступенчатым отключением (ESC)",
+    "Система контроля давления в шинах",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "АКБ увеличенной емкости для улучшения запуска в холодное время (до -36°C)",
+    "Электромеханический усилитель рулевого управления, с переменной эффективностью в зависимости от скорости",
+    "Электростеклоподъемники для всех дверей",
+    "Центральный замок с дистанционным управлением, 2 складных радиоключа",
+    "Цветной многофункциональный дисплей на панели приборов",
+    "Наружные боковые зеркала с ручной настройкой изнутри",
+    "Повторители сигналов поворота в боковых зеркалах заднего вида",
+    "Омыватель и очиститель лобового стекла с переменным режимом",
+    "Обогрев заднего стекла",
+    "Стальное запасное колесо",
+    "Комфортный режим работы указателей поворота (одно нажатие - три сигнала)",
+    "Мультимедиа система с дисплеем 6.5 дюймов и поддержкой функцией Bluetooth / App-Connect, 4 динамика",
+    "Бамперы окрашены в цвет кузова",
+    "Корпуса наружных зеркал и ручки дверей окрашены в цвет кузова",
+    "Оцинкованный кузов",
+    "Зеленое атермальное остекление",
+    "Подвеска для плохих дорог",
+    "светодиодные фары рефлекторного типа ECO LED",
+    "Светодиодные задние фонари",
+    "Дневные ходовые огни",
+    "Сиденье водителя с регулировкой по высоте",
+    "Тканевая обивка сидений",
+    "Заднее сиденье 3-местное, спинка ассиметрично разделенная, складная",
+    "Подстаканник спереди",
+    "Хромированная отделка внутренних ручек дверей",
+    "Карманы в дверях спереди и сзади",
+    "3-спицевое рулевое колесо",
+    "Подушки безопасности для водителя и переднего пассажира",
+    "Трехточечные ремни безопасности на всех сиденьях, спереди с регулировкой по высоте",
+    "Подголовники спереди с регулировкой по высоте",
+    "З подголовника сзади, регулируемые по высоте",
+    "Дисковые тормоза спереди",
+    "Электронный иммобилайзер",
+    "Крепления для детских сидений ISOFIX",
+    "Индикация и звуковая сигнализация непристегнутого ремня безопасности водителя",
+    "Антиблокировочная система тормозов (ABS)",
+    "Cистема стабилизации с двухступенчатым отключением (ESC)",
+    "Система контроля давления в шинах",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "АКБ увеличенной емкости для улучшения запуска в холодное время (до -36°C)",
+    "Электромеханический усилитель рулевого управления, с переменной эффективностью в зависимости от скорости",
+    "Электростеклоподъемники для всех дверей",
+    "Центральный замок с дистанционным управлением, 2 складных радиоключа",
+    "Цветной многофункциональный дисплей на панели приборов",
+    "Повторители сигналов поворота в боковых зеркалах заднего вида",
+    "Омыватель и очиститель лобового стекла с переменным режимом",
+    "Обогрев заднего стекла",
+    "Стальное запасное колесо",
+    "Комфортный режим работы указателей поворота (одно нажатие - три сигнала)",
+    "Мультимедиа система с дисплеем 6.5 дюймов и поддержкой функцией Bluetooth / App-Connect, 4 динамика",
+    "Наружные зеркала с электрорегулировкой, электроподогревом, электроприводом",
+    "Кондиционер",
+    "Электроподогрев передних сидений с раздельной регулировкой",
+    "Обогрев форсунок омывателя ветрового стекла"
+  ],
+  "colors": [
+    {
+      "name": "Белый Pure White",
+      "image": "/api/cars/volkswagen/polo/colors/belyj-pure-white.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Бежевый Titanium металлик",
+      "image": "/api/cars/volkswagen/polo/colors/bezhevyj-titanium-metallik.jpg",
+      "style": "background: #716d64"
+    },
+    {
+      "name": "Серебристый Tungsten металлик",
+      "image": "/api/cars/volkswagen/polo/colors/serebristyj-tungsten-metallik.jpg",
+      "style": "background: #c8c8c6"
+    },
+    {
+      "name": "Серый Indium металлик",
+      "image": "/api/cars/volkswagen/polo/colors/seryj-indium-metallik.jpg",
+      "style": "background: #2b2e2d"
+    },
+    {
+      "name": "Синий Reef металлик",
+      "image": "/api/cars/volkswagen/polo/colors/sinij-reef-metallik.jpg",
+      "style": "background: #274b93"
+    },
+    {
+      "name": "Коричневый Toffee металлик",
+      "image": "/api/cars/volkswagen/polo/colors/korichnevyj-toffee-metallik.jpg",
+      "style": "background: #4e392e"
+    },
+    {
+      "name": "Черный Deep перламутр",
+      "image": "/api/cars/volkswagen/polo/colors/chernyj-deep-perlamutr.jpg",
+      "style": "background: #151925"
+    },
+    {
+      "name": "Красный Ruby металлик",
+      "image": "/api/cars/volkswagen/polo/colors/krasnyj-ruby-metallik.jpg",
+      "style": "background: #90291c"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 5МКПП (90 л. с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "831540",
+      "priceOld": "1385900",
+      "monthlyPayment": "6312"
+    },
+    {
+      "modification": "1.6 5МКПП (110 л. с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "921540",
+      "priceOld": "1475900",
+      "monthlyPayment": "6995"
+    },
+    {
+      "modification": "1.6 6АКПП (110 л. с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "974540",
+      "priceOld": "1528900",
+      "monthlyPayment": "7397"
+    },
+    {
+      "modification": "1.4 TSI 7АКПП (125 л. c.) FWD",
+      "engineDisplacement": "1.4",
+      "price": "1097540",
+      "priceOld": "1651900",
+      "monthlyPayment": "8331"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/polo/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Polo в Москве - фото №9"
+    }
+  ]
+}

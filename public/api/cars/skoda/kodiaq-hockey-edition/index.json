@@ -1,0 +1,201 @@
+{
+  "title": "Skoda Kodiaq Hockey Edition в Москве",
+  "brand": "Skoda",
+  "model": "Kodiaq Hockey Edition",
+  "saleBlock": "Выгода 847 560 ₽",
+  "city": "Москве",
+  "image": "/api/cars/skoda/kodiaq-hockey-edition/main.jpg",
+  "slug": "/cars/skoda/kodiaq-hockey-edition/",
+  "priceOld": "2 118 900",
+  "priceNew": "1 271 340",
+  "monthlyPayment": "9 650",
+  "features": [
+    "Рейлинги на крыше, черные",
+    "Задние брызговики",
+    "Эмблема Hockey Edition",
+    "Декоративные накладки на пороги и логотип Hockey Edition",
+    "Наружные электрозеркала с обогревом, электроскладыванием, автоматическим затемнением",
+    "Защита двигателя снизу",
+    "Ручная регулировка высоты передних сидений",
+    "Вещевые отделения и 2 крючка для сумок в багажнике",
+    "Комбинированная обивка сидений (ткань/кожа)",
+    "Поясничные опоры в спинках передних сидений, с механической регулировкой",
+    "Декоративные вставки Dark Brushed",
+    "Передний центральный подлокотник",
+    "Набор сеток в багажнике",
+    "Розетка 12В в багажнике",
+    "Очечник",
+    "Подсветка в багажнике + пластиковые фиксаторы",
+    "Атмосферная светодиодная подсветка салона (10 цветов)",
+    "Система SmartLink+",
+    "Bluetooth",
+    "Радио Bolero - 2DIN, SD, USB, MP3, голосовое управление с усилителем голоса, 8 динамиков",
+    "Уменьшенное запасное колесо, комплект инструментов и домкрат",
+    "Легкосплавные диски MITYKAS 7J x 17, шины 215/65 R17",
+    "Усилитель руля, с регулировкой в зависимости от скорости",
+    "Многофункциональное 3-спицевое кожаное рулевое колесо",
+    "Скребок для льда",
+    "Передние сиденья с подогревом",
+    "Центральный замок с ДУ",
+    "Электронный иммобилайзер",
+    "Центральный замок KESSY full",
+    "Кнопка запуска / остановки двигателя",
+    "Внутрисалонное зеркало заднего вида с автоматическим затемнением",
+    "Заднее сиденье и спинка делимая, спинка складная",
+    "Задний подлокотник",
+    "Индикатор давления воздуха в шинах",
+    "Передние и задние датчики парковки",
+    "Светодиодные фары (LED), AFS, ПТФ Corner",
+    "Система Light Assistant (Coming Home, Leaving Home)",
+    "Датчик света/дождя",
+    "2 лампы для чтения спереди и сзади",
+    "Задние светодиодные фонари",
+    "Круиз-контроль с ограничителем скорости",
+    "Передние противотуманные фары",
+    "Климат-контроль Climatronic (2 зоны)",
+    "Многофункциональный индикатор Maxi Dot",
+    "Обогреваемые форсунки омывателя лобового стекла",
+    "Камера заднего вида с омывателем",
+    "Электропривод крышки багажника",
+    "Электромеханический ручной тормоз с функцией Auto Hold",
+    "Электронная система курсовой устойчивости",
+    "Крепление для детского кресла сзади Isofix",
+    "Крепление для детского кресла ISOFIX на переднем пассажирском сиденье",
+    "Подголовники сзади (3 шт.)",
+    "Фронтальные подушки безопасности водителя и переднего пассажира, для пассажира - с отключением",
+    "Шторки безопасности и боковые подушки безопасности спереди",
+    "Система контроля дистанции Front Assist (без адаптивного круиз-контроля)",
+    "Индикатор непристегнутого ремня безопасности для всех пассажиров (5 мест)",
+    "Предупредительные катафоты открытых дверей",
+    "Набор автомобилиста (в набор входят знак аварийной остановки, огнетушитель, аптечка, буксировочный трос, жилет, перчатки)",
+    "Система «ЭРА-ГЛОНАСС»"
+  ],
+  "colors": [
+    {
+      "name": "Белый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/belyj.jpg",
+      "style": "background: #e6e7e5"
+    },
+    {
+      "name": "Светло-серый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/svetlo-seryj.jpg",
+      "style": "background: #bebec0"
+    },
+    {
+      "name": "Темно-серый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/temno-seryj.jpg",
+      "style": "background: #878d94"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/sinij.jpg",
+      "style": "background: #3a9fe0"
+    },
+    {
+      "name": "Бежевый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/bezhevyj.jpg",
+      "style": "background: #9c9c8d"
+    },
+    {
+      "name": "Коричневый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/korichnevyj.jpg",
+      "style": "background: #65585a"
+    },
+    {
+      "name": "Черный",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/chernyj.jpg",
+      "style": "background: #000000"
+    },
+    {
+      "name": "Зеленый",
+      "image": "/api/cars/skoda/kodiaq-hockey-edition/colors/zelenyj.jpg",
+      "style": "background: #177245"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.4 Л. (125 Л.С.) MT",
+      "engineDisplacement": "1.4",
+      "price": "1271340",
+      "priceOld": "2118900",
+      "monthlyPayment": "9650"
+    },
+    {
+      "modification": "1.4 Л. (150 Л.С.) AT",
+      "engineDisplacement": "1.4",
+      "price": "1318340",
+      "priceOld": "2165900",
+      "monthlyPayment": "10007"
+    },
+    {
+      "modification": "1.4 Л. (150 Л.С.) MT 4X4",
+      "engineDisplacement": "1.4",
+      "price": "1388340",
+      "priceOld": "2235900",
+      "monthlyPayment": "10538"
+    },
+    {
+      "modification": "1.4 Л. (150 Л.С.) AT 4X4",
+      "engineDisplacement": "1.4",
+      "price": "1428340",
+      "priceOld": "2275900",
+      "monthlyPayment": "10841"
+    },
+    {
+      "modification": "2.0 Л. (180 Л.С.) AT 4X4",
+      "engineDisplacement": "2",
+      "price": "1611340",
+      "priceOld": "2458900",
+      "monthlyPayment": "12230"
+    },
+    {
+      "modification": "2.0 Л. (150 Л.С.) AT 4X4",
+      "engineDisplacement": "2",
+      "price": "1636340",
+      "priceOld": "2483900",
+      "monthlyPayment": "12420"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/skoda/kodiaq-hockey-edition/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Skoda Kodiaq Hockey Edition в Москве - фото №8"
+    }
+  ]
+}

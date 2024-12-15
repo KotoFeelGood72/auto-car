@@ -1,0 +1,207 @@
+{
+  "title": "KAIYI X3 в Москве",
+  "brand": "KAIYI",
+  "model": "X3",
+  "saleBlock": "Выгода 895 200 ₽",
+  "city": "Москве",
+  "image": "/api/cars/kaiyi/x3/main.jpg",
+  "slug": "/cars/kaiyi/x3/",
+  "priceOld": "2 238 000",
+  "priceNew": "1 342 800",
+  "monthlyPayment": "10 192",
+  "features": [
+    "Иммобилайзер",
+    "Боковые зеркала с электроприводом и обогревом",
+    "Подогрев форсунок стеклоомывателя",
+    "Задние датчики парковки (четыре)",
+    "Антиблокировочная система тормозов (ABS)",
+    "Электронная система распределения тормозных усилий (EBD)",
+    "Усилитель экстренного торможения (EBA)",
+    "Антипробуксовочная система (TCS)",
+    "Система курсовой устойчивости (ESP)",
+    "Электромеханический стояночный тормоз (EPB)",
+    "Функция Auto Hold стояночного тормоза",
+    "Система помощи при спуске по склону (HHC)",
+    "Система помощи при подъёме по склону (HHC)",
+    "Система контроля давления в шинах (TPMS)",
+    "Стандартный дизайн передней части автомобиля",
+    "17\" легкосплавные колесные диски",
+    "Сигнализация",
+    "Центральный замок с дистанционным управлением",
+    "Дистанционное отпирание багажника",
+    "Мультифункциональное рулевое колесо с отделкой натуральной кожей",
+    "Подогрев рулевого колеса",
+    "Регулировка рулевой колонки по наклону",
+    "Обивка сидений тканью",
+    "Ручная регулировка сиденья водителя в 6 направлениях",
+    "Ручная регулировка пассажирского сиденья в 4 направлениях",
+    "Подогрев передних сидений",
+    "Подогрев задних сидений",
+    "Второй ряд сидений, складываемый в пропорции 40/60",
+    "Передний и задний подлокотники",
+    "10.25\" дисплей мультимедиа системы (EN/RU)",
+    "Коммуникационная система Bluetooth ©",
+    "Поддержка Apple Carplay© и Android Auto ©",
+    "Аудиосистема с 4 динамиками",
+    "Два USB-разъёма спереди",
+    "Розетка 12V спереди",
+    "Один USB-разъём сзади",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "\"Детский замок\" задних дверей",
+    "Система крепления детских кресел ISOFIX",
+    "Галогенные фары головного света",
+    "Светодиодные дневные ходовые огни",
+    "Боковая светодиодная подсветка поворотов",
+    "Электропривод корректора фар головного света",
+    "Функция фар головного света \"Follow me home\"",
+    "Датчик света",
+    "Кондиционер с электронным управлением",
+    "Система бесключевого доступа и кнопка запуска двигателя",
+    "Круиз-контроль с ограничителем скорости",
+    "7\" цветной дисплей приборной панели (EN/RU)",
+    "Передние и задние электростеклоподъемники",
+    "Полноразмерное запасное колесо на стальном диске"
+  ],
+  "colors": [
+    {
+      "name": "Белый",
+      "image": "/api/cars/kaiyi/x3/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Красный",
+      "image": "/api/cars/kaiyi/x3/colors/krasnyj.jpg",
+      "style": "background: #c32222"
+    },
+    {
+      "name": "Серый",
+      "image": "/api/cars/kaiyi/x3/colors/seryj.jpg",
+      "style": "background: #acabb0"
+    },
+    {
+      "name": "Синий",
+      "image": "/api/cars/kaiyi/x3/colors/sinij.jpg",
+      "style": "background: #37769f"
+    },
+    {
+      "name": "Черный",
+      "image": "/api/cars/kaiyi/x3/colors/chernyj.jpg",
+      "style": "background: #020202"
+    },
+    {
+      "name": "Темно-серый",
+      "image": "/api/cars/kaiyi/x3/colors/temno-seryj.jpg",
+      "style": "background: #525156"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. 5МКПП (113 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1342800",
+      "priceOld": "2238000",
+      "monthlyPayment": "10192"
+    },
+    {
+      "modification": "1.5 л. CVT-018 (113 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1519700",
+      "priceOld": "2414900",
+      "monthlyPayment": "11535"
+    },
+    {
+      "modification": "1.5 л. CVT-517 (113 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1439800",
+      "priceOld": "2335000",
+      "monthlyPayment": "10928"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/kaiyi/x3/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "KAIYI X3 в Москве - фото №17"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "title": "BAIC U5 Plus в Москве",
+  "brand": "BAIC",
+  "model": "U5 Plus",
+  "saleBlock": "Выгода 832 000 ₽",
+  "city": "Москве",
+  "image": "/api/cars/baic/u5-plus/main.jpg",
+  "slug": "/cars/baic/u5-plus/",
+  "priceOld": "2 080 000",
+  "priceNew": "1 248 000",
+  "monthlyPayment": "9 473",
+  "features": [
+    "Галогенные фары головного света",
+    "Светодиодные задние фонари",
+    "Электропривод корректора фар головного света",
+    "16\" легкосплавные колесные диски",
+    "Система бесключевого доступа и кнопка запуска двигателя",
+    "7\" цветной дисплей приборной панели (EN/RU)",
+    "Передние и задние электростеклоподъемники",
+    "Неполноразмерное запасное колесо на стальном диске",
+    "Мультифункциональное рулевое колесо с отделкой натуральной кожей",
+    "Регулировка рулевой колонки по наклону",
+    "Обивка сидений экокожей",
+    "Подогрев передних сидений",
+    "Ручная регулировка сиденья водителя в 4 направлениях",
+    "Ручная регулировка пассажирского сиденья в 4 направлениях",
+    "Передний подлокотник",
+    "Боковые зеркала с электроприводом",
+    "Обогрев зеркал заднего вида",
+    "Увеличенный бачок стеклоомывателя",
+    "Подогрев форсунок стеклоомывателя",
+    "Автоматическое складывание боковых зеркал заднего вида",
+    "Задние датчики парковки",
+    "Камера заднего вида с динамической разметкой",
+    "Кондиционер с электронным управлением",
+    "12,3\" дисплей мультимедиа системы",
+    "Коммуникационная система Bluetooth ©",
+    "Поддержка Carbitlink©",
+    "Динамики (2)",
+    "Два USB-разъёма спереди",
+    "Розетка 12V спереди",
+    "Один USB-разъём сзади",
+    "Антиблокировочная система с электронным распределением тормозных сил (ABS, EBD)",
+    "Усилитель экстренного торможения (EBA)",
+    "Система сигнализации при экстренном торможении (ESS)",
+    "Антипробуксовочная система (TCS)",
+    "Электронная система курсовой устойчивости (ESP)",
+    "Электромеханический стояночный тормоз (EPB)",
+    "Функция Auto Hold стояночного тормоза",
+    "Система помощи при подъёме по склону (HHC)",
+    "Система контроля давления в шинах (TPMS)",
+    "Фронтальные подушки безопасности водителя и переднего пассажира",
+    "Система крепления детских кресел ISOFIX",
+    "\"Детский замок\" задних дверей",
+    "Противоугонная сигнализация, иммобилайзер",
+    "Центральный замок с дистанционным управлением",
+    "Дистанционное отпирание багажника"
+  ],
+  "colors": [
+    {
+      "name": "Серый металлик",
+      "image": "/api/cars/baic/u5-plus/colors/seryj-metallik.jpg",
+      "style": "background: #7f7f83"
+    },
+    {
+      "name": "Белый металлик",
+      "image": "/api/cars/baic/u5-plus/colors/belyj-metallik.jpg",
+      "style": "background: #dddddd"
+    },
+    {
+      "name": "Красный металлик",
+      "image": "/api/cars/baic/u5-plus/colors/krasnyj-metallik.jpg",
+      "style": "background: #ff0000"
+    },
+    {
+      "name": "Черный металлик",
+      "image": "/api/cars/baic/u5-plus/colors/chernyj-metallik.jpg",
+      "style": "background: #000000"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. CVT (105 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1318000",
+      "priceOld": "2150000",
+      "monthlyPayment": "10004"
+    },
+    {
+      "modification": "1.5 л. 5МКПП (105 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1248000",
+      "priceOld": "2080000",
+      "monthlyPayment": "9473"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/baic/u5-plus/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "BAIC U5 Plus в Москве - фото №16"
+    }
+  ]
+}

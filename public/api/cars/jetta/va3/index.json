@@ -1,0 +1,164 @@
+{
+  "title": "Jetta VA3 в Москве",
+  "brand": "Jetta",
+  "model": "VA3",
+  "saleBlock": "Выгода 676 000 ₽",
+  "city": "Москве",
+  "image": "/api/cars/jetta/va3/main.jpg",
+  "slug": "/cars/jetta/va3/",
+  "priceOld": "1 690 000",
+  "priceNew": "1 014 000",
+  "monthlyPayment": "7 697",
+  "features": [
+    "Электропривод передних и задних стеклоподъемников",
+    "Бортовой компьютер",
+    "Электроусилитель рулевого управления",
+    "Кондиционер",
+    "Регулировка руля по высоте и вылету",
+    "Круиз-контроль",
+    "Задний парктроник",
+    "Обогрев боковых зеркал",
+    "Дневные ходовые огни",
+    "Регулировка водительского сиденья по высоте",
+    "Центральный подлокотник",
+    "Люк с электроприводом",
+    "Комбинированный салон",
+    "Аудиоподготовка: антенна + 4 динамика",
+    "Розетка 12V",
+    "USB-разъем",
+    "Bluetooth с голосовым управлением, поддержка Apple Carplay и Android Auto",
+    "Центральный замок",
+    "Иммобилайзер",
+    "Подушка безопасности водителя и переднего пассажира",
+    "BAS (Усилитель экстренного торможения)",
+    "Электронная система распределения тормозных сил (EBD)",
+    "Антиблокировочная система тормозов (ABS)",
+    "ASR (антипробуксовочная система)",
+    "ESP (электронная система стабилизации курсовой устойчивости)",
+    "Крепления для детских сидений ISOFIX",
+    "Система помощи при трогании на подъеме (HSA)",
+    "Датчик давления в шинах",
+    "Блокировка замков задних дверей",
+    "Боковые подушки безопасности",
+    "Шторки безопасности",
+    "Запасное колесо-докатка"
+  ],
+  "colors": [
+    {
+      "name": "Синий",
+      "image": "/api/cars/jetta/va3/colors/sinij.jpg",
+      "style": "background: #017ca9"
+    },
+    {
+      "name": "Красный",
+      "image": "/api/cars/jetta/va3/colors/krasnyj.jpg",
+      "style": "background: #ea2e35"
+    },
+    {
+      "name": "Бежевый",
+      "image": "/api/cars/jetta/va3/colors/bezhevyj.jpg",
+      "style": "background: #aa967d"
+    },
+    {
+      "name": "Серебристый",
+      "image": "/api/cars/jetta/va3/colors/serebristyj.jpg",
+      "style": "background: #dbdadd"
+    },
+    {
+      "name": "Белый",
+      "image": "/api/cars/jetta/va3/colors/belyj.jpg",
+      "style": "background: #ffffff"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. 6АКПП (112 л.с.) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1014000",
+      "priceOld": "1690000",
+      "monthlyPayment": "7697"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/jetta/va3/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Jetta VA3 в Москве - фото №16"
+    }
+  ]
+}

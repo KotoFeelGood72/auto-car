@@ -1,0 +1,248 @@
+{
+  "title": "Volkswagen Taos в Москве",
+  "brand": "Volkswagen",
+  "model": "Taos",
+  "saleBlock": "Выгода 1 131 560 ₽",
+  "city": "Москве",
+  "image": "/api/cars/volkswagen/taos/main.jpg",
+  "slug": "/cars/volkswagen/taos/",
+  "priceOld": "2 828 900",
+  "priceNew": "1 697 340",
+  "monthlyPayment": "12 883",
+  "features": [
+    "Кожаный мультируль с обогревом",
+    "Обогрев передних сидений",
+    "Пакет для холодного климата (аккумулятор и генератор повышенной мощности)",
+    "Индикатор уровня омывающей жидкости",
+    "Боковые зеркала с электрорегулировкой и обогревом",
+    "Теплоизолирующее лобовое стекло",
+    "Задний противотуманный фонарь",
+    "Защита моторного отсека",
+    "Теплоизолирующее остекление (боковые и заднее стекло)",
+    "Светодиодные фары ближнего и дальнего света рефлекторного типа с отдельными дневными ходовыми огнями",
+    "Светодиодные задние фонари",
+    "Черные рейлинги на крыше",
+    "Боковые зеркала в цвет кузова",
+    "Ручки дверей, окрашенные в цвет кузова",
+    "Черная окантовка боковых окон",
+    "Бамперы, окрашенные в цвет кузова",
+    "Задний спойлер",
+    "Стальные колесные диски 6Jx16 с декоративными колпаками",
+    "Рукоятка рычага КП с кожаной отделкой",
+    "Подсветка багажного отделения",
+    "Розетка 12V",
+    "Передние сиденья с ручной регулировкой по высоте",
+    "Передние сиденья с ручной регулировкой поясничного подпора",
+    "Тканевая обивка сидений",
+    "Обшивка дверных панелей искусственной кожей",
+    "Декоративные вставки \"Respect\"",
+    "Заднее сиденье с раскладкой в пропорции 60/40",
+    "2 передних подголовника с механизмом травмобезопасного демпфирования и регулировкой по высоте",
+    "3 задних подголовника, регулируемые по высоте",
+    "2 лампы для чтения спереди и сзади",
+    "Салонное зеркало заднего вида с ручным затемнением",
+    "Макияжные зеркала в солнцезащитных козырьках",
+    "Центральный подлокотник с подстаканниками",
+    "одноуровневый пол багажного отделения",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Фронтальные подушки безопасности",
+    "Отключаемая подушка безопасности переднего пассажира",
+    "Боковые шторки безопасности",
+    "Передние боковые подушки безопасности",
+    "Электронный иммобилайзер",
+    "Система курсовой устойчивости (ESP)",
+    "Антиблокировочная система тормозов (ABS)",
+    "ASR (антипробуксовочная система)",
+    "Электронная блокировка дифференциала (EDL)",
+    "TSA (курсовая стабилизация прицепа)",
+    "Крепления для детских сидений ISOFIX",
+    "Индикатор непристегнутых ремней безопасности",
+    "Передние трехточечные ремни безопасности с преднатяжителями, ограничителями усилия и регулировкой по высоте",
+    "Трехточечные ремни безопасности на задних сиденьях",
+    "Центральный замок с дистанционным управлением",
+    "Система бесключевого доступа в автомобиль \"Keyless Entry\" и кнопка запуска двигателя",
+    "Цифровая приборная панель 8\"",
+    "Ручное управление кондиционером",
+    "Беспроводной интерфейс для мобильного телефона Bluetooth",
+    "4 динамика",
+    "Комплект инструментов и домкрат",
+    "Единичный звуковой сигнал",
+    "Разнесенная антенна AM/FM",
+    "Электрический стояночный тормоз (EPB) c функцией Autohold",
+    "Функция автоматического управления ближним светом фар «Coming-/Leaving Home»",
+    "Автокорректор фар",
+    "2 USB-порта",
+    "Система помощи при трогании на подъеме (HSA)",
+    "Компактное запасное колесо",
+    "Круиз-контроль с ограничителем скорости",
+    "Электроусилитель руля с изменяемым в зависимости от скорости усилием",
+    "Мультимедийная система Composition с цветным дисплеем 6.5\"",
+    "Радиопакет №8: Аудиосистема Sony с CD/MP3 + AM/FM, 4.2\" ЖК-дисплей на приборной панели, 8\" ЖК-дисплей, кнопки дистанционного управления на рулевом колесе, мультимедийная система SYNC с Bluetooth, голосовым управлением на рус. языке и поддержкой Apple Carplay и Android Auto, 2 порта USB, 9 динамиков",
+    "Интерфейс для подключения мобильного телефона App-Connect (Apple Carplay, Android Auto, MirrorLink)",
+    "Индикатор изменения давления в шинах"
+  ],
+  "colors": [
+    {
+      "name": "Белый Pure",
+      "image": "/api/cars/volkswagen/taos/colors/belyj-pure.jpg",
+      "style": "background: #ffffff"
+    },
+    {
+      "name": "Серебристый Reflex, металлик",
+      "image": "/api/cars/volkswagen/taos/colors/serebristyj-reflex,-metallik.jpg",
+      "style": "background: #c7c8ca"
+    },
+    {
+      "name": "Бежевый Capuccino, металлик",
+      "image": "/api/cars/volkswagen/taos/colors/bezhevyj-capuccino,-metallik.jpg",
+      "style": "background: #bebdb7"
+    },
+    {
+      "name": "Серый Platinum, металлик",
+      "image": "/api/cars/volkswagen/taos/colors/seryj-platinum,-metallik.jpg",
+      "style": "background: #3d4140"
+    },
+    {
+      "name": "Черный Deep, перламутр",
+      "image": "/api/cars/volkswagen/taos/colors/chernyj-deep,-perlamutr.jpg",
+      "style": "background: #161925"
+    },
+    {
+      "name": "Синий Reef, металлик",
+      "image": "/api/cars/volkswagen/taos/colors/sinij-reef,-metallik.jpg",
+      "style": "background: #274b93"
+    },
+    {
+      "name": "Оранжевый, металлик",
+      "image": "/api/cars/volkswagen/taos/colors/oranzhevyj,-metallik.jpg",
+      "style": "background: #d9631b"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.6 5МКПП (110 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "1697340",
+      "priceOld": "2828900",
+      "monthlyPayment": "12883"
+    },
+    {
+      "modification": "1.4 8АКПП (150 л.с.) FWD",
+      "engineDisplacement": "1.4",
+      "price": "2027340",
+      "priceOld": "3158900",
+      "monthlyPayment": "15388"
+    },
+    {
+      "modification": "1.4 7AMT (150 л.с.) 4WD",
+      "engineDisplacement": "1.4",
+      "price": "1927340",
+      "priceOld": "3058900",
+      "monthlyPayment": "14629"
+    },
+    {
+      "modification": "1.6 6АКПП (110 л.с.) FWD",
+      "engineDisplacement": "1.6",
+      "price": "1757340",
+      "priceOld": "2888900",
+      "monthlyPayment": "13339"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/volkswagen/taos/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Volkswagen Taos в Москве - фото №19"
+    }
+  ]
+}

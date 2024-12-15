@@ -1,0 +1,261 @@
+{
+  "title": "Changan CS75Plus в Москве",
+  "brand": "Changan",
+  "model": "CS75Plus",
+  "saleBlock": "Выгода 1 139 960 ₽",
+  "city": "Москве",
+  "image": "/api/cars/changan/cs75plus/main.jpg",
+  "slug": "/cars/changan/cs75plus/",
+  "priceOld": "2 849 900",
+  "priceNew": "1 709 940",
+  "monthlyPayment": "12 979",
+  "features": [
+    "Камера 360°",
+    "Парктроник задний",
+    "Бортовой компьютер",
+    "Электропривод зеркал",
+    "Активный усилитель руля",
+    "Климат-контроль 1-зонный",
+    "Запуск двигателя с кнопки",
+    "Система доступа без ключа",
+    "Электроскладывание зеркал",
+    "Адаптивный круиз-контроль",
+    "Регулировка руля по высоте и вылету",
+    "Система выбора режима движения Driving Mode Selection",
+    "Электростеклоподъемники задние",
+    "Электростеклоподъемники передние",
+    "Мультифункциональное рулевое колесо",
+    "Датчик дождя/света",
+    "Светодиодные фары",
+    "Дневные ходовые огни",
+    "Электрообогрев боковых зеркал",
+    "Подогрев передних сидений",
+    "Третий задний подголовник",
+    "Складывающееся заднее сиденье",
+    "Передний центральный подлокотник",
+    "Панорамная крыша / лобовое стекло",
+    "Комбинированный (Материал салона)",
+    "Электрорегулировка передних сидений",
+    "Регулировка передних сидений по высоте",
+    "Розетка 12V",
+    "Мультимедиа система с ЖК-экраном",
+    "Беспроводная зарядка для смартфона",
+    "Иммобилайзер",
+    "Центральный замок",
+    "Система \"ЭРА-ГЛОНАСС\"",
+    "Датчик давления в шинах",
+    "Система помощи при спуске",
+    "Система стабилизации (ESP)",
+    "Система контроля слепых зон",
+    "Подушки безопасности боковые",
+    "Подушка безопасности водителя",
+    "Подушка безопасности пассажира",
+    "Блокировка замков задних дверей",
+    "Антиблокировочная система (ABS)",
+    "Антипробуксовочная система (ASR)",
+    "Система контроля за полосой движения",
+    "Подушки безопасности оконные (шторки)",
+    "Система помощи при старте в гору (HSA)",
+    "Система помощи при торможении (BAS, EBD)",
+    "Крепление детского кресла (задний ряд) ISOFIX",
+    "Запасное колесо-докатка"
+  ],
+  "colors": [
+    {
+      "name": "Глубокий черный",
+      "image": "/api/cars/changan/cs75plus/colors/glubokij-chernyj.jpg",
+      "style": "background: #1f2022"
+    },
+    {
+      "name": "Кристальный белый",
+      "image": "/api/cars/changan/cs75plus/colors/kristalnyj-belyj.jpg",
+      "style": "background: #e9e9e9"
+    },
+    {
+      "name": "Атомный серый",
+      "image": "/api/cars/changan/cs75plus/colors/atomnyj-seryj.jpg",
+      "style": "background: #92999f"
+    },
+    {
+      "name": "Кристальный синий",
+      "image": "/api/cars/changan/cs75plus/colors/kristalnyj-sinij.jpg",
+      "style": "background: #0d458f"
+    },
+    {
+      "name": "Горный серый",
+      "image": "/api/cars/changan/cs75plus/colors/gornyj-seryj.jpg",
+      "style": "background: #2F353B"
+    }
+  ],
+  "modifications": [
+    {
+      "modification": "1.5 л. 6АКПП (178 л.с) FWD",
+      "engineDisplacement": "1.5",
+      "price": "1709940",
+      "priceOld": "2849900",
+      "monthlyPayment": "12979"
+    }
+  ],
+  "gallery": [
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-1.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №1"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-2.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №2"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-3.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №3"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-4.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №4"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-5.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №5"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-6.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №6"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-7.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №7"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-8.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №8"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-9.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №9"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-10.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №10"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-11.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №11"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-12.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №12"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-13.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №13"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-14.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №14"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-15.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №15"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-16.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №16"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-17.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №17"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-18.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №18"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-19.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №19"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-20.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №20"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-21.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №21"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-22.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №22"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-23.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №23"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-24.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №24"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-25.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №25"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-26.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №26"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-27.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №27"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-28.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №28"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-29.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №29"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-30.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №30"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-31.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №31"
+    },
+    {
+      "fullImage": "/api/cars/changan/cs75plus/gallery/gallery-32.jpg",
+      "thumbnail": "https://klassavto.ru/assets/img/loader.svg",
+      "alt": "Changan CS75Plus в Москве - фото №32"
+    }
+  ]
+}

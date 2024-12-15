@@ -5,6 +5,12 @@ import axios from "axios";
 
 const allCars = [];
 const basePath = path.join(process.cwd(), "public", "api", "cars");
+
+const ensureDirectory = (directoryPath) => {
+  if (!fs.existsSync(directoryPath)) {
+    fs.mkdirSync(directoryPath, { recursive: true });
+  }
+};
 // Метод для извлечения галереи изображений
 const extractGalleryImages = async (page) => {
   return await page.evaluate(() => {
@@ -20,9 +26,7 @@ const extractGalleryImages = async (page) => {
 };
 
 const processGalleryImages = async (gallery, galleryFolder) => {
-  if (!fs.existsSync(galleryFolder)) {
-    fs.mkdirSync(galleryFolder, { recursive: true });
-  }
+  ensureDirectory(galleryFolder);
 
   return await Promise.all(
     gallery.map(async (image, index) => {
@@ -34,7 +38,7 @@ const processGalleryImages = async (gallery, galleryFolder) => {
           await downloadImage(image.fullImage, fullImagePath);
         } catch (error) {
           console.error(
-            `Ошибка загрузки изображения галереи: ${image.fullImage}`,
+            `Ошибка загрузки изображения галереи: ${image.fullImage}. Путь: ${fullImagePath}`,
             error
           );
         }
@@ -47,6 +51,40 @@ const processGalleryImages = async (gallery, galleryFolder) => {
         };
       }
       return image;
+    })
+  );
+};
+
+const processColors = async (colors, imgFolder) => {
+  ensureDirectory(imgFolder);
+
+  return await Promise.all(
+    colors.map(async (color) => {
+      if (color.image) {
+        const safeFileName = slugify(color.name || "default", {
+          lower: true,
+          remove: /[*+~.()'"!:@\\\/]/g,
+        });
+        const fileName = `${safeFileName}.jpg`;
+        const filePath = path.join(imgFolder, fileName);
+
+        try {
+          await downloadImage(color.image, filePath);
+        } catch (error) {
+          console.error(
+            `Ошибка загрузки изображения цвета: ${color.image}. Путь: ${filePath}`,
+            error
+          );
+        }
+
+        return {
+          ...color,
+          image: `/api/cars/${path
+            .relative(basePath, filePath)
+            .replace(/\\/g, "/")}`,
+        };
+      }
+      return color;
     })
   );
 };
@@ -86,18 +124,6 @@ const downloadImage = async (url, filePath) => {
   } catch (error) {
     console.error(`Ошибка загрузки изображения: ${url}`, error.message);
   }
-};
-
-// Функция для сохранения всех автомобилей в общий JSON файл
-const saveAllCarsToFile = () => {
-  const outputFilePath = path.join(
-    process.cwd(),
-    "api",
-    "cars",
-    "all-cars.json"
-  );
-  fs.writeFileSync(outputFilePath, JSON.stringify(allCars, null, 2), "utf-8");
-  console.log(`Файл all-cars.json успешно сохранен: ${outputFilePath}`);
 };
 
 // Функция для получения основных данных о машине
@@ -165,9 +191,7 @@ const extractCarData = async (page) => {
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
 
-    const slug = `/api/cars/${slugify(brand)}/${slugify(model)}-${slugify(
-      city
-    )}/${slugify(model)}.json`;
+    const slug = `/cars/${slugify(brand)}/${slugify(model)}/`;
 
     return {
       title,
@@ -203,52 +227,6 @@ const extractModifications = async (page) => {
   });
 };
 
-// Метод для замены слов в тексте
-const replaceCityNames = (text) => {
-  if (!text) return text; // Если текст отсутствует, возвращаем как есть
-  return text
-    .replace(/Краснодар/gi, "Москва")
-    .replace(/Краснодаре/gi, "Москве")
-    .replace(/krasnodare/gi, "moscow");
-};
-
-const processColors = async (colors, imgFolder) => {
-  return await Promise.all(
-    colors.map(async (color) => {
-      if (color.image) {
-        const safeFileName = slugify(color.name || "default", {
-          lower: true,
-          remove: /[*+~.()'"!:@\\\/]/g, // Удаление недопустимых символов
-        });
-        const fileName = `${safeFileName}.jpg`;
-        const filePath = path.join(imgFolder, fileName);
-
-        // Проверка существования папки
-        if (!fs.existsSync(imgFolder)) {
-          fs.mkdirSync(imgFolder, { recursive: true });
-        }
-
-        try {
-          await downloadImage(color.image, filePath);
-        } catch (error) {
-          console.error(
-            `Ошибка загрузки изображения цвета: ${color.image}`,
-            error
-          );
-        }
-
-        return {
-          ...color,
-          image: `/api/cars/${path
-            .relative(basePath, filePath)
-            .replace(/\\/g, "/")}`,
-        };
-      }
-      return color;
-    })
-  );
-};
-
 export const parseCarPage = async (page, carLink) => {
   try {
     console.log(`Обработка автомобиля: ${carLink}`);
@@ -262,67 +240,49 @@ export const parseCarPage = async (page, carLink) => {
     // Извлекаем основные данные автомобиля
     const carData = await extractCarData(page);
 
-    // Замена слов
-    carData.title = replaceCityNames(carData.title);
-    carData.model = replaceCityNames(carData.model);
-    carData.features = carData.features.map(replaceCityNames);
-    carData.colors = carData.colors.map((color) => ({
-      ...color,
-      name: replaceCityNames(color.name),
-    }));
-
+    // Извлекаем модификации автомобиля
     carData.modifications = await extractModifications(page);
-    carData.modifications = carData.modifications.map((mod) => ({
-      ...mod,
-      modification: replaceCityNames(mod.modification),
-    }));
 
-    // Формируем директорию для галереи
+    // Обработка изображений
     const brandSlug = slugify(carData.brand, { lower: true });
     const modelSlug = slugify(carData.model, { lower: true });
     const brandFolder = path.join(basePath, brandSlug);
     const galleryFolder = path.join(brandFolder, modelSlug, "gallery");
     const colorsFolder = path.join(brandFolder, modelSlug, "colors");
 
-    if (!fs.existsSync(galleryFolder))
-      fs.mkdirSync(galleryFolder, { recursive: true });
-    if (!fs.existsSync(colorsFolder))
-      fs.mkdirSync(colorsFolder, { recursive: true });
-
-    // Обрабатываем галерею
     carData.gallery = await handleGallery(page, galleryFolder);
-
-    // Обрабатываем изображения цветов
     carData.colors = await processColors(carData.colors, colorsFolder);
 
-    // Сохраняем JSON файл с данными
-    const carFilePath = path.join(brandFolder, modelSlug, `${modelSlug}.json`);
-    fs.writeFileSync(
-      carFilePath,
-      JSON.stringify(
-        {
-          ...carData,
-          gallery: carData.gallery.map((g) => ({
-            ...g,
-            fullImage: g.fullImage.replace("/public", ""),
-          })),
-        },
-        null,
-        2
-      ),
-      "utf-8"
-    );
+    // Сохранение основного изображения автомобиля
+    if (carData.image) {
+      const mainImageFilePath = path.join(brandFolder, modelSlug, "main.jpg");
+      try {
+        await downloadImage(carData.image, mainImageFilePath);
+        carData.image = `/api/cars/${path
+          .relative(basePath, mainImageFilePath)
+          .replace(/\\/g, "/")}`;
+      } catch (error) {
+        console.error(
+          `Ошибка загрузки основного изображения автомобиля: ${carData.image}`,
+          error
+        );
+      }
+    }
 
+    // Замена городов в модификациях (если применимо)
+    if (carData.modifications) {
+      carData.modifications = carData.modifications.map((mod) => ({
+        ...mod,
+      }));
+    }
+
+    // Сохранение JSON файла
+    const carFilePath = path.join(brandFolder, modelSlug, "index.json");
+    fs.writeFileSync(carFilePath, JSON.stringify(carData, null, 2), "utf-8");
+
+    // Добавление данных в общий список автомобилей
     allCars.push({ slug: `/api/cars/${brandSlug}/${modelSlug}`, ...carData });
   } catch (error) {
     console.error(`Ошибка обработки автомобиля ${carLink}:`, error);
   }
-};
-
-// Функция завершения процесса
-export const finalizeAllCars = () => {
-  saveAllCarsToFile();
-  const outputFilePath = path.join(basePath, "all-cars.json");
-  fs.writeFileSync(outputFilePath, JSON.stringify(allCars, null, 2), "utf-8");
-  console.log(`Общий файл автомобилей сохранен: ${outputFilePath}`);
 };

@@ -26,3 +26,4 @@ logs
 
 # Ignore public/api folder
 public/api
+.output/public/api

@@ -13,7 +13,9 @@ export function useFormSubmit() {
   const submitForm = async (
     url: string,
     data: Record<string, any>,
-    showToast: boolean = true
+    method: "POST" | "PUT" = "POST",
+    showToast: boolean = true,
+    apiKey?: string // Опциональный API-ключ
   ) => {
     isLoading.value = true;
     isSuccess.value = false;
@@ -22,26 +24,41 @@ export function useFormSubmit() {
 
     try {
       console.log("Отправка данных на URL:", url);
+      console.log("Метод:", method);
       console.log("Данные:", data);
 
+      const headers: Record<string, string> = {
+        "Content-Type":
+          method === "PUT"
+            ? "application/x-www-form-urlencoded"
+            : "application/json",
+      };
+
+      if (apiKey) {
+        headers["Authorization"] = `Bearer ${apiKey}`; // Добавляем API-ключ в заголовок
+      }
+
+      const body =
+        method === "PUT"
+          ? new URLSearchParams(data).toString()
+          : JSON.stringify(data);
+
       const response = await fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
+        method,
+        headers,
+        body,
       });
 
-      console.log("Ответ от CRM:", response);
+      console.log("Ответ от сервера:", response);
 
       if (!response.ok) {
         const errorText = await response.text();
-        console.error("Ошибка ответа CRM:", errorText);
+        console.error("Ошибка ответа сервера:", errorText);
         throw new Error(`Ошибка: ${response.status}, ${errorText}`);
       }
 
       const responseData = await response.json();
-      console.log("Успешный ответ CRM:", responseData);
+      console.log("Успешный ответ сервера:", responseData);
 
       isSuccess.value = true;
 
@@ -63,12 +80,15 @@ export function useFormSubmit() {
   };
 
   const sendToCRM = async (data: Record<string, any>) => {
-    const crmProxyUrl = "/api/crm"; // Используем локальный URL
+    const crmProxyUrl = "/api/crm";
 
-    const extendedData =
-      data.deal_type === 80 || data.deal_type === 81
+    const apiKey = "ed2f550d045b3d3a54d2662fe6d5e677"; // Ваш API-ключ
+
+    const extendedData = {
+      ...data,
+      api_key: apiKey, // Добавляем ключ в тело запроса
+      ...(data.deal_type === 80 || data.deal_type === 81
         ? {
-            ...data,
             additional_info: {
               deal_marka: data.deal_marka || "Не указано",
               deal_model: data.deal_model || "Не указано",
@@ -76,18 +96,18 @@ export function useFormSubmit() {
               loan_term: data.loan_term || 0,
             },
           }
-        : { ...data };
+        : {}),
+    };
 
     console.log("Отправка данных в CRM:", extendedData);
 
-    await submitForm(crmProxyUrl, extendedData, false);
+    await submitForm(crmProxyUrl, extendedData, "PUT", false);
   };
 
   const sendToTelegram = async (data: Record<string, any>) => {
     const botToken = "7957318895:AAFSjT_RCGDqfl0fhm8Tj3etNb0-xxJ1aEg";
     const chatId = "-1002365907170";
 
-    // Формируем сообщение для Telegram
     const dealTypes: Record<number, string> = {
       46: "Звонок",
       80: "Кредит",
@@ -121,13 +141,13 @@ export function useFormSubmit() {
 
     const tgUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
-    // Передаем showToast = false, чтобы уведомление не отображалось второй раз
     await submitForm(
       tgUrl,
       {
         chat_id: chatId,
         text: message,
       },
+      "POST", // Метод POST
       false
     );
   };

@@ -6,6 +6,7 @@
       :placeholder="placeholder"
       v-model="localValue"
       :class="{ error: error }"
+      :maxlength="maxLength"
       @input="applyMask"
     />
     <span v-if="error" class="input-message">{{ message }}</span>
@@ -23,6 +24,7 @@ const props = withDefaults(
     error?: boolean;
     modelValue: string;
     phone?: boolean;
+    maxLength?: number;
   }>(),
   {
     type: "text",
@@ -31,6 +33,7 @@ const props = withDefaults(
     error: false,
     modelValue: "",
     phone: false,
+    maxLength: 20,
   }
 );
 
@@ -42,33 +45,30 @@ const localValue = computed({
 });
 
 const applyMask = (event: Event) => {
-  if (!props.phone) return;
-
   const inputElement = event.target as HTMLInputElement;
-  let value = inputElement.value.replace(/\D/g, ""); // Удаляем все нецифровые символы
+  let value = inputElement.value;
 
-  // Автозамена "8" на "+7" в начале строки
-  if (value.startsWith("8")) {
-    value = "7" + value.slice(1);
-  }
+  if (props.phone) {
+    // Маска для телефона
+    value = value.replace(/\D/g, "");
+    if (value.startsWith("8")) {
+      value = "7" + value.slice(1);
+    } else if (!value.startsWith("7")) {
+      value = "7" + value;
+    }
+    value = value.slice(0, 11);
 
-  // Форматируем в формате +7 (XXX) XXX-XX-XX
-  let formattedValue = "+7";
-  if (value.length > 1) {
-    formattedValue += " (" + value.slice(1, 4);
+    let formattedValue = "+7";
+    if (value.length > 1) formattedValue += ` (${value.slice(1, 4)}`;
+    if (value.length >= 5) formattedValue += `) ${value.slice(4, 7)}`;
+    if (value.length >= 8) formattedValue += `-${value.slice(7, 9)}`;
+    if (value.length >= 10) formattedValue += `-${value.slice(9, 11)}`;
+    localValue.value = formattedValue;
+  } else if (props.type === "text") {
+    // Ограничение на русские буквы
+    value = value.replace(/[^А-Яа-яЁё\s]/g, ""); // Только русские буквы и пробелы
+    localValue.value = value;
   }
-  if (value.length >= 5) {
-    formattedValue += ") " + value.slice(4, 7);
-  }
-  if (value.length >= 8) {
-    formattedValue += "-" + value.slice(7, 9);
-  }
-  if (value.length >= 10) {
-    formattedValue += "-" + value.slice(9, 11);
-  }
-
-  formattedValue = formattedValue.slice(0, 18);
-  localValue.value = formattedValue;
 };
 </script>
 
@@ -107,6 +107,7 @@ input {
 
   &.error {
     border: 0.1rem solid $red;
+    color: $red;
     &::-webkit-input-placeholder {
       color: $red;
     }

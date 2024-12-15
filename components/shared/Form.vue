@@ -3,14 +3,15 @@
     <Inputs
       placeholder="Ваше имя"
       v-model="form.name"
-      :error="isError"
+      :error="isError && (!form.name || form.name.length < 2)"
       @input="resetError"
+      :maxLength="10"
     />
     <Inputs
       placeholder="+7 (___) ___-__-__"
       v-model="form.phone"
       :phone="true"
-      :error="isError"
+      :error="isError && form.phone.replace(/\D/g, '').length !== 11"
       @input="resetError"
     />
     <btn
@@ -77,7 +78,8 @@ const handleSubmit = async () => {
     return;
   }
 
-  if (!form.value.phone || form.value.phone.length < 10) {
+  const phoneDigits = form.value.phone.replace(/\D/g, ""); // Удаляем все нецифровые символы
+  if (phoneDigits.length !== 11 || !phoneDigits.startsWith("7")) {
     isError.value = true;
     return;
   }

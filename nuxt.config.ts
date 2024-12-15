@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     'nuxt-yandex-metrika'
   ],
   plugins: ["~/plugins/toast.js"],
+  ssr: false,
   // @ts-ignore
   yandexMetrika: {
     id: "99219899", // Ваш ID метрики

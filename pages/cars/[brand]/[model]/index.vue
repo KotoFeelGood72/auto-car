@@ -38,7 +38,10 @@
                     </li>
                     <li>
                       <p>Особенности:</p>
-                      <span>{{ featuresFormatted }}</span>
+                      <span
+                        >{{ singleCar.colors[0].name }},
+                        {{ singleCar.modifications[0].modification }}</span
+                      >
                     </li>
                   </ul>
                 </div>
@@ -171,12 +174,12 @@ const { openModal } = useModalStore();
 const { useGetCarBySlug, singleCar } = useCars();
 
 const route = useRoute();
-const data = ref<any>(null);
+// const data = ref<any>(null);
 
 // Форматирование особенностей
-const featuresFormatted = computed(
-  () => data.value?.features?.join(", ") || "Нет данных"
-);
+// const featuresFormatted = computed(
+//   () => data.value?.features?.join(", ") || "Нет данных"
+// );
 
 const scrollDown = () => {
   const calcSection = document.querySelector("#calc-car"); // Укажите правильный селектор

@@ -50,15 +50,12 @@ const formatDigits = (value: number) => {
 };
 
 onMounted(() => {
-  const savedEndDate = JSON.parse(localStorage.getItem("timerEnd") || "null");
+  // Устанавливаем дату окончания на 31 декабря 2024, 23:59:59
+  const newYearDate = new Date("2024-12-31T23:59:59").getTime();
+  endDate.value = newYearDate;
 
-  if (savedEndDate) {
-    endDate.value = savedEndDate;
-  } else {
-    const newEndDate = new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
-    endDate.value = newEndDate;
-    localStorage.setItem("timerEnd", JSON.stringify(newEndDate));
-  }
+  // Сохраняем дату в локальное хранилище, если нужно, иначе можно убрать localStorage
+  localStorage.setItem("timerEnd", JSON.stringify(newYearDate));
 
   interval.value = window.setInterval(() => {
     now.value = Date.now();

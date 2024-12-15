@@ -16,7 +16,7 @@
               </div>
               <heading title="+7 (499) 289-87-21" :level="2" :size="24" />
             </a>
-            <span class="timework">Без выходных с 10 до 22ч</span>
+            <span class="timework">Без выходных с 08 до 20ч</span>
           </div>
           <btn
             name="Заказать звонок"

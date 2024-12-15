@@ -11,7 +11,9 @@
           <p class="price">от {{ card.priceNew }} ₽</p>
           <p class="old">от {{ card.priceOld }} ₽</p>
         </div>
-        <div class="credit">В кредит от {{ card.monthlyPayment }} ₽/мес.</div>
+        <div class="credit">
+          В кредит от <br />{{ card.monthlyPayment }} ₽/мес.
+        </div>
       </div>
       <div class="btn-row">
         <btn
@@ -52,21 +54,12 @@ const { openModal } = useModalStore();
 const isCardValid = computed(() => {
   return (
     props.card &&
-    Object.keys(props.card).length > 0 && // Проверка, что объект не пуст
+    Object.keys(props.card).length > 0 &&
     props.card.slug &&
     props.card.image &&
-    props.card.title // Убедитесь, что ключевые данные присутствуют
+    props.card.title
   );
 });
-// console.log(props.card.slug);
-// const formattedSlug = computed(() =>
-//   props.card && props.card.slug
-//     ? props.card.slug
-//         .replace("/api", "") // Удаляем префикс "/api"
-//         .replace(".json", "") // Удаляем суффикс ".json"
-//         .replace(/\/[^/]+-/, "") // Удаляем слово перед дефисом
-//     : ""
-// );
 </script>
 
 <style scoped lang="scss">
@@ -107,7 +100,7 @@ const isCardValid = computed(() => {
   }
   .title {
     margin-bottom: 2rem;
-    min-height: 6rem;
+    min-height: 6.5rem;
     @include bp($point_2) {
       min-height: auto;
       margin-bottom: 1rem;
@@ -115,18 +108,16 @@ const isCardValid = computed(() => {
   }
   .row {
     @include flex-start;
+    align-items: flex-start;
     gap: 2rem;
     margin-bottom: 2rem;
     @include bp($point_2) {
       flex-direction: column;
-      align-items: flex-start;
       gap: 1rem;
     }
   }
   .credit {
-    max-width: 32%;
     @include bp($point_2) {
-      max-width: 100%;
       font-size: 1.4rem;
       color: $primary;
     }

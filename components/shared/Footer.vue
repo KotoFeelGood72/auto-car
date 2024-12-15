@@ -36,8 +36,8 @@
         <nav class="nav-col">
           <NuxtLink
             class=""
-            to="/"
             v-for="(item, i) in footerLinks"
+            :to="item.link"
             :key="'footer-link-' + i"
             >{{ item.name }}</NuxtLink
           >
@@ -88,11 +88,11 @@ import { useModalStore } from "~/stores/useModalStore";
 
 const { openModal } = useModalStore();
 
-const footerLinks = [
-  { name: "Политика конфиденциальности", link: "/" },
-  { name: "Условия кредитования", link: "/" },
-  { name: "Пользовательское соглашение", link: "/" },
-];
+const footerLinks = ref<any>([
+  { name: "Политика конфиденциальности", link: "/privacy" },
+  { name: "Условия кредитования", link: "/loan-terms" },
+  { name: "Пользовательское соглашение", link: "/about-user-agree" },
+]);
 
 const info = [
   { txt: "Ежедневно с 8:00 до 21:00", icon: "svg-spinners:pulse-3" },

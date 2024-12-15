@@ -7,9 +7,21 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
+    'nuxt-yandex-metrika'
   ],
   plugins: ["~/plugins/toast.js"],
-
+  // @ts-ignore
+  yandexMetrika: {
+    id: "99219899", // Ваш ID метрики
+    debug: process.env.NODE_ENV !== "production", // Включить/выключить отладку
+    options: {
+      clickmap: true, // Включить карту кликов
+      trackLinks: true, // Отслеживать переходы по ссылкам
+      accurateTrackBounce: true, // Учет отказов
+      webvisor: true, // Включить Вебвизор
+      trackHash: true, // Отслеживать изменение хэша
+    },
+  },
   vite: {
     css: {
       preprocessorOptions: {
@@ -56,6 +68,7 @@ export default defineNuxtConfig({
           name: "description",
           content: "Продажа автомобилей в автосалонах Москвы по выгодной цене.",
         },
+          { name: "robots", content: "index, follow" }, 
         {
           name: "keywords",
           content:

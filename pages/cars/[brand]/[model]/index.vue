@@ -464,6 +464,16 @@ watch(
   grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   grid-gap: 2rem;
 }
+.modes-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  grid-gap: 2rem;
+}
+.modes-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  grid-gap: 2rem;
+}
 
 .bottom-mobile {
   position: fixed;

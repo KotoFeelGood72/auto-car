@@ -7,7 +7,7 @@
     <h3 class="title">Оценим ваш автомобиль <span>ВЫШЕ</span> рынка</h3>
     <div class="row">
       <div>Скидка <span>300 000 руб</span> на следующий автомобиль</div>
-      <div>3 ТО в подарок</div>
+      <div>20% Кешбека на 3 ТО в подарок</div>
     </div>
     <heading title="Укажите контактные данные" :size="24" class="subtitle" />
     <Form :row="true" :deal-type="85" />

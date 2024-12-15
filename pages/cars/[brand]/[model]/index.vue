@@ -227,15 +227,17 @@ onMounted(async () => {
       "автосалон, Москва, новые автомобили, купить " +
       singleCar?.value?.model,
     image:
-      singleCar.value.image || "https://autocarmsk.ru/assets/img/geely.jpg",
-    url: "https://autocarmsk.ru" + singleCar.value.slug,
+      "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
+      "https://autocarmsk.ru/assets/img/geely.jpg",
+    url: "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg",
     type: "article",
     schema: {
       "@context": "https://schema.org",
       "@type": "Product",
       name: singleCar?.value?.model + " - " + singleCar?.value?.brand || "",
       image:
-        singleCar.value.image || "https://autocarmsk.ru/assets/img/geely.jpg",
+        "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
+        "https://autocarmsk.ru/assets/img/geely.jpg",
       description:
         singleCar?.value?.title +
         " — современный кроссовер с продвинутыми функциями и высоким уровнем комфорта.",

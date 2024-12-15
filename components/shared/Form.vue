@@ -6,6 +6,7 @@
       :error="isError && (!form.name || form.name.length < 2)"
       @input="resetError"
       :maxLength="10"
+      message="Допускаются только буквы русского алфавита"
     />
     <Inputs
       placeholder="+7 (___) ___-__-__"

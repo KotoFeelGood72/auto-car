@@ -164,8 +164,8 @@ import Calc from "~/components/shared/Calc.vue";
 import ModeCard from "~/components/card/ModeCard.vue";
 import { useModalStore } from "~/stores/useModalStore";
 import { useCars } from "~/composables/useCars";
-import { useRoute } from "vue-router";
-import { ref, computed, onMounted } from "vue";
+// import { useRoute } from "vue-router";
+// import { ref, computed, onMounted } from "vue";
 // import { useSeo } from "~/composables/useSeo";
 
 const isRowTopScrolledOut = ref(false);

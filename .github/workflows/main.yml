@@ -63,7 +63,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run generate # Если используется другая команда для сборки, замените её
+        run: npx nuxi generate # Если используется другая команда для сборки, замените её
 
       - name: Install lftp
         run: sudo apt-get update && sudo apt-get install -y lftp
@@ -77,5 +77,5 @@ jobs:
           lftp -c "
           set ssl:verify-certificate no;
           open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
-          mirror -R ./.output/public/ /www/autocarmsk.ru/; 
+          mirror -R ./dist/ /www/autocarmsk.ru/; 
           quit"

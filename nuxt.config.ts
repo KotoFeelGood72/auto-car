@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-yandex-metrika",
   ],
-  // ssr: false,
+  ssr: false,
   plugins: ["~/plugins/toast.js"],
   // ssr: false,
   ogImage: { enabled: false },
@@ -67,7 +67,7 @@ export default defineNuxtConfig({
     routeRules: {
       "/api/crm": { proxy: "http://crm.renault-s.ru/expo/api/deal/add" },
     },
-    preset: "static",
+    // preset: "static",
   },
   app: {
     baseURL: "/",

@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -13,28 +11,16 @@ export default defineNuxtConfig({
   ],
   plugins: ["~/plugins/toast.js"],
   ssr: false,
-  // @ts-ignore
+
   yandexMetrika: {
-    id: "99219899", // Ваш ID метрики
-    debug: process.env.NODE_ENV !== "production", // Включить/выключить отладку
+    id: "99219899",
+    // debug: process.env.NODE_ENV !== "production",
     options: {
       clickmap: true, // Включить карту кликов
       trackLinks: true, // Отслеживать переходы по ссылкам
       accurateTrackBounce: true, // Учет отказов
       webvisor: true, // Включить Вебвизор
       trackHash: true, // Отслеживать изменение хэша
-    },
-  },
-  hooks: {
-    "nitro:build:before"() {
-      const fs = require("fs");
-      const path = require("path");
-      const apiPath = path.resolve("./public/api");
-
-      if (fs.existsSync(apiPath)) {
-        fs.rmSync(apiPath, { recursive: true, force: true });
-        console.log("Folder public/api removed before build");
-      }
     },
   },
 
@@ -50,11 +36,6 @@ export default defineNuxtConfig({
         },
       },
     },
-    build: {
-      commonjsOptions: {
-        include: [/node_modules/],
-      },
-    },
   },
 
   icon: {
@@ -67,16 +48,14 @@ export default defineNuxtConfig({
   },
   // @ts-ignore
   axios: {
-    proxy: true, // Включить прокси
+    proxy: true,
   },
 
   nitro: {
     routeRules: {
       "/api/crm": { proxy: "http://crm.renault-s.ru/expo/api/deal/add" },
     },
-  },
-  ogImage: {
-    enabled: false, // Отключить модуль OG Image
+    preset: "node-server",
   },
   app: {
     baseURL: "/",
@@ -105,26 +84,26 @@ export default defineNuxtConfig({
           content:
             "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
         },
-        {
-          property: "og:image",
-          content: "https://autocarmsk.ru/assets/img/geely.jpg",
-        },
-        { property: "og:url", content: "https://autocarmsk.ru/" },
-        { property: "og:type", content: "website" },
-        { name: "twitter:card", content: "summary_large_image" },
-        {
-          name: "twitter:title",
-          content: "Автокар - Автосалон новых автомобилей в Москве",
-        },
-        {
-          name: "twitter:description",
-          content:
-            "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
-        },
-        {
-          name: "twitter:image",
-          content: "https://autocarmsk.ru/assets/img/geely.jpg",
-        },
+        // {
+        //   property: "og:image",
+        //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
+        // },
+        // { property: "og:url", content: "https://autocarmsk.ru/" },
+        // { property: "og:type", content: "website" },
+        // { name: "twitter:card", content: "summary_large_image" },
+        // {
+        //   name: "twitter:title",
+        //   content: "Автокар - Автосалон новых автомобилей в Москве",
+        // },
+        // {
+        //   name: "twitter:description",
+        //   content:
+        //     "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
+        // },
+        // {
+        //   name: "twitter:image",
+        //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
+        // },
       ],
       link: [
         { rel: "icon", href: "/favicon.ico" },

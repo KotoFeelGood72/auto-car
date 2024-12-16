@@ -37,6 +37,4 @@ jobs:
           set ssl:verify-certificate no;
           open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER;
           # mirror -R ./.output/public/ /www/autocarmsk.ru/;
-          mirror -R ./.output/public/ /www/autocarmsk.ru/ --exclude public/api/
-          --only-newer --delete --verbose;
           quit"

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxtjs/sitemap",
     "@nuxtjs/seo",
-    'nuxt-yandex-metrika'
+    "nuxt-yandex-metrika",
   ],
   plugins: ["~/plugins/toast.js"],
   ssr: false,
@@ -21,6 +21,18 @@ export default defineNuxtConfig({
       accurateTrackBounce: true, // Учет отказов
       webvisor: true, // Включить Вебвизор
       trackHash: true, // Отслеживать изменение хэша
+    },
+  },
+  hooks: {
+    "nitro:build:before"() {
+      const fs = require("fs");
+      const path = require("path");
+      const apiPath = path.resolve("./public/api");
+
+      if (fs.existsSync(apiPath)) {
+        fs.rmSync(apiPath, { recursive: true, force: true });
+        console.log("Folder public/api removed before build");
+      }
     },
   },
   vite: {
@@ -69,7 +81,7 @@ export default defineNuxtConfig({
           name: "description",
           content: "Продажа автомобилей в автосалонах Москвы по выгодной цене.",
         },
-          { name: "robots", content: "index, follow" }, 
+        { name: "robots", content: "index, follow" },
         {
           name: "keywords",
           content:

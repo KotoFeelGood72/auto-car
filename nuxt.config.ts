@@ -121,45 +121,45 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/favicon.ico" },
         { rel: "canonical", href: "https://autocarmsk.ru/" },
       ],
-      script: [
-        {
-          type: "application/ld+json",
-          innerHTML: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "AutoDealer",
-            name: "Автокар",
-            url: "https://autocarmsk.ru/",
-            logo: "https://autocarmsk.ru/assets/img/logo.png",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "г. Москва, ул. Краснобогатырская, д. 2, стр. 21-22",
-              addressLocality: "Москва",
-              postalCode: "101000",
-              addressCountry: "RU",
-            },
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+7-495-123-4567",
-              contactType: "customer service",
-              areaServed: "RU",
-            },
-            sameAs: [
-              "https://facebook.com/autocarmsk",
-              "https://instagram.com/autocarmsk",
-            ],
-          }),
-        },
-      ],
+      // script: [
+      //   {
+      //     type: "application/ld+json",
+      //     innerHTML: JSON.stringify({
+      //       "@context": "https://schema.org",
+      //       "@type": "AutoDealer",
+      //       name: "Автокар",
+      //       url: "https://autocarmsk.ru/",
+      //       logo: "https://autocarmsk.ru/assets/img/logo.png",
+      //       address: {
+      //         "@type": "PostalAddress",
+      //         streetAddress:
+      //           "г. Москва, ул. Краснобогатырская, д. 2, стр. 21-22",
+      //         addressLocality: "Москва",
+      //         postalCode: "101000",
+      //         addressCountry: "RU",
+      //       },
+      //       contactPoint: {
+      //         "@type": "ContactPoint",
+      //         telephone: "+7-495-123-4567",
+      //         contactType: "customer service",
+      //         areaServed: "RU",
+      //       },
+      //       sameAs: [
+      //         "https://facebook.com/autocarmsk",
+      //         "https://instagram.com/autocarmsk",
+      //       ],
+      //     }),
+      //   },
+      // ],
     },
   },
   build: {
     transpile: ["vue-toastification"],
   },
-  // site: {
-  //   url: "https://autocarmsk.ru/",
-  //   name: "Автокар - Автосалон новых автомобилей",
-  //   description:
-  //     "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
-  // },
+  site: {
+    url: "https://autocarmsk.ru/",
+    name: "Автокар - Автосалон новых автомобилей",
+    description:
+      "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
+  },
 });

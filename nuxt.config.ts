@@ -67,7 +67,7 @@ export default defineNuxtConfig({
     routeRules: {
       "/api/crm": { proxy: "http://crm.renault-s.ru/expo/api/deal/add" },
     },
-    preset: "node-server",
+    preset: "static",
   },
   app: {
     baseURL: "/",

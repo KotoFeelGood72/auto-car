@@ -50,18 +50,18 @@ export default defineNuxtConfig({
   axios: {
     proxy: true,
   },
-  hooks: {
-    "nitro:build:before"() {
-      const fs = require("fs");
-      const path = require("path");
-      const apiPath = path.resolve("./public/api");
+  // hooks: {
+  //   "nitro:build:before"() {
+  //     const fs = require("fs");
+  //     const path = require("path");
+  //     const apiPath = path.resolve("./public/api");
 
-      if (fs.existsSync(apiPath)) {
-        fs.rmSync(apiPath, { recursive: true, force: true });
-        console.log("Folder public/api removed before build");
-      }
-    },
-  },
+  //     if (fs.existsSync(apiPath)) {
+  //       fs.rmSync(apiPath, { recursive: true, force: true });
+  //       console.log("Folder public/api removed before build");
+  //     }
+  //   },
+  // },
   nitro: {
     routeRules: {
       "/api/crm": { proxy: "http://crm.renault-s.ru/expo/api/deal/add" },

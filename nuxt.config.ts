@@ -75,7 +75,9 @@ export default defineNuxtConfig({
       "/api/crm": { proxy: "http://crm.renault-s.ru/expo/api/deal/add" },
     },
   },
-
+  ogImage: {
+    enabled: false, // Отключить модуль OG Image
+  },
   app: {
     baseURL: "/",
     pageTransition: { name: "page", mode: "out-in" },

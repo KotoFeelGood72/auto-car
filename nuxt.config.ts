@@ -12,17 +12,17 @@ export default defineNuxtConfig({
   plugins: ["~/plugins/toast.js"],
   ssr: false,
   ogImage: { enabled: false },
-  yandexMetrika: {
-    id: "99219899",
-    // debug: process.env.NODE_ENV !== "production",
-    options: {
-      clickmap: true, // Включить карту кликов
-      trackLinks: true, // Отслеживать переходы по ссылкам
-      accurateTrackBounce: true, // Учет отказов
-      webvisor: true, // Включить Вебвизор
-      trackHash: true, // Отслеживать изменение хэша
-    },
-  },
+  // yandexMetrika: {
+  //   id: "99219899",
+  //   // debug: process.env.NODE_ENV !== "production",
+  //   options: {
+  //     clickmap: true, // Включить карту кликов
+  //     trackLinks: true, // Отслеживать переходы по ссылкам
+  //     accurateTrackBounce: true, // Учет отказов
+  //     webvisor: true, // Включить Вебвизор
+  //     trackHash: true, // Отслеживать изменение хэша
+  //   },
+  // },
 
   vite: {
     css: {

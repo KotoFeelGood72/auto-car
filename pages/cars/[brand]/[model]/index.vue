@@ -166,7 +166,7 @@ import { useModalStore } from "~/stores/useModalStore";
 import { useCars } from "~/composables/useCars";
 import { useRoute } from "vue-router";
 import { ref, computed, onMounted } from "vue";
-import { useSeo } from "~/composables/useSeo";
+// import { useSeo } from "~/composables/useSeo";
 
 const isRowTopScrolledOut = ref(false);
 

@@ -174,15 +174,9 @@ const { openModal } = useModalStore();
 const { useGetCarBySlug, singleCar } = useCars();
 
 const route = useRoute();
-// const data = ref<any>(null);
-
-// Форматирование особенностей
-// const featuresFormatted = computed(
-//   () => data.value?.features?.join(", ") || "Нет данных"
-// );
 
 const scrollDown = () => {
-  const calcSection = document.querySelector("#calc-car"); // Укажите правильный селектор
+  const calcSection = document.querySelector("#calc-car");
   if (calcSection) {
     calcSection.scrollIntoView({ behavior: "smooth" });
   }
@@ -196,22 +190,21 @@ const credits = [
 
 onMounted(async () => {
   const slug = "/cars/" + route.params.brand + "/" + route.params.model;
-  console.log(slug);
   await useGetCarBySlug(slug);
 
-  const rowTop = document.querySelector(".row-top"); // Селектор для отслеживаемого элемента
+  const rowTop = document.querySelector(".row-top");
 
   if (!rowTop) return;
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        isRowTopScrolledOut.value = !entry.isIntersecting; // true, если элемент вышел из области видимости
+        isRowTopScrolledOut.value = !entry.isIntersecting;
       });
     },
     {
-      root: null, // Область видимости - окно браузера
-      threshold: 0, // Отслеживать, как только элемент полностью выходит из области видимости
+      root: null,
+      threshold: 0,
     }
   );
 

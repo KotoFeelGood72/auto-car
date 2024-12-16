@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -35,6 +37,7 @@ export default defineNuxtConfig({
       }
     },
   },
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -53,6 +56,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   icon: {
     customCollections: [
       {
@@ -73,6 +77,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: "/",
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Купить новый Автомобиль в Москве | Автокредит",

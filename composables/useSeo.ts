@@ -1,14 +1,14 @@
-import { useHead } from "nuxt/app";
+// import { useHead } from "nuxt/app";
 
-interface SeoData {
-  title: string;
-  description: string;
-  keywords?: string;
-  image?: string;
-  url?: string;
-  type?: string;
-  schema?: object;
-}
+// interface SeoData {
+//   title: string;
+//   description: string;
+//   keywords?: string;
+//   image?: string;
+//   url?: string;
+//   type?: string;
+//   schema?: object;
+// }
 
 // export const useSeo = (seoData: SeoData) => {
 //   const defaultImage = "https://autocarmsk.ru/assets/img/geely.jpg";

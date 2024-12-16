@@ -22,13 +22,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted } from "vue";
-import { useRoute } from "vue-router";
+// import { ref, computed, watch, nextTick, onMounted } from "vue";
+// import { useRoute } from "vue-router";
 import ModelsCard from "../card/ModelsCard.vue";
 import heading from "../ui/heading.vue";
 
 const props = defineProps<{
-  models: string[]; // Предполагаем, что `models` — это массив строк
+  models: any[]; // Предполагаем, что `models` — это массив строк
 }>();
 
 const route = useRoute();

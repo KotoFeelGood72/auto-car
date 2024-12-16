@@ -74,49 +74,49 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Купить новый Автомобиль в Москве | Автокредит",
-      meta: [
-        {
-          name: "description",
-          content: "Продажа автомобилей в автосалонах Москвы по выгодной цене.",
-        },
-        { name: "robots", content: "index, follow" },
-        {
-          name: "keywords",
-          content:
-            "автокар, автосалон, новые автомобили, купить авто, Москва, авто в кредит",
-        },
-        { name: "robots", content: "index, follow" },
-        { name: "author", content: "Автокар" },
-        {
-          property: "og:title",
-          content: "Автокар - Автосалон новых автомобилей в Москве",
-        },
-        {
-          property: "og:description",
-          content:
-            "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
-        },
-        // {
-        //   property: "og:image",
-        //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
-        // },
-        // { property: "og:url", content: "https://autocarmsk.ru/" },
-        // { property: "og:type", content: "website" },
-        // { name: "twitter:card", content: "summary_large_image" },
-        // {
-        //   name: "twitter:title",
-        //   content: "Автокар - Автосалон новых автомобилей в Москве",
-        // },
-        // {
-        //   name: "twitter:description",
-        //   content:
-        //     "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
-        // },
-        // {
-        //   name: "twitter:image",
-        //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
-        // },
-      ],
+      // meta: [
+      //   {
+      //     name: "description",
+      //     content: "Продажа автомобилей в автосалонах Москвы по выгодной цене.",
+      //   },
+      //   { name: "robots", content: "index, follow" },
+      //   {
+      //     name: "keywords",
+      //     content:
+      //       "автокар, автосалон, новые автомобили, купить авто, Москва, авто в кредит",
+      //   },
+      //   { name: "robots", content: "index, follow" },
+      //   { name: "author", content: "Автокар" },
+      //   {
+      //     property: "og:title",
+      //     content: "Автокар - Автосалон новых автомобилей в Москве",
+      //   },
+      //   {
+      //     property: "og:description",
+      //     content:
+      //       "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
+      //   },
+      //   // {
+      //   //   property: "og:image",
+      //   //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
+      //   // },
+      //   // { property: "og:url", content: "https://autocarmsk.ru/" },
+      //   // { property: "og:type", content: "website" },
+      //   // { name: "twitter:card", content: "summary_large_image" },
+      //   // {
+      //   //   name: "twitter:title",
+      //   //   content: "Автокар - Автосалон новых автомобилей в Москве",
+      //   // },
+      //   // {
+      //   //   name: "twitter:description",
+      //   //   content:
+      //   //     "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
+      //   // },
+      //   // {
+      //   //   name: "twitter:image",
+      //   //   content: "https://autocarmsk.ru/assets/img/geely.jpg",
+      //   // },
+      // ],
       link: [
         { rel: "icon", href: "/favicon.ico" },
         { rel: "canonical", href: "https://autocarmsk.ru/" },
@@ -156,10 +156,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vue-toastification"],
   },
-  site: {
-    url: "https://autocarmsk.ru/",
-    name: "Автокар - Автосалон новых автомобилей",
-    description:
-      "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
-  },
+  // site: {
+  //   url: "https://autocarmsk.ru/",
+  //   name: "Автокар - Автосалон новых автомобилей",
+  //   description:
+  //     "Купить новый автомобиль в автосалоне Автокар в Москве. Большой выбор моделей, выгодные условия и профессиональное обслуживание.",
+  // },
 });

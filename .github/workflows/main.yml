@@ -63,7 +63,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build # Если используется другая команда для сборки, замените её
+        run: npm run generate # Если используется другая команда для сборки, замените её
 
       - name: Install lftp
         run: sudo apt-get update && sudo apt-get install -y lftp

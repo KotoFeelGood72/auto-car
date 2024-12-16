@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     "nuxt-yandex-metrika",
   ],
   plugins: ["~/plugins/toast.js"],
-  ssr: false,
+  // ssr: false,
   ogImage: { enabled: false },
   // yandexMetrika: {
   //   id: "99219899",

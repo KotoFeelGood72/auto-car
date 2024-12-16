@@ -166,7 +166,7 @@ import { useModalStore } from "~/stores/useModalStore";
 import { useCars } from "~/composables/useCars";
 import { useRoute } from "vue-router";
 import { ref, computed, onMounted } from "vue";
-// import { useSeo } from "~/composables/useSeo";
+import { useSeo } from "~/composables/useSeo";
 
 const isRowTopScrolledOut = ref(false);
 
@@ -210,47 +210,47 @@ onMounted(async () => {
 
   observer.observe(rowTop);
 
-  // useSeo({
-  //   title:
-  //     singleCar?.value?.title || "Автокар - Новые автомобили Geely в Москве",
-  //   description:
-  //     "Откройте для себя лучшие автомобили" +
-  //     singleCar?.value?.model +
-  //     " в автосалоне Автокар. Удобные условия покупки, кредит, тест-драйв в Москве.",
-  //   keywords:
-  //     singleCar?.value?.model +
-  //     "," +
-  //     "автосалон, Москва, новые автомобили, купить " +
-  //     singleCar?.value?.model,
-  //   image:
-  //     "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
-  //     "https://autocarmsk.ru/assets/img/geely.jpg",
-  //   url: "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg",
-  //   type: "article",
-  //   schema: {
-  //     "@context": "https://schema.org",
-  //     "@type": "Product",
-  //     name: singleCar?.value?.model + " - " + singleCar?.value?.brand || "",
-  //     image:
-  //       "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
-  //       "https://autocarmsk.ru/assets/img/geely.jpg",
-  //     description:
-  //       singleCar?.value?.title +
-  //       " — современный кроссовер с продвинутыми функциями и высоким уровнем комфорта.",
-  //     brand: {
-  //       "@type": singleCar.value.brand,
-  //       name: singleCar.value.model,
-  //     },
-  //     offers: {
-  //       "@type": "Offer",
-  //       priceCurrency: "RUB",
-  //       price: singleCar.value.priceNew || "Цена не указана",
-  //       itemCondition: "https://schema.org/NewCondition",
-  //       availability: "https://schema.org/InStock",
-  //       url: "https://autocarmsk.ru" + singleCar.value.slug,
-  //     },
-  //   },
-  // });
+  useSeo({
+    title:
+      singleCar?.value?.title || "Автокар - Новые автомобили Geely в Москве",
+    description:
+      "Откройте для себя лучшие автомобили" +
+      singleCar?.value?.model +
+      " в автосалоне Автокар. Удобные условия покупки, кредит, тест-драйв в Москве.",
+    keywords:
+      singleCar?.value?.model +
+      "," +
+      "автосалон, Москва, новые автомобили, купить " +
+      singleCar?.value?.model,
+    image:
+      "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
+      "https://autocarmsk.ru/assets/img/geely.jpg",
+    url: "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg",
+    type: "article",
+    schema: {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: singleCar?.value?.model + " - " + singleCar?.value?.brand || "",
+      image:
+        "https://autocarmsk.ru/api" + singleCar.value.slug + "main.jpg" ||
+        "https://autocarmsk.ru/assets/img/geely.jpg",
+      description:
+        singleCar?.value?.title +
+        " — современный кроссовер с продвинутыми функциями и высоким уровнем комфорта.",
+      brand: {
+        "@type": singleCar.value.brand,
+        name: singleCar.value.model,
+      },
+      offers: {
+        "@type": "Offer",
+        priceCurrency: "RUB",
+        price: singleCar.value.priceNew || "Цена не указана",
+        itemCondition: "https://schema.org/NewCondition",
+        availability: "https://schema.org/InStock",
+        url: "https://autocarmsk.ru" + singleCar.value.slug,
+      },
+    },
+  });
 
   onUnmounted(() => {
     observer.disconnect();

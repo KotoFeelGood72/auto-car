@@ -3,10 +3,10 @@ import { ref, computed } from "vue";
 
 const cars = ref<any>([]); // Все автомобили
 const filteredCars = ref<any>([]); // Для хранения отфильтрованных машин
-const currentPage = ref<number>(1); // Текущая страница
-const itemsPerPage = ref<number>(6); // Количество элементов на странице
-const brands = ref<string[]>([]); // Список брендов
-const selectedBrand = ref<string | null>(null); // Выбранный бренд
+const currentPage = ref<any>(1); // Текущая страница
+const itemsPerPage = ref<any>(6); // Количество элементов на странице
+const brands = ref<any[]>([]); // Список брендов
+const selectedBrand = ref<any>(null); // Выбранный бренд
 const popularCars = ref<any>([]); // Популярные автомобили
 const promotionalCars = ref<any>([]); // Промо-автомобили
 const singleCar = ref<any>(null);
@@ -28,7 +28,7 @@ const totalPages = computed(() => {
 });
 
 // Фильтрация по бренду
-const filterByBrand = (brand: string | null) => {
+const filterByBrand = (brand: any) => {
   selectedBrand.value = brand;
   if (brand) {
     filteredCars.value = cars.value.filter((car: any) => car.brand === brand);
@@ -40,8 +40,8 @@ const filterByBrand = (brand: string | null) => {
 
 // Получение всех автомобилей
 export const useGetAll = async (
-  popularCount: number = 5, // Количество популярных автомобилей
-  promoCount: number = 5 // Количество промо-автомобилей
+  popularCount: any = 5, // Количество популярных автомобилей
+  promoCount: any = 5 // Количество промо-автомобилей
 ) => {
   try {
     const response = await axios.get("/api/cars/all-cars.json");
@@ -61,7 +61,7 @@ export const useGetAll = async (
   }
 };
 
-export const useGetCarBySlug = async (slug: string) => {
+export const useGetCarBySlug = async (slug: any) => {
   try {
     const response = await axios.get(`/api${slug}/index.json`);
     singleCar.value = response.data;
@@ -72,7 +72,7 @@ export const useGetCarBySlug = async (slug: string) => {
   }
 };
 
-const setCurrentPage = (page: number) => {
+const setCurrentPage = (page: any) => {
   if (page > 0 && page <= totalPages.value) {
     currentPage.value = page;
 

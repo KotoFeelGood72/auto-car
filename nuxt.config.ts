@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-yandex-metrika",
   ],
+  ssr: true,
   plugins: ["~/plugins/toast.js"],
   // ssr: false,
   // ogImage: { enabled: false },

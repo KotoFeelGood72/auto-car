@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   plugins: ["~/plugins/toast.js"],
+  target: "static",
   // ssr: false,
   ogImage: { enabled: false },
   // yandexMetrika: {

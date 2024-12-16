@@ -9,10 +9,10 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "nuxt-yandex-metrika",
   ],
-  ssr: true,
+  ssr: false,
   plugins: ["~/plugins/toast.js"],
   // ssr: false,
-  // ogImage: { enabled: false },
+  ogImage: { enabled: false },
   // yandexMetrika: {
   //   id: "99219899",
   //   // debug: process.env.NODE_ENV !== "production",

@@ -42,7 +42,7 @@ import AutoCard from "~/components/card/AutoCard.vue";
 import ModelsGrid from "~/components/blocks/ModelsGrid.vue";
 import { useRoute, useRouter } from "vue-router";
 import { useCars } from "~/composables/useCars";
-import { useSeo } from "~/composables/useSeo";
+// import { useSeo } from "~/composables/useSeo";
 
 const {
   useGetAll,
